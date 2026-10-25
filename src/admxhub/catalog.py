@@ -19,6 +19,8 @@ from pathlib import Path
 from xml.sax.saxutils import escape
 
 from . import __version__
+import httpx2
+
 from .admx import AdmxSet
 from .discovery import DiscoveryError, Release, resolve
 from .fetch import Bundle, FetchError, fetch
@@ -210,15 +212,19 @@ def backfill_one(src: Source, out: Path, limit: int = 20, mirror=False, log=prin
     releases = history(src, limit)
     todo = [r for r in releases if r.version not in have]
     log(f"  {src.id}: {len(releases)} past releases listed, {len(todo)} new")
+    status = prod.get("status") or {}
+    saved = None
     for rel in todo:
         try:
             entry = index_release(src, rel, out, mirror, discovered=(rel.date + "T00:00:00Z") if rel.date else None)
-            entry["backfilled"] = True
-            versions = [v for v in versions if v["version"] != entry["version"]] + [entry]
-            log(f"    {rel.version}: {entry['policyCount']} policies")
-        except (FetchError, OSError, ValueError) as e:
-            log(f"    {rel.version}: skipped ({e})")
-    return _save_product(src, out, prod.get("status") or {}, versions)
+        except (FetchError, OSError, ValueError, httpx2.HTTPError) as e:
+            log(f"    {rel.version}: skipped ({e})")  # retried on the next run
+            continue
+        entry["backfilled"] = True
+        versions = [v for v in versions if v["version"] != entry["version"]] + [entry]
+        saved = _save_product(src, out, status, versions)  # keep progress if the run is interrupted
+        log(f"    {rel.version}: {entry['policyCount']} policies")
+    return saved or _save_product(src, out, status, versions)
 
 
 def build(sources: dict[str, Source], out: Path, only: list[str] | None = None, force=False, mirror=False, log=print,

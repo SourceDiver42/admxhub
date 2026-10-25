@@ -16,9 +16,9 @@ on:
         type: boolean
         default: false
       backfill:
-        description: "Also add up to N past releases per product (products with a history source)"
+        description: "Keep up to N past releases per product (products with a history source; only missing ones are downloaded)"
         required: false
-        default: "0"
+        default: "50"
   push:
     branches: [main]
     paths: ["src/admxhub/sources/**", "site/**"]
@@ -61,7 +61,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PRODUCTS: ${{ inputs.products }}
           FORCE: ${{ inputs.force && '--force' || '' }}
-          BACKFILL: ${{ inputs.backfill || '0' }}
+          BACKFILL: ${{ inputs.backfill || '50' }}   # scheduled/push runs: fill in missing past releases
         run: |
           if [[ ! "$PRODUCTS" =~ ^[a-z0-9\ -]*$ ]]; then echo "invalid product list"; exit 1; fi
           if [[ ! "$BACKFILL" =~ ^[0-9]+$ ]]; then echo "backfill must be a number"; exit 1; fi

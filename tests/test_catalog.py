@@ -86,3 +86,28 @@ def test_backfill_inserts_history_and_recomputes_diffs(tmp_path, monkeypatch):
     assert idx["products"][0]["latest"]["version"] == "3.0"
     feed = (tmp_path / "catalog/v1/feed.xml").read_text()
     assert "Demo 3.0" in feed and "Demo 2.0" not in feed
+
+
+def test_backfill_survives_a_failing_release(tmp_path, monkeypatch):
+    import httpx2
+    import admxhub.discovery as disc
+    hist_src = validate({**{k: getattr(SRC, k) for k in ("id", "name", "vendor", "description", "homepage", "license", "markers")},
+                         "discovery": SRC.discovery,
+                         "history": {"url": "https://example.invalid/r", "releases": "root", "fields": {"version": "release.v", "url": "release.u"}}})
+    zips = {"3.0": make_zip(("A", "B", "C")), "1.0": make_zip(("A",))}
+
+    def fake_download(release, dest, progress=None):
+        import hashlib
+        if release.version == "2.0":
+            raise httpx2.RemoteProtocolError("Server disconnected without sending a response.")
+        data = zips[release.version]
+        p = dest / "t.zip"
+        p.write_bytes(data)
+        return p, hashlib.sha256(data).hexdigest(), len(data)
+    monkeypatch.setattr(fetchmod, "download", fake_download)
+    monkeypatch.setattr(catalog, "resolve", lambda s: Release(version="3.0", url="https://x/3", etag="e3"))
+    monkeypatch.setattr(disc, "history", lambda s, limit=20: [Release(version="2.0", url="https://x/2", date="2026-01-02"),
+                                                              Release(version="1.0", url="https://x/1", date="2026-01-01")])
+    catalog.build({"demo": hist_src}, tmp_path, log=lambda m: None, backfill=5)
+    hist = json.loads((tmp_path / "catalog/v1/products/demo.json").read_text())["versions"]
+    assert [v["version"] for v in hist] == ["3.0", "1.0"]  # 2.0 skipped, retried on the next run

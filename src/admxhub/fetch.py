@@ -67,20 +67,30 @@ def normalize_lang(lang: str) -> str:
 def download(release: Release, dest_dir: Path, progress=None) -> tuple[Path, str, int]:
     name = re.sub(r"[^\w .()+-]", "_", os.path.basename(release.url.split("?")[0])) or "download.bin"
     path = dest_dir / name
-    h = hashlib.sha256()
-    total = 0
-    with httpx2.Client(headers={"User-Agent": UA}, follow_redirects=True, timeout=120) as c:
-        with c.stream("GET", release.url) as r:
-            r.raise_for_status()
-            with open(path, "wb") as f:
-                for chunk in r.iter_bytes(1 << 20):
-                    total += len(chunk)
-                    if total > MAX_BYTES:
-                        raise FetchError("download larger than 1 GB")
-                    h.update(chunk)
-                    f.write(chunk)
-                    if progress:
-                        progress(total)
+    for attempt in range(3):  # connections to download hosts do drop now and then
+        h = hashlib.sha256()
+        total = 0
+        try:
+            with httpx2.Client(headers={"User-Agent": UA}, follow_redirects=True, timeout=120) as c:
+                with c.stream("GET", release.url) as r:
+                    if r.status_code in (429, 500, 502, 503, 504) and attempt < 2:
+                        raise httpx2.TransportError(f"HTTP {r.status_code}")
+                    r.raise_for_status()
+                    with open(path, "wb") as f:
+                        for chunk in r.iter_bytes(1 << 20):
+                            total += len(chunk)
+                            if total > MAX_BYTES:
+                                raise FetchError("download larger than 1 GB")
+                            h.update(chunk)
+                            f.write(chunk)
+                            if progress:
+                                progress(total)
+            break
+        except httpx2.TransportError:
+            if attempt == 2:
+                raise
+            import time
+            time.sleep(3 + attempt * 5)
     digest = h.hexdigest()
     if release.sha256 and release.sha256.lower() != digest:
         raise FetchError(f"checksum mismatch: vendor says {release.sha256}, got {digest}")
