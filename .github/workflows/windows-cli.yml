@@ -55,7 +55,7 @@ jobs:
       - name: Checksum
         run: (Get-FileHash dist\admxhub.exe -Algorithm SHA256).Hash.ToLower() + "  admxhub.exe" | Out-File -Encoding ascii dist\admxhub.exe.sha256
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: admxhub-windows-x64
           path: |
