@@ -1,0 +1,211 @@
+[
+ {
+  "id": "Adobe.ReaderDC.Policies:Policy_Accept_EULA_69",
+  "name": "Policy_Accept_EULA_69",
+  "display": "Accept EULA",
+  "class": "User",
+  "file": "AcrobatReaderDC.admx",
+  "category": [
+   "Adobe Acrobat Reader DC",
+   "Preferences",
+   "General"
+  ],
+  "key": "Software\\Adobe\\Acrobat Reader\\DC\\AdobeViewer",
+  "valueName": "EULA",
+  "supported": "Undefined",
+  "elements": []
+ },
+ {
+  "id": "Adobe.ReaderDC.Policies:Policy_Ask_before_installing_78",
+  "name": "Policy_Ask_before_installing_78",
+  "display": "Ask before installing checkbox",
+  "class": "User",
+  "file": "AcrobatReaderDC.admx",
+  "category": [
+   "Adobe Acrobat Reader DC",
+   "Preferences",
+   "Security"
+  ],
+  "key": "Software\\Adobe\\Acrobat Reader\\DC\\Security\\cDigSig\\cAdobeDownload",
+  "valueName": "bAskBeforeInstalling",
+  "supported": "Undefined",
+  "elements": []
+ },
+ {
+  "id": "Adobe.ReaderDC.Policies:Policy_Auto_Complete_63",
+  "name": "Policy_Auto_Complete_63",
+  "display": "Auto Complete",
+  "class": "Machine",
+  "file": "AcrobatReaderDC.admx",
+  "category": [
+   "Adobe Acrobat Reader DC",
+   "Preferences",
+   "General"
+  ],
+  "key": "SOFTWARE\\Policies\\Adobe\\Acrobat Reader\\DC\\FeatureLockdown",
+  "valueName": "bAutoFill",
+  "supported": "Undefined",
+  "elements": []
+ },
+ {
+  "id": "Adobe.ReaderDC.Policies:Policy_Automatically_trust_84",
+  "name": "Policy_Automatically_trust_84",
+  "display": "Automatically trust sites for Win OS security zones",
+  "class": "User",
+  "file": "AcrobatReaderDC.admx",
+  "category": [
+   "Adobe Acrobat Reader DC",
+   "Preferences",
+   "Security",
+   "TrustManager"
+  ],
+  "key": "Software\\Adobe\\Acrobat Reader\\DC\\TrustManager",
+  "valueName": "bTrustOSTrustedSites",
+  "supported": "Undefined",
+  "elements": []
+ },
+ {
+  "id": "Adobe.ReaderDC.Policies:Policy_Disable_PDF_handler_45",
+  "name": "Policy_Disable_PDF_handler_45",
+  "display": "Disable PDF handler switching",
+  "class": "Machine",
+  "file": "AcrobatReaderDC.admx",
+  "category": [
+   "Adobe Acrobat Reader DC",
+   "Preferences",
+   "General"
+  ],
+  "key": "SOFTWARE\\Policies\\Adobe\\Acrobat Reader\\DC\\FeatureLockdown",
+  "valueName": "bDisablePDFHandlerSwitching",
+  "supported": "Undefined",
+  "elements": []
+ },
+ {
+  "id": "Adobe.ReaderDC.Policies:Policy_Disable_automatic_48",
+  "name": "Policy_Disable_automatic_48",
+  "display": "Disable automatic updates",
+  "class": "Machine",
+  "file": "AcrobatReaderDC.admx",
+  "category": [
+   "Adobe Acrobat Reader DC",
+   "Preferences",
+   "General"
+  ],
+  "key": "SOFTWARE\\Policies\\Adobe\\Acrobat Reader\\DC\\FeatureLockdown",
+  "valueName": "bUpdater",
+  "supported": "Undefined",
+  "elements": []
+ },
+ {
+  "id": "Adobe.ReaderDC.Policies:Policy_Display_splash_72",
+  "name": "Policy_Display_splash_72",
+  "display": "Display splash screen at launch",
+  "class": "User",
+  "file": "AcrobatReaderDC.admx",
+  "category": [
+   "Adobe Acrobat Reader DC",
+   "Preferences",
+   "General"
+  ],
+  "key": "Software\\Adobe\\Acrobat Reader\\DC\\Originals",
+  "valueName": "bDisplayAboutDialog",
+  "supported": "Undefined",
+  "elements": []
+ },
+ {
+  "id": "Adobe.ReaderDC.Policies:Policy_Don_t_show_messages_54",
+  "name": "Policy_Don_t_show_messages_54",
+  "display": "Don't show messages while viewing a document",
+  "class": "Machine",
+  "file": "AcrobatReaderDC.admx",
+  "category": [
+   "Adobe Acrobat Reader DC",
+   "Preferences",
+   "General"
+  ],
+  "key": "SOFTWARE\\Policies\\Adobe\\Acrobat Reader\\DC\\FeatureLockdown\\cIPM",
+  "valueName": "bDontShowMsgWhenViewingDoc",
+  "supported": "Undefined",
+  "elements": []
+ },
+ {
+  "id": "Adobe.ReaderDC.Policies:Policy_Enable_Acrobat_75",
+  "name": "Policy_Enable_Acrobat_75",
+  "display": "Enable Acrobat JavaScript",
+  "class": "User",
+  "file": "AcrobatReaderDC.admx",
+  "category": [
+   "Adobe Acrobat Reader DC",
+   "Preferences",
+   "Security"
+  ],
+  "key": "Software\\Adobe\\Acrobat Reader\\DC\\JSPrefs",
+  "valueName": "bEnableJS",
+  "supported": "Undefined",
+  "elements": []
+ },
+ {
+  "id": "Adobe.ReaderDC.Policies:Policy_Enable_Protected_66",
+  "name": "Policy_Enable_Protected_66",
+  "display": "Enable Protected Mode at startup",
+  "class": "Machine",
+  "file": "AcrobatReaderDC.admx",
+  "category": [
+   "Adobe Acrobat Reader DC",
+   "Preferences",
+   "Startup"
+  ],
+  "key": "SOFTWARE\\Policies\\Adobe\\Acrobat Reader\\DC\\FeatureLockdown",
+  "valueName": "bProtectedMode",
+  "supported": "Undefined",
+  "elements": []
+ },
+ {
+  "id": "Adobe.ReaderDC.Policies:Policy_Load_security_settings_81",
+  "name": "Policy_Load_security_settings_81",
+  "display": "Load security settings from a server",
+  "class": "User",
+  "file": "AcrobatReaderDC.admx",
+  "category": [
+   "Adobe Acrobat Reader DC",
+   "Preferences",
+   "Security"
+  ],
+  "key": "Software\\Adobe\\Acrobat Reader\\DC\\Security\\cDigSig\\cAdobeDownload",
+  "valueName": "bLoadSettingsFromURL",
+  "supported": "Undefined",
+  "elements": []
+ },
+ {
+  "id": "Adobe.ReaderDC.Policies:Policy_Show_messages_when_57",
+  "name": "Policy_Show_messages_when_57",
+  "display": "Show messages when I launch Reader",
+  "class": "Machine",
+  "file": "AcrobatReaderDC.admx",
+  "category": [
+   "Adobe Acrobat Reader DC",
+   "Preferences",
+   "General"
+  ],
+  "key": "SOFTWARE\\Policies\\Adobe\\Acrobat Reader\\DC\\FeatureLockdown\\cIPM",
+  "valueName": "bShowMsgAtLaunch",
+  "supported": "Undefined",
+  "elements": []
+ },
+ {
+  "id": "Adobe.ReaderDC.Policies:Policy_Turn_off_user_participati_51",
+  "name": "Policy_Turn_off_user_participati_51",
+  "display": "Turn off user participation in the feedback program",
+  "class": "Machine",
+  "file": "AcrobatReaderDC.admx",
+  "category": [
+   "Adobe Acrobat Reader DC",
+   "Preferences",
+   "General"
+  ],
+  "key": "SOFTWARE\\Policies\\Adobe\\Acrobat Reader\\DC\\FeatureLockdown",
+  "valueName": "bUsageMeasurement",
+  "supported": "Undefined",
+  "elements": []
+ }
+]

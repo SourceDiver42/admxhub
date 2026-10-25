@@ -1,0 +1,246 @@
+{
+ "id": "office",
+ "name": "Microsoft 365 Apps / Office",
+ "vendor": "Microsoft",
+ "description": "Word, Excel, Outlook, Teams (classic), OneNote, Access, Visio, Project and Office-wide settings.",
+ "homepage": "https://www.microsoft.com/download/details.aspx?id=49030",
+ "license": "proprietary",
+ "markers": [
+  "office16.admx",
+  "word16.admx"
+ ],
+ "discovery": "html",
+ "mirror": false,
+ "status": {
+  "lastChecked": "2026-10-25T13:31:00Z",
+  "lastSuccess": "2026-10-25T13:31:10Z",
+  "error": null,
+  "consecutiveFailures": 0
+ },
+ "versions": [
+  {
+   "version": "5568.1000",
+   "date": "",
+   "discovered": "2026-10-25T13:31:10Z",
+   "url": "https://download.microsoft.com/download/cd208613-5ca8-445f-9855-5081666d124e/admintemplates_x64_5568_1000_en-us.exe",
+   "sha256": "a775828c86808bed55343c4738bed9458825d6fb7fa1948c2726e0b38dc45cfa",
+   "size": 13617072,
+   "fingerprint": "https://download.microsoft.com/download/cd208613-5ca8-445f-9855-5081666d124e/admintemplates_x64_5568_1000_en-us.exe||",
+   "languages": [
+    "en-US"
+   ],
+   "files": [
+    {
+     "name": "access16.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "8a4f1a5db453e86aaf217117172f2dd7c901419c5e5f7210b35f3417cdffd9d6",
+     "size": 120462
+    },
+    {
+     "name": "excel16.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "792e3ccf98abcf63ea17db94fbca361bdf354fe3b57fe1a55a917580194f44b8",
+     "size": 295140
+    },
+    {
+     "name": "lync16.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "6325019035dfddff888da1f015b78b1b19f092bcd91332d32216478140fd58a4",
+     "size": 35768
+    },
+    {
+     "name": "office16.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "8d1992feb234d680d3fce83e6ce6e16ef731fccb09a1221a62ae1e0d51d8f3c5",
+     "size": 1975302
+    },
+    {
+     "name": "onent16.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "cd3ac15ea9145289331de273eb17373e89e13701c4838a046de4977eb500349b",
+     "size": 130796
+    },
+    {
+     "name": "outlk16.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "bac9b7fa994ab45627af3746ec394282dca48db882026591dc28d62fa2018bf8",
+     "size": 691962
+    },
+    {
+     "name": "ppt16.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "d857bcb5e80541c72bace16e42a5db9a23b4bafbde8101a574e6882405257ef9",
+     "size": 231494
+    },
+    {
+     "name": "proj16.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "5aa60da20a19b16f45175aedda0d810a313bc49d31734bfb831347b29a7468ac",
+     "size": 284912
+    },
+    {
+     "name": "pub16.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "b2fdab057def23606bf33d57d0c7b038963e9673ba2b908dd9d73a8e4d549383",
+     "size": 64358
+    },
+    {
+     "name": "teams16.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "fcb4dd6479a6f7cb32833b16a62853edf86612c8345fcc8bc72126703d2b0287",
+     "size": 3376
+    },
+    {
+     "name": "visio16.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "0cef4f955742254ee29f0c8da76e7f0e9acbcd311234669e14ab77dcaf2c23e3",
+     "size": 151902
+    },
+    {
+     "name": "word16.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "9e818c0ebc624cd733c5c241b89b311d2aa08899970fef92f05c700d146a97cd",
+     "size": 476750
+    },
+    {
+     "name": "access16.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "02f637d0cdf8cc11fe9d9d148007133fa6976b12c07ae43f88828bbaa39b87c7",
+     "size": 150628
+    },
+    {
+     "name": "excel16.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "5b534741056a83d3f86bf6022eba9503d9aa7055022502a51400126c59007fef",
+     "size": 325204
+    },
+    {
+     "name": "lync16.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "0a54958210a120448efad44780a7449c662ac33dd7c00b775ade58a969a1b82a",
+     "size": 28138
+    },
+    {
+     "name": "office16.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "df6f708faba7c2e39babed8da236a8ae6a573fe6a5382dc379e0be479ffee75d",
+     "size": 1750230
+    },
+    {
+     "name": "onent16.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "2decf7511d9ece433af47ab4fe34ab952ee762c9a522c854696e968714842fb6",
+     "size": 126200
+    },
+    {
+     "name": "outlk16.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "92b050f8629aba6f67b4cd76b597d86c82117fa5a3705d0a5e0a1c0a1e87c301",
+     "size": 812762
+    },
+    {
+     "name": "ppt16.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "684170cb54817147fa3668853853cc08474a835f710ef9161c0d7dedb431345e",
+     "size": 275646
+    },
+    {
+     "name": "proj16.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "29b15702bc508dfc5665908dca50868f0de75a81cd5f2f4c91838d30bd7c90ba",
+     "size": 250470
+    },
+    {
+     "name": "pub16.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "1fc3f018f3ba17d139745f1813cb8c788fa29cf82f13335ddc446e5bb4805f70",
+     "size": 74344
+    },
+    {
+     "name": "teams16.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "e92eea6e162eefc31fee1b9800c6871e4d379ee27a3991729ca110195285eda6",
+     "size": 6690
+    },
+    {
+     "name": "visio16.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "873e99b23385312be05348fa1a31bace3a831d0daee91daf6d59aadd1a7990eb",
+     "size": 166668
+    },
+    {
+     "name": "word16.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "255d0d5cb65ee767d6f8de6b265964a81fa04ed9811ec2b3ec2c8f0a34b7a1ea",
+     "size": 408260
+    }
+   ],
+   "admxCount": 12,
+   "policyCount": 2420,
+   "namespaces": [
+    "Teams.Office.Microsoft.Policies.Windows",
+    "access16.Office.Microsoft.Policies.Windows",
+    "excel16.Office.Microsoft.Policies.Windows",
+    "lync16.Office.Microsoft.Policies.Windows",
+    "office16.Office.Microsoft.Policies.Windows",
+    "onent16.Office.Microsoft.Policies.Windows",
+    "outlk16.Office.Microsoft.Policies.Windows",
+    "ppt16.Office.Microsoft.Policies.Windows",
+    "proj16.Office.Microsoft.Policies.Windows",
+    "pub16.Office.Microsoft.Policies.Windows",
+    "visio16.Office.Microsoft.Policies.Windows",
+    "word16.Office.Microsoft.Policies.Windows"
+   ],
+   "namespaceFiles": {
+    "access16.Office.Microsoft.Policies.Windows": "access16.admx",
+    "excel16.Office.Microsoft.Policies.Windows": "excel16.admx",
+    "lync16.Office.Microsoft.Policies.Windows": "lync16.admx",
+    "office16.Office.Microsoft.Policies.Windows": "office16.admx",
+    "onent16.Office.Microsoft.Policies.Windows": "onent16.admx",
+    "outlk16.Office.Microsoft.Policies.Windows": "outlk16.admx",
+    "ppt16.Office.Microsoft.Policies.Windows": "ppt16.admx",
+    "proj16.Office.Microsoft.Policies.Windows": "proj16.admx",
+    "pub16.Office.Microsoft.Policies.Windows": "pub16.admx",
+    "Teams.Office.Microsoft.Policies.Windows": "teams16.admx",
+    "visio16.Office.Microsoft.Policies.Windows": "visio16.admx",
+    "word16.Office.Microsoft.Policies.Windows": "word16.admx"
+   },
+   "parseErrors": [],
+   "diff": {
+    "previous": null,
+    "added": 0,
+    "removed": 0,
+    "changed": 0,
+    "details": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   }
+  }
+ ]
+}

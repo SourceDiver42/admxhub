@@ -1,0 +1,71 @@
+{
+ "id": "reader",
+ "name": "Adobe Acrobat Reader",
+ "vendor": "Adobe",
+ "description": "Acrobat Reader policies.",
+ "homepage": "https://www.adobe.com/devnet-docs/acrobatetk/",
+ "license": "proprietary",
+ "markers": [
+  "acrobatreaderdc.admx",
+  "readerdc.admx",
+  "reader.admx"
+ ],
+ "discovery": "static",
+ "mirror": false,
+ "status": {
+  "lastChecked": "2026-10-25T13:31:11Z",
+  "lastSuccess": "2026-10-25T13:31:11Z",
+  "error": null,
+  "consecutiveFailures": 0
+ },
+ "versions": [
+  {
+   "version": "2023-05-01",
+   "date": "2023-05-01",
+   "discovered": "2026-10-25T13:31:11Z",
+   "url": "https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/misc/ReaderADMTemplate.zip",
+   "sha256": "962df7b1854c2398489f5db8c2c7be6c4c6613f2057e9ad6728d9a4ae5748a55",
+   "size": 7492,
+   "fingerprint": "1d44-5faa253db6fd2",
+   "languages": [
+    "en-US"
+   ],
+   "files": [
+    {
+     "name": "AcrobatReaderDC.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "59aad2da442edee1be01164e99a76d67764f90d7e6fa17fd08cceed9fdb28c70",
+     "size": 9736
+    },
+    {
+     "name": "AcrobatReaderDC.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "7e93cc0e9511e5c3334c5e805a27996ae37313a4f5cd14bd34afed47a253d0d1",
+     "size": 10088
+    }
+   ],
+   "admxCount": 1,
+   "policyCount": 13,
+   "namespaces": [
+    "Adobe.ReaderDC.Policies"
+   ],
+   "namespaceFiles": {
+    "Adobe.ReaderDC.Policies": "AcrobatReaderDC.admx"
+   },
+   "parseErrors": [],
+   "diff": {
+    "previous": null,
+    "added": 0,
+    "removed": 0,
+    "changed": 0,
+    "details": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   }
+  }
+ ]
+}

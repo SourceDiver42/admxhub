@@ -1,0 +1,181 @@
+[
+ {
+  "id": "Adobe.AcrobatDC.Policies:Policy_Ask_before_installing_77",
+  "name": "Policy_Ask_before_installing_77",
+  "display": "Ask before installing checkbox",
+  "class": "User",
+  "file": "AcrobatDC.admx",
+  "category": [
+   "Adobe Acrobat DC",
+   "Preferences",
+   "Security"
+  ],
+  "key": "Software\\Adobe\\Adobe Acrobat\\DC\\Security\\cDigSig\\cAdobeDownload",
+  "valueName": "bAskBeforeInstalling",
+  "supported": "Undefined",
+  "elements": []
+ },
+ {
+  "id": "Adobe.AcrobatDC.Policies:Policy_Auto_Complete_58",
+  "name": "Policy_Auto_Complete_58",
+  "display": "Auto Complete",
+  "class": "Machine",
+  "file": "AcrobatDC.admx",
+  "category": [
+   "Adobe Acrobat DC",
+   "Preferences",
+   "General"
+  ],
+  "key": "SOFTWARE\\Policies\\Adobe\\Adobe Acrobat\\DC\\FeatureLockdown",
+  "valueName": "bAutoFill",
+  "supported": "Undefined",
+  "elements": []
+ },
+ {
+  "id": "Adobe.AcrobatDC.Policies:Policy_Automatically_trust_83",
+  "name": "Policy_Automatically_trust_83",
+  "display": "Automatically trust sites for Win OS security zones",
+  "class": "User",
+  "file": "AcrobatDC.admx",
+  "category": [
+   "Adobe Acrobat DC",
+   "Preferences",
+   "Security",
+   "TrustManager"
+  ],
+  "key": "Software\\Adobe\\Adobe Acrobat\\DC\\TrustManager",
+  "valueName": "bTrustOSTrustedSites",
+  "supported": "Undefined",
+  "elements": []
+ },
+ {
+  "id": "Adobe.AcrobatDC.Policies:Policy_Disable_PDF_handler_43",
+  "name": "Policy_Disable_PDF_handler_43",
+  "display": "Disable PDF handler switching",
+  "class": "Machine",
+  "file": "AcrobatDC.admx",
+  "category": [
+   "Adobe Acrobat DC",
+   "Preferences",
+   "General"
+  ],
+  "key": "SOFTWARE\\Policies\\Adobe\\Adobe Acrobat\\DC\\FeatureLockdown",
+  "valueName": "bDisablePDFHandlerSwitching",
+  "supported": "Undefined",
+  "elements": []
+ },
+ {
+  "id": "Adobe.AcrobatDC.Policies:Policy_Disable_automatic_46",
+  "name": "Policy_Disable_automatic_46",
+  "display": "Disable automatic updates",
+  "class": "Machine",
+  "file": "AcrobatDC.admx",
+  "category": [
+   "Adobe Acrobat DC",
+   "Preferences",
+   "General"
+  ],
+  "key": "SOFTWARE\\Policies\\Adobe\\Adobe Acrobat\\DC\\FeatureLockdown",
+  "valueName": "bUpdater",
+  "supported": "Undefined",
+  "elements": []
+ },
+ {
+  "id": "Adobe.AcrobatDC.Policies:Policy_Display_splash_71",
+  "name": "Policy_Display_splash_71",
+  "display": "Display splash screen at launch",
+  "class": "User",
+  "file": "AcrobatDC.admx",
+  "category": [
+   "Adobe Acrobat DC",
+   "Preferences",
+   "General"
+  ],
+  "key": "Software\\Adobe\\Adobe Acrobat\\DC\\Originals",
+  "valueName": "bDisplayAboutDialog",
+  "supported": "Undefined",
+  "elements": []
+ },
+ {
+  "id": "Adobe.AcrobatDC.Policies:Policy_Enable_Acrobat_74",
+  "name": "Policy_Enable_Acrobat_74",
+  "display": "Enable Acrobat JavaScript",
+  "class": "User",
+  "file": "AcrobatDC.admx",
+  "category": [
+   "Adobe Acrobat DC",
+   "Preferences",
+   "Security"
+  ],
+  "key": "Software\\Adobe\\Adobe Acrobat\\DC\\JSPrefs",
+  "valueName": "bEnableJS",
+  "supported": "Undefined",
+  "elements": []
+ },
+ {
+  "id": "Adobe.AcrobatDC.Policies:Policy_Load_security_settings_80",
+  "name": "Policy_Load_security_settings_80",
+  "display": "Load security settings from a server",
+  "class": "User",
+  "file": "AcrobatDC.admx",
+  "category": [
+   "Adobe Acrobat DC",
+   "Preferences",
+   "Security"
+  ],
+  "key": "Software\\Adobe\\Adobe Acrobat\\DC\\Security\\cDigSig\\cAdobeDownload",
+  "valueName": "bLoadSettingsFromURL",
+  "supported": "Undefined",
+  "elements": []
+ },
+ {
+  "id": "Adobe.AcrobatDC.Policies:Policy_Protected_View_61",
+  "name": "Policy_Protected_View_61",
+  "display": "Protected View (Acrobat)",
+  "class": "Machine",
+  "file": "AcrobatDC.admx",
+  "category": [
+   "Adobe Acrobat DC",
+   "Preferences",
+   "Startup"
+  ],
+  "key": "SOFTWARE\\Policies\\Adobe\\Adobe Acrobat\\DC\\FeatureLockdown",
+  "valueName": null,
+  "supported": "Undefined",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Adobe.AcrobatDC.Policies:Policy_Show_messages_when_52",
+  "name": "Policy_Show_messages_when_52",
+  "display": "Show messages when I launch Acrobat",
+  "class": "Machine",
+  "file": "AcrobatDC.admx",
+  "category": [
+   "Adobe Acrobat DC",
+   "Preferences",
+   "General"
+  ],
+  "key": "SOFTWARE\\Policies\\Adobe\\Adobe Acrobat\\DC\\FeatureLockdown\\cIPM",
+  "valueName": "bShowMsgAtLaunch",
+  "supported": "Undefined",
+  "elements": []
+ },
+ {
+  "id": "Adobe.AcrobatDC.Policies:Policy_Turn_off_user_participati_49",
+  "name": "Policy_Turn_off_user_participati_49",
+  "display": "Turn off user participation in the feedback program",
+  "class": "Machine",
+  "file": "AcrobatDC.admx",
+  "category": [
+   "Adobe Acrobat DC",
+   "Preferences",
+   "General"
+  ],
+  "key": "SOFTWARE\\Policies\\Adobe\\Adobe Acrobat\\DC\\FeatureLockdown",
+  "valueName": "bUsageMeasurement",
+  "supported": "Undefined",
+  "elements": []
+ }
+]

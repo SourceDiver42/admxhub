@@ -1,0 +1,70 @@
+{
+ "id": "acrobat",
+ "name": "Adobe Acrobat",
+ "vendor": "Adobe",
+ "description": "Acrobat (Pro/Standard) policies.",
+ "homepage": "https://www.adobe.com/devnet-docs/acrobatetk/",
+ "license": "proprietary",
+ "markers": [
+  "acrobatdc.admx",
+  "acrobat.admx"
+ ],
+ "discovery": "static",
+ "mirror": false,
+ "status": {
+  "lastChecked": "2026-10-25T13:30:53Z",
+  "lastSuccess": "2026-10-25T13:30:53Z",
+  "error": null,
+  "consecutiveFailures": 0
+ },
+ "versions": [
+  {
+   "version": "2023-05-01",
+   "date": "2023-05-01",
+   "discovered": "2026-10-25T13:30:53Z",
+   "url": "https://ardownload2.adobe.com/pub/adobe/acrobat/win/AcrobatDC/misc/AcrobatADMTemplate.zip",
+   "sha256": "51503569d68acccec1f7d17d1daf67706a1f10ba421754836d3ddbfe47874676",
+   "size": 7639,
+   "fingerprint": "1dd7-5faa26f4111bd",
+   "languages": [
+    "en-US"
+   ],
+   "files": [
+    {
+     "name": "AcrobatDC.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "615c8fd951148d33438d0f81144d526add832f44c9ed0ca414ad2d38ccdc10ab",
+     "size": 9256
+    },
+    {
+     "name": "AcrobatDC.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "457f8fd1ca8aa6fe3f5bfbc8a972673025b5ed0e28a5d4470ee81de0e644bfd8",
+     "size": 10301
+    }
+   ],
+   "admxCount": 1,
+   "policyCount": 11,
+   "namespaces": [
+    "Adobe.AcrobatDC.Policies"
+   ],
+   "namespaceFiles": {
+    "Adobe.AcrobatDC.Policies": "AcrobatDC.admx"
+   },
+   "parseErrors": [],
+   "diff": {
+    "previous": null,
+    "added": 0,
+    "removed": 0,
+    "changed": 0,
+    "details": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   }
+  }
+ ]
+}

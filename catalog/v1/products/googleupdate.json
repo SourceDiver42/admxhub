@@ -1,0 +1,85 @@
+{
+ "id": "googleupdate",
+ "name": "Google Update",
+ "vendor": "Google",
+ "description": "Update channel and auto-update control for Chrome.",
+ "homepage": "https://support.google.com/chrome/a/answer/6350036",
+ "license": "proprietary",
+ "markers": [
+  "googleupdate.admx"
+ ],
+ "discovery": "static",
+ "mirror": false,
+ "status": {
+  "lastChecked": "2026-10-25T13:31:00Z",
+  "lastSuccess": "2026-10-25T13:31:00Z",
+  "error": null,
+  "consecutiveFailures": 0
+ },
+ "versions": [
+  {
+   "version": "2025-08-10",
+   "date": "2025-08-10",
+   "discovered": "2026-10-25T13:31:00Z",
+   "url": "https://dl.google.com/dl/update2/enterprise/googleupdateadmx.zip",
+   "sha256": "d7b183d70c75720cde21ad15eccff8a89387fb940ab5b274121a08855b09602e",
+   "size": 2056847,
+   "fingerprint": "4a07dcf-6aa1e4d0",
+   "languages": [
+    "en-US"
+   ],
+   "files": [
+    {
+     "name": "google.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "3ac714ed9549b7b42a4fe2d7127304ab757762ae71015f8f8892287fdeb0b0b8",
+     "size": 338
+    },
+    {
+     "name": "GoogleUpdate.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "424af2b5a9b82bfa973b55a2154444c16e00025af0c0087b064aba0a373f86ea",
+     "size": 707060
+    },
+    {
+     "name": "google.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "5d53a7b191ca8d342eb68122fdc6d858f6eadd22a199973f4f1ca272a8b83db7",
+     "size": 257
+    },
+    {
+     "name": "GoogleUpdate.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "692317fd8ea5be1784b8384007040a87fa7be3725a6d0d63f78e0027a57dab84",
+     "size": 563676
+    }
+   ],
+   "admxCount": 2,
+   "policyCount": 373,
+   "namespaces": [
+    "Google.Policies",
+    "Google.Policies.Update"
+   ],
+   "namespaceFiles": {
+    "Google.Policies": "google.admx",
+    "Google.Policies.Update": "GoogleUpdate.admx"
+   },
+   "parseErrors": [],
+   "diff": {
+    "previous": null,
+    "added": 0,
+    "removed": 0,
+    "changed": 0,
+    "details": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   }
+  }
+ ]
+}

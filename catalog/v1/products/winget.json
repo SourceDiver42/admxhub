@@ -1,0 +1,149 @@
+{
+ "id": "winget",
+ "name": "Windows Package Manager (winget)",
+ "vendor": "Microsoft",
+ "description": "Allowed sources, auto-update and experimental features of winget.",
+ "homepage": "https://github.com/microsoft/winget-cli",
+ "license": "MIT",
+ "markers": [
+  "desktopappinstaller.admx"
+ ],
+ "discovery": "json",
+ "mirror": false,
+ "status": {
+  "lastChecked": "2026-10-25T13:31:21Z",
+  "lastSuccess": "2026-10-25T13:31:22Z",
+  "error": null,
+  "consecutiveFailures": 0
+ },
+ "versions": [
+  {
+   "version": "1.29.380",
+   "date": "2026-09-21",
+   "discovered": "2026-10-25T13:31:22Z",
+   "url": "https://github.com/microsoft/winget-cli/releases/download/v1.29.380/DesktopAppInstallerPolicies.zip",
+   "sha256": "a0793f0832ba540a55848deeee271c3686f2149cb4ead7fe72be2417c9f62605",
+   "size": 41003,
+   "fingerprint": "a0793f0832ba540a55848deeee271c3686f2149cb4ead7fe72be2417c9f62605",
+   "languages": [
+    "de-DE",
+    "en-US",
+    "es-ES",
+    "fr-FR",
+    "it-IT",
+    "ja-JP",
+    "ko-KR",
+    "pt-BR",
+    "ru-RU",
+    "zh-CN",
+    "zh-TW"
+   ],
+   "files": [
+    {
+     "name": "DesktopAppInstaller.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "754bcf68bd0f68da8c5fcc14beb3fa9b405d16f71adc3f2f1898a3b93f07b099",
+     "size": 15983
+    },
+    {
+     "name": "DesktopAppInstaller.adml",
+     "kind": "adml",
+     "lang": "de-DE",
+     "sha256": "e7180aaf89f4c804df97bf0cc4faef31dbb8ae839e40a3b6acbe39c8d56beac2",
+     "size": 17873
+    },
+    {
+     "name": "DesktopAppInstaller.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "bb449c27bf3a3e138b57ea6f879b3e32bdf86db658dfff2c99425a18aaf9aa6d",
+     "size": 15931
+    },
+    {
+     "name": "DesktopAppInstaller.adml",
+     "kind": "adml",
+     "lang": "es-ES",
+     "sha256": "b3071c6ca486f0124602607f45317b1a37de4878f53cd5da28adc1c69790871a",
+     "size": 18269
+    },
+    {
+     "name": "DesktopAppInstaller.adml",
+     "kind": "adml",
+     "lang": "fr-FR",
+     "sha256": "991c3aba03956c863ef5a70b71aaf516430c91c25fcd767c223bb23d285950df",
+     "size": 19157
+    },
+    {
+     "name": "DesktopAppInstaller.adml",
+     "kind": "adml",
+     "lang": "it-IT",
+     "sha256": "ed9d52828c86ab62cab9f6f2f3eda81e3a5ae05aacc54b5b900992ebd4ed3e99",
+     "size": 18038
+    },
+    {
+     "name": "DesktopAppInstaller.adml",
+     "kind": "adml",
+     "lang": "ja-JP",
+     "sha256": "2513147f2de73d5414c611f95979103adb633fa2313c1283ea00e22be66267ac",
+     "size": 21463
+    },
+    {
+     "name": "DesktopAppInstaller.adml",
+     "kind": "adml",
+     "lang": "ko-KR",
+     "sha256": "6011b1fd56983f5432d5fcb689dc05bb72fa42393ee8ec2920bff7a50ee6de3a",
+     "size": 17835
+    },
+    {
+     "name": "DesktopAppInstaller.adml",
+     "kind": "adml",
+     "lang": "pt-BR",
+     "sha256": "afb335a3ca45103cb7da4787e1b1b6cd8f2d1e8e81cb90a5641c29c9ac2dba7c",
+     "size": 18082
+    },
+    {
+     "name": "DesktopAppInstaller.adml",
+     "kind": "adml",
+     "lang": "ru-RU",
+     "sha256": "e4b5067f6c19e2ecaa5d59c20fb02152e60c8e337599c495b54b5fdff0ec8af4",
+     "size": 25938
+    },
+    {
+     "name": "DesktopAppInstaller.adml",
+     "kind": "adml",
+     "lang": "zh-CN",
+     "sha256": "c55fe5f372c7f472dba601825d149b43d4c08045cc14fdf2ffbeabb5cd79edc1",
+     "size": 14160
+    },
+    {
+     "name": "DesktopAppInstaller.adml",
+     "kind": "adml",
+     "lang": "zh-TW",
+     "sha256": "8640ffbb876732fd38161b203ffc7a499c1aded38b92bea0e8bbd5860fb99750",
+     "size": 14521
+    }
+   ],
+   "admxCount": 1,
+   "policyCount": 22,
+   "namespaces": [
+    "Microsoft.Policies.AppInstaller"
+   ],
+   "namespaceFiles": {
+    "Microsoft.Policies.AppInstaller": "DesktopAppInstaller.admx"
+   },
+   "parseErrors": [],
+   "diff": {
+    "previous": null,
+    "added": 0,
+    "removed": 0,
+    "changed": 0,
+    "details": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   }
+  }
+ ]
+}

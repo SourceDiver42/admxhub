@@ -1,0 +1,130 @@
+{
+ "id": "firefox",
+ "name": "Mozilla Firefox",
+ "vendor": "Mozilla",
+ "description": "Firefox browser policies.",
+ "homepage": "https://github.com/mozilla/policy-templates",
+ "license": "MPL-2.0",
+ "markers": [
+  "firefox.admx"
+ ],
+ "discovery": "json",
+ "mirror": false,
+ "status": {
+  "lastChecked": "2026-10-25T13:30:56Z",
+  "lastSuccess": "2026-10-25T13:30:57Z",
+  "error": null,
+  "consecutiveFailures": 0
+ },
+ "versions": [
+  {
+   "version": "8.4",
+   "date": "2026-10-13",
+   "discovered": "2026-10-25T13:30:57Z",
+   "url": "https://github.com/mozilla/policy-templates/releases/download/v8.4/policy_templates_v8.4.zip",
+   "sha256": "287fb7d5ae5100f0a24c0ec8e025b3dd80a24c001ad7b5c3a91cc2c4616d58ea",
+   "size": 188498,
+   "fingerprint": "287fb7d5ae5100f0a24c0ec8e025b3dd80a24c001ad7b5c3a91cc2c4616d58ea",
+   "languages": [
+    "de-DE",
+    "en-US",
+    "fr-FR",
+    "ru-RU"
+   ],
+   "files": [
+    {
+     "name": "firefox.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "6f32bc4afc7bf141c9713598122d0786a981f318112b6d09ca1caf1399d26f05",
+     "size": 270991
+    },
+    {
+     "name": "mozilla.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "c1a07a146e6373deb42ddcd6958a8a178f1f748f3fe0474677546c562cf554e2",
+     "size": 417
+    },
+    {
+     "name": "firefox.adml",
+     "kind": "adml",
+     "lang": "de-DE",
+     "sha256": "e555e2f07402c0993b53ea55c913f403941c05f34378b5fab823a666df28d483",
+     "size": 171164
+    },
+    {
+     "name": "mozilla.adml",
+     "kind": "adml",
+     "lang": "de-DE",
+     "sha256": "cf5dd71f00b574aa99937eec9e72819344f4280550ce17923f88f1820be78ac6",
+     "size": 334
+    },
+    {
+     "name": "firefox.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "387788a86cc584660843be619b4719c1565bfb33a895a1a34af5e6e83ae89302",
+     "size": 141763
+    },
+    {
+     "name": "mozilla.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "cf5dd71f00b574aa99937eec9e72819344f4280550ce17923f88f1820be78ac6",
+     "size": 334
+    },
+    {
+     "name": "firefox.adml",
+     "kind": "adml",
+     "lang": "fr-FR",
+     "sha256": "490fb3389b2add7a6c8c801fd9697925707c3e0e4ad786b00f25580b979d7e61",
+     "size": 165266
+    },
+    {
+     "name": "mozilla.adml",
+     "kind": "adml",
+     "lang": "fr-FR",
+     "sha256": "cf5dd71f00b574aa99937eec9e72819344f4280550ce17923f88f1820be78ac6",
+     "size": 334
+    },
+    {
+     "name": "firefox.adml",
+     "kind": "adml",
+     "lang": "ru-RU",
+     "sha256": "fb44ed34899ab434f7529df31d354e484872f72d8d5f4f838d74d7425610d215",
+     "size": 220121
+    },
+    {
+     "name": "mozilla.adml",
+     "kind": "adml",
+     "lang": "ru-RU",
+     "sha256": "cf5dd71f00b574aa99937eec9e72819344f4280550ce17923f88f1820be78ac6",
+     "size": 334
+    }
+   ],
+   "admxCount": 2,
+   "policyCount": 424,
+   "namespaces": [
+    "Mozilla.Policies",
+    "Mozilla.Policies.Firefox"
+   ],
+   "namespaceFiles": {
+    "Mozilla.Policies.Firefox": "firefox.admx",
+    "Mozilla.Policies": "mozilla.admx"
+   },
+   "parseErrors": [],
+   "diff": {
+    "previous": null,
+    "added": 0,
+    "removed": 0,
+    "changed": 0,
+    "details": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   }
+  }
+ ]
+}

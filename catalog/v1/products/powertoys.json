@@ -1,0 +1,69 @@
+{
+ "id": "powertoys",
+ "name": "PowerToys",
+ "vendor": "Microsoft",
+ "description": "Enable or disable individual PowerToys utilities.",
+ "homepage": "https://github.com/microsoft/PowerToys",
+ "license": "MIT",
+ "markers": [
+  "powertoys.admx"
+ ],
+ "discovery": "json",
+ "mirror": false,
+ "status": {
+  "lastChecked": "2026-10-25T13:31:10Z",
+  "lastSuccess": "2026-10-25T13:31:11Z",
+  "error": null,
+  "consecutiveFailures": 0
+ },
+ "versions": [
+  {
+   "version": "0.102.2933.0",
+   "date": "2026-10-21",
+   "discovered": "2026-10-25T13:31:11Z",
+   "url": "https://github.com/microsoft/PowerToys/releases/download/v0.102.2933.0/GroupPolicyObjectFiles-0.102.2933.0.zip",
+   "sha256": "915555c763f27f3b7faf9fe9815d50441de49ccd1bdb67161055e5ec0c1505ce",
+   "size": 9137,
+   "fingerprint": "915555c763f27f3b7faf9fe9815d50441de49ccd1bdb67161055e5ec0c1505ce",
+   "languages": [
+    "en-US"
+   ],
+   "files": [
+    {
+     "name": "PowerToys.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "73f4f5b65b61adf37b8db0b7bbb371ad54b02ca75e5ee92467bee4be443deab4",
+     "size": 49910
+    },
+    {
+     "name": "PowerToys.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "f245dd53329a3537ac87fe899f03323c3559233c9b3417884e9a840fa7219835",
+     "size": 29866
+    }
+   ],
+   "admxCount": 1,
+   "policyCount": 83,
+   "namespaces": [
+    "Microsoft.Policies.PowerToys"
+   ],
+   "namespaceFiles": {
+    "Microsoft.Policies.PowerToys": "PowerToys.admx"
+   },
+   "parseErrors": [],
+   "diff": {
+    "previous": null,
+    "added": 0,
+    "removed": 0,
+    "changed": 0,
+    "details": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   }
+  }
+ ]
+}

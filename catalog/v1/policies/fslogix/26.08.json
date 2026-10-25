@@ -1,0 +1,1983 @@
+[
+ {
+  "id": "FSLogix.Policies:CCDCacheDirectory",
+  "name": "CCDCacheDirectory",
+  "display": "Cache Directory",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Cloud Cache Service"
+  ],
+  "key": "SYSTEM\\CurrentControlSet\\Services\\frxccd\\Parameters",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:CCDProxyDirectory",
+  "name": "CCDProxyDirectory",
+  "display": "Proxy Directory",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Cloud Cache Service"
+  ],
+  "key": "SYSTEM\\CurrentControlSet\\Services\\frxccds\\Parameters",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:CCDWriteCacheDirectory",
+  "name": "CCDWriteCacheDirectory",
+  "display": "Write Cache Directory",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Cloud Cache Service"
+  ],
+  "key": "SYSTEM\\CurrentControlSet\\Services\\frxccds\\Parameters",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:CleanupInvalidSessions",
+  "name": "CleanupInvalidSessions",
+  "display": "Clean-up Invalid Sessions",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix"
+  ],
+  "key": "Software\\FSLogix\\Apps",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:LoggingADComputerGroupProcess",
+  "name": "LoggingADComputerGroupProcess",
+  "display": "AD Computer Group Process",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Logging"
+  ],
+  "key": "Software\\FSLogix\\Logging",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:LoggingDriverInterface",
+  "name": "LoggingDriverInterface",
+  "display": "Driver Interface",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Logging"
+  ],
+  "key": "Software\\FSLogix\\Logging",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:LoggingEnabled",
+  "name": "LoggingEnabled",
+  "display": "Enabled",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Logging"
+  ],
+  "key": "Software\\FSLogix\\Logging",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:LoggingFontVisibility",
+  "name": "LoggingFontVisibility",
+  "display": "Font Visibility",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Logging"
+  ],
+  "key": "Software\\FSLogix\\Logging",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:LoggingLogDirectory",
+  "name": "LoggingLogDirectory",
+  "display": "Log Directory",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Logging"
+  ],
+  "key": "Software\\FSLogix\\Logging",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:LoggingLogKeepingPeriod",
+  "name": "LoggingLogKeepingPeriod",
+  "display": "Log Keeping Period",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Logging"
+  ],
+  "key": "Software\\FSLogix\\Logging",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "decimal"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:LoggingNetwork",
+  "name": "LoggingNetwork",
+  "display": "Network",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Logging"
+  ],
+  "key": "Software\\FSLogix\\Logging",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:LoggingODFCContainer",
+  "name": "LoggingODFCContainer",
+  "display": "ODFC Container",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Logging"
+  ],
+  "key": "Software\\FSLogix\\Logging",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:LoggingPrinterVisibility",
+  "name": "LoggingPrinterVisibility",
+  "display": "Printer Visibility",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Logging"
+  ],
+  "key": "Software\\FSLogix\\Logging",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:LoggingProcessStart",
+  "name": "LoggingProcessStart",
+  "display": "Process Start",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Logging"
+  ],
+  "key": "Software\\FSLogix\\Logging",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:LoggingProfileContainer",
+  "name": "LoggingProfileContainer",
+  "display": "Profile Container",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Logging"
+  ],
+  "key": "Software\\FSLogix\\Logging",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:LoggingRuleCompilation",
+  "name": "LoggingRuleCompilation",
+  "display": "Rule Compilation",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Logging"
+  ],
+  "key": "Software\\FSLogix\\Logging",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:LoggingRuleEditor",
+  "name": "LoggingRuleEditor",
+  "display": "Rule Editor",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Logging"
+  ],
+  "key": "Software\\FSLogix\\Logging",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:LoggingSearchPlugin",
+  "name": "LoggingSearchPlugin",
+  "display": "Search Plugin",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Logging"
+  ],
+  "key": "Software\\FSLogix\\Logging",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:LoggingSearchRoaming",
+  "name": "LoggingSearchRoaming",
+  "display": "Search Roaming",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Logging"
+  ],
+  "key": "Software\\FSLogix\\Logging",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:LoggingServices",
+  "name": "LoggingServices",
+  "display": "Services",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Logging"
+  ],
+  "key": "Software\\FSLogix\\Logging",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcAccessNetworkasComputer",
+  "name": "OdfcAccessNetworkasComputer",
+  "display": "Access Network as Computer Object",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcAttachedVHDSDDL",
+  "name": "OdfcAttachedVHDSDDL",
+  "display": "Attached VHD SDDL",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcCCDLocations",
+  "name": "OdfcCCDLocations",
+  "display": "CCD Locations",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers",
+   "Cloud Cache"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcCCDMaxCacheSizeinMBs",
+  "name": "OdfcCCDMaxCacheSizeinMBs",
+  "display": "CCD Max Cache Size in MBs",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers",
+   "Cloud Cache"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "decimal"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcCCDUnregisterTimeout",
+  "name": "OdfcCCDUnregisterTimeout",
+  "display": "CCD Unregister Timeout",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers",
+   "Cloud Cache"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "decimal"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcClearCacheOnForcedUnregister",
+  "name": "OdfcClearCacheOnForcedUnregister",
+  "display": "Clear Cache On Forced Unregister",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers",
+   "Cloud Cache"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcClearCacheOnLogoff",
+  "name": "OdfcClearCacheOnLogoff",
+  "display": "Clear Cache On Logoff",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers",
+   "Cloud Cache"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcDiffDiskParentFolderPath",
+  "name": "OdfcDiffDiskParentFolderPath",
+  "display": "Diff Disk Parent Folder Path",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers",
+   "Container and Directory Naming"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcFlipFlopProfileDirectoryName",
+  "name": "OdfcFlipFlopProfileDirectoryName",
+  "display": "Flip Flop Profile Directory Name",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers",
+   "Container and Directory Naming"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcHealthyProvidersRequiredForRegister",
+  "name": "OdfcHealthyProvidersRequiredForRegister",
+  "display": "Healthy Providers Required For Register",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers",
+   "Cloud Cache"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "decimal"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcHealthyProvidersRequiredForUnregister",
+  "name": "OdfcHealthyProvidersRequiredForUnregister",
+  "display": "Healthy Providers Required For Unregister",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers",
+   "Cloud Cache"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "decimal"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcIncludeOfficeActivation",
+  "name": "OdfcIncludeOfficeActivation",
+  "display": "Include Office Activation",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcIncludeOneDrive",
+  "name": "OdfcIncludeOneDrive",
+  "display": "Include OneDrive",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcIncludeOneNote",
+  "name": "OdfcIncludeOneNote",
+  "display": "Include OneNote",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcIncludeOneNoteUWP",
+  "name": "OdfcIncludeOneNoteUWP",
+  "display": "Include OneNote UWP",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcIncludeOutlook",
+  "name": "OdfcIncludeOutlook",
+  "display": "Include Outlook",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcIncludeOutlookPersonalization",
+  "name": "OdfcIncludeOutlookPersonalization",
+  "display": "Include Outlook Personalization",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcIncludeSharepoint",
+  "name": "OdfcIncludeSharepoint",
+  "display": "Include Sharepoint",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcIncludeSkype",
+  "name": "OdfcIncludeSkype",
+  "display": "Include Skype",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcIncludeTeams",
+  "name": "OdfcIncludeTeams",
+  "display": "Include Teams",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcIsDynamicVHD",
+  "name": "OdfcIsDynamicVHD",
+  "display": "Is Dynamic (VHD)",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcLockedRetryCount",
+  "name": "OdfcLockedRetryCount",
+  "display": "Locked Retry Count",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "decimal"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcLockedRetryInterval",
+  "name": "OdfcLockedRetryInterval",
+  "display": "Locked Retry Interval",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "decimal"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcMirrorLocalOSTToVHD",
+  "name": "OdfcMirrorLocalOSTToVHD",
+  "display": "Mirror Local OST To VHD",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcNoProfileContainingFolder",
+  "name": "OdfcNoProfileContainingFolder",
+  "display": "No Profile Containing Folder",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers",
+   "Container and Directory Naming"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcNumberSessionVHDsToKeep",
+  "name": "OdfcNumberSessionVHDsToKeep",
+  "display": "Number Session VHD(s) To Keep",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "decimal"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcODFCEnabled",
+  "name": "OdfcODFCEnabled",
+  "display": "Enabled",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcOutlookCachedMode",
+  "name": "OdfcOutlookCachedMode",
+  "display": "Outlook Cached Mode",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcOutlookFolderPath",
+  "name": "OdfcOutlookFolderPath",
+  "display": "Outlook Folder Path",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcPreventLoginWithFailure",
+  "name": "OdfcPreventLoginWithFailure",
+  "display": "Prevent Login With Failure",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcPreventLoginWithTempProfile",
+  "name": "OdfcPreventLoginWithTempProfile",
+  "display": "Prevent Login With Temp Profile",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcReattachCount",
+  "name": "OdfcReattachCount",
+  "display": "Reattach Count",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "decimal"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcReattachInterval",
+  "name": "OdfcReattachInterval",
+  "display": "Reattach Interval",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "decimal"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcRedirectType",
+  "name": "OdfcRedirectType",
+  "display": "Redirect Type",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcRefreshUserPolicy",
+  "name": "OdfcRefreshUserPolicy",
+  "display": "Refresh User Policy",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcRemoveOrphanedOSTFilesOnLogoff",
+  "name": "OdfcRemoveOrphanedOSTFilesOnLogoff",
+  "display": "Remove Orphaned OST Files On Logoff",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcRoamSearch",
+  "name": "OdfcRoamSearch",
+  "display": "Roam Search",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcSIDDirectoryNameMatch",
+  "name": "OdfcSIDDirectoryNameMatch",
+  "display": "SID Directory Name Match",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers",
+   "Container and Directory Naming"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcSIDDirectoryNamePattern",
+  "name": "OdfcSIDDirectoryNamePattern",
+  "display": "SID Directory Name Pattern",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers",
+   "Container and Directory Naming"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcSizeInMBs",
+  "name": "OdfcSizeInMBs",
+  "display": "Size In MBs",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "decimal"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcVHDAccessMode",
+  "name": "OdfcVHDAccessMode",
+  "display": "VHD Access Mode",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcVHDLocations",
+  "name": "OdfcVHDLocations",
+  "display": "VHD Locations",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcVHDNameMatch",
+  "name": "OdfcVHDNameMatch",
+  "display": "VHD Name Match",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers",
+   "Container and Directory Naming"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcVHDNamePattern",
+  "name": "OdfcVHDNamePattern",
+  "display": "VHD Name Pattern",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers",
+   "Container and Directory Naming"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcVHDXSectorSize",
+  "name": "OdfcVHDXSectorSize",
+  "display": "VHDX Sector Size",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcVolumeTypeVHDorVHDX",
+  "name": "OdfcVolumeTypeVHDorVHDX",
+  "display": "Volume Type (VHD or VHDX)",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:OdfcVolumeWaitTimemilliseconds",
+  "name": "OdfcVolumeWaitTimemilliseconds",
+  "display": "Volume Wait Time (milliseconds)",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "ODFC Containers"
+  ],
+  "key": "Software\\Policies\\FSLogix\\ODFC",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "decimal"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesAccessNetworkasComputer",
+  "name": "ProfilesAccessNetworkasComputer",
+  "display": "Access Network as Computer Object",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesAttachedVHDSDDL",
+  "name": "ProfilesAttachedVHDSDDL",
+  "display": "Attached VHD SDDL",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesCCDLocations",
+  "name": "ProfilesCCDLocations",
+  "display": "CCD Locations",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers",
+   "Cloud Cache"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesCCDMaxCacheSizeinMBs",
+  "name": "ProfilesCCDMaxCacheSizeinMBs",
+  "display": "CCD Max Cache Size in MBs",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers",
+   "Cloud Cache"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "decimal"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesCCDUnregisterTimeout",
+  "name": "ProfilesCCDUnregisterTimeout",
+  "display": "CCD Unregister Timeout",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers",
+   "Cloud Cache"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "decimal"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesCleanOutNotifications",
+  "name": "ProfilesCleanOutNotifications",
+  "display": "Clean Out Notifications",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesClearCacheonForcedUnregister",
+  "name": "ProfilesClearCacheonForcedUnregister",
+  "display": "Clear Cache on Forced Unregister",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers",
+   "Cloud Cache"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesClearCacheonLogoff",
+  "name": "ProfilesClearCacheonLogoff",
+  "display": "Clear Cache on Logoff",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers",
+   "Cloud Cache"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesDeleteLocalProfileWhenVHDShouldApply",
+  "name": "ProfilesDeleteLocalProfileWhenVHDShouldApply",
+  "display": "Delete Local Profile When VHD Should Apply",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesDiffDiskParentFolderPath",
+  "name": "ProfilesDiffDiskParentFolderPath",
+  "display": "Diff Disk Parent Folder Path",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers",
+   "Container and Directory Naming"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesEnabled",
+  "name": "ProfilesEnabled",
+  "display": "Enabled",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesFlipFlopProfileDirectoryName",
+  "name": "ProfilesFlipFlopProfileDirectoryName",
+  "display": "Flip Flop Profile Directory Name",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers",
+   "Container and Directory Naming"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesHealthyProvidersRequiredForRegister",
+  "name": "ProfilesHealthyProvidersRequiredForRegister",
+  "display": "Healthy Providers Required For Register",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers",
+   "Cloud Cache"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "decimal"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesHealthyProvidersRequiredForUnregister",
+  "name": "ProfilesHealthyProvidersRequiredForUnregister",
+  "display": "Healthy Providers Required For Unregister",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers",
+   "Cloud Cache"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "decimal"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesInstallAppxPackages",
+  "name": "ProfilesInstallAppxPackages",
+  "display": "Install Appx Packages",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2210 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesIsDynamicVHD",
+  "name": "ProfilesIsDynamicVHD",
+  "display": "Is Dynamic (VHD)",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesKeepLocalDirectoryafterlogoff",
+  "name": "ProfilesKeepLocalDirectoryafterlogoff",
+  "display": "Keep Local Directory (after logoff)",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesLockedRetryCount",
+  "name": "ProfilesLockedRetryCount",
+  "display": "Locked Retry Count",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "decimal"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesLockedRetryInterval",
+  "name": "ProfilesLockedRetryInterval",
+  "display": "Locked Retry Interval",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "decimal"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesNoProfileContainingFolder",
+  "name": "ProfilesNoProfileContainingFolder",
+  "display": "No Profile Containing Folder",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers",
+   "Container and Directory Naming"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesOutlookCachedMode",
+  "name": "ProfilesOutlookCachedMode",
+  "display": "Outlook Cached Mode",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesPreventLoginWithFailure",
+  "name": "ProfilesPreventLoginWithFailure",
+  "display": "Prevent Login With Failure",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesPreventLoginWithTempProfile",
+  "name": "ProfilesPreventLoginWithTempProfile",
+  "display": "Prevent Login With Temp Profile",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesProfileDirectorySDDL",
+  "name": "ProfilesProfileDirectorySDDL",
+  "display": "Profile Directory SDDL",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesProfileType",
+  "name": "ProfilesProfileType",
+  "display": "Profile Type",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesReattachCount",
+  "name": "ProfilesReattachCount",
+  "display": "Reattach Count",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "decimal"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesReattachInterval",
+  "name": "ProfilesReattachInterval",
+  "display": "Reattach Interval",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "decimal"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesRebootOnUserLogoff",
+  "name": "ProfilesRebootOnUserLogoff",
+  "display": "Reboot On User Logoff",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesRedirectType",
+  "name": "ProfilesRedirectType",
+  "display": "Redirect Type",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesRedirectionXMLSourceFolder",
+  "name": "ProfilesRedirectionXMLSourceFolder",
+  "display": "Redirection XML Source Folder",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesRemoveOrphanedOSTFilesOnLogoff",
+  "name": "ProfilesRemoveOrphanedOSTFilesOnLogoff",
+  "display": "Remove Orphaned OST Files On Logoff",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesRoamGroupPolicyState",
+  "name": "ProfilesRoamGroupPolicyState",
+  "display": "Roam Group Policy State",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2210 HF4 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesRoamIdentity",
+  "name": "ProfilesRoamIdentity",
+  "display": "Roam Identity",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2210 HF1 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesRoamSearch",
+  "name": "ProfilesRoamSearch",
+  "display": "Roam Search",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesSIDDirectoryNameMatch",
+  "name": "ProfilesSIDDirectoryNameMatch",
+  "display": "SID Directory Name Match",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers",
+   "Container and Directory Naming"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesSIDDirectoryNamePattern",
+  "name": "ProfilesSIDDirectoryNamePattern",
+  "display": "SID Directory Name Pattern",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers",
+   "Container and Directory Naming"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesSIDDirectorySDDL",
+  "name": "ProfilesSIDDirectorySDDL",
+  "display": "SID Directory SDDL",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesSetTempFolderstoLocalPath",
+  "name": "ProfilesSetTempFolderstoLocalPath",
+  "display": "Set Temp Folders to Local Path",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesShutdownOnUserLogoff",
+  "name": "ProfilesShutdownOnUserLogoff",
+  "display": "Shutdown On User Logoff",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesSizeInMBs",
+  "name": "ProfilesSizeInMBs",
+  "display": "Size In MBs",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "decimal"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesVHDLocations",
+  "name": "ProfilesVHDLocations",
+  "display": "VHD Locations",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesVHDNameMatch",
+  "name": "ProfilesVHDNameMatch",
+  "display": "VHD Name Match",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers",
+   "Container and Directory Naming"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesVHDNamePattern",
+  "name": "ProfilesVHDNamePattern",
+  "display": "VHD Name Pattern",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers",
+   "Container and Directory Naming"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesVHDXSectorSize",
+  "name": "ProfilesVHDXSectorSize",
+  "display": "VHDX Sector Size",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesVolumeTypeVHDorVHDX",
+  "name": "ProfilesVolumeTypeVHDorVHDX",
+  "display": "Volume Type (VHD or VHDX)",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers",
+   "Container and Directory Naming"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:ProfilesVolumeWaitTimemilliseconds",
+  "name": "ProfilesVolumeWaitTimemilliseconds",
+  "display": "Volume Wait Time (milliseconds)",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix",
+   "Profile Containers"
+  ],
+  "key": "Software\\FSLogix\\Profiles",
+  "valueName": null,
+  "supported": "v2105 or later",
+  "elements": [
+   "decimal"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:RoamRecycleBin",
+  "name": "RoamRecycleBin",
+  "display": "Roam Recycle Bin",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix"
+  ],
+  "key": "Software\\FSLogix\\Apps",
+  "valueName": null,
+  "supported": "v2210 or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "FSLogix.Policies:VHDCompactDisk",
+  "name": "VHDCompactDisk",
+  "display": "VHD Compact Disk",
+  "class": "Machine",
+  "file": "fslogix.admx",
+  "category": [
+   "FSLogix"
+  ],
+  "key": "Software\\FSLogix\\Apps",
+  "valueName": null,
+  "supported": "v2210 or later",
+  "elements": [
+   "enum"
+  ]
+ }
+]

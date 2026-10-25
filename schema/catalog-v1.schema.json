@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ADMX Hub catalog index (catalog/v1/index.json)",
+  "type": "object",
+  "required": ["schema", "generated", "products"],
+  "properties": {
+    "schema": {"const": "admxhub/catalog/v1"},
+    "generated": {"type": "string", "format": "date-time"},
+    "generator": {"type": "string"},
+    "warnings": {"type": "array", "items": {"type": "string"}},
+    "products": {"type": "array", "items": {"$ref": "#/$defs/product"}}
+  },
+  "$defs": {
+    "file": {"type": "object", "required": ["name", "kind", "sha256"],
+             "properties": {"name": {"type": "string"}, "kind": {"enum": ["admx", "adml"]}, "lang": {"type": ["string", "null"]},
+                            "sha256": {"type": "string"}, "size": {"type": "integer"}}},
+    "version": {"type": "object", "required": ["version", "url", "sha256", "files"],
+                "properties": {"version": {"type": "string"}, "date": {"type": "string"}, "discovered": {"type": "string"},
+                               "url": {"type": "string", "description": "Vendor download URL (templates are not hosted)"},
+                               "sha256": {"type": "string"}, "size": {"type": "integer"},
+                               "languages": {"type": "array", "items": {"type": "string"}},
+                               "files": {"type": "array", "items": {"$ref": "#/$defs/file"}},
+                               "admxCount": {"type": "integer"}, "policyCount": {"type": "integer"},
+                               "namespaces": {"type": "array", "items": {"type": "string"}},
+                               "diff": {"type": "object", "properties": {"previous": {"type": ["string", "null"]}, "added": {"type": "integer"},
+                                                                          "removed": {"type": "integer"}, "changed": {"type": "integer"}}}}},
+    "product": {"type": "object", "required": ["id", "name", "vendor"],
+                "properties": {"id": {"type": "string"}, "name": {"type": "string"}, "vendor": {"type": "string"},
+                               "description": {"type": "string"}, "homepage": {"type": "string"}, "license": {"type": "string"},
+                               "markers": {"type": "array", "items": {"type": "string"}}, "mirror": {"type": "boolean"},
+                               "latest": {"oneOf": [{"$ref": "#/$defs/version"}, {"type": "null"}]},
+                               "versionCount": {"type": "integer"},
+                               "status": {"type": "object", "properties": {"lastChecked": {"type": "string"}, "lastSuccess": {"type": "string"},
+                                                                            "error": {"type": ["string", "null"]}, "consecutiveFailures": {"type": "integer"}}}}}
+  }
+}
