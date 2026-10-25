@@ -120,14 +120,15 @@ def build_one(src: Source, out: Path, force=False, mirror=False, log=print) -> d
                 fp = fingerprint(rel)
                 apply_version_from(src, bundle, rel)
                 policies, errors = policy_index(bundle)
-                namespaces = sorted({ns for f in bundle.files if f.kind == "admx" and (ns := namespace_of(f.path.read_bytes()))})
+                ns_files = {ns: f.name for f in bundle.files if f.kind == "admx" and (ns := namespace_of(f.path.read_bytes()))}
+                namespaces = sorted(ns_files)
                 prev_pol = _read(base / "policies" / src.id / f"{safe_version(latest['version'])}.json", []) if latest else []
                 d = diff_policies(prev_pol, policies) if latest else {"added": [], "removed": [], "changed": []}
                 entry = {
                     "version": rel.version, "date": rel.date, "discovered": now(), "url": rel.url, "sha256": bundle.sha256,
                     "size": bundle.size, "fingerprint": fp, "languages": bundle.languages,
                     "files": [f.to_json() for f in bundle.files], "admxCount": sum(f.kind == "admx" for f in bundle.files),
-                    "policyCount": len(policies), "namespaces": namespaces, "parseErrors": errors[:20],
+                    "policyCount": len(policies), "namespaces": namespaces, "namespaceFiles": ns_files, "parseErrors": errors[:20],
                     "diff": {"previous": latest["version"] if latest else None,
                              **{k: len(v) for k, v in d.items()}, "details": {k: v[:200] for k, v in d.items()}},
                 }
@@ -171,10 +172,12 @@ def build(sources: dict[str, Source], out: Path, only: list[str] | None = None, 
         if not p:
             continue
         latest = p["versions"][0] if p["versions"] else None
-        for ns in (latest or {}).get("namespaces", []):
-            if ns in ns_owner and ns_owner[ns] != i:
-                warnings.append(f"namespace {ns} is defined by both {ns_owner[ns]} and {i}")
-            ns_owner[ns] = i
+        for ns, fname in ((latest or {}).get("namespaceFiles") or {}).items():
+            # the same file shipped by two products (e.g. a shared parent category) is fine;
+            # the same namespace in differently named files breaks the Group Policy editor
+            if ns in ns_owner and ns_owner[ns][1].lower() != fname.lower():
+                warnings.append(f"namespace {ns} is defined by {ns_owner[ns][0]} ({ns_owner[ns][1]}) and {i} ({fname})")
+            ns_owner.setdefault(ns, (i, fname))
         products.append({**{k: v for k, v in p.items() if k != "versions"},
                          "latest": {k: v for k, v in latest.items() if k not in ("fingerprint",)} if latest else None,
                          "versionCount": len(p["versions"])})
