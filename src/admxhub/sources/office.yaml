@@ -1,0 +1,17 @@
+id: office
+name: Microsoft 365 Apps / Office
+vendor: Microsoft
+homepage: https://www.microsoft.com/download/details.aspx?id=49030
+description: Word, Excel, Outlook, Teams (classic), OneNote, Access, Visio, Project and Office-wide settings.
+license: proprietary
+mirror: false
+markers: [office16.admx, word16.admx]
+discovery:
+  type: html
+  url: https://www.microsoft.com/en-us/download/details.aspx?id=49030
+  browser: true
+  links: 'https://download\.microsoft\.com/download/[^"''<>]+'   # these links contain spaces
+  match: 'admintemplates_x64_[\d_]+_en-us\.exe$'
+  version: '_(\d+_\d+)_'
+archive:
+  exe_args: ['/extract:{dest}', '/quiet']   # how the package unpacks itself on Windows

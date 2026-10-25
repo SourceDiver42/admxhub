@@ -1,0 +1,205 @@
+"""Download template bundles, extract them on any OS and collect the ADMX/ADML files."""
+from __future__ import annotations
+
+import hashlib
+import os
+import re
+import shutil
+import subprocess
+import sys
+import tempfile
+import zipfile
+from dataclasses import dataclass, field
+from pathlib import Path
+
+import httpx2
+
+from .discovery import UA, Release
+
+LANG_RE = re.compile(r"^[a-z]{2,3}(-[a-z0-9]{2,8}){1,2}$", re.I)
+MAX_BYTES = 1024 * 1024 * 1024  # 1 GB safety limit
+
+
+class FetchError(RuntimeError):
+    pass
+
+
+@dataclass
+class TemplateFile:
+    name: str            # file name, e.g. msedge.admx
+    kind: str            # admx | adml
+    lang: str | None     # e.g. en-US for adml
+    path: Path           # extracted location
+    sha256: str = ""
+    size: int = 0
+
+    @property
+    def target(self) -> str:
+        """Relative path inside a PolicyDefinitions folder."""
+        return self.name if self.kind == "admx" else f"{self.lang}/{self.name}"
+
+    def to_json(self) -> dict:
+        return {"name": self.name, "kind": self.kind, "lang": self.lang, "sha256": self.sha256, "size": self.size}
+
+
+@dataclass
+class Bundle:
+    archive: Path
+    sha256: str
+    size: int
+    files: list[TemplateFile] = field(default_factory=list)
+    workdir: Path | None = None
+
+    @property
+    def languages(self) -> list[str]:
+        return sorted({f.lang for f in self.files if f.lang})
+
+    def cleanup(self) -> None:
+        if self.workdir:
+            shutil.rmtree(self.workdir, ignore_errors=True)
+
+
+def normalize_lang(lang: str) -> str:
+    parts = lang.split("-")
+    return "-".join([parts[0].lower()] + [p.upper() if len(p) <= 3 else p.title() for p in parts[1:]])
+
+
+def download(release: Release, dest_dir: Path, progress=None) -> tuple[Path, str, int]:
+    name = re.sub(r"[^\w .()+-]", "_", os.path.basename(release.url.split("?")[0])) or "download.bin"
+    path = dest_dir / name
+    h = hashlib.sha256()
+    total = 0
+    with httpx2.Client(headers={"User-Agent": UA}, follow_redirects=True, timeout=120) as c:
+        with c.stream("GET", release.url) as r:
+            r.raise_for_status()
+            with open(path, "wb") as f:
+                for chunk in r.iter_bytes(1 << 20):
+                    total += len(chunk)
+                    if total > MAX_BYTES:
+                        raise FetchError("download larger than 1 GB")
+                    h.update(chunk)
+                    f.write(chunk)
+                    if progress:
+                        progress(total)
+    digest = h.hexdigest()
+    if release.sha256 and release.sha256.lower() != digest:
+        raise FetchError(f"checksum mismatch: vendor says {release.sha256}, got {digest}")
+    return path, digest, total
+
+
+def _run(cmd: list[str], timeout=600) -> None:
+    try:
+        subprocess.run(cmd, check=True, capture_output=True, timeout=timeout)
+    except FileNotFoundError:
+        raise FetchError(f"'{cmd[0]}' is required to extract this file but was not found")
+    except subprocess.CalledProcessError as e:
+        out = (e.stderr or e.stdout or b"").decode(errors="replace").strip()[:300]
+        raise FetchError(f"{cmd[0]} failed ({e.returncode}): {out}")
+
+
+def _extract_zip(path: Path, dest: Path) -> None:
+    root = dest.resolve()
+    with zipfile.ZipFile(path) as z:
+        if sum(i.file_size for i in z.infolist()) > 4 * MAX_BYTES:
+            raise FetchError("archive too large when extracted")
+        for i in z.infolist():
+            target = (dest / i.filename).resolve()
+            if root not in target.parents and target != root:
+                continue  # zip-slip
+            if i.is_dir():
+                target.mkdir(parents=True, exist_ok=True)
+                continue
+            target.parent.mkdir(parents=True, exist_ok=True)
+            with z.open(i) as src, open(target, "wb") as out:
+                shutil.copyfileobj(src, out)
+
+
+def extract(path: Path, dest: Path, archive: dict | None = None) -> None:
+    """Extract one archive with what the current OS offers. archive.exe_args (from the source
+    definition) tells how a self-extracting .exe unpacks itself on Windows."""
+    dest.mkdir(parents=True, exist_ok=True)
+    low = path.name.lower()
+    win = sys.platform == "win32"
+    if low.endswith(".zip"):
+        _extract_zip(path, dest)
+    elif low.endswith(".msi"):
+        if win:  # administrative install = plain extraction, no elevation needed
+            _run(["msiexec", "/a", str(path), "/qn", f"TARGETDIR={dest}"])
+        else:  # (7z is no alternative here: it yields internal MSI file ids instead of file names)
+            if not shutil.which("msiextract"):
+                raise FetchError("msiextract (package 'msitools') is required to unpack .msi files on this OS")
+            _run(["msiextract", "-C", str(dest), str(path)])
+    elif low.endswith(".cab"):
+        if win:
+            _run(["expand.exe", str(path), "-F:*", str(dest)])
+        elif shutil.which("cabextract"):
+            _run(["cabextract", "-q", "-d", str(dest), str(path)])
+        else:
+            _run(["7z", "x", "-y", f"-o{dest}", str(path)])
+    elif low.endswith(".exe"):
+        # self-extracting packages usually embed a cabinet, which cabextract/7z can read directly
+        exe_args = (archive or {}).get("exe_args")
+        if win and exe_args:
+            _run([str(path)] + [a.replace("{dest}", str(dest)) for a in exe_args])
+        elif shutil.which("cabextract"):  # (7z mangles the embedded file names)
+            _run(["cabextract", "-q", "-d", str(dest), str(path)])
+        else:
+            raise FetchError("this .exe package needs archive.exe_args in its source (Windows) or cabextract")
+
+
+def expand_all(root: Path, depth: int = 0) -> None:
+    """Recursively extract archives found inside archives (e.g. Edge: cab → zip)."""
+    if depth > 3:
+        return
+    for p in list(root.rglob("*")):
+        # nested .exe files are installers inside bundles (e.g. FSLogix), not template packages
+        if p.is_file() and p.name.lower().endswith((".zip", ".msi", ".cab")):
+            out = p.with_name(p.name + ".x")
+            if out.exists():
+                continue
+            extract(p, out)
+            expand_all(out, depth + 1)
+
+
+def collect(root: Path, include: list[str] | None = None) -> list[TemplateFile]:
+    """Find ADMX/ADML files; ADML language comes from the nearest language-named folder."""
+    pats = [re.compile(p, re.I) for p in include or []]
+    found: dict[str, TemplateFile] = {}
+    for p in sorted(root.rglob("*")):
+        low = p.name.lower()
+        if not p.is_file() or not low.endswith((".admx", ".adml")):
+            continue
+        rel = p.relative_to(root).as_posix()
+        if pats and not any(x.search(rel) for x in pats):
+            continue
+        if low.endswith(".admx"):
+            tf = TemplateFile(p.name, "admx", None, p)
+        else:
+            lang = next((x for x in reversed(rel.split("/")[:-1]) if LANG_RE.match(x)), "en-US")
+            tf = TemplateFile(p.name, "adml", normalize_lang(lang), p)
+        if tf.target.lower() in found:
+            continue  # first one wins (bundles sometimes ship duplicates/examples)
+        data = p.read_bytes()
+        tf.sha256 = hashlib.sha256(data).hexdigest()
+        tf.size = len(data)
+        found[tf.target.lower()] = tf
+    return sorted(found.values(), key=lambda f: (f.lang or "", f.name.lower()))
+
+
+def fetch(release: Release, archive: dict | None = None, workdir: Path | None = None, progress=None) -> Bundle:
+    """Download and extract; archive = the source's archive settings (include, exe_args)."""
+    archive = archive or {}
+    work = Path(workdir or tempfile.mkdtemp(prefix="admxhub-"))
+    dl = work / "download"
+    dl.mkdir(parents=True, exist_ok=True)
+    path, digest, size = download(release, dl, progress)
+    if path.name.lower().endswith((".admx", ".adml")):
+        files_root = dl
+    else:
+        files_root = work / "x"
+        extract(path, files_root, archive)
+        expand_all(files_root)
+    files = collect(files_root, archive.get("include"))
+    if not files:
+        raise FetchError("no .admx/.adml files found in the download")
+    return Bundle(archive=path, sha256=digest, size=size, files=files, workdir=work)

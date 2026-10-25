@@ -1,0 +1,11 @@
+id: acrobat
+name: Adobe Acrobat
+vendor: Adobe
+homepage: https://www.adobe.com/devnet-docs/acrobatetk/
+description: Acrobat (Pro/Standard) policies.
+license: proprietary
+mirror: false
+markers: [acrobatdc.admx, acrobat.admx]
+discovery:
+  type: static
+  url: https://ardownload2.adobe.com/pub/adobe/acrobat/win/AcrobatDC/misc/AcrobatADMTemplate.zip

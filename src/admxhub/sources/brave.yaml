@@ -1,0 +1,22 @@
+id: brave
+name: Brave Browser
+vendor: Brave
+homepage: https://support.brave.com/hc/en-us/articles/360039248271-Group-Policy
+description: Brave browser policies.
+license: MPL-2.0
+mirror: false
+markers: [brave.admx]
+discovery:
+  type: json
+  url: https://api.github.com/repos/brave/brave-browser/releases/latest
+  headers:
+    Accept: application/vnd.github+json
+    Authorization: Bearer ${GITHUB_TOKEN}   # optional, only sent when the variable is set
+  items: root.assets
+  filter: {field: name, regex: '^policy_templates\.zip$'}
+  fields:
+    version: root.tag_name
+    url: item.browser_download_url
+    date: root.published_at
+    size: item.size
+    sha256: item.digest

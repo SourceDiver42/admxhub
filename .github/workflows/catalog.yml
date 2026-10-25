@@ -1,0 +1,100 @@
+name: Catalog
+
+# Builds the catalog (metadata only: no template files are hosted), keeps its history on the
+# `data` branch and publishes it with the website on GitHub Pages.
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+    inputs:
+      products:
+        description: "Only these product ids (space separated, empty = all)"
+        required: false
+        default: ""
+      force:
+        description: "Re-download even if unchanged"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths: ["src/admxhub/sources/**", "site/**"]
+
+permissions:
+  contents: write   # push the data branch
+  issues: write     # report sources that keep failing
+  pages: write
+  id-token: write
+
+concurrency:
+  group: catalog
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check out previous catalog (data branch)
+        run: |
+          if git ls-remote --exit-code --heads origin data >/dev/null; then
+            git clone --depth 1 --branch data "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" public
+          else
+            mkdir public && git -C public init -b data && git -C public remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+          fi
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install extraction tools and admxhub
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq msitools cabextract
+          pip install .
+
+      - name: Build catalog
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PRODUCTS: ${{ inputs.products }}
+          FORCE: ${{ inputs.force && '--force' || '' }}
+        run: |
+          if [[ ! "$PRODUCTS" =~ ^[a-z0-9\ -]*$ ]]; then echo "invalid product list"; exit 1; fi
+          admxhub build --out public $FORCE $PRODUCTS
+
+      - name: Add website
+        env:
+          PAGES_DOMAIN: ${{ vars.PAGES_DOMAIN }}   # set this repository variable once the custom domain exists
+        run: |
+          cp -r site/. public/
+          cp -r schema public/
+          if [ -n "$PAGES_DOMAIN" ]; then echo "$PAGES_DOMAIN" > public/CNAME; else rm -f public/CNAME; fi
+          touch public/.nojekyll
+
+      - name: Save catalog history to the data branch
+        run: |
+          cd public
+          git config user.name "admxhub-bot"
+          git config user.email "admxhub-bot@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -q -m "catalog: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push -q origin data
+
+      - name: Report failing sources
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/report_failures.py public/catalog/v1/index.json
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

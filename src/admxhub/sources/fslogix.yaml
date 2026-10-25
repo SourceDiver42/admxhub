@@ -1,0 +1,13 @@
+id: fslogix
+name: FSLogix
+vendor: Microsoft
+homepage: https://learn.microsoft.com/fslogix/
+description: Profile containers for multi-session and VDI. The download is large because it includes the installers.
+license: proprietary
+mirror: false
+markers: [fslogix.admx]
+discovery:
+  type: redirect
+  browser: true
+  url: https://aka.ms/fslogix/download
+  version: '(\d+(?:[._]\d+)+)'

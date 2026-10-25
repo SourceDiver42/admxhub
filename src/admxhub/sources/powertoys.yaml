@@ -1,0 +1,22 @@
+id: powertoys
+name: PowerToys
+vendor: Microsoft
+homepage: https://github.com/microsoft/PowerToys
+description: Enable or disable individual PowerToys utilities.
+license: MIT
+mirror: false
+markers: [powertoys.admx]
+discovery:
+  type: json
+  url: https://api.github.com/repos/microsoft/PowerToys/releases/latest
+  headers:
+    Accept: application/vnd.github+json
+    Authorization: Bearer ${GITHUB_TOKEN}   # optional, only sent when the variable is set
+  items: root.assets
+  filter: {field: name, regex: '^GroupPolicyObjectFiles-[\d.]+\.zip$'}
+  fields:
+    version: root.tag_name
+    url: item.browser_download_url
+    date: root.published_at
+    size: item.size
+    sha256: item.digest

@@ -1,0 +1,22 @@
+id: firefox
+name: Mozilla Firefox
+vendor: Mozilla
+homepage: https://github.com/mozilla/policy-templates
+description: Firefox browser policies.
+license: MPL-2.0
+mirror: false
+markers: [firefox.admx]
+discovery:
+  type: json
+  url: https://api.github.com/repos/mozilla/policy-templates/releases/latest
+  headers:
+    Accept: application/vnd.github+json
+    Authorization: Bearer ${GITHUB_TOKEN}   # optional, only sent when the variable is set
+  items: root.assets
+  filter: {field: name, regex: '^policy_templates_v[\d.]+\.zip$'}
+  fields:
+    version: root.tag_name
+    url: item.browser_download_url
+    date: root.published_at
+    size: item.size
+    sha256: item.digest

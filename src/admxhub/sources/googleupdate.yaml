@@ -1,0 +1,11 @@
+id: googleupdate
+name: Google Update
+vendor: Google
+homepage: https://support.google.com/chrome/a/answer/6350036
+description: Update channel and auto-update control for Chrome.
+license: proprietary
+mirror: false
+markers: [googleupdate.admx]
+discovery:
+  type: static
+  url: https://dl.google.com/dl/update2/enterprise/googleupdateadmx.zip

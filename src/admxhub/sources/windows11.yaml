@@ -1,0 +1,15 @@
+id: windows11
+name: Windows 11
+vendor: Microsoft
+homepage: https://learn.microsoft.com/troubleshoot/windows-client/group-policy/create-and-manage-central-store
+description: All Windows settings, including Defender, BitLocker, Windows Update and Windows LAPS. Newer releases contain the older ones.
+license: proprietary
+mirror: false
+markers: [windows.admx]
+discovery:
+  type: html
+  url: https://www.microsoft.com/en-us/download/details.aspx?id=108847   # new Download Center page for each Windows release
+  browser: true
+  links: 'https://download\.microsoft\.com/download/[^"''<>]+'   # these links contain spaces
+  match: 'Administrative Templates \(\.admx\) for Windows 11 [^/]*\.msi$'
+  version: 'for Windows \d+ (.+?)\.msi$'

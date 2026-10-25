@@ -1,0 +1,15 @@
+id: chrome
+name: Google Chrome
+vendor: Google
+homepage: https://chromeenterprise.google/browser/download/
+description: Chrome browser policies.
+license: proprietary
+mirror: false
+markers: [chrome.admx]
+discovery:
+  type: static
+  url: https://dl.google.com/dl/edgedl/chrome/policy/policy_templates.zip
+version_from:
+  file: VERSION
+  pattern: 'MAJOR=(\d+)\s+MINOR=(\d+)\s+BUILD=(\d+)\s+PATCH=(\d+)'
+  join: '.'

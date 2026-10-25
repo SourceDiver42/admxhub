@@ -1,0 +1,19 @@
+id: edge
+name: Microsoft Edge
+vendor: Microsoft
+homepage: https://www.microsoft.com/edge/business/download
+description: Edge browser, Edge Update and WebView2.
+license: proprietary
+mirror: false
+markers: [msedge.admx]
+discovery:
+  type: json
+  url: https://edgeupdates.microsoft.com/api/products?view=enterprise
+  items: "root[?Product=='Policy'] | [0].Releases"
+  order_by: ProductVersion
+  fields:
+    version: item.ProductVersion
+    url: item.Artifacts[0].Location
+    date: item.PublishedTime
+    size: item.Artifacts[0].SizeInBytes
+    sha256: item.Artifacts[0].Hash

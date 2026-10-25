@@ -1,0 +1,7 @@
+ADMX Hub
+
+Much of the research into where vendors publish their ADMX templates comes from
+EvergreenAdmx by Arjan Mensch (msfreaks), https://github.com/msfreaks/EvergreenAdmx,
+licensed under the MIT License.
+
+The ADMX/ADML parser is shared with the ADWeb project.

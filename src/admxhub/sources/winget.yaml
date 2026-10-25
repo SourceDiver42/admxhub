@@ -1,0 +1,22 @@
+id: winget
+name: Windows Package Manager (winget)
+vendor: Microsoft
+homepage: https://github.com/microsoft/winget-cli
+description: Allowed sources, auto-update and experimental features of winget.
+license: MIT
+mirror: false
+markers: [desktopappinstaller.admx]
+discovery:
+  type: json
+  url: https://api.github.com/repos/microsoft/winget-cli/releases/latest
+  headers:
+    Accept: application/vnd.github+json
+    Authorization: Bearer ${GITHUB_TOKEN}   # optional, only sent when the variable is set
+  items: root.assets
+  filter: {field: name, regex: '^DesktopAppInstallerPolicies\.zip$'}
+  fields:
+    version: root.tag_name
+    url: item.browser_download_url
+    date: root.published_at
+    size: item.size
+    sha256: item.digest

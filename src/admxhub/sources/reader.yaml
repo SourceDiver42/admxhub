@@ -1,0 +1,11 @@
+id: reader
+name: Adobe Acrobat Reader
+vendor: Adobe
+homepage: https://www.adobe.com/devnet-docs/acrobatetk/
+description: Acrobat Reader policies.
+license: proprietary
+mirror: false
+markers: [acrobatreaderdc.admx, readerdc.admx, reader.admx]
+discovery:
+  type: static
+  url: https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/misc/ReaderADMTemplate.zip

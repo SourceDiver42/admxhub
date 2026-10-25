@@ -1,0 +1,69 @@
+name: Windows CLI
+
+# Builds a standalone admxhub.exe (no Python needed) and smoke-tests every extraction path on Windows.
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+    paths: ["src/**", "scripts/**", "pyproject.toml", ".github/workflows/windows-cli.yml"]
+  pull_request:
+    paths: ["src/**", "scripts/**", "pyproject.toml", ".github/workflows/windows-cli.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write   # attach the exe to releases
+
+jobs:
+  build:
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e ".[dev]"
+
+      - name: Check tag matches package version
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: |
+          $v = python -c "import admxhub; print(admxhub.__version__)"
+          if ("v$v" -ne "${{ github.ref_name }}") { throw "tag ${{ github.ref_name }} does not match version $v" }
+
+      - name: Build admxhub.exe
+        run: pyinstaller --onefile --name admxhub --collect-data admxhub --noconfirm scripts/admxhub_entry.py
+
+      - name: Smoke tests
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          $exe = ".\dist\admxhub.exe"
+          $out = Join-Path $env:RUNNER_TEMP "admx"
+          & $exe --version; if ($LASTEXITCODE) { throw "version" }
+          & $exe validate; if ($LASTEXITCODE) { throw "validate" }
+          & $exe check --live; if ($LASTEXITCODE -eq 1) { throw "check" }   # 2 = some vendor failed: not fatal here
+          & $exe download firefox --out $out --lang en-US; if ($LASTEXITCODE) { throw "zip" }
+          & $exe download edge --out $out --lang en-US; if ($LASTEXITCODE) { throw "cab containing zip (expand.exe)" }
+          & $exe download office --out $out; if ($LASTEXITCODE) { throw "self-extracting exe" }
+          & $exe download windows11 --out $out --lang en-US; if ($LASTEXITCODE) { throw "msi (msiexec /a)" }
+          & $exe install firefox edge --store (Join-Path $env:RUNNER_TEMP "PolicyDefinitions") --yes; if ($LASTEXITCODE) { throw "install" }
+          & $exe status --store (Join-Path $env:RUNNER_TEMP "PolicyDefinitions"); if ($LASTEXITCODE) { throw "status" }
+          Get-ChildItem -Recurse $out -Filter *.admx | Measure-Object | ForEach-Object { "admx files: $($_.Count)" }
+
+      - name: Checksum
+        run: (Get-FileHash dist\admxhub.exe -Algorithm SHA256).Hash.ToLower() + "  admxhub.exe" | Out-File -Encoding ascii dist\admxhub.exe.sha256
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: admxhub-windows-x64
+          path: |
+            dist/admxhub.exe
+            dist/admxhub.exe.sha256
+
+      - name: Publish release
+        if: startsWith(github.ref, 'refs/tags/v')
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release create "${{ github.ref_name }}" dist/admxhub.exe dist/admxhub.exe.sha256 --title "admxhub ${{ github.ref_name }}" --generate-notes
