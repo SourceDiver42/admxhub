@@ -35,9 +35,9 @@ admxhub download windows11 --out .   download and extract only
 - `--json` on any command for scripting; `--dry-run` for install/update.
 - Before writing, `install` warns when a template defines a namespace that another file in the store
   already defines (the usual cause of "namespace already defined" errors in the Group Policy editor).
-- Extraction uses what the OS provides: `msiexec /a`, `expand.exe` and the vendor's own extraction
-  switch on Windows; `msitools` and `cabextract` on Linux and macOS (`apt install msitools cabextract`,
-  `brew install msitools cabextract`).
+- Extraction: `.msi` packages are read directly by admxhub (no installer involved); cabinets use
+  `tar` (built into Windows 10+ and macOS) or `cabextract`; self-extracting `.exe` packages use the
+  vendor's extraction switch on Windows or `cabextract` elsewhere. `msiexec`/`msitools` are fallbacks.
 
 ## How products are described
 

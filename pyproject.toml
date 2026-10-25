@@ -12,6 +12,7 @@ requires-python = ">=3.10"
 dependencies = [
     "httpx2==2.14.0",
     "jmespath==1.0.1",
+    "olefile==0.47",
     "PyYAML==6.0.3",
 ]
 

@@ -173,16 +173,24 @@ def extract(path: Path, dest: Path, archive: dict | None = None) -> None:
     if low.endswith(".zip"):
         _extract_zip(path, dest)
     elif low.endswith(".msi"):
-        if win:  # administrative install = plain extraction, no elevation needed
+        # 1) read the package directly (works everywhere, no installer service involved),
+        # 2) fall back to the platform tools
+        from .msi import MsiError, extract_msi
+        try:
+            extract_msi(path, dest, lambda cab, out: extract(cab, out))
+            return
+        except (MsiError, FetchError, OSError, ValueError) as e:
+            direct_error = e
+        if win:  # administrative install = plain extraction
             log = dest.parent / (path.name + ".log")
             try:
                 _run(["msiexec", "/a", str(path), "/qn", f"TARGETDIR={dest}", "/l*v", str(log)])
             except FetchError as e:
-                raise FetchError(f"{e} {_msi_log_excerpt(log)}") from None
-        else:  # (7z is no alternative here: it yields internal MSI file ids instead of file names)
-            if not shutil.which("msiextract"):
-                raise FetchError("msiextract (package 'msitools') is required to unpack .msi files on this OS")
+                raise FetchError(f"direct extraction failed ({direct_error}); {e} {_msi_log_excerpt(log)}") from None
+        elif shutil.which("msiextract"):
             _run(["msiextract", "-C", str(dest), str(path)])
+        else:
+            raise FetchError(f"could not read {path.name} ({direct_error}); installing msitools may help")
     elif low.endswith(".cab"):
         # tar = libarchive's bsdtar (built into Windows 10+ and macOS), which reads cabinets too
         if win:
