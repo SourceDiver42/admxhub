@@ -101,61 +101,128 @@ def fingerprint(r: Release) -> str:
     return r.sha256 or r.etag or f"{r.url}|{r.date}|{r.size or ''}"
 
 
+def index_release(src: Source, rel: Release, out: Path, mirror=False, discovered: str | None = None) -> dict:
+    """Download one release, write its policy index and return its version entry (diff filled in later)."""
+    base = out / "catalog" / "v1"
+    fp = fingerprint(rel)
+    bundle = fetch(rel, src.archive)
+    try:
+        apply_version_from(src, bundle, rel)
+        policies, errors = policy_index(bundle)
+        ns_files = {ns: f.name for f in bundle.files if f.kind == "admx" and (ns := namespace_of(f.path.read_bytes()))}
+        _write(base / "policies" / src.id / f"{safe_version(rel.version)}.json", policies)
+        if mirror and src.mirror:
+            dest = out / "mirror" / src.id / safe_version(rel.version)
+            for f in bundle.files:
+                (dest / f.target).parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(f.path, dest / f.target)
+        return {
+            "version": rel.version, "date": rel.date, "discovered": discovered or now(), "url": rel.url,
+            "sha256": bundle.sha256, "size": bundle.size, "fingerprint": fp, "languages": bundle.languages,
+            "files": [f.to_json() for f in bundle.files], "admxCount": sum(f.kind == "admx" for f in bundle.files),
+            "policyCount": len(policies), "namespaces": sorted(ns_files), "namespaceFiles": ns_files, "parseErrors": errors[:20],
+        }
+    finally:
+        bundle.cleanup()
+
+
+NUMERIC_VERSION = re.compile(r"^\d+(\.\d+)+$")
+
+
+def _vkey(version: str) -> list:
+    return [(0, int(x), "") if x.isdigit() else (1, 0, x) for x in re.split(r"[.\-_ ]", version)]
+
+
+def order_versions(versions: list[dict]) -> list[dict]:
+    """Newest first: by version number when all versions are dotted numbers (release dates can
+    lie, e.g. a patch for an older branch published later), otherwise by release/discovery date."""
+    if versions and all(NUMERIC_VERSION.match(v["version"]) for v in versions):
+        return sorted(versions, key=lambda v: _vkey(v["version"]), reverse=True)
+    return sorted(versions, key=lambda v: ((v.get("date") or v.get("discovered") or "")[:10], _vkey(v["version"])), reverse=True)
+
+
+def recompute_diffs(base: Path, sid: str, versions: list[dict]) -> list[dict]:
+    """Sort newest first and diff every version against the next older one."""
+    versions = order_versions(versions)
+    cache: dict[str, list] = {}
+
+    def pols(v):
+        if v["version"] not in cache:
+            cache[v["version"]] = _read(base / "policies" / sid / f"{safe_version(v['version'])}.json", [])
+        return cache[v["version"]]
+    for i, v in enumerate(versions):
+        older = versions[i + 1] if i + 1 < len(versions) else None
+        if older is None:
+            v["diff"] = {"previous": None, "added": 0, "removed": 0, "changed": 0, "details": {"added": [], "removed": [], "changed": []}}
+            continue
+        d = diff_policies(pols(older), pols(v))
+        v["diff"] = {"previous": older["version"], **{k: len(x) for k, x in d.items()}, "details": {k: x[:200] for k, x in d.items()}}
+    return versions
+
+
+def _save_product(src: Source, out: Path, status: dict, versions: list[dict]) -> dict:
+    base = out / "catalog" / "v1"
+    versions = recompute_diffs(base, src.id, versions)[:MAX_VERSIONS]
+    prod = {**src.to_json(), "status": status, "versions": versions}
+    _write(base / "products" / f"{src.id}.json", prod)
+    return prod
+
+
 def build_one(src: Source, out: Path, force=False, mirror=False, log=print) -> dict:
     base = out / "catalog" / "v1"
-    prod_path = base / "products" / f"{src.id}.json"
-    prod = _read(prod_path, {"versions": [], "status": {}})
+    prod = _read(base / "products" / f"{src.id}.json", {"versions": [], "status": {}})
     status = prod.get("status") or {}
     status["lastChecked"] = now()
     versions = prod.get("versions") or []
     latest = versions[0] if versions else None
     try:
         rel = resolve(src)
-        if latest and not force and fingerprint(rel) == latest.get("fingerprint"):
-            log(f"  {src.id}: unchanged ({latest['version']})")
+        known = {v.get("fingerprint") for v in versions}
+        if not force and fingerprint(rel) in known:
+            log(f"  {src.id}: unchanged ({latest['version'] if latest else rel.version})")
         else:
             log(f"  {src.id}: fetching {rel.version} from {rel.url}")
-            bundle = fetch(rel, src.archive)
-            try:
-                fp = fingerprint(rel)
-                apply_version_from(src, bundle, rel)
-                policies, errors = policy_index(bundle)
-                ns_files = {ns: f.name for f in bundle.files if f.kind == "admx" and (ns := namespace_of(f.path.read_bytes()))}
-                namespaces = sorted(ns_files)
-                prev_pol = _read(base / "policies" / src.id / f"{safe_version(latest['version'])}.json", []) if latest else []
-                d = diff_policies(prev_pol, policies) if latest else {"added": [], "removed": [], "changed": []}
-                entry = {
-                    "version": rel.version, "date": rel.date, "discovered": now(), "url": rel.url, "sha256": bundle.sha256,
-                    "size": bundle.size, "fingerprint": fp, "languages": bundle.languages,
-                    "files": [f.to_json() for f in bundle.files], "admxCount": sum(f.kind == "admx" for f in bundle.files),
-                    "policyCount": len(policies), "namespaces": namespaces, "namespaceFiles": ns_files, "parseErrors": errors[:20],
-                    "diff": {"previous": latest["version"] if latest else None,
-                             **{k: len(v) for k, v in d.items()}, "details": {k: v[:200] for k, v in d.items()}},
-                }
-                if latest and latest["version"] == rel.version and latest.get("sha256") == bundle.sha256:
-                    latest["fingerprint"] = fp  # same content, new headers
-                    log(f"  {src.id}: same content as {rel.version}")
-                else:
-                    _write(base / "policies" / src.id / f"{safe_version(rel.version)}.json", policies)
-                    versions = [entry] + [v for v in versions if v["version"] != rel.version]
-                    if mirror and src.mirror:
-                        dest = out / "mirror" / src.id / safe_version(rel.version)
-                        for f in bundle.files:
-                            (dest / f.target).parent.mkdir(parents=True, exist_ok=True)
-                            shutil.copy2(f.path, dest / f.target)
-                    log(f"  {src.id}: new version {rel.version} ({len(policies)} policies, +{len(d['added'])} -{len(d['removed'])})")
-            finally:
-                bundle.cleanup()
+            entry = index_release(src, rel, out, mirror)
+            same = next((v for v in versions if v["version"] == entry["version"] and v.get("sha256") == entry["sha256"]), None)
+            if same:
+                same["fingerprint"] = entry["fingerprint"]  # same content, new headers
+                log(f"  {src.id}: same content as {entry['version']}")
+            else:
+                versions = [entry] + [v for v in versions if v["version"] != entry["version"]]
+                log(f"  {src.id}: new version {entry['version']} ({entry['policyCount']} policies)")
         status.update(lastSuccess=now(), error=None, consecutiveFailures=0)
     except (DiscoveryError, FetchError, OSError, ValueError) as e:
         status.update(error=str(e)[:500], consecutiveFailures=int(status.get("consecutiveFailures") or 0) + 1)
         log(f"  {src.id}: FAILED: {e}")
-    prod = {**src.to_json(), "status": status, "versions": versions[:MAX_VERSIONS]}
-    _write(prod_path, prod)
-    return prod
+    return _save_product(src, out, status, versions)
 
 
-def build(sources: dict[str, Source], out: Path, only: list[str] | None = None, force=False, mirror=False, log=print) -> dict:
+def backfill_one(src: Source, out: Path, limit: int = 20, mirror=False, log=print) -> dict:
+    """Add past releases (from the source's `history` block) to the product's version history."""
+    from .discovery import history
+    base = out / "catalog" / "v1"
+    prod = _read(base / "products" / f"{src.id}.json", {"versions": [], "status": {}})
+    versions = prod.get("versions") or []
+    if not src.history:
+        log(f"  {src.id}: no history source defined; history builds up from now on")
+        return _save_product(src, out, prod.get("status") or {}, versions)
+    have = {v["version"] for v in versions}
+    releases = history(src, limit)
+    todo = [r for r in releases if r.version not in have]
+    log(f"  {src.id}: {len(releases)} past releases listed, {len(todo)} new")
+    for rel in todo:
+        try:
+            entry = index_release(src, rel, out, mirror, discovered=(rel.date + "T00:00:00Z") if rel.date else None)
+            entry["backfilled"] = True
+            versions = [v for v in versions if v["version"] != entry["version"]] + [entry]
+            log(f"    {rel.version}: {entry['policyCount']} policies")
+        except (FetchError, OSError, ValueError) as e:
+            log(f"    {rel.version}: skipped ({e})")
+    return _save_product(src, out, prod.get("status") or {}, versions)
+
+
+def build(sources: dict[str, Source], out: Path, only: list[str] | None = None, force=False, mirror=False, log=print,
+          backfill: int = 0) -> dict:
     out = Path(out)
     base = out / "catalog" / "v1"
     ids = only or sorted(sources)
@@ -165,6 +232,8 @@ def build(sources: dict[str, Source], out: Path, only: list[str] | None = None, 
     log(f"Building catalog for {len(ids)} products into {base}")
     for i in ids:
         build_one(sources[i], out, force=force, mirror=mirror, log=log)
+        if backfill:
+            backfill_one(sources[i], out, limit=backfill, mirror=mirror, log=log)
     # index over all products (including ones not rebuilt this run)
     products, ns_owner, warnings = [], {}, []
     for i in sorted(sources):
@@ -193,7 +262,8 @@ def write_feed(base: Path, products: list[dict], sources: dict[str, Source]) -> 
     for p in products:
         hist = _read(base / "products" / f"{p['id']}.json", {"versions": []})["versions"]
         for v in hist[:10]:
-            entries.append((v.get("discovered") or now(), p, v))
+            if not v.get("backfilled"):  # historic versions are not news
+                entries.append((v.get("discovered") or now(), p, v))
     entries.sort(key=lambda e: e[0], reverse=True)
     items = []
     for when, p, v in entries[:100]:

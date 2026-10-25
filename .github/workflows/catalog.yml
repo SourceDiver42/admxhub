@@ -15,6 +15,10 @@ on:
         description: "Re-download even if unchanged"
         type: boolean
         default: false
+      backfill:
+        description: "Also add up to N past releases per product (products with a history source)"
+        required: false
+        default: "0"
   push:
     branches: [main]
     paths: ["src/admxhub/sources/**", "site/**"]
@@ -57,9 +61,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PRODUCTS: ${{ inputs.products }}
           FORCE: ${{ inputs.force && '--force' || '' }}
+          BACKFILL: ${{ inputs.backfill || '0' }}
         run: |
           if [[ ! "$PRODUCTS" =~ ^[a-z0-9\ -]*$ ]]; then echo "invalid product list"; exit 1; fi
-          admxhub build --out public $FORCE $PRODUCTS
+          if [[ ! "$BACKFILL" =~ ^[0-9]+$ ]]; then echo "backfill must be a number"; exit 1; fi
+          admxhub build --out public $FORCE --backfill "$BACKFILL" $PRODUCTS
 
       - name: Add website
         env:

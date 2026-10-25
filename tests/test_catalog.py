@@ -55,3 +55,34 @@ def test_failure_is_recorded(tmp_path, monkeypatch):
     idx = catalog.build({"demo": SRC}, tmp_path, log=lambda m: None)
     st = idx["products"][0]["status"]
     assert st["consecutiveFailures"] == 2 and "changed their site" in st["error"]
+
+
+def test_backfill_inserts_history_and_recomputes_diffs(tmp_path, monkeypatch):
+    import admxhub.discovery as disc
+    hist_src = validate({**{k: getattr(SRC, k) for k in ("id", "name", "vendor", "description", "homepage", "license", "markers")},
+                         "discovery": SRC.discovery,
+                         "history": {"url": "https://example.invalid/releases", "releases": "root",
+                                     "fields": {"version": "release.v", "url": "release.u"}}})
+    zips = {"1.0": make_zip(("Alpha",)), "2.0": make_zip(("Alpha", "Beta")), "3.0": make_zip(("Alpha", "Beta", "Gamma"))}
+    current = {"v": "3.0"}
+
+    def fake_download(release, dest, progress=None):
+        import hashlib
+        data = zips[release.version]
+        p = dest / "t.zip"
+        p.write_bytes(data)
+        return p, hashlib.sha256(data).hexdigest(), len(data)
+    monkeypatch.setattr(fetchmod, "download", fake_download)
+    monkeypatch.setattr(catalog, "resolve", lambda s: Release(version=current["v"], url="https://x/3", etag="e3"))
+    catalog.build({"demo": hist_src}, tmp_path, log=lambda m: None)  # first seen: 3.0 only
+    monkeypatch.setattr(disc, "history", lambda s, limit=20: [Release(version="2.0", url="https://x/2", date="2026-01-02"),
+                                                              Release(version="1.0", url="https://x/1", date="2026-01-01")])
+    idx = catalog.build({"demo": hist_src}, tmp_path, log=lambda m: None, backfill=5)
+    hist = json.loads((tmp_path / "catalog/v1/products/demo.json").read_text())["versions"]
+    assert [v["version"] for v in hist] == ["3.0", "2.0", "1.0"]
+    assert hist[0]["diff"]["previous"] == "2.0" and hist[0]["diff"]["details"]["added"] == ["Test.Policies:Gamma"]
+    assert hist[1]["diff"]["previous"] == "1.0" and hist[1]["backfilled"]
+    assert hist[2]["diff"]["previous"] is None
+    assert idx["products"][0]["latest"]["version"] == "3.0"
+    feed = (tmp_path / "catalog/v1/feed.xml").read_text()
+    assert "Demo 3.0" in feed and "Demo 2.0" not in feed

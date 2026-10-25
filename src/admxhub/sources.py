@@ -35,12 +35,13 @@ class Source:
     mirror: bool = False
     version_from: dict | None = None
     archive: dict = field(default_factory=dict)
+    history: dict | None = None
     path: str = ""
 
     def to_json(self) -> dict:
         return {"id": self.id, "name": self.name, "vendor": self.vendor, "description": self.description,
                 "homepage": self.homepage, "license": self.license, "markers": self.markers,
-                "discovery": self.discovery["type"], "mirror": self.mirror}
+                "discovery": self.discovery["type"], "mirror": self.mirror, "history": bool(self.history)}
 
 
 def validate(data: dict, path: str = "") -> Source:
@@ -87,12 +88,26 @@ def validate(data: dict, path: str = "") -> Source:
         raise SourceError(f"{where}: 'markers' must list at least one .admx file name")
     if data.get("mirror") and data["license"].lower() == "proprietary":
         raise SourceError(f"{where}: mirroring is not allowed for proprietary templates")
+    hist = data.get("history")
+    if hist:
+        if not hist.get("releases") or not {"version", "url"} <= set(hist.get("fields") or {}):
+            raise SourceError(f"{where}: history needs 'releases' and fields version/url")
+        if hist.get("url") and not str(hist["url"]).startswith("https://"):
+            raise SourceError(f"{where}: history.url must be https")
+        exprs = [hist["releases"], *hist["fields"].values()]
+        if hist.get("asset"):
+            exprs.append(hist["asset"].get("items", ""))
+        for v in exprs:
+            try:
+                jmespath.compile(str(v))
+            except jmespath.exceptions.JMESPathError as e:
+                raise SourceError(f"{where}: invalid JMESPath in history: {e}")
     vf = data.get("version_from")
     if vf and not {"file", "pattern"} <= set(vf):
         raise SourceError(f"{where}: version_from needs 'file' and 'pattern'")
     return Source(id=data["id"], name=data["name"], vendor=data["vendor"], description=data["description"].strip(),
                   homepage=data["homepage"], license=str(data["license"]), discovery=disc, markers=markers,
-                  mirror=bool(data.get("mirror")), version_from=vf, archive=data.get("archive") or {}, path=path)
+                  mirror=bool(data.get("mirror")), version_from=vf, archive=data.get("archive") or {}, history=hist, path=path)
 
 
 def load_all(directory: str | Path | None = None) -> dict[str, Source]:

@@ -156,6 +156,59 @@ def _json(d: dict) -> Release:
     return Release(version=version, url=str(url), date=str(get("date") or "")[:10], size=int(size) if size else None, sha256=sha)
 
 
+def history(src: Source, limit: int = 20) -> list[Release]:
+    """Past releases, newest first, as described by the source's optional `history` block:
+
+    url:       API returning the release list (default: discovery.url)
+    releases:  JMESPath over {root} giving the list of releases
+    asset:     optional {items: <expr on release>, filter: {field, regex}} to pick a file per release
+    order_by:  optional expression on release (version-sorted); default: date, then version
+    fields:    version / url (required), date, size, sha256 over {release, asset}
+    """
+    h = src.history
+    if not h:
+        return []
+    d = {**src.discovery, **{k: v for k, v in h.items() if k in ("url", "headers", "browser")}}
+    try:
+        with _client(d) as c:
+            r = c.get(d["url"])
+            r.raise_for_status()
+            root = r.json()
+        out = []
+        for rel in jmespath.search(h["releases"], {"root": root}) or []:
+            asset = None
+            if h.get("asset"):
+                cands = jmespath.search(h["asset"]["items"], rel) or []
+                flt = h["asset"].get("filter")
+                if flt:
+                    cands = [a for a in cands if re.search(flt["regex"], str(jmespath.search(flt["field"], a) or ""))]
+                if not cands:
+                    continue  # this release has no template file
+                asset = cands[0]
+            ctx = {"release": rel, "asset": asset}
+            f = h["fields"]
+            get = lambda k: jmespath.search(f[k], ctx) if f.get(k) else None
+            version, url = get("version"), get("url")
+            if not version or not url:
+                continue
+            sha = get("sha256")
+            sha = str(sha).split(":", 1)[-1].lower() if sha else None
+            size = get("size")
+            out.append(Release(version=str(version).lstrip("v"), url=str(url), date=str(get("date") or "")[:10],
+                               size=int(size) if size else None, sha256=sha if sha and re.fullmatch(r"[0-9a-f]{64}", sha) else None))
+    except httpx2.HTTPError as e:
+        raise DiscoveryError(f"{src.id}: {e}") from e
+    except (jmespath.exceptions.JMESPathError, KeyError, IndexError, TypeError, ValueError) as e:
+        raise DiscoveryError(f"{src.id}: unexpected history response ({e})") from e
+    key = (lambda r: _vkey(r.version)) if h.get("order_by") == "version" else (lambda r: (r.date, _vkey(r.version)))
+    seen, unique = set(), []
+    for r in sorted(out, key=key, reverse=True):
+        if r.version not in seen:
+            seen.add(r.version)
+            unique.append(r)
+    return unique[:limit]
+
+
 def _html(d: dict) -> Release:
     """links: pattern for candidate URLs in the page (default: absolute http(s) URLs);
     match: pattern the (URL-decoded) link must match; version: pattern applied to the file name."""

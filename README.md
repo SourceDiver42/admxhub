@@ -63,6 +63,23 @@ discovery:
   fields: {version: root.tag_name, url: item.browser_download_url, sha256: item.digest}
 ```
 
+### Version history
+
+The catalog keeps every version it sees from the first run on. Products whose vendor lists past
+releases (GitHub releases, Edge's API) can also describe that list in an optional `history` block;
+`admxhub build --backfill N` (or the catalog workflow's **Backfill** input) then adds up to N past
+releases per product, indexes their policies and computes the changes between neighbouring versions.
+Static download links (Chrome, Adobe), redirects and download pages only ever expose the current file,
+so their history starts with the first catalog run.
+
+```yaml
+history:
+  url: https://api.github.com/repos/brave/brave-browser/releases?per_page=100
+  releases: "root[?!prerelease && !draft]"
+  asset: {items: assets, filter: {field: name, regex: '^policy_templates\.zip$'}}
+  fields: {version: release.tag_name, url: asset.browser_download_url, date: release.published_at}
+```
+
 See [CONTRIBUTING.md](CONTRIBUTING.md) to add a product.
 
 ## The catalog

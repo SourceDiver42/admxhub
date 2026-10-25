@@ -17,3 +17,12 @@ discovery:
     date: item.PublishedTime
     size: item.Artifacts[0].SizeInBytes
     sha256: item.Artifacts[0].Hash
+history:
+  releases: "root[?Product=='Policy'] | [0].Releases"
+  order_by: version
+  fields:
+    version: release.ProductVersion
+    url: release.Artifacts[0].Location
+    date: release.PublishedTime
+    size: release.Artifacts[0].SizeInBytes
+    sha256: release.Artifacts[0].Hash

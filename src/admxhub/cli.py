@@ -270,7 +270,7 @@ def cmd_policies(args):
 def cmd_build(args):
     srcs = get_sources(args)
     index = build(srcs, Path(args.out), only=args.ids or None, force=args.force, mirror=args.mirror,
-                  log=(lambda m: info(args, m)))
+                  log=(lambda m: info(args, m)), backfill=args.backfill)
     failing = [p["id"] for p in index["products"] if (p.get("status") or {}).get("error")]
     emit(args, index, f"Catalog written to {args.out}: {len(index['products'])} products"
                       + (f", {len(failing)} failing: {', '.join(failing)}" if failing else ""))
@@ -349,6 +349,8 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--force", action="store_true", help="re-download even if unchanged")
     p.add_argument("--mirror", action="store_true", help="copy templates of sources with mirror: true")
     p.add_argument("--strict", action="store_true", help="exit 2 when a source fails")
+    p.add_argument("--backfill", type=int, default=0, metavar="N",
+                   help="also add up to N past releases per product (sources with a history block)")
     p.set_defaults(fn=cmd_build)
 
     command("validate", "validate the source definitions").set_defaults(fn=cmd_validate)

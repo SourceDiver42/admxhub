@@ -17,6 +17,8 @@ function h(tag, attrs, ...kids) {
   return el;
 }
 const clear = (el) => { el.replaceChildren(); return el; };
+// replace an element's content; null/false entries are skipped (native append would print "null")
+const fill = (el, ...kids) => { el.replaceChildren(...kids.flat(Infinity).filter((k) => k != null && k !== false)); return el; };
 const fmtSize = (n) => (n == null ? "" : n > 1048576 ? (n / 1048576).toFixed(1) + " MB" : Math.max(1, Math.round(n / 1024)) + " KB");
 const fmtDate = (s) => (s ? String(s).slice(0, 10) : "");
 const safe = (v) => String(v).replace(/[^\w.+-]/g, "_").slice(0, 80);
@@ -34,7 +36,7 @@ async function route() {
       document.getElementById("generated").textContent = `· updated ${INDEX.generated.replace("T", " ").slice(0, 16)} UTC`;
     }
   } catch (e) {
-    clear($app).append(h("h1", {}, "ADMX Hub"), h("p", { class: "muted" }, "The catalog has not been built yet. It is published by the daily GitHub Action."));
+    fill($app, h("h1", {}, "ADMX Hub"), h("p", { class: "muted" }, "The catalog has not been built yet. It is published by the daily GitHub Action."));
     return;
   }
   const [, page, id, sub] = location.hash.split("/");
@@ -68,7 +70,7 @@ function viewList() {
     }
   };
   search.oninput = draw;
-  clear($app).append(h("h1", {}, "Group Policy templates"),
+  fill($app, h("h1", {}, "Group Policy templates"),
     h("p", { class: "muted" }, `${INDEX.products.length} products. Latest versions, checksums, policy lists and what changed between releases. Subscribe to the `, h("a", { href: BASE + "feed.xml" }, "feed"), " to hear about new templates."),
     search, grid,
     INDEX.warnings && INDEX.warnings.length ? h("details", { style: "margin-top:20px" }, h("summary", { class: "muted small" }, "Namespace conflicts between products"), h("ul", { class: "small" }, INDEX.warnings.map((w) => h("li", {}, w)))) : null);
@@ -76,11 +78,11 @@ function viewList() {
 }
 
 async function viewProduct(id) {
-  clear($app).append(h("p", { class: "muted" }, "Loading…"));
+  fill($app, h("p", { class: "muted" }, "Loading…"));
   let p;
-  try { p = await getJSON(`${BASE}products/${id}.json`); } catch (e) { clear($app).append(h("p", {}, "Unknown product.")); return; }
+  try { p = await getJSON(`${BASE}products/${id}.json`); } catch (e) { fill($app, h("p", {}, "Unknown product.")); return; }
   const l = p.versions[0];
-  clear($app).append(
+  fill($app, 
     h("div", { class: "muted small" }, h("a", { href: "#/" }, "Templates"), " / ", p.vendor),
     h("div", { class: "row" }, h("h1", {}, p.name), health(p)),
     h("p", {}, p.description, " ", h("a", { href: p.homepage, rel: "noopener" }, "Vendor page")));
@@ -102,10 +104,11 @@ async function viewProduct(id) {
       l.files.filter((f) => f.kind === "admx" || f.lang === "en-US").map((f) => h("tr", {}, h("td", { class: "mono" }, f.name), h("td", {}, f.lang || "—"), h("td", { class: "small" }, fmtSize(f.size)), h("td", { class: "mono small" }, f.sha256))))),
     h("p", { class: "muted small" }, `Showing ADMX and en-US files of ${l.files.length}.`),
     h("h2", {}, "Version history"),
-    h("div", { class: "table-wrap" }, h("table", {}, h("tr", {}, h("th", {}, "Version"), h("th", {}, "Discovered"), h("th", {}, "Policies"), h("th", {}, "Changes")),
+    h("div", { class: "table-wrap" }, h("table", {}, h("tr", {}, h("th", {}, "Version"), h("th", {}, "Released"), h("th", {}, "Policies"), h("th", {}, "Changes")),
       p.versions.map((v) => {
         const d = v.diff || {};
-        return h("tr", {}, h("td", {}, h("strong", {}, v.version)), h("td", { class: "small" }, fmtDate(v.discovered)), h("td", {}, v.policyCount),
+        return h("tr", {}, h("td", {}, h("strong", {}, v.version), v.backfilled ? h("span", { class: "badge", style: "margin-left:6px", title: "Added from the vendor's release history" }, "historic") : null),
+          h("td", { class: "small" }, fmtDate(v.date || v.discovered)), h("td", {}, v.policyCount),
           h("td", { class: "small" }, d.previous ? diffDetails(d) : h("span", { class: "muted" }, "first recorded")));
       }))));
 }
@@ -118,7 +121,7 @@ function diffDetails(d) {
 }
 
 async function viewPolicies(id) {
-  clear($app).append(h("p", { class: "muted" }, "Loading…"));
+  fill($app, h("p", { class: "muted" }, "Loading…"));
   const p = await getJSON(`${BASE}products/${id}.json`);
   const v = p.versions[0];
   const pols = await getJSON(`${BASE}policies/${id}/${safe(v.version)}.json`);
@@ -134,14 +137,14 @@ async function viewPolicies(id) {
       h("td", { class: "small" }, x.class), h("td", { class: "mono" }, `${x.key}${x.valueName ? "\\" + x.valueName : ""}`))));
   };
   search.oninput = draw;
-  clear($app).append(h("div", { class: "muted small" }, h("a", { href: "#/" }, "Templates"), " / ", h("a", { href: `#/p/${id}` }, p.name)),
+  fill($app, h("div", { class: "muted small" }, h("a", { href: "#/" }, "Templates"), " / ", h("a", { href: `#/p/${id}` }, p.name)),
     h("h1", {}, `${p.name} ${v.version}: policies`), h("div", { class: "row" }, search, count),
     h("div", { class: "table-wrap", style: "margin-top:12px" }, h("table", {}, h("thead", {}, h("tr", {}, h("th", {}, "Policy"), h("th", {}, "Scope"), h("th", {}, "Registry"))), body)));
   draw();
 }
 
 function viewCli() {
-  clear($app).append(h("h1", {}, "admxhub CLI"),
+  fill($app, h("h1", {}, "admxhub CLI"),
     h("p", {}, "A single admxhub.exe for Windows (from the GitHub releases), or ", h("code", {}, "pip install admxhub"), " on any OS."),
     h("pre", {}, [
       "admxhub sources                     # known products",
