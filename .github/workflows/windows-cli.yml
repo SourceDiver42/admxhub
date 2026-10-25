@@ -39,18 +39,37 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          $ErrorActionPreference = "Continue"
           $exe = ".\dist\admxhub.exe"
           $out = Join-Path $env:RUNNER_TEMP "admx"
-          & $exe --version; if ($LASTEXITCODE) { throw "version" }
-          & $exe validate; if ($LASTEXITCODE) { throw "validate" }
-          & $exe check --live; if ($LASTEXITCODE -eq 1) { throw "check" }   # 2 = some vendor failed: not fatal here
-          & $exe download firefox --out $out --lang en-US; if ($LASTEXITCODE) { throw "zip" }
-          & $exe download edge --out $out --lang en-US; if ($LASTEXITCODE) { throw "cab containing zip (expand.exe)" }
-          & $exe download office --out $out; if ($LASTEXITCODE) { throw "self-extracting exe" }
-          & $exe download windows11 --out $out --lang en-US; if ($LASTEXITCODE) { throw "msi (msiexec /a)" }
-          & $exe install firefox edge --store (Join-Path $env:RUNNER_TEMP "PolicyDefinitions") --yes; if ($LASTEXITCODE) { throw "install" }
-          & $exe status --store (Join-Path $env:RUNNER_TEMP "PolicyDefinitions"); if ($LASTEXITCODE) { throw "status" }
-          Get-ChildItem -Recurse $out -Filter *.admx | Measure-Object | ForEach-Object { "admx files: $($_.Count)" }
+          $store = Join-Path $env:RUNNER_TEMP "PolicyDefinitions"
+          $failed = @()
+          # Every step runs; failures become annotations (visible in the run summary and the checks API).
+          function Step([string]$name, [string[]]$cmdArgs, [int[]]$ok = @(0)) {
+            Write-Host "::group::$name"
+            $o = & $exe @cmdArgs 2>&1 | Out-String
+            $code = $LASTEXITCODE
+            Write-Host $o
+            Write-Host "::endgroup::"
+            if ($ok -notcontains $code) {
+              $msg = ($o -replace "`r?`n", " | ").Trim()
+              if ($msg.Length -gt 900) { $msg = $msg.Substring($msg.Length - 900) }
+              Write-Host "::error title=smoke test '$name' failed (exit $code)::$msg"
+              $script:failed += $name
+            }
+          }
+          Step "version" @("--version")
+          Step "validate" @("validate")
+          Step "check" @("check", "--live") @(0, 2)   # 2 = a vendor did not answer: reported, not fatal
+          Step "zip (firefox)" @("download", "firefox", "--out", $out, "--lang", "en-US")
+          Step "cab with nested zip (edge)" @("download", "edge", "--out", $out, "--lang", "en-US")
+          Step "self-extracting exe (office)" @("download", "office", "--out", $out)
+          Step "msi (windows11)" @("download", "windows11", "--out", $out, "--lang", "en-US")
+          Step "install" @("install", "firefox", "chrome", "--store", $store, "--yes")
+          Step "status" @("status", "--store", $store)
+          $n = (Get-ChildItem -Recurse $out -Filter *.admx -ErrorAction SilentlyContinue | Measure-Object).Count
+          Write-Host "admx files extracted: $n"
+          if ($failed.Count) { throw "failed: $($failed -join ', ')" }
 
       - name: Checksum
         run: (Get-FileHash dist\admxhub.exe -Algorithm SHA256).Hash.ToLower() + "  admxhub.exe" | Out-File -Encoding ascii dist\admxhub.exe.sha256

@@ -87,14 +87,38 @@ def download(release: Release, dest_dir: Path, progress=None) -> tuple[Path, str
     return path, digest, total
 
 
-def _run(cmd: list[str], timeout=600) -> None:
+def _run(cmd: list[str], timeout=600) -> str:
     try:
-        subprocess.run(cmd, check=True, capture_output=True, timeout=timeout)
+        r = subprocess.run(cmd, check=True, capture_output=True, timeout=timeout)
+        return (r.stdout + r.stderr).decode(errors="replace").strip()
     except FileNotFoundError:
         raise FetchError(f"'{cmd[0]}' is required to extract this file but was not found")
     except subprocess.CalledProcessError as e:
         out = (e.stderr or e.stdout or b"").decode(errors="replace").strip()[:300]
         raise FetchError(f"{cmd[0]} failed ({e.returncode}): {out}")
+
+
+def _has_files(d: Path) -> bool:
+    return d.is_dir() and any(p.is_file() for p in d.rglob("*"))
+
+
+def _first_that_works(path: Path, dest: Path, commands: list[list[str]]) -> None:
+    """Try extractors in order until one actually produces files. Some tools (expand.exe)
+    report success even when they extract nothing, so the result is checked, not the exit code."""
+    notes = []
+    for cmd in commands:
+        if not shutil.which(cmd[0]):
+            notes.append(f"{cmd[0]}: not available")
+            continue
+        try:
+            out = _run(cmd)
+        except FetchError as e:
+            notes.append(str(e))
+            continue
+        if _has_files(dest):
+            return
+        notes.append(f"{cmd[0]}: produced no files ({out[:200]!r})")
+    raise FetchError(f"could not extract {path.name}: " + "; ".join(notes))
 
 
 def _extract_zip(path: Path, dest: Path) -> None:
@@ -130,12 +154,12 @@ def extract(path: Path, dest: Path, archive: dict | None = None) -> None:
                 raise FetchError("msiextract (package 'msitools') is required to unpack .msi files on this OS")
             _run(["msiextract", "-C", str(dest), str(path)])
     elif low.endswith(".cab"):
+        # tar = libarchive's bsdtar (built into Windows 10+ and macOS), which reads cabinets too
         if win:
-            _run(["expand.exe", str(path), "-F:*", str(dest)])
-        elif shutil.which("cabextract"):
-            _run(["cabextract", "-q", "-d", str(dest), str(path)])
+            _first_that_works(path, dest, [["expand.exe", str(path), "-F:*", str(dest)], ["tar", "-xf", str(path), "-C", str(dest)]])
         else:
-            _run(["7z", "x", "-y", f"-o{dest}", str(path)])
+            _first_that_works(path, dest, [["cabextract", "-q", "-d", str(dest), str(path)], ["7z", "x", "-y", f"-o{dest}", str(path)],
+                                           ["tar", "-xf", str(path), "-C", str(dest)]])
     elif low.endswith(".exe"):
         # self-extracting packages usually embed a cabinet, which cabextract/7z can read directly
         exe_args = (archive or {}).get("exe_args")
@@ -201,5 +225,6 @@ def fetch(release: Release, archive: dict | None = None, workdir: Path | None = 
         expand_all(files_root)
     files = collect(files_root, archive.get("include"))
     if not files:
-        raise FetchError("no .admx/.adml files found in the download")
+        found = [p.relative_to(work).as_posix() for p in sorted(work.rglob("*"))[:15]]
+        raise FetchError(f"no .admx/.adml files found in the download (extracted: {', '.join(found) or 'nothing'})")
     return Bundle(archive=path, sha256=digest, size=size, files=files, workdir=work)

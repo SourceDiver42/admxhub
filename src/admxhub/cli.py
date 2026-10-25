@@ -165,7 +165,7 @@ def cmd_download(args):
                 n += 1
             results.append({"id": src.id, "version": rel.version, "sha256": bundle.sha256, "path": str(dest), "files": n,
                             "languages": bundle.languages})
-            info(args, f"  {n} files → {dest}")
+            info(args, f"  {n} files -> {dest}")
         finally:
             bundle.cleanup()
     emit(args, results, table([[r["id"], r["version"], r["files"], r["path"]] for r in results], ["ID", "Version", "Files", "Path"]))

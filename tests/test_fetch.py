@@ -30,3 +30,28 @@ def test_include_filter_and_lang_case(tmp_path):
     (tmp_path / "b" / "y.admx").write_text("<x/>")
     assert [f.target for f in collect(tmp_path, [r"^a/"])] == ["x.admx", "en-US/x.adml"]
     assert normalize_lang("sr-latn-rs") == "sr-Latn-RS"
+
+
+def test_extractor_that_produces_nothing_falls_back(tmp_path, monkeypatch):
+    import admxhub.fetch as f
+    calls = []
+
+    def fake_run(cmd, timeout=600):
+        calls.append(cmd[0])
+        if cmd[0] == "second":  # the second tool really extracts something
+            (tmp_path / "out" / "a.admx").parent.mkdir(parents=True, exist_ok=True)
+            (tmp_path / "out" / "a.admx").write_text("<x/>")
+        return "ok"
+    monkeypatch.setattr(f, "_run", fake_run)
+    monkeypatch.setattr(f.shutil, "which", lambda c: c)
+    f._first_that_works(tmp_path / "x.cab", tmp_path / "out", [["first"], ["second"]])
+    assert calls == ["first", "second"]
+
+
+def test_all_extractors_fail_with_details(tmp_path, monkeypatch):
+    import pytest
+    import admxhub.fetch as f
+    monkeypatch.setattr(f, "_run", lambda cmd, timeout=600: "Can't open input file")
+    monkeypatch.setattr(f.shutil, "which", lambda c: c if c != "missing" else None)
+    with pytest.raises(f.FetchError, match="expand.exe: produced no files.*missing: not available"):
+        f._first_that_works(tmp_path / "x.cab", tmp_path / "out", [["expand.exe"], ["missing"]])
