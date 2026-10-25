@@ -1,6 +1,6 @@
 {
  "schema": "admxhub/catalog/v1",
- "generated": "2026-10-25T13:31:22Z",
+ "generated": "2026-10-25T13:39:26Z",
  "generator": "admxhub 0.1.0",
  "products": [
   {
@@ -16,9 +16,10 @@
    ],
    "discovery": "static",
    "mirror": false,
+   "history": false,
    "status": {
-    "lastChecked": "2026-10-25T13:30:53Z",
-    "lastSuccess": "2026-10-25T13:30:53Z",
+    "lastChecked": "2026-10-25T13:39:04Z",
+    "lastSuccess": "2026-10-25T13:39:04Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -83,9 +84,10 @@
    ],
    "discovery": "json",
    "mirror": false,
+   "history": true,
    "status": {
-    "lastChecked": "2026-10-25T13:30:53Z",
-    "lastSuccess": "2026-10-25T13:30:54Z",
+    "lastChecked": "2026-10-25T13:39:04Z",
+    "lastSuccess": "2026-10-25T13:39:05Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -286,9 +288,10 @@
    ],
    "discovery": "static",
    "mirror": false,
+   "history": false,
    "status": {
-    "lastChecked": "2026-10-25T13:30:54Z",
-    "lastSuccess": "2026-10-25T13:30:55Z",
+    "lastChecked": "2026-10-25T13:39:05Z",
+    "lastSuccess": "2026-10-25T13:39:05Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -624,9 +627,10 @@
    ],
    "discovery": "json",
    "mirror": false,
+   "history": true,
    "status": {
-    "lastChecked": "2026-10-25T13:30:55Z",
-    "lastSuccess": "2026-10-25T13:30:56Z",
+    "lastChecked": "2026-10-25T13:39:05Z",
+    "lastSuccess": "2026-10-25T13:39:05Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1185,9 +1189,10 @@
    ],
    "discovery": "json",
    "mirror": false,
+   "history": true,
    "status": {
-    "lastChecked": "2026-10-25T13:30:56Z",
-    "lastSuccess": "2026-10-25T13:30:57Z",
+    "lastChecked": "2026-10-25T13:39:05Z",
+    "lastSuccess": "2026-10-25T13:39:05Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1313,9 +1318,10 @@
    ],
    "discovery": "redirect",
    "mirror": false,
+   "history": false,
    "status": {
-    "lastChecked": "2026-10-25T13:30:57Z",
-    "lastSuccess": "2026-10-25T13:31:00Z",
+    "lastChecked": "2026-10-25T13:39:05Z",
+    "lastSuccess": "2026-10-25T13:39:06Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1380,9 +1386,10 @@
    ],
    "discovery": "static",
    "mirror": false,
+   "history": false,
    "status": {
-    "lastChecked": "2026-10-25T13:31:00Z",
-    "lastSuccess": "2026-10-25T13:31:00Z",
+    "lastChecked": "2026-10-25T13:39:06Z",
+    "lastSuccess": "2026-10-25T13:39:06Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1464,9 +1471,10 @@
    ],
    "discovery": "html",
    "mirror": false,
+   "history": false,
    "status": {
-    "lastChecked": "2026-10-25T13:31:00Z",
-    "lastSuccess": "2026-10-25T13:31:10Z",
+    "lastChecked": "2026-10-25T13:39:06Z",
+    "lastSuccess": "2026-10-25T13:39:15Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1707,9 +1715,10 @@
    ],
    "discovery": "json",
    "mirror": false,
+   "history": true,
    "status": {
-    "lastChecked": "2026-10-25T13:31:10Z",
-    "lastSuccess": "2026-10-25T13:31:11Z",
+    "lastChecked": "2026-10-25T13:39:15Z",
+    "lastSuccess": "2026-10-25T13:39:16Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1776,9 +1785,10 @@
    ],
    "discovery": "static",
    "mirror": false,
+   "history": false,
    "status": {
-    "lastChecked": "2026-10-25T13:31:11Z",
-    "lastSuccess": "2026-10-25T13:31:11Z",
+    "lastChecked": "2026-10-25T13:39:16Z",
+    "lastSuccess": "2026-10-25T13:39:16Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1843,9 +1853,10 @@
    ],
    "discovery": "html",
    "mirror": false,
+   "history": false,
    "status": {
-    "lastChecked": "2026-10-25T13:31:11Z",
-    "lastSuccess": "2026-10-25T13:31:21Z",
+    "lastChecked": "2026-10-25T13:39:16Z",
+    "lastSuccess": "2026-10-25T13:39:26Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -40005,9 +40016,10 @@
    ],
    "discovery": "json",
    "mirror": false,
+   "history": true,
    "status": {
-    "lastChecked": "2026-10-25T13:31:21Z",
-    "lastSuccess": "2026-10-25T13:31:22Z",
+    "lastChecked": "2026-10-25T13:39:26Z",
+    "lastSuccess": "2026-10-25T13:39:26Z",
     "error": null,
     "consecutiveFailures": 0
    },

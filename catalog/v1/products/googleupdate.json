@@ -10,9 +10,10 @@
  ],
  "discovery": "static",
  "mirror": false,
+ "history": false,
  "status": {
-  "lastChecked": "2026-10-25T13:31:00Z",
-  "lastSuccess": "2026-10-25T13:31:00Z",
+  "lastChecked": "2026-10-25T13:39:06Z",
+  "lastSuccess": "2026-10-25T13:39:06Z",
   "error": null,
   "consecutiveFailures": 0
  },

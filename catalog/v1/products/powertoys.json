@@ -10,9 +10,10 @@
  ],
  "discovery": "json",
  "mirror": false,
+ "history": true,
  "status": {
-  "lastChecked": "2026-10-25T13:31:10Z",
-  "lastSuccess": "2026-10-25T13:31:11Z",
+  "lastChecked": "2026-10-25T13:39:15Z",
+  "lastSuccess": "2026-10-25T13:39:16Z",
   "error": null,
   "consecutiveFailures": 0
  },
