@@ -23,7 +23,12 @@ import jmespath
 from . import __version__
 from .sources import Source
 
-BROWSER_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
+BROWSER_HEADERS = {  # some download pages refuse requests that do not look like a browser
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
+RETRY_STATUS = {403, 429, 500, 502, 503, 504}
 UA = f"admxhub/{__version__}"
 
 
@@ -48,7 +53,7 @@ class Release:
 def _headers(d: dict) -> dict:
     """User-Agent plus optional headers from the source; ${VAR} is taken from the environment and
     a header whose variable is unset is left out (e.g. an optional API token)."""
-    h = {"User-Agent": BROWSER_UA if d.get("browser") else UA}
+    h = dict(BROWSER_HEADERS) if d.get("browser") else {"User-Agent": UA}
     for k, v in (d.get("headers") or {}).items():
         names = re.findall(r"\$\{(\w+)\}", str(v))
         if all(os.environ.get(n) for n in names):
@@ -56,8 +61,22 @@ def _headers(d: dict) -> dict:
     return h
 
 
+class _RetryClient(httpx2.Client):
+    """Retries blocked/overloaded responses (403/429/5xx) a few times with backoff."""
+
+    def request(self, method, url, *args, **kwargs):
+        import time
+        for attempt in range(3):
+            r = super().request(method, url, *args, **kwargs)
+            if r.status_code not in RETRY_STATUS or attempt == 2:
+                return r
+            wait = r.headers.get("retry-after", "")
+            time.sleep(min(int(wait), 30) if wait.isdigit() else 2 + attempt * 4)
+        return r
+
+
 def _client(d: dict) -> httpx2.Client:
-    return httpx2.Client(headers=_headers(d), follow_redirects=True, timeout=60)
+    return _RetryClient(headers=_headers(d), follow_redirects=True, timeout=60)
 
 
 def _http_date(value: str) -> str:

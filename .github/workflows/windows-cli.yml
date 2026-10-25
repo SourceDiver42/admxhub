@@ -38,6 +38,9 @@ jobs:
       - name: Smoke tests
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Downloads go through this repository's published catalog (direct vendor file URLs), so the
+          # extraction paths are tested even when a vendor's download page blocks CI runners.
+          ADMXHUB_CATALOG: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/catalog/v1/index.json
         run: |
           $ErrorActionPreference = "Continue"
           $exe = ".\dist\admxhub.exe"
@@ -60,7 +63,8 @@ jobs:
           }
           Step "version" @("--version")
           Step "validate" @("validate")
-          Step "check" @("check", "--live") @(0, 2)   # 2 = a vendor did not answer: reported, not fatal
+          Step "check (catalog)" @("check")
+          Step "check (live)" @("check", "--live") @(0, 2)   # 2 = a vendor did not answer: reported, not fatal
           Step "zip (firefox)" @("download", "firefox", "--out", $out, "--lang", "en-US")
           Step "cab with nested zip (edge)" @("download", "edge", "--out", $out, "--lang", "en-US")
           Step "self-extracting exe (office)" @("download", "office", "--out", $out)
