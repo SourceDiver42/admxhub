@@ -12,8 +12,8 @@
  "mirror": false,
  "history": true,
  "status": {
-  "lastChecked": "2026-10-25T13:39:15Z",
-  "lastSuccess": "2026-10-25T13:39:16Z",
+  "lastChecked": "2026-10-25T16:56:19Z",
+  "lastSuccess": "2026-10-25T16:56:19Z",
   "error": null,
   "consecutiveFailures": 0
  },
@@ -54,6 +54,714 @@
     "Microsoft.Policies.PowerToys": "PowerToys.admx"
    },
    "parseErrors": [],
+   "diff": {
+    "previous": "0.101.2362.0",
+    "added": 2,
+    "removed": 0,
+    "changed": 0,
+    "details": {
+     "added": [
+      "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityAutoHideCursor",
+      "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityMouseButtonLock"
+     ],
+     "removed": [],
+     "changed": []
+    }
+   }
+  },
+  {
+   "version": "0.101.2362.0",
+   "date": "2026-08-25",
+   "discovered": "2026-08-25T00:00:00Z",
+   "url": "https://github.com/microsoft/PowerToys/releases/download/v0.101.2362.0/GroupPolicyObjectFiles-0.101.2362.0.zip",
+   "sha256": "237d35306899de77539d65d3a2084cd875429a19dfcd1e599edb83aaeebae43a",
+   "size": 9044,
+   "fingerprint": "237d35306899de77539d65d3a2084cd875429a19dfcd1e599edb83aaeebae43a",
+   "languages": [
+    "en-US"
+   ],
+   "files": [
+    {
+     "name": "PowerToys.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "292f7c8cb96832912ed273ac717ec56a1abe388ac1e688f14d76061c57e71015",
+     "size": 48710
+    },
+    {
+     "name": "PowerToys.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "506ceb3c4124839116ad3676ef036926359f8cb16e0ce8cada3734b5dc2f7114",
+     "size": 29560
+    }
+   ],
+   "admxCount": 1,
+   "policyCount": 81,
+   "namespaces": [
+    "Microsoft.Policies.PowerToys"
+   ],
+   "namespaceFiles": {
+    "Microsoft.Policies.PowerToys": "PowerToys.admx"
+   },
+   "parseErrors": [],
+   "backfilled": true,
+   "diff": {
+    "previous": "0.100.2",
+    "added": 3,
+    "removed": 0,
+    "changed": 0,
+    "details": {
+     "added": [
+      "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityAltWindowCycle",
+      "Microsoft.Policies.PowerToys:DisablePreviewUpdates",
+      "Microsoft.Policies.PowerToys:MarkdownAllowLocalImages"
+     ],
+     "removed": [],
+     "changed": []
+    }
+   }
+  },
+  {
+   "version": "0.100.2",
+   "date": "2026-06-26",
+   "discovered": "2026-06-26T00:00:00Z",
+   "url": "https://github.com/microsoft/PowerToys/releases/download/v0.100.2/GroupPolicyObjectFiles-0.100.2.zip",
+   "sha256": "f4c5f0d8f340496504cfdbd08dc76a167911a0d6ab5ac26499645fa2eb34114a",
+   "size": 8429,
+   "fingerprint": "f4c5f0d8f340496504cfdbd08dc76a167911a0d6ab5ac26499645fa2eb34114a",
+   "languages": [
+    "en-US"
+   ],
+   "files": [
+    {
+     "name": "PowerToys.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "a621c839673c97fe2a316ed9e0fe15b257f0351a862084ecdd06aa275de36019",
+     "size": 46783
+    },
+    {
+     "name": "PowerToys.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "206bcebc1a2c7406ba87117ca9e8c7bd576b04057ce951328e7fd2e272278f88",
+     "size": 27625
+    }
+   ],
+   "admxCount": 1,
+   "policyCount": 78,
+   "namespaces": [
+    "Microsoft.Policies.PowerToys"
+   ],
+   "namespaceFiles": {
+    "Microsoft.Policies.PowerToys": "PowerToys.admx"
+   },
+   "parseErrors": [],
+   "backfilled": true,
+   "diff": {
+    "previous": "0.100.1",
+    "added": 0,
+    "removed": 0,
+    "changed": 0,
+    "details": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   }
+  },
+  {
+   "version": "0.100.1",
+   "date": "2026-06-24",
+   "discovered": "2026-06-24T00:00:00Z",
+   "url": "https://github.com/microsoft/PowerToys/releases/download/v0.100.1/GroupPolicyObjectFiles-0.100.1.zip",
+   "sha256": "d4232d0aee228f297b05cc731229bc9fe24983eb245cd5793b3ed7629f411934",
+   "size": 8429,
+   "fingerprint": "d4232d0aee228f297b05cc731229bc9fe24983eb245cd5793b3ed7629f411934",
+   "languages": [
+    "en-US"
+   ],
+   "files": [
+    {
+     "name": "PowerToys.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "a621c839673c97fe2a316ed9e0fe15b257f0351a862084ecdd06aa275de36019",
+     "size": 46783
+    },
+    {
+     "name": "PowerToys.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "206bcebc1a2c7406ba87117ca9e8c7bd576b04057ce951328e7fd2e272278f88",
+     "size": 27625
+    }
+   ],
+   "admxCount": 1,
+   "policyCount": 78,
+   "namespaces": [
+    "Microsoft.Policies.PowerToys"
+   ],
+   "namespaceFiles": {
+    "Microsoft.Policies.PowerToys": "PowerToys.admx"
+   },
+   "parseErrors": [],
+   "backfilled": true,
+   "diff": {
+    "previous": "0.100.0",
+    "added": 0,
+    "removed": 0,
+    "changed": 0,
+    "details": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   }
+  },
+  {
+   "version": "0.100.0",
+   "date": "2026-06-10",
+   "discovered": "2026-06-10T00:00:00Z",
+   "url": "https://github.com/microsoft/PowerToys/releases/download/v0.100.0/GroupPolicyObjectFiles-0.100.0.zip",
+   "sha256": "20fed49fb583b6f8fb3cc01f0564c54790ac1716f66ed0d1dd9a352c5594d65c",
+   "size": 8429,
+   "fingerprint": "20fed49fb583b6f8fb3cc01f0564c54790ac1716f66ed0d1dd9a352c5594d65c",
+   "languages": [
+    "en-US"
+   ],
+   "files": [
+    {
+     "name": "PowerToys.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "a621c839673c97fe2a316ed9e0fe15b257f0351a862084ecdd06aa275de36019",
+     "size": 46783
+    },
+    {
+     "name": "PowerToys.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "206bcebc1a2c7406ba87117ca9e8c7bd576b04057ce951328e7fd2e272278f88",
+     "size": 27625
+    }
+   ],
+   "admxCount": 1,
+   "policyCount": 78,
+   "namespaces": [
+    "Microsoft.Policies.PowerToys"
+   ],
+   "namespaceFiles": {
+    "Microsoft.Policies.PowerToys": "PowerToys.admx"
+   },
+   "parseErrors": [],
+   "backfilled": true,
+   "diff": {
+    "previous": "0.99.1",
+    "added": 0,
+    "removed": 0,
+    "changed": 0,
+    "details": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   }
+  },
+  {
+   "version": "0.99.1",
+   "date": "2026-04-29",
+   "discovered": "2026-04-29T00:00:00Z",
+   "url": "https://github.com/microsoft/PowerToys/releases/download/v0.99.1/GroupPolicyObjectFiles-0.99.1.zip",
+   "sha256": "d8def77f27a032a4c43bad50396a9de2f41802b91649f352907ef50228241993",
+   "size": 8429,
+   "fingerprint": "d8def77f27a032a4c43bad50396a9de2f41802b91649f352907ef50228241993",
+   "languages": [
+    "en-US"
+   ],
+   "files": [
+    {
+     "name": "PowerToys.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "a621c839673c97fe2a316ed9e0fe15b257f0351a862084ecdd06aa275de36019",
+     "size": 46783
+    },
+    {
+     "name": "PowerToys.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "206bcebc1a2c7406ba87117ca9e8c7bd576b04057ce951328e7fd2e272278f88",
+     "size": 27625
+    }
+   ],
+   "admxCount": 1,
+   "policyCount": 78,
+   "namespaces": [
+    "Microsoft.Policies.PowerToys"
+   ],
+   "namespaceFiles": {
+    "Microsoft.Policies.PowerToys": "PowerToys.admx"
+   },
+   "parseErrors": [],
+   "backfilled": true,
+   "diff": {
+    "previous": "0.99.0",
+    "added": 0,
+    "removed": 0,
+    "changed": 0,
+    "details": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   }
+  },
+  {
+   "version": "0.99.0",
+   "date": "2026-04-28",
+   "discovered": "2026-04-28T00:00:00Z",
+   "url": "https://github.com/microsoft/PowerToys/releases/download/v0.99.0/GroupPolicyObjectFiles-0.99.0.zip",
+   "sha256": "03a939dc64ab28cae7e06bad2b83e549399984a34d2380cd1021a76e1c177930",
+   "size": 8429,
+   "fingerprint": "03a939dc64ab28cae7e06bad2b83e549399984a34d2380cd1021a76e1c177930",
+   "languages": [
+    "en-US"
+   ],
+   "files": [
+    {
+     "name": "PowerToys.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "a621c839673c97fe2a316ed9e0fe15b257f0351a862084ecdd06aa275de36019",
+     "size": 46783
+    },
+    {
+     "name": "PowerToys.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "206bcebc1a2c7406ba87117ca9e8c7bd576b04057ce951328e7fd2e272278f88",
+     "size": 27625
+    }
+   ],
+   "admxCount": 1,
+   "policyCount": 78,
+   "namespaces": [
+    "Microsoft.Policies.PowerToys"
+   ],
+   "namespaceFiles": {
+    "Microsoft.Policies.PowerToys": "PowerToys.admx"
+   },
+   "parseErrors": [],
+   "backfilled": true,
+   "diff": {
+    "previous": "0.98.1",
+    "added": 1,
+    "removed": 0,
+    "changed": 0,
+    "details": {
+     "added": [
+      "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityPowerDisplay"
+     ],
+     "removed": [],
+     "changed": []
+    }
+   }
+  },
+  {
+   "version": "0.98.1",
+   "date": "2026-03-26",
+   "discovered": "2026-03-26T00:00:00Z",
+   "url": "https://github.com/microsoft/PowerToys/releases/download/v0.98.1/GroupPolicyObjectFiles-0.98.1.zip",
+   "sha256": "372fdfdc8ddf8fbbe7b46237df5feec321869806efd83d1fbdd03ee8c4b1d768",
+   "size": 8481,
+   "fingerprint": "372fdfdc8ddf8fbbe7b46237df5feec321869806efd83d1fbdd03ee8c4b1d768",
+   "languages": [
+    "en-US"
+   ],
+   "files": [
+    {
+     "name": "PowerToys.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "48c2e099ab7e0f32632c8ccacedf6a3093b695249ba66f8ad19984d6b66fc117",
+     "size": 46731
+    },
+    {
+     "name": "PowerToys.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "3ab351725e086639517238d70656736e674608165bbfce6f9bfe4a68a7bfb1fe",
+     "size": 27587
+    }
+   ],
+   "admxCount": 1,
+   "policyCount": 77,
+   "namespaces": [
+    "Microsoft.Policies.PowerToys"
+   ],
+   "namespaceFiles": {
+    "Microsoft.Policies.PowerToys": "PowerToys.admx"
+   },
+   "parseErrors": [],
+   "backfilled": true,
+   "diff": {
+    "previous": "0.98.0",
+    "added": 0,
+    "removed": 0,
+    "changed": 0,
+    "details": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   }
+  },
+  {
+   "version": "0.98.0",
+   "date": "2026-03-17",
+   "discovered": "2026-03-17T00:00:00Z",
+   "url": "https://github.com/microsoft/PowerToys/releases/download/v0.98.0/GroupPolicyObjectFiles-0.98.0.zip",
+   "sha256": "b0acbed4060da44a52fbe7cb093b57e8c7e3b48f4fd5dc51d0329529a4608388",
+   "size": 8481,
+   "fingerprint": "b0acbed4060da44a52fbe7cb093b57e8c7e3b48f4fd5dc51d0329529a4608388",
+   "languages": [
+    "en-US"
+   ],
+   "files": [
+    {
+     "name": "PowerToys.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "48c2e099ab7e0f32632c8ccacedf6a3093b695249ba66f8ad19984d6b66fc117",
+     "size": 46731
+    },
+    {
+     "name": "PowerToys.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "3ab351725e086639517238d70656736e674608165bbfce6f9bfe4a68a7bfb1fe",
+     "size": 27587
+    }
+   ],
+   "admxCount": 1,
+   "policyCount": 77,
+   "namespaces": [
+    "Microsoft.Policies.PowerToys"
+   ],
+   "namespaceFiles": {
+    "Microsoft.Policies.PowerToys": "PowerToys.admx"
+   },
+   "parseErrors": [],
+   "backfilled": true,
+   "diff": {
+    "previous": "0.97.2",
+    "added": 1,
+    "removed": 0,
+    "changed": 0,
+    "details": {
+     "added": [
+      "Microsoft.Policies.PowerToys:NewPlusHideBuiltInNewContextMenu"
+     ],
+     "removed": [],
+     "changed": []
+    }
+   }
+  },
+  {
+   "version": "0.97.2",
+   "date": "2026-02-10",
+   "discovered": "2026-02-10T00:00:00Z",
+   "url": "https://github.com/microsoft/PowerToys/releases/download/v0.97.2/GroupPolicyObjectFiles-0.97.2.zip",
+   "sha256": "7847b3d01068f3068dc43aeda2587c4f394cbff21a0fe8b16749dceb01831e1d",
+   "size": 8153,
+   "fingerprint": "7847b3d01068f3068dc43aeda2587c4f394cbff21a0fe8b16749dceb01831e1d",
+   "languages": [
+    "en-US"
+   ],
+   "files": [
+    {
+     "name": "PowerToys.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "244ac9f4a736b8740a784d16587926638f038ac0679a1363818ac36915bb3508",
+     "size": 45497
+    },
+    {
+     "name": "PowerToys.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "58d9c390841311f5a8c014ee8ddead79661ab1a89117a69e5c6896da4090e7a1",
+     "size": 26659
+    }
+   ],
+   "admxCount": 1,
+   "policyCount": 76,
+   "namespaces": [
+    "Microsoft.Policies.PowerToys"
+   ],
+   "namespaceFiles": {
+    "Microsoft.Policies.PowerToys": "PowerToys.admx"
+   },
+   "parseErrors": [],
+   "backfilled": true,
+   "diff": {
+    "previous": "0.97.1",
+    "added": 0,
+    "removed": 0,
+    "changed": 0,
+    "details": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   }
+  },
+  {
+   "version": "0.97.1",
+   "date": "2026-01-28",
+   "discovered": "2026-01-28T00:00:00Z",
+   "url": "https://github.com/microsoft/PowerToys/releases/download/v0.97.1/GroupPolicyObjectFiles-0.97.1.zip",
+   "sha256": "8b53a040d1306891e96ffca571c45e097feaf1ccc8f35e9ba31bb27bbf091c84",
+   "size": 8177,
+   "fingerprint": "8b53a040d1306891e96ffca571c45e097feaf1ccc8f35e9ba31bb27bbf091c84",
+   "languages": [
+    "en-US"
+   ],
+   "files": [
+    {
+     "name": "PowerToys.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "244ac9f4a736b8740a784d16587926638f038ac0679a1363818ac36915bb3508",
+     "size": 45497
+    },
+    {
+     "name": "PowerToys.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "58d9c390841311f5a8c014ee8ddead79661ab1a89117a69e5c6896da4090e7a1",
+     "size": 26659
+    }
+   ],
+   "admxCount": 1,
+   "policyCount": 76,
+   "namespaces": [
+    "Microsoft.Policies.PowerToys"
+   ],
+   "namespaceFiles": {
+    "Microsoft.Policies.PowerToys": "PowerToys.admx"
+   },
+   "parseErrors": [],
+   "backfilled": true,
+   "diff": {
+    "previous": "0.97.0",
+    "added": 1,
+    "removed": 0,
+    "changed": 0,
+    "details": {
+     "added": [
+      "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityCursorWrap"
+     ],
+     "removed": [],
+     "changed": []
+    }
+   }
+  },
+  {
+   "version": "0.97.0",
+   "date": "2026-01-20",
+   "discovered": "2026-01-20T00:00:00Z",
+   "url": "https://github.com/microsoft/PowerToys/releases/download/v0.97.0/GroupPolicyObjectFiles-0.97.0.zip",
+   "sha256": "d21f1b31dad307742bc60942d9a465ee0fafca069528c2ddd12d935eaa62edec",
+   "size": 8120,
+   "fingerprint": "d21f1b31dad307742bc60942d9a465ee0fafca069528c2ddd12d935eaa62edec",
+   "languages": [
+    "en-US"
+   ],
+   "files": [
+    {
+     "name": "PowerToys.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "b13e44e82b29dfed57cff50c46824647628d13f883ffa0c727ec0eaeae8dff30",
+     "size": 44859
+    },
+    {
+     "name": "PowerToys.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "b206bba69663697b91395353b4ef7369a93d6f137373d0f20651a77056de9d19",
+     "size": 26470
+    }
+   ],
+   "admxCount": 1,
+   "policyCount": 75,
+   "namespaces": [
+    "Microsoft.Policies.PowerToys"
+   ],
+   "namespaceFiles": {
+    "Microsoft.Policies.PowerToys": "PowerToys.admx"
+   },
+   "parseErrors": [],
+   "backfilled": true,
+   "diff": {
+    "previous": "0.96.1",
+    "added": 0,
+    "removed": 0,
+    "changed": 0,
+    "details": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   }
+  },
+  {
+   "version": "0.96.1",
+   "date": "2025-11-26",
+   "discovered": "2025-11-26T00:00:00Z",
+   "url": "https://github.com/microsoft/PowerToys/releases/download/v0.96.1/GroupPolicyObjectFiles-0.96.1.zip",
+   "sha256": "a2a2d3dab1f43f2f722f091701a802fd39df0077913dbb2714d563995a5cf37a",
+   "size": 8120,
+   "fingerprint": "a2a2d3dab1f43f2f722f091701a802fd39df0077913dbb2714d563995a5cf37a",
+   "languages": [
+    "en-US"
+   ],
+   "files": [
+    {
+     "name": "PowerToys.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "b13e44e82b29dfed57cff50c46824647628d13f883ffa0c727ec0eaeae8dff30",
+     "size": 44859
+    },
+    {
+     "name": "PowerToys.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "b206bba69663697b91395353b4ef7369a93d6f137373d0f20651a77056de9d19",
+     "size": 26470
+    }
+   ],
+   "admxCount": 1,
+   "policyCount": 75,
+   "namespaces": [
+    "Microsoft.Policies.PowerToys"
+   ],
+   "namespaceFiles": {
+    "Microsoft.Policies.PowerToys": "PowerToys.admx"
+   },
+   "parseErrors": [],
+   "backfilled": true,
+   "diff": {
+    "previous": "0.96.0",
+    "added": 0,
+    "removed": 0,
+    "changed": 0,
+    "details": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   }
+  },
+  {
+   "version": "0.96.0",
+   "date": "2025-11-19",
+   "discovered": "2025-11-19T00:00:00Z",
+   "url": "https://github.com/microsoft/PowerToys/releases/download/v0.96.0/GroupPolicyObjectFiles-0.96.0.zip",
+   "sha256": "126a7d351cfdc49d34d04fce69479e9e4238d1c9f707a7df80db4bf84636ea81",
+   "size": 8120,
+   "fingerprint": "126a7d351cfdc49d34d04fce69479e9e4238d1c9f707a7df80db4bf84636ea81",
+   "languages": [
+    "en-US"
+   ],
+   "files": [
+    {
+     "name": "PowerToys.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "b13e44e82b29dfed57cff50c46824647628d13f883ffa0c727ec0eaeae8dff30",
+     "size": 44859
+    },
+    {
+     "name": "PowerToys.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "b206bba69663697b91395353b4ef7369a93d6f137373d0f20651a77056de9d19",
+     "size": 26470
+    }
+   ],
+   "admxCount": 1,
+   "policyCount": 75,
+   "namespaces": [
+    "Microsoft.Policies.PowerToys"
+   ],
+   "namespaceFiles": {
+    "Microsoft.Policies.PowerToys": "PowerToys.admx"
+   },
+   "parseErrors": [],
+   "backfilled": true,
+   "diff": {
+    "previous": "0.95.1",
+    "added": 8,
+    "removed": 0,
+    "changed": 0,
+    "details": {
+     "added": [
+      "Microsoft.Policies.PowerToys:AllowAdvancedPasteAnthropic",
+      "Microsoft.Policies.PowerToys:AllowAdvancedPasteAzureAIInference",
+      "Microsoft.Policies.PowerToys:AllowAdvancedPasteAzureOpenAI",
+      "Microsoft.Policies.PowerToys:AllowAdvancedPasteFoundryLocal",
+      "Microsoft.Policies.PowerToys:AllowAdvancedPasteGoogle",
+      "Microsoft.Policies.PowerToys:AllowAdvancedPasteMistral",
+      "Microsoft.Policies.PowerToys:AllowAdvancedPasteOllama",
+      "Microsoft.Policies.PowerToys:AllowAdvancedPasteOpenAI"
+     ],
+     "removed": [],
+     "changed": []
+    }
+   }
+  },
+  {
+   "version": "0.95.1",
+   "date": "2025-10-23",
+   "discovered": "2025-10-23T00:00:00Z",
+   "url": "https://github.com/microsoft/PowerToys/releases/download/v0.95.1/GroupPolicyObjectFiles-0.95.1.zip",
+   "sha256": "0c7dc968fd3992e0e50a44b49dccd8070626afe3c55344aaed2b5fbf1b9ce8c5",
+   "size": 7561,
+   "fingerprint": "0c7dc968fd3992e0e50a44b49dccd8070626afe3c55344aaed2b5fbf1b9ce8c5",
+   "languages": [
+    "en-US"
+   ],
+   "files": [
+    {
+     "name": "PowerToys.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "d8f6209f699e3ba198ffdbc0b613d71abdacc2b941c61678141616107fbfc43e",
+     "size": 40573
+    },
+    {
+     "name": "PowerToys.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "79e772feb9ea70ff65b959f378a69a9c038b077b967863f93cc84c4a4a69995f",
+     "size": 22495
+    }
+   ],
+   "admxCount": 1,
+   "policyCount": 67,
+   "namespaces": [
+    "Microsoft.Policies.PowerToys"
+   ],
+   "namespaceFiles": {
+    "Microsoft.Policies.PowerToys": "PowerToys.admx"
+   },
+   "parseErrors": [],
+   "backfilled": true,
    "diff": {
     "previous": null,
     "added": 0,

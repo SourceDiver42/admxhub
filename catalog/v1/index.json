@@ -1,6 +1,6 @@
 {
  "schema": "admxhub/catalog/v1",
- "generated": "2026-10-25T13:39:26Z",
+ "generated": "2026-10-25T16:56:43Z",
  "generator": "admxhub 0.1.0",
  "products": [
   {
@@ -18,8 +18,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-25T13:39:04Z",
-    "lastSuccess": "2026-10-25T13:39:04Z",
+    "lastChecked": "2026-10-25T16:52:30Z",
+    "lastSuccess": "2026-10-25T16:52:30Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -86,8 +86,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-10-25T13:39:04Z",
-    "lastSuccess": "2026-10-25T13:39:05Z",
+    "lastChecked": "2026-10-25T16:52:30Z",
+    "lastSuccess": "2026-10-25T16:52:31Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -263,18 +263,22 @@
     },
     "parseErrors": [],
     "diff": {
-     "previous": null,
-     "added": 0,
+     "previous": "1.97.59",
+     "added": 3,
      "removed": 0,
      "changed": 0,
      "details": {
-      "added": [],
+      "added": [
+       "BraveSoftware.Policies.Brave:AutofillGenAiSettings",
+       "BraveSoftware.Policies.Brave:LaunchOnStartupEnabled",
+       "BraveSoftware.Policies.Brave:LaunchOnStartupEnabled_recommended"
+      ],
       "removed": [],
       "changed": []
      }
     }
    },
-   "versionCount": 1
+   "versionCount": 44
   },
   {
    "id": "chrome",
@@ -290,8 +294,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-25T13:39:05Z",
-    "lastSuccess": "2026-10-25T13:39:05Z",
+    "lastChecked": "2026-10-25T16:53:06Z",
+    "lastSuccess": "2026-10-25T16:53:06Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -629,8 +633,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-10-25T13:39:05Z",
-    "lastSuccess": "2026-10-25T13:39:05Z",
+    "lastChecked": "2026-10-25T16:53:06Z",
+    "lastSuccess": "2026-10-25T16:53:06Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1164,18 +1168,20 @@
     },
     "parseErrors": [],
     "diff": {
-     "previous": null,
-     "added": 0,
+     "previous": "157.0.4341.16",
+     "added": 1,
      "removed": 0,
      "changed": 0,
      "details": {
-      "added": [],
+      "added": [
+       "Microsoft.Policies.Edge:BlueprintGWAAvailability"
+      ],
       "removed": [],
       "changed": []
      }
     }
    },
-   "versionCount": 1
+   "versionCount": 39
   },
   {
    "id": "firefox",
@@ -1191,8 +1197,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-10-25T13:39:05Z",
-    "lastSuccess": "2026-10-25T13:39:05Z",
+    "lastChecked": "2026-10-25T16:55:47Z",
+    "lastSuccess": "2026-10-25T16:55:47Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1293,18 +1299,30 @@
     },
     "parseErrors": [],
     "diff": {
-     "previous": null,
-     "added": 0,
+     "previous": "8.3",
+     "added": 9,
      "removed": 0,
-     "changed": 0,
+     "changed": 1,
      "details": {
-      "added": [],
+      "added": [
+       "Mozilla.Policies.Firefox:ContentAnalysis_InterceptionPoints_ClipboardCopy",
+       "Mozilla.Policies.Firefox:ContentAnalysis_InterceptionPoints_ClipboardCopy_PlainTextOnly",
+       "Mozilla.Policies.Firefox:ContentAnalysis_MaxConnectionsCount",
+       "Mozilla.Policies.Firefox:FirefoxSuggest_OnlineEnabled",
+       "Mozilla.Policies.Firefox:GenerativeAI_SmartWindow",
+       "Mozilla.Policies.Firefox:RelaunchRequired_NotificationPeriodHours",
+       "Mozilla.Policies.Firefox:RelaunchRequired_RestartTimeOfDay_Hour",
+       "Mozilla.Policies.Firefox:RelaunchRequired_RestartTimeOfDay_Minute",
+       "Mozilla.Policies.Firefox:SearchEngines_DefaultPrivate"
+      ],
       "removed": [],
-      "changed": []
+      "changed": [
+       "Mozilla.Policies.Firefox:ContentAnalysis_InterceptionPoints_DragAndDrop_PlainTextOnly"
+      ]
      }
     }
    },
-   "versionCount": 1
+   "versionCount": 50
   },
   {
    "id": "fslogix",
@@ -1320,8 +1338,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-25T13:39:05Z",
-    "lastSuccess": "2026-10-25T13:39:06Z",
+    "lastChecked": "2026-10-25T16:56:09Z",
+    "lastSuccess": "2026-10-25T16:56:09Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1388,8 +1406,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-25T13:39:06Z",
-    "lastSuccess": "2026-10-25T13:39:06Z",
+    "lastChecked": "2026-10-25T16:56:09Z",
+    "lastSuccess": "2026-10-25T16:56:10Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1473,8 +1491,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-25T13:39:06Z",
-    "lastSuccess": "2026-10-25T13:39:15Z",
+    "lastChecked": "2026-10-25T16:56:10Z",
+    "lastSuccess": "2026-10-25T16:56:19Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1717,8 +1735,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-10-25T13:39:15Z",
-    "lastSuccess": "2026-10-25T13:39:16Z",
+    "lastChecked": "2026-10-25T16:56:19Z",
+    "lastSuccess": "2026-10-25T16:56:19Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1758,18 +1776,21 @@
     },
     "parseErrors": [],
     "diff": {
-     "previous": null,
-     "added": 0,
+     "previous": "0.101.2362.0",
+     "added": 2,
      "removed": 0,
      "changed": 0,
      "details": {
-      "added": [],
+      "added": [
+       "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityAutoHideCursor",
+       "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityMouseButtonLock"
+      ],
       "removed": [],
       "changed": []
      }
     }
    },
-   "versionCount": 1
+   "versionCount": 15
   },
   {
    "id": "reader",
@@ -1787,8 +1808,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-25T13:39:16Z",
-    "lastSuccess": "2026-10-25T13:39:16Z",
+    "lastChecked": "2026-10-25T16:56:25Z",
+    "lastSuccess": "2026-10-25T16:56:25Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1855,8 +1876,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-25T13:39:16Z",
-    "lastSuccess": "2026-10-25T13:39:26Z",
+    "lastChecked": "2026-10-25T16:56:25Z",
+    "lastSuccess": "2026-10-25T16:56:34Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -40018,8 +40039,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-10-25T13:39:26Z",
-    "lastSuccess": "2026-10-25T13:39:26Z",
+    "lastChecked": "2026-10-25T16:56:34Z",
+    "lastSuccess": "2026-10-25T16:56:34Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -40139,7 +40160,7 @@
     },
     "parseErrors": [],
     "diff": {
-     "previous": null,
+     "previous": "1.29.290",
      "added": 0,
      "removed": 0,
      "changed": 0,
@@ -40150,7 +40171,7 @@
      }
     }
    },
-   "versionCount": 1
+   "versionCount": 24
   }
  ],
  "warnings": []

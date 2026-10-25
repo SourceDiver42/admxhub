@@ -1,0 +1,5436 @@
+[
+ {
+  "id": "Mozilla.Policies.Firefox:A_Bookmarks",
+  "name": "A_Bookmarks",
+  "display": "Bookmarks (JSON)",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 95 or later, Firefox 91.4 ESR or later",
+  "elements": [
+   "multiText"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:A_SanitizeOnShutdown_Cache",
+  "name": "A_SanitizeOnShutdown_Cache",
+  "display": "Cache",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Clear data when browser is closed"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\SanitizeOnShutdown",
+  "valueName": "Cache",
+  "supported": "Firefox 74 or later, Firefox 68.6 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:A_TrackingProtection_Value",
+  "name": "A_TrackingProtection_Value",
+  "display": "Enabled",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Tracking Protection"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\EnableTrackingProtection",
+  "valueName": "Value",
+  "supported": "Firefox 74 or later, Firefox 68.6 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:AllowedDomainsForApps",
+  "name": "AllowedDomainsForApps",
+  "display": "Define domains allowed to access Google Workspace",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 89 or later, Firefox 78.11 ESR or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:AppAutoUpdate",
+  "name": "AppAutoUpdate",
+  "display": "Application Autoupdate",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "AppAutoUpdate",
+  "supported": "Firefox 75 or later, Firefox 68.7 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:AppUpdatePin",
+  "name": "AppUpdatePin",
+  "display": "Pin updates to a specific version",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 102 or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:AppUpdateURL",
+  "name": "AppUpdateURL",
+  "display": "Custom Update URL",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 62 or later, Firefox 60.2 ESR or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Authentication_AllowNonFQDN",
+  "name": "Authentication_AllowNonFQDN",
+  "display": "Allow Non FQDN",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Authentication"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Authentication\\AllowNonFQDN",
+  "valueName": null,
+  "supported": "Firefox 62 or later, Firefox 60.2 ESR or later",
+  "elements": [
+   "boolean",
+   "boolean"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Authentication_AllowProxies",
+  "name": "Authentication_AllowProxies",
+  "display": "Allow Proxies",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Authentication"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Authentication\\AllowProxies",
+  "valueName": null,
+  "supported": "Firefox 70 or later, Firefox 68.2 ESR or later",
+  "elements": [
+   "boolean",
+   "boolean"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Authentication_Delegated",
+  "name": "Authentication_Delegated",
+  "display": "Delegated",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Authentication"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Authentication\\Delegated",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Authentication_Locked",
+  "name": "Authentication_Locked",
+  "display": "Do not allow authentication preferences to be changed",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Authentication"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Authentication",
+  "valueName": "Locked",
+  "supported": "Firefox 71 or later, Firefox 68.3 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Authentication_NTLM",
+  "name": "Authentication_NTLM",
+  "display": "NTLM",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Authentication"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Authentication\\NTLM",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Authentication_PrivateBrowsing",
+  "name": "Authentication_PrivateBrowsing",
+  "display": "Allow authentication in private browsing",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Authentication"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Authentication",
+  "valueName": "PrivateBrowsing",
+  "supported": "Firefox 77 or later, Firefox 68.9 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Authentication_SPNEGO",
+  "name": "Authentication_SPNEGO",
+  "display": "SPNEGO",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Authentication"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Authentication\\SPNEGO",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:AutoLaunchProtocolsFromOrigins",
+  "name": "AutoLaunchProtocolsFromOrigins",
+  "display": "Auto Launch Protocols From Origins",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 81 or later, Firefox 78.3 ESR or later",
+  "elements": [
+   "multiText"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Autoplay_Allow",
+  "name": "Autoplay_Allow",
+  "display": "Allowed Sites",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Permissions",
+   "Autoplay"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Permissions",
+  "valueName": null,
+  "supported": "Firefox 74 or later, Firefox 68.6 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Autoplay_Block",
+  "name": "Autoplay_Block",
+  "display": "Blocked Sites",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Permissions",
+   "Autoplay"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Permissions",
+  "valueName": null,
+  "supported": "Firefox 74 or later, Firefox 68.6 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Autoplay_Default",
+  "name": "Autoplay_Default",
+  "display": "Default autoplay level",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Permissions",
+   "Autoplay"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Permissions\\Autoplay",
+  "valueName": null,
+  "supported": "Firefox 76 or later, Firefox 68.8 ESR or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Autoplay_Locked",
+  "name": "Autoplay_Locked",
+  "display": "Do not allow preferences to be changed",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Permissions",
+   "Autoplay"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Permissions\\Autoplay",
+  "valueName": "Locked",
+  "supported": "Firefox 76 or later, Firefox 68.8 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:B_SanitizeOnShutdown_Cookies",
+  "name": "B_SanitizeOnShutdown_Cookies",
+  "display": "Cookies",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Clear data when browser is closed"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\SanitizeOnShutdown",
+  "valueName": "Cookies",
+  "supported": "Firefox 74 or later, Firefox 68.6 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:B_TrackingProtection_Cryptomining",
+  "name": "B_TrackingProtection_Cryptomining",
+  "display": "Cryptomining",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Tracking Protection"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\EnableTrackingProtection",
+  "valueName": "Cryptomining",
+  "supported": "Firefox 74 or later, Firefox 68.6 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:B_WebsiteFilter_Block",
+  "name": "B_WebsiteFilter_Block",
+  "display": "Blocked websites",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\WebsiteFilter\\Block",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:B_WebsiteFilter_Exceptions",
+  "name": "B_WebsiteFilter_Exceptions",
+  "display": "Exceptions to blocked websites",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\WebsiteFilter\\Exceptions",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:BackgroundAppUpdate",
+  "name": "BackgroundAppUpdate",
+  "display": "Background updater",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "BackgroundAppUpdate",
+  "supported": "Firefox 90 or later, Firefox 78.12 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:BlockAboutAddons",
+  "name": "BlockAboutAddons",
+  "display": "Block Add-ons Manager",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "BlockAboutAddons",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:BlockAboutConfig",
+  "name": "BlockAboutConfig",
+  "display": "Block about:config",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "BlockAboutConfig",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:BlockAboutProfiles",
+  "name": "BlockAboutProfiles",
+  "display": "Block about:profiles",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "BlockAboutProfiles",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:BlockAboutSupport",
+  "name": "BlockAboutSupport",
+  "display": "Block Troubleshooting Information",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "BlockAboutSupport",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark01",
+  "name": "Bookmark01",
+  "display": "Bookmark 01",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\1",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark02",
+  "name": "Bookmark02",
+  "display": "Bookmark 02",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\10",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark03",
+  "name": "Bookmark03",
+  "display": "Bookmark 03",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\11",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark04",
+  "name": "Bookmark04",
+  "display": "Bookmark 04",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\12",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark05",
+  "name": "Bookmark05",
+  "display": "Bookmark 05",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\13",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark06",
+  "name": "Bookmark06",
+  "display": "Bookmark 06",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\14",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark07",
+  "name": "Bookmark07",
+  "display": "Bookmark 07",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\15",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark08",
+  "name": "Bookmark08",
+  "display": "Bookmark 08",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\16",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark09",
+  "name": "Bookmark09",
+  "display": "Bookmark 09",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\17",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark10",
+  "name": "Bookmark10",
+  "display": "Bookmark 10",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\18",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark11",
+  "name": "Bookmark11",
+  "display": "Bookmark 11",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\19",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark12",
+  "name": "Bookmark12",
+  "display": "Bookmark 12",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\2",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark13",
+  "name": "Bookmark13",
+  "display": "Bookmark 13",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\20",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark14",
+  "name": "Bookmark14",
+  "display": "Bookmark 14",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\21",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark15",
+  "name": "Bookmark15",
+  "display": "Bookmark 15",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\22",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark16",
+  "name": "Bookmark16",
+  "display": "Bookmark 16",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\23",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark17",
+  "name": "Bookmark17",
+  "display": "Bookmark 17",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\24",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark18",
+  "name": "Bookmark18",
+  "display": "Bookmark 18",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\25",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark19",
+  "name": "Bookmark19",
+  "display": "Bookmark 19",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\26",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark20",
+  "name": "Bookmark20",
+  "display": "Bookmark 20",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\27",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark21",
+  "name": "Bookmark21",
+  "display": "Bookmark 21",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\28",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark22",
+  "name": "Bookmark22",
+  "display": "Bookmark 22",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\29",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark23",
+  "name": "Bookmark23",
+  "display": "Bookmark 23",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\3",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark24",
+  "name": "Bookmark24",
+  "display": "Bookmark 24",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\30",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark25",
+  "name": "Bookmark25",
+  "display": "Bookmark 25",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\31",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark26",
+  "name": "Bookmark26",
+  "display": "Bookmark 26",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\32",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark27",
+  "name": "Bookmark27",
+  "display": "Bookmark 27",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\33",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark28",
+  "name": "Bookmark28",
+  "display": "Bookmark 28",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\34",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark29",
+  "name": "Bookmark29",
+  "display": "Bookmark 29",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\35",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark30",
+  "name": "Bookmark30",
+  "display": "Bookmark 30",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\36",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark31",
+  "name": "Bookmark31",
+  "display": "Bookmark 31",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\37",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark32",
+  "name": "Bookmark32",
+  "display": "Bookmark 32",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\38",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark33",
+  "name": "Bookmark33",
+  "display": "Bookmark 33",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\39",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark34",
+  "name": "Bookmark34",
+  "display": "Bookmark 34",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\4",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark35",
+  "name": "Bookmark35",
+  "display": "Bookmark 35",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\40",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark36",
+  "name": "Bookmark36",
+  "display": "Bookmark 36",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\41",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark37",
+  "name": "Bookmark37",
+  "display": "Bookmark 37",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\42",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark38",
+  "name": "Bookmark38",
+  "display": "Bookmark 38",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\43",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark39",
+  "name": "Bookmark39",
+  "display": "Bookmark 39",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\44",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark40",
+  "name": "Bookmark40",
+  "display": "Bookmark 40",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\45",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark41",
+  "name": "Bookmark41",
+  "display": "Bookmark 41",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\46",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark42",
+  "name": "Bookmark42",
+  "display": "Bookmark 42",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\47",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark43",
+  "name": "Bookmark43",
+  "display": "Bookmark 43",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\48",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark44",
+  "name": "Bookmark44",
+  "display": "Bookmark 44",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\49",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark45",
+  "name": "Bookmark45",
+  "display": "Bookmark 45",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\5",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark46",
+  "name": "Bookmark46",
+  "display": "Bookmark 46",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\50",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark47",
+  "name": "Bookmark47",
+  "display": "Bookmark 47",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\6",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark48",
+  "name": "Bookmark48",
+  "display": "Bookmark 48",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\7",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark49",
+  "name": "Bookmark49",
+  "display": "Bookmark 49",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\8",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Bookmark50",
+  "name": "Bookmark50",
+  "display": "Bookmark 50",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Bookmarks"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Bookmarks\\9",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text",
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:C_SanitizeOnShutdown_Downloads",
+  "name": "C_SanitizeOnShutdown_Downloads",
+  "display": "Download History",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Clear data when browser is closed"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\SanitizeOnShutdown",
+  "valueName": "Downloads",
+  "supported": "Firefox 74 or later, Firefox 68.6 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:C_TrackingProtection_Fingerprinting",
+  "name": "C_TrackingProtection_Fingerprinting",
+  "display": "Fingerprinting",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Tracking Protection"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\EnableTrackingProtection",
+  "valueName": "Fingerprinting",
+  "supported": "Firefox 74 or later, Firefox 68.6 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Camera_Allow",
+  "name": "Camera_Allow",
+  "display": "Allowed Sites",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Permissions",
+   "Camera"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Permissions",
+  "valueName": null,
+  "supported": "Firefox 62 or later, Firefox 60.2 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Camera_Block",
+  "name": "Camera_Block",
+  "display": "Blocked Sites",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Permissions",
+   "Camera"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Permissions",
+  "valueName": null,
+  "supported": "Firefox 62 or later, Firefox 60.2 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Camera_BlockNewRequests",
+  "name": "Camera_BlockNewRequests",
+  "display": "Block new requests asking to access the camera",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Permissions",
+   "Camera"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Permissions\\Camera",
+  "valueName": "BlockNewRequests",
+  "supported": "Firefox 62 or later, Firefox 60.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Camera_Locked",
+  "name": "Camera_Locked",
+  "display": "Do not allow preferences to be changed",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Permissions",
+   "Camera"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Permissions\\Camera",
+  "valueName": "Locked",
+  "supported": "Firefox 62 or later, Firefox 60.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:CaptivePortal",
+  "name": "CaptivePortal",
+  "display": "Captive Portal",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "CaptivePortal",
+  "supported": "Firefox 67 or later, Firefox 60.7 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Certificates_ImportEnterpriseRoots",
+  "name": "Certificates_ImportEnterpriseRoots",
+  "display": "Import Enterprise Roots",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Certificates"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Certificates",
+  "valueName": "ImportEnterpriseRoots",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Certificates_Install",
+  "name": "Certificates_Install",
+  "display": "Install Certificates",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Certificates"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Certificates",
+  "valueName": null,
+  "supported": "Firefox 64 or later, Firefox 60.4 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Containers",
+  "name": "Containers",
+  "display": "Containers",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "SUPPORTED_FF113",
+  "elements": [
+   "multiText"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Cookies_AcceptThirdParty",
+  "name": "Cookies_AcceptThirdParty",
+  "display": "Accept third-party cookies (Deprecated)",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Cookies"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Cookies",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Cookies_Allow",
+  "name": "Cookies_Allow",
+  "display": "Allowed Sites",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Cookies"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Cookies_AllowSession",
+  "name": "Cookies_AllowSession",
+  "display": "Allowed Sites (Session Only)",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Cookies"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 79 or later, Firefox 78.1 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Cookies_Behavior",
+  "name": "Cookies_Behavior",
+  "display": "Cookie Behavior",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Cookies"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Cookies",
+  "valueName": null,
+  "supported": "Firefox 95 or later, Firefox 91.4 ESR or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Cookies_BehaviorPrivateBrowsing",
+  "name": "Cookies_BehaviorPrivateBrowsing",
+  "display": "Cookie Behavior in private browsing",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Cookies"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Cookies",
+  "valueName": null,
+  "supported": "Firefox 95 or later, Firefox 91.4 ESR or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Cookies_Block",
+  "name": "Cookies_Block",
+  "display": "Blocked Sites",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Cookies"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Cookies_Default",
+  "name": "Cookies_Default",
+  "display": "Accept cookies from websites (Deprecated)",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Cookies"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Cookies",
+  "valueName": "Default",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Cookies_ExpireAtSessionEnd",
+  "name": "Cookies_ExpireAtSessionEnd",
+  "display": "Keep cookies until Firefox is closed",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Cookies"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Cookies",
+  "valueName": "ExpireAtSessionEnd",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Cookies_Locked",
+  "name": "Cookies_Locked",
+  "display": "Do not allow preferences to be changed",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Cookies"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Cookies",
+  "valueName": "Locked",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Cookies_RejectTracker",
+  "name": "Cookies_RejectTracker",
+  "display": "Reject trackers (Deprecated)",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Cookies"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Cookies",
+  "valueName": "RejectTracker",
+  "supported": "Firefox 64 or later, Firefox 60.4 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:CustomizeFirefoxHome",
+  "name": "CustomizeFirefoxHome",
+  "display": "Customize Firefox Home",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": [
+   "boolean",
+   "boolean",
+   "boolean",
+   "boolean",
+   "boolean",
+   "boolean",
+   "boolean",
+   "boolean"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DNSOverHTTPS_Enabled",
+  "name": "DNSOverHTTPS_Enabled",
+  "display": "Enabled",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "DNS Over HTTPS"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\DNSOverHTTPS",
+  "valueName": "Enabled",
+  "supported": "SUPPORTED_FF63ESR",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DNSOverHTTPS_ExcludedDomains",
+  "name": "DNSOverHTTPS_ExcludedDomains",
+  "display": "Excluded Domains",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "DNS Over HTTPS"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\DNSOverHTTPS",
+  "valueName": null,
+  "supported": "Firefox 75 or later, Firefox 68.7 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DNSOverHTTPS_Locked",
+  "name": "DNSOverHTTPS_Locked",
+  "display": "Locked",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "DNS Over HTTPS"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\DNSOverHTTPS",
+  "valueName": "Locked",
+  "supported": "SUPPORTED_FF63ESR",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DNSOverHTTPS_ProviderURL",
+  "name": "DNSOverHTTPS_ProviderURL",
+  "display": "Provider URL",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "DNS Over HTTPS"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\DNSOverHTTPS",
+  "valueName": null,
+  "supported": "SUPPORTED_FF63ESR",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:D_SanitizeOnShutdown_FormData",
+  "name": "D_SanitizeOnShutdown_FormData",
+  "display": "Form & Search History",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Clear data when browser is closed"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\SanitizeOnShutdown",
+  "valueName": "FormData",
+  "supported": "Firefox 74 or later, Firefox 68.6 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:D_TrackingProtection_Exceptions",
+  "name": "D_TrackingProtection_Exceptions",
+  "display": "Exceptions",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Tracking Protection"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\EnableTrackingProtection",
+  "valueName": null,
+  "supported": "Firefox 74 or later, Firefox 68.6 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DefaultDownloadDirectory",
+  "name": "DefaultDownloadDirectory",
+  "display": "Default Download Directory",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisableAppUpdate",
+  "name": "DisableAppUpdate",
+  "display": "Disable Update",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "DisableAppUpdate",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisableBuiltinPDFViewer",
+  "name": "DisableBuiltinPDFViewer",
+  "display": "Disable Built-in PDF Viewer (PDF.js)",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "DisableBuiltinPDFViewer",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisableDefaultBrowserAgent",
+  "name": "DisableDefaultBrowserAgent",
+  "display": "Disable the default browser agent",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "DisableDefaultBrowserAgent",
+  "supported": "Firefox 75 or later, Firefox 68.7 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisableDeveloperTools",
+  "name": "DisableDeveloperTools",
+  "display": "Disable Developer Tools",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "DisableDeveloperTools",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisableFeedbackCommands",
+  "name": "DisableFeedbackCommands",
+  "display": "Disable Feedback Commands",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "DisableFeedbackCommands",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisableFirefoxAccounts",
+  "name": "DisableFirefoxAccounts",
+  "display": "Disable Firefox Accounts",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "DisableFirefoxAccounts",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisableFirefoxScreenshots",
+  "name": "DisableFirefoxScreenshots",
+  "display": "Disable Firefox Screenshots",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "DisableFirefoxScreenshots",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisableFirefoxStudies",
+  "name": "DisableFirefoxStudies",
+  "display": "Disable Firefox Studies",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "DisableFirefoxStudies",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisableForgetButton",
+  "name": "DisableForgetButton",
+  "display": "Disable Forget Button",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "DisableForgetButton",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisableFormHistory",
+  "name": "DisableFormHistory",
+  "display": "Disable Form History",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "DisableFormHistory",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisableMasterPasswordCreation",
+  "name": "DisableMasterPasswordCreation",
+  "display": "Disable Master Password Creation",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "DisableMasterPasswordCreation",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisablePasswordReveal",
+  "name": "DisablePasswordReveal",
+  "display": "Do not allow passwords to be revealed in saved logins",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "DisablePasswordReveal",
+  "supported": "Firefox 71 or later, Firefox 68.3 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisablePocket",
+  "name": "DisablePocket",
+  "display": "Disable Pocket",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "DisablePocket",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisablePrivateBrowsing",
+  "name": "DisablePrivateBrowsing",
+  "display": "Disable Private Browsing",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "DisablePrivateBrowsing",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisableProfileImport",
+  "name": "DisableProfileImport",
+  "display": "Disable Profile Import",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "DisableProfileImport",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisableProfileRefresh",
+  "name": "DisableProfileRefresh",
+  "display": "Disable Profile Refresh",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "DisableProfileRefresh",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisableSafeMode",
+  "name": "DisableSafeMode",
+  "display": "Disable Safe Mode",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "DisableSafeMode",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisableSetDesktopBackground",
+  "name": "DisableSetDesktopBackground",
+  "display": "Disable Set Desktop Background",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "DisableSetDesktopBackground",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisableSystemAddonUpdate",
+  "name": "DisableSystemAddonUpdate",
+  "display": "Disable System Addon Updates",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "DisableSystemAddonUpdate",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisableTelemetry",
+  "name": "DisableTelemetry",
+  "display": "Disable Telemetry",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "DisableTelemetry",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisableThirdPartyModuleBlocking",
+  "name": "DisableThirdPartyModuleBlocking",
+  "display": "Disable Third Party Module Blocking",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "DisableThirdPartyModuleBlocking",
+  "supported": "Firefox 110 or later, Firefox 102.8 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisabledCiphers_TLS_DHE_RSA_WITH_AES_128_CBC_SHA",
+  "name": "DisabledCiphers_TLS_DHE_RSA_WITH_AES_128_CBC_SHA",
+  "display": "TLS_DHE_RSA_WITH_AES_128_CBC_SHA",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Disabled Ciphers"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\DisabledCiphers",
+  "valueName": "TLS_DHE_RSA_WITH_AES_128_CBC_SHA",
+  "supported": "Firefox 76 or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisabledCiphers_TLS_DHE_RSA_WITH_AES_256_CBC_SHA",
+  "name": "DisabledCiphers_TLS_DHE_RSA_WITH_AES_256_CBC_SHA",
+  "display": "TLS_DHE_RSA_WITH_AES_256_CBC_SHA",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Disabled Ciphers"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\DisabledCiphers",
+  "valueName": "TLS_DHE_RSA_WITH_AES_256_CBC_SHA",
+  "supported": "Firefox 76 or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisabledCiphers_TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+  "name": "DisabledCiphers_TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+  "display": "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Disabled Ciphers"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\DisabledCiphers",
+  "valueName": "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+  "supported": "Firefox 97 or later, Firefox 91.6 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisabledCiphers_TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+  "name": "DisabledCiphers_TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+  "display": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Disabled Ciphers"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\DisabledCiphers",
+  "valueName": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+  "supported": "Firefox 76 or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisabledCiphers_TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+  "name": "DisabledCiphers_TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+  "display": "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Disabled Ciphers"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\DisabledCiphers",
+  "valueName": "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+  "supported": "Firefox 97 or later, Firefox 91.6 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisabledCiphers_TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+  "name": "DisabledCiphers_TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+  "display": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Disabled Ciphers"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\DisabledCiphers",
+  "valueName": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+  "supported": "Firefox 97 or later, Firefox 91.6 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisabledCiphers_TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+  "name": "DisabledCiphers_TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+  "display": "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Disabled Ciphers"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\DisabledCiphers",
+  "valueName": "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+  "supported": "Firefox 97 or later, Firefox 91.6 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisabledCiphers_TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+  "name": "DisabledCiphers_TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+  "display": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Disabled Ciphers"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\DisabledCiphers",
+  "valueName": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+  "supported": "Firefox 76 or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisabledCiphers_TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+  "name": "DisabledCiphers_TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+  "display": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Disabled Ciphers"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\DisabledCiphers",
+  "valueName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+  "supported": "Firefox 76 or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisabledCiphers_TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+  "name": "DisabledCiphers_TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+  "display": "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Disabled Ciphers"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\DisabledCiphers",
+  "valueName": "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+  "supported": "Firefox 76 or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisabledCiphers_TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+  "name": "DisabledCiphers_TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+  "display": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Disabled Ciphers"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\DisabledCiphers",
+  "valueName": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+  "supported": "Firefox 97 or later, Firefox 91.6 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisabledCiphers_TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+  "name": "DisabledCiphers_TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+  "display": "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Disabled Ciphers"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\DisabledCiphers",
+  "valueName": "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+  "supported": "Firefox 97 or later, Firefox 91.6 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisabledCiphers_TLS_RSA_WITH_3DES_EDE_CBC_SHA",
+  "name": "DisabledCiphers_TLS_RSA_WITH_3DES_EDE_CBC_SHA",
+  "display": "TLS_RSA_WITH_3DES_EDE_CBC_SHA",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Disabled Ciphers"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\DisabledCiphers",
+  "valueName": "TLS_RSA_WITH_3DES_EDE_CBC_SHA",
+  "supported": "Firefox 76 or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisabledCiphers_TLS_RSA_WITH_AES_128_CBC_SHA",
+  "name": "DisabledCiphers_TLS_RSA_WITH_AES_128_CBC_SHA",
+  "display": "TLS_RSA_WITH_AES_128_CBC_SHA",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Disabled Ciphers"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\DisabledCiphers",
+  "valueName": "TLS_RSA_WITH_AES_128_CBC_SHA",
+  "supported": "Firefox 76 or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisabledCiphers_TLS_RSA_WITH_AES_128_GCM_SHA256",
+  "name": "DisabledCiphers_TLS_RSA_WITH_AES_128_GCM_SHA256",
+  "display": "TLS_RSA_WITH_AES_128_GCM_SHA256",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Disabled Ciphers"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\DisabledCiphers",
+  "valueName": "TLS_RSA_WITH_AES_128_GCM_SHA256",
+  "supported": "Firefox 78 or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisabledCiphers_TLS_RSA_WITH_AES_256_CBC_SHA",
+  "name": "DisabledCiphers_TLS_RSA_WITH_AES_256_CBC_SHA",
+  "display": "TLS_RSA_WITH_AES_256_CBC_SHA",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Disabled Ciphers"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\DisabledCiphers",
+  "valueName": "TLS_RSA_WITH_AES_256_CBC_SHA",
+  "supported": "Firefox 76 or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisabledCiphers_TLS_RSA_WITH_AES_256_GCM_SHA384",
+  "name": "DisabledCiphers_TLS_RSA_WITH_AES_256_GCM_SHA384",
+  "display": "TLS_RSA_WITH_AES_256_GCM_SHA384",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Disabled Ciphers"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\DisabledCiphers",
+  "valueName": "TLS_RSA_WITH_AES_256_GCM_SHA384",
+  "supported": "Firefox 78 or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisplayBookmarksToolbar",
+  "name": "DisplayBookmarksToolbar",
+  "display": "Display Bookmarks Toolbar (Deprecated)",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "DisplayBookmarksToolbar",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisplayBookmarksToolbar_Enum",
+  "name": "DisplayBookmarksToolbar_Enum",
+  "display": "Display Bookmarks Toolbar",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 109 or later, Firefox 102.7 ESR or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisplayMenuBar",
+  "name": "DisplayMenuBar",
+  "display": "Display Menu Bar (Deprecated)",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "DisplayMenuBar",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DisplayMenuBar_Enum",
+  "name": "DisplayMenuBar_Enum",
+  "display": "Display Menu Bar",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 73 or later, Firefox 68.5 ESR or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DontCheckDefaultBrowser",
+  "name": "DontCheckDefaultBrowser",
+  "display": "Don't Check Default Browser",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "DontCheckDefaultBrowser",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:DownloadDirectory",
+  "name": "DownloadDirectory",
+  "display": "Download Directory",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:E_SanitizeOnShutdown_History",
+  "name": "E_SanitizeOnShutdown_History",
+  "display": "Browsing History",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Clear data when browser is closed"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\SanitizeOnShutdown",
+  "valueName": "History",
+  "supported": "Firefox 74 or later, Firefox 68.6 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:E_TrackingProtection_Locked",
+  "name": "E_TrackingProtection_Locked",
+  "display": "Do not allow tracking protection preferences to be changed",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Tracking Protection"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\EnableTrackingProtection",
+  "valueName": "Locked",
+  "supported": "Firefox 74 or later, Firefox 68.6 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:EncryptedMediaExtensions_Enabled",
+  "name": "EncryptedMediaExtensions_Enabled",
+  "display": "Enable Encrypted Media Extensions",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Encrypted Media Extensions"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\EncryptedMediaExtensions",
+  "valueName": "Enabled",
+  "supported": "Firefox 77 or later, Firefox 68.9 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:EncryptedMediaExtensions_Locked",
+  "name": "EncryptedMediaExtensions_Locked",
+  "display": "Lock Encrypted Media Extensions",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Encrypted Media Extensions"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\EncryptedMediaExtensions",
+  "valueName": "Locked",
+  "supported": "Firefox 77 or later, Firefox 68.9 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:ExemptDomainFileTypePairsFromFileTypeDownloadWarnings",
+  "name": "ExemptDomainFileTypePairsFromFileTypeDownloadWarnings",
+  "display": "Disable warnings based on file extension for specific file types on domains",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 102 or later",
+  "elements": [
+   "multiText"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:ExtensionSettings",
+  "name": "ExtensionSettings",
+  "display": "Extension Management",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Extensions"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "SUPPORTED_FF69",
+  "elements": [
+   "multiText"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:ExtensionUpdate",
+  "name": "ExtensionUpdate",
+  "display": "Extension Update",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Extensions"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "ExtensionUpdate",
+  "supported": "Firefox 67 or later, Firefox 60.7 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Extensions_Install",
+  "name": "Extensions_Install",
+  "display": "Extensions to Install",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Extensions"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Extensions\\Install",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Extensions_Locked",
+  "name": "Extensions_Locked",
+  "display": "Prevent extensions from being disabled or removed",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Extensions"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Extensions\\Locked",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Extensions_Uninstall",
+  "name": "Extensions_Uninstall",
+  "display": "Extensions to Uninstall",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Extensions"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Extensions\\Uninstall",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:F_SanitizeOnShutdown_Sessions",
+  "name": "F_SanitizeOnShutdown_Sessions",
+  "display": "Active Logins",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Clear data when browser is closed"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\SanitizeOnShutdown",
+  "valueName": "Sessions",
+  "supported": "Firefox 74 or later, Firefox 68.6 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:F_TrackingProtection_EmailTracking",
+  "name": "F_TrackingProtection_EmailTracking",
+  "display": "Email Tracking",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Tracking Protection"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\EnableTrackingProtection",
+  "valueName": "EmailTracking",
+  "supported": "SUPPORTED_FF112",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:FlashPlugin_Allow",
+  "name": "FlashPlugin_Allow",
+  "display": "Allowed Sites",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Flash"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:FlashPlugin_Block",
+  "name": "FlashPlugin_Block",
+  "display": "Blocked Sites",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Flash"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:FlashPlugin_Default",
+  "name": "FlashPlugin_Default",
+  "display": "Activate Flash on websites",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Flash"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\FlashPlugin",
+  "valueName": "Default",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:FlashPlugin_Locked",
+  "name": "FlashPlugin_Locked",
+  "display": "Do not allow preferences to be changed",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Flash"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\FlashPlugin",
+  "valueName": "Locked",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:G_SanitizeOnShutdown_SiteSettings",
+  "name": "G_SanitizeOnShutdown_SiteSettings",
+  "display": "Site Preferences",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Clear data when browser is closed"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\SanitizeOnShutdown",
+  "valueName": "SiteSettings",
+  "supported": "Firefox 74 or later, Firefox 68.6 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:GoToIntranetSiteForSingleWordEntryInAddressBar",
+  "name": "GoToIntranetSiteForSingleWordEntryInAddressBar",
+  "display": "Force direct intranet site navigation on single word entries in the address bar",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "GoToIntranetSiteForSingleWordEntryInAddressBar",
+  "supported": "Firefox 104 or later, Firefox 102.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:H_SanitizeOnShutdown_OfflineApps",
+  "name": "H_SanitizeOnShutdown_OfflineApps",
+  "display": "Offline Website Data",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Clear data when browser is closed"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\SanitizeOnShutdown",
+  "valueName": "OfflineApps",
+  "supported": "Firefox 74 or later, Firefox 68.6 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Handlers",
+  "name": "Handlers",
+  "display": "Handlers",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 78 or later",
+  "elements": [
+   "multiText"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:HardwareAcceleration",
+  "name": "HardwareAcceleration",
+  "display": "Hardware Acceleration",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "HardwareAcceleration",
+  "supported": "Firefox 62 or later, Firefox 60.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:HomepageAdditional",
+  "name": "HomepageAdditional",
+  "display": "Additional Homepages",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Home page"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Homepage",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:HomepageStartPage",
+  "name": "HomepageStartPage",
+  "display": "Start Page",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Home page"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Homepage",
+  "valueName": null,
+  "supported": "Firefox 64 or later, Firefox 60.4 ESR or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:HomepageURL",
+  "name": "HomepageURL",
+  "display": "URL for Home page",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Home page"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Homepage",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "boolean"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Homepage_ShowHomeButton",
+  "name": "Homepage_ShowHomeButton",
+  "display": "Show Home button on toolbar",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Home page"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "ShowHomeButton",
+  "supported": "Firefox 88 or later, Firefox 78.10 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:I_SanitizeOnShutdown_Locked",
+  "name": "I_SanitizeOnShutdown_Locked",
+  "display": "Locked",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Clear data when browser is closed"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\SanitizeOnShutdown",
+  "valueName": "Locked",
+  "supported": "Firefox 74 or later, Firefox 68.6 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:InstallAddonsPermission_Allow",
+  "name": "InstallAddonsPermission_Allow",
+  "display": "Allowed Sites",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Addons"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:InstallAddonsPermission_Default",
+  "name": "InstallAddonsPermission_Default",
+  "display": "Allow add-on installs from websites",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Addons"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\InstallAddonsPermission",
+  "valueName": "Default",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:LegacyProfiles",
+  "name": "LegacyProfiles",
+  "display": "Legacy Profiles",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "LegacyProfiles",
+  "supported": "Firefox 70 or later, Firefox 68.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:LegacySameSiteCookieBehaviorEnabled",
+  "name": "LegacySameSiteCookieBehaviorEnabled",
+  "display": "Revert to legacy SameSite behavior",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "LegacySameSiteCookieBehaviorEnabled",
+  "supported": "Firefox 96 or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:LegacySameSiteCookieBehaviorEnabledForDomainList",
+  "name": "LegacySameSiteCookieBehaviorEnabledForDomainList",
+  "display": "Revert to legacy SameSite behavior on specific domains",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\LegacySameSiteCookieBehaviorEnabledForDomainList",
+  "valueName": null,
+  "supported": "Firefox 96 or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:LocalFileLinks",
+  "name": "LocalFileLinks",
+  "display": "Local File Links",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\LocalFileLinks",
+  "valueName": null,
+  "supported": "Firefox 68.5 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Location_Allow",
+  "name": "Location_Allow",
+  "display": "Allowed Sites",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Permissions",
+   "Location"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Permissions",
+  "valueName": null,
+  "supported": "Firefox 62 or later, Firefox 60.2 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Location_Block",
+  "name": "Location_Block",
+  "display": "Blocked Sites",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Permissions",
+   "Location"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Permissions",
+  "valueName": null,
+  "supported": "Firefox 62 or later, Firefox 60.2 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Location_BlockNewRequests",
+  "name": "Location_BlockNewRequests",
+  "display": "Block new requests asking to access location",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Permissions",
+   "Location"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Permissions\\Location",
+  "valueName": "BlockNewRequests",
+  "supported": "Firefox 62 or later, Firefox 60.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Location_Locked",
+  "name": "Location_Locked",
+  "display": "Do not allow preferences to be changed",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Permissions",
+   "Location"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Permissions\\Location",
+  "valueName": "Locked",
+  "supported": "Firefox 62 or later, Firefox 60.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:ManagedBookmarks",
+  "name": "ManagedBookmarks",
+  "display": "Managed Bookmarks",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 83 or later, Firefox 78.5 ESR or later",
+  "elements": [
+   "multiText"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Microphone_Allow",
+  "name": "Microphone_Allow",
+  "display": "Allowed Sites",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Permissions",
+   "Microphone"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Permissions",
+  "valueName": null,
+  "supported": "Firefox 62 or later, Firefox 60.2 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Microphone_Block",
+  "name": "Microphone_Block",
+  "display": "Blocked Sites",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Permissions",
+   "Microphone"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Permissions",
+  "valueName": null,
+  "supported": "Firefox 62 or later, Firefox 60.2 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Microphone_BlockNewRequests",
+  "name": "Microphone_BlockNewRequests",
+  "display": "Block new requests asking to access the microphone",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Permissions",
+   "Microphone"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Permissions\\Microphone",
+  "valueName": "BlockNewRequests",
+  "supported": "Firefox 62 or later, Firefox 60.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Microphone_Locked",
+  "name": "Microphone_Locked",
+  "display": "Do not allow preferences to be changed",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Permissions",
+   "Microphone"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Permissions\\Microphone",
+  "valueName": "Locked",
+  "supported": "Firefox 62 or later, Firefox 60.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:NetworkPrediction",
+  "name": "NetworkPrediction",
+  "display": "Network Prediction",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "NetworkPrediction",
+  "supported": "Firefox 67 or later, Firefox 60.7 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:NewTabPage",
+  "name": "NewTabPage",
+  "display": "New Tab Page",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "NewTabPage",
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:NoDefaultBookmarks",
+  "name": "NoDefaultBookmarks",
+  "display": "No Default Bookmarks",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "NoDefaultBookmarks",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Notifications_Allow",
+  "name": "Notifications_Allow",
+  "display": "Allowed Sites",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Permissions",
+   "Notifications"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Permissions",
+  "valueName": null,
+  "supported": "Firefox 62 or later, Firefox 60.2 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Notifications_Block",
+  "name": "Notifications_Block",
+  "display": "Blocked Sites",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Permissions",
+   "Notifications"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Permissions",
+  "valueName": null,
+  "supported": "Firefox 62 or later, Firefox 60.2 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Notifications_BlockNewRequests",
+  "name": "Notifications_BlockNewRequests",
+  "display": "Block new requests asking to send notifications",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Permissions",
+   "Notifications"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Permissions\\Notifications",
+  "valueName": "BlockNewRequests",
+  "supported": "Firefox 62 or later, Firefox 60.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Notifications_Locked",
+  "name": "Notifications_Locked",
+  "display": "Do not allow preferences to be changed",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Permissions",
+   "Notifications"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Permissions\\Notifications",
+  "valueName": "Locked",
+  "supported": "Firefox 62 or later, Firefox 60.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:OfferToSaveLogins",
+  "name": "OfferToSaveLogins",
+  "display": "Offer to save logins",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "OfferToSaveLogins",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:OfferToSaveLoginsDefault",
+  "name": "OfferToSaveLoginsDefault",
+  "display": "Offer to save logins (default)",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "OfferToSaveLoginsDefault",
+  "supported": "Firefox 70 or later, Firefox 68.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:OverrideFirstRunPage",
+  "name": "OverrideFirstRunPage",
+  "display": "Override the first run page",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:OverridePostUpdatePage",
+  "name": "OverridePostUpdatePage",
+  "display": "Override the upgrade page",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:PDFjs_EnablePermissions",
+  "name": "PDFjs_EnablePermissions",
+  "display": "Enable Permissions",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "PDF.js"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\PDFjs",
+  "valueName": "EnablePermissions",
+  "supported": "Firefox 77 or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:PDFjs_Enabled",
+  "name": "PDFjs_Enabled",
+  "display": "Enable PDF.js",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "PDF.js"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\PDFjs",
+  "valueName": "Enabled",
+  "supported": "Firefox 77 or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:P_DisableSecurityBypass_InvalidCertificate",
+  "name": "P_DisableSecurityBypass_InvalidCertificate",
+  "display": "Prevent overriding certificate errors",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\DisableSecurityBypass",
+  "valueName": "InvalidCertificate",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:P_DisableSecurityBypass_SafeBrowsing",
+  "name": "P_DisableSecurityBypass_SafeBrowsing",
+  "display": "Prevent overriding safe browsing errors",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\DisableSecurityBypass",
+  "valueName": "SafeBrowsing",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:PasswordManagerEnabled",
+  "name": "PasswordManagerEnabled",
+  "display": "Password Manager",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "PasswordManagerEnabled",
+  "supported": "Firefox 70 or later, Firefox 68.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:PasswordManagerExceptions",
+  "name": "PasswordManagerExceptions",
+  "display": "Password Manager Exceptions",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\PasswordManagerExceptions",
+  "valueName": null,
+  "supported": "Firefox 101 or later, Firefox 91.10 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:PictureInPicture_Enabled",
+  "name": "PictureInPicture_Enabled",
+  "display": "Enabled",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Picture-in-Picture"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\PictureInPicture",
+  "valueName": "Enabled",
+  "supported": "Firefox 78 or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:PictureInPicture_Locked",
+  "name": "PictureInPicture_Locked",
+  "display": "Locked",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Picture-in-Picture"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\PictureInPicture",
+  "valueName": "Locked",
+  "supported": "Firefox 78 or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:PopupBlocking_Allow",
+  "name": "PopupBlocking_Allow",
+  "display": "Allowed Sites",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Popups"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:PopupBlocking_Default",
+  "name": "PopupBlocking_Default",
+  "display": "Block pop-ups from websites",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Popups"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\PopupBlocking",
+  "valueName": "Default",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:PopupBlocking_Locked",
+  "name": "PopupBlocking_Locked",
+  "display": "Do not allow preferences to be changed",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Popups"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\PopupBlocking",
+  "valueName": "Locked",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Preferences",
+  "name": "Preferences",
+  "display": "Preferences",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 81 or later, Firefox 78.3 ESR or later",
+  "elements": [
+   "multiText"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:PrimaryPassword",
+  "name": "PrimaryPassword",
+  "display": "Primary (Master) Password",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "PrimaryPassword",
+  "supported": "Firefox 79 or later, Firefox 78.1 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:PromptForDownloadLocation",
+  "name": "PromptForDownloadLocation",
+  "display": "Prompt for download location",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "PromptForDownloadLocation",
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Proxy_AutoConfigURL",
+  "name": "Proxy_AutoConfigURL",
+  "display": "Automatic proxy configuration URL",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Proxy Settings"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Proxy",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Proxy_AutoLogin",
+  "name": "Proxy_AutoLogin",
+  "display": "Do not prompt for authentication if password is saved",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Proxy Settings"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Proxy",
+  "valueName": "AutoLogin",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Proxy_ConnectionType",
+  "name": "Proxy_ConnectionType",
+  "display": "Connection Type",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Proxy Settings"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Proxy",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Proxy_HTTPProxy",
+  "name": "Proxy_HTTPProxy",
+  "display": "HTTP Proxy",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Proxy Settings"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Proxy",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Proxy_Locked",
+  "name": "Proxy_Locked",
+  "display": "Do not allow proxy settings to be changed",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Proxy Settings"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Proxy",
+  "valueName": "Locked",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Proxy_Passthrough",
+  "name": "Proxy_Passthrough",
+  "display": "Proxy Passthrough",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Proxy Settings"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Proxy",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Proxy_SOCKSProxy",
+  "name": "Proxy_SOCKSProxy",
+  "display": "SOCKS Host",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Proxy Settings"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Proxy",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Proxy_SSLProxy",
+  "name": "Proxy_SSLProxy",
+  "display": "HTTPS Proxy",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Proxy Settings"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Proxy",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Proxy_UseHTTPProxyForAllProtocols",
+  "name": "Proxy_UseHTTPProxyForAllProtocols",
+  "display": "Use HTTP proxy for HTTPS",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Proxy Settings"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Proxy",
+  "valueName": "UseHTTPProxyForAllProtocols",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:Proxy_UseProxyForDNS",
+  "name": "Proxy_UseProxyForDNS",
+  "display": "Proxy DNS when using SOCKS v5",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Proxy Settings"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Proxy",
+  "valueName": "UseProxyForDNS",
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:RequestedLocales",
+  "name": "RequestedLocales",
+  "display": "Requested locale",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 64 or later, Firefox 60.4 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:RequestedLocalesString",
+  "name": "RequestedLocalesString",
+  "display": "Requested locale (string)",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:SSLVersionMax",
+  "name": "SSLVersionMax",
+  "display": "Maximum SSL version enabled",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 66 or later, Firefox 60.6 ESR or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:SSLVersionMin",
+  "name": "SSLVersionMin",
+  "display": "Minimum SSL version enabled",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 66 or later, Firefox 60.6 ESR or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:SearchBar",
+  "name": "SearchBar",
+  "display": "Search bar location",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 60 or later, Firefox 60 ESR or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:SearchEngines_1",
+  "name": "SearchEngines_1",
+  "display": "Search Engine One",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Search"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\SearchEngines\\Add\\1",
+  "valueName": null,
+  "supported": "Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "enum",
+   "text",
+   "text",
+   "text",
+   "text",
+   "text",
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:SearchEngines_2",
+  "name": "SearchEngines_2",
+  "display": "Search Engine Two",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Search"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\SearchEngines\\Add\\2",
+  "valueName": null,
+  "supported": "Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "enum",
+   "text",
+   "text",
+   "text",
+   "text",
+   "text",
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:SearchEngines_3",
+  "name": "SearchEngines_3",
+  "display": "Search Engine Three",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Search"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\SearchEngines\\Add\\3",
+  "valueName": null,
+  "supported": "Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "enum",
+   "text",
+   "text",
+   "text",
+   "text",
+   "text",
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:SearchEngines_4",
+  "name": "SearchEngines_4",
+  "display": "Search Engine Four",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Search"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\SearchEngines\\Add\\4",
+  "valueName": null,
+  "supported": "Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "enum",
+   "text",
+   "text",
+   "text",
+   "text",
+   "text",
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:SearchEngines_5",
+  "name": "SearchEngines_5",
+  "display": "Search Engine Five",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Search"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\SearchEngines\\Add\\5",
+  "valueName": null,
+  "supported": "Firefox 60 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "enum",
+   "text",
+   "text",
+   "text",
+   "text",
+   "text",
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:SearchEngines_Default",
+  "name": "SearchEngines_Default",
+  "display": "Default Search Engine",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Search"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\SearchEngines",
+  "valueName": null,
+  "supported": "Firefox 60 ESR or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:SearchEngines_PreventInstalls",
+  "name": "SearchEngines_PreventInstalls",
+  "display": "Prevent Search Engine Installs",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Search"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\SearchEngines",
+  "valueName": "PreventInstalls",
+  "supported": "Firefox 60 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:SearchEngines_Remove",
+  "name": "SearchEngines_Remove",
+  "display": "Remove Search Engines",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Search"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\SearchEngines\\Remove",
+  "valueName": null,
+  "supported": "Firefox 60 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:SearchSuggestEnabled",
+  "name": "SearchSuggestEnabled",
+  "display": "Search Suggestions",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Search"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "SearchSuggestEnabled",
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:SecurityDevices",
+  "name": "SecurityDevices",
+  "display": "Security Devices",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 64 or later, Firefox 60.4 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:SecurityDevices_Add",
+  "name": "SecurityDevices_Add",
+  "display": "Add",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Security Devices"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 114 or later, Firefox 102.12 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:SecurityDevices_Delete",
+  "name": "SecurityDevices_Delete",
+  "display": "Delete",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Security Devices"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 114 or later, Firefox 102.12 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:StartDownloadsInTempDirectory",
+  "name": "StartDownloadsInTempDirectory",
+  "display": "Start Downloads in Temporary Directory",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "StartDownloadsInTempDirectory",
+  "supported": "Firefox 102 or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:SupportMenu",
+  "name": "SupportMenu",
+  "display": "Support Menu",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\SupportMenu",
+  "valueName": null,
+  "supported": "Firefox 68.0.1 or later, Firefox 68.0.1 ESR or later",
+  "elements": [
+   "text",
+   "text",
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:UseSystemPrintDialog",
+  "name": "UseSystemPrintDialog",
+  "display": "Use System Print Dialog",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "UseSystemPrintDialog",
+  "supported": "Firefox 102 or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:UserMessaging_ExtensionRecommendations",
+  "name": "UserMessaging_ExtensionRecommendations",
+  "display": "Extension Recommendations",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "User Messaging"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\UserMessaging",
+  "valueName": "ExtensionRecommendations",
+  "supported": "Firefox 75 or later, Firefox 68.7 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:UserMessaging_FeatureRecommendations",
+  "name": "UserMessaging_FeatureRecommendations",
+  "display": "Feature Recommendations",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "User Messaging"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\UserMessaging",
+  "valueName": "FeatureRecommendations",
+  "supported": "Firefox 75 or later, Firefox 68.7 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:UserMessaging_Locked",
+  "name": "UserMessaging_Locked",
+  "display": "Do not allow user messaging preferences to be changed",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "User Messaging"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\UserMessaging",
+  "valueName": "Locked",
+  "supported": "Firefox 75 or later, Firefox 68.7 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:UserMessaging_MoreFromMozilla",
+  "name": "UserMessaging_MoreFromMozilla",
+  "display": "More from Mozilla",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "User Messaging"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\UserMessaging",
+  "valueName": "MoreFromMozilla",
+  "supported": "Firefox 98 or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:UserMessaging_SkipOnboarding",
+  "name": "UserMessaging_SkipOnboarding",
+  "display": "Skip Onboarding",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "User Messaging"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\UserMessaging",
+  "valueName": "SkipOnboarding",
+  "supported": "Firefox 88 or later, Firefox 78.10 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:UserMessaging_UrlbarInterventions",
+  "name": "UserMessaging_UrlbarInterventions",
+  "display": "Urlbar Interventions",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "User Messaging"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\UserMessaging",
+  "valueName": "UrlbarInterventions",
+  "supported": "Firefox 75 or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:UserMessaging_WhatsNew",
+  "name": "UserMessaging_WhatsNew",
+  "display": "What's New",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "User Messaging"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\UserMessaging",
+  "valueName": "WhatsNew",
+  "supported": "Firefox 75 or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:VirtualReality_Allow",
+  "name": "VirtualReality_Allow",
+  "display": "Allowed Sites",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Permissions",
+   "Virtual Reality"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Permissions",
+  "valueName": null,
+  "supported": "Firefox 80 or later, Firefox 78.2 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:VirtualReality_Block",
+  "name": "VirtualReality_Block",
+  "display": "Blocked Sites",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Permissions",
+   "Virtual Reality"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Permissions",
+  "valueName": null,
+  "supported": "Firefox 80 or later, Firefox 78.2 ESR or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:VirtualReality_BlockNewRequests",
+  "name": "VirtualReality_BlockNewRequests",
+  "display": "Block new requests asking to access virtual reality devices.",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Permissions",
+   "Virtual Reality"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Permissions\\VirtualReality",
+  "valueName": "BlockNewRequests",
+  "supported": "Firefox 80 or later, Firefox 78.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:VirtualReality_Locked",
+  "name": "VirtualReality_Locked",
+  "display": "Do not allow preferences to be changed",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Permissions",
+   "Virtual Reality"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Permissions\\VirtualReality",
+  "valueName": "Locked",
+  "supported": "Firefox 80 or later, Firefox 78.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:WebsiteFilter",
+  "name": "WebsiteFilter",
+  "display": "Website Filter (JSON)",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": null,
+  "supported": "Firefox 114 or later, Firefox 102.12 ESR or later",
+  "elements": [
+   "multiText"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:WindowsSSO",
+  "name": "WindowsSSO",
+  "display": "Windows SSO",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox",
+  "valueName": "WindowsSSO",
+  "supported": "Firefox 91 or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:accessibility_force_disabled",
+  "name": "accessibility_force_disabled",
+  "display": "accessibility.force_disabled",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": null,
+  "supported": "Firefox 70 or later, Firefox 68.2 ESR or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:app_update_auto",
+  "name": "app_update_auto",
+  "display": "app.update.auto (Deprecated)",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "app.update.auto",
+  "supported": "No longer supported.",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:browser_bookmarks_autoExportHTML",
+  "name": "browser_bookmarks_autoExportHTML",
+  "display": "browser.bookmarks.autoExportHTML",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "browser.bookmarks.autoExportHTML",
+  "supported": "Firefox 70 or later, Firefox 68.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:browser_bookmarks_file",
+  "name": "browser_bookmarks_file",
+  "display": "browser.bookmarks.file",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": null,
+  "supported": "Firefox 70 or later, Firefox 68.2 ESR or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:browser_bookmarks_restore_default_bookmarks",
+  "name": "browser_bookmarks_restore_default_bookmarks",
+  "display": "browser.bookmarks.restore_default_bookmarks",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "browser.bookmarks.restore_default_bookmarks",
+  "supported": "Firefox 70 or later, Firefox 68.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:browser_cache_disk_enable",
+  "name": "browser_cache_disk_enable",
+  "display": "browser.cache.disk.enable",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "browser.cache.disk.enable",
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:browser_cache_disk_parent_directory",
+  "name": "browser_cache_disk_parent_directory",
+  "display": "browser.cache.disk.parent_directory",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": null,
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:browser_fixup_dns_first_for_single_words",
+  "name": "browser_fixup_dns_first_for_single_words",
+  "display": "browser.fixup.dns_first_for_single_words",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "browser.fixup.dns_first_for_single_words",
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:browser_newtabpage_activity-stream_default_sites",
+  "name": "browser_newtabpage_activity-stream_default_sites",
+  "display": "browser.newtabpage.activity-stream.default.sites",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": null,
+  "supported": "Firefox 72 or later, Firefox 68.4 ESR or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:browser_places_importBookmarksHTML",
+  "name": "browser_places_importBookmarksHTML",
+  "display": "browser.places.importBookmarksHTML",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "browser.places.importBookmarksHTML",
+  "supported": "Firefox 70 or later, Firefox 68.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:browser_safebrowsing_malware_enabled",
+  "name": "browser_safebrowsing_malware_enabled",
+  "display": "browser.safebrowsing.malware.enabled",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "browser.safebrowsing.malware.enabled",
+  "supported": "Firefox 70 or later, Firefox 68.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:browser_safebrowsing_phishing_enabled",
+  "name": "browser_safebrowsing_phishing_enabled",
+  "display": "browser.safebrowsing.phishing.enabled",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "browser.safebrowsing.phishing.enabled",
+  "supported": "Firefox 70 or later, Firefox 68.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:browser_search_update",
+  "name": "browser_search_update",
+  "display": "browser.search.update",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "browser.search.update",
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:browser_slowStartup_notificationDisabled",
+  "name": "browser_slowStartup_notificationDisabled",
+  "display": "browser.slowStartup.notificationDisabled",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "browser.slowStartup.notificationDisabled",
+  "supported": "Firefox 70 or later, Firefox 68.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:browser_tabs_warnOnClose",
+  "name": "browser_tabs_warnOnClose",
+  "display": "browser.tabs.warnOnClose",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "browser.tabs.warnOnClose",
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:browser_taskbar_previews_enable",
+  "name": "browser_taskbar_previews_enable",
+  "display": "browser.taskbar.previews.enable",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "browser.taskbar.previews.enable",
+  "supported": "Firefox 70 or later, Firefox 68.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:browser_urlbar_suggest_bookmark",
+  "name": "browser_urlbar_suggest_bookmark",
+  "display": "browser.urlbar.suggest.bookmark",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "browser.urlbar.suggest.bookmark",
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:browser_urlbar_suggest_history",
+  "name": "browser_urlbar_suggest_history",
+  "display": "browser.urlbar.suggest.history",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "browser.urlbar.suggest.history",
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:browser_urlbar_suggest_openpage",
+  "name": "browser_urlbar_suggest_openpage",
+  "display": "browser.urlbar.suggest.openpage",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "browser.urlbar.suggest.openpage",
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:datareporting_policy_dataSubmissionPolicyBypassNotification",
+  "name": "datareporting_policy_dataSubmissionPolicyBypassNotification",
+  "display": "datareporting.policy.dataSubmissionPolicyBypassNotification",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "datareporting.policy.dataSubmissionPolicyBypassNotification",
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:dom_allow_scripts_to_close_windows",
+  "name": "dom_allow_scripts_to_close_windows",
+  "display": "dom.allow_scripts_to_close_windows",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "dom.allow_scripts_to_close_windows",
+  "supported": "Firefox 70 or later, Firefox 68.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:dom_disable_window_flip",
+  "name": "dom_disable_window_flip",
+  "display": "dom.disable_window_flip",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "dom.disable_window_flip",
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:dom_disable_window_move_resize",
+  "name": "dom_disable_window_move_resize",
+  "display": "dom.disable_window_move_resize",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "dom.disable_window_move_resize",
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:dom_event_contextmenu_enabled",
+  "name": "dom_event_contextmenu_enabled",
+  "display": "dom.event.contextmenu.enabled",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "dom.event.contextmenu.enabled",
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:dom_keyboardevent_keypress_hack_dispatch_non_printable_keys_addl",
+  "name": "dom_keyboardevent_keypress_hack_dispatch_non_printable_keys_addl",
+  "display": "dom.keyboardevent.keypress.hack.dispatch_non_printable_keys.addl",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": null,
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:dom_keyboardevent_keypress_hack_use_legacy_keycode_and_charcode_addl",
+  "name": "dom_keyboardevent_keypress_hack_use_legacy_keycode_and_charcode_addl",
+  "display": "dom.keyboardevent.keypress.hack.use_legacy_keycode_and_charcode.addl",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": null,
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:dom_xmldocument_async_enabled",
+  "name": "dom_xmldocument_async_enabled",
+  "display": "dom.xmldocument.async.enabled",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "dom.xmldocument.async.enabled",
+  "supported": "Firefox 68.5 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:dom_xmldocument_load_enabled",
+  "name": "dom_xmldocument_load_enabled",
+  "display": "dom.xmldocument.load.enabled",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "dom.xmldocument.load.enabled",
+  "supported": "Firefox 68.5 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:extensions_blocklist_enabled",
+  "name": "extensions_blocklist_enabled",
+  "display": "extensions.blocklist.enabled",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "extensions.blocklist.enabled",
+  "supported": "Firefox 70 or later, Firefox 68.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:extensions_getAddons_showPane",
+  "name": "extensions_getAddons_showPane",
+  "display": "extensions.getAddons.showPane",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "extensions.getAddons.showPane",
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:extensions_htmlaboutaddons_recommendations_enabled",
+  "name": "extensions_htmlaboutaddons_recommendations_enabled",
+  "display": "extensions.htmlaboutaddons.recommendations.enabled",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "extensions.htmlaboutaddons.recommendations.enabled",
+  "supported": "Firefox 72 or later, Firefox 68.4 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:geo_enabled",
+  "name": "geo_enabled",
+  "display": "geo.enabled",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "geo.enabled",
+  "supported": "Firefox 70 or later, Firefox 68.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:intl_accept_languages",
+  "name": "intl_accept_languages",
+  "display": "intl.accept_languages",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": null,
+  "supported": "Firefox 70 or later, Firefox 68.2 ESR or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:media_eme_enabled",
+  "name": "media_eme_enabled",
+  "display": "media.eme.enabled (Deprecated)",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "media.eme.enabled",
+  "supported": "Firefox 70 or later, Firefox 68.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:media_gmp-gmpopenh264_enabled",
+  "name": "media_gmp-gmpopenh264_enabled",
+  "display": "media.gmp-gmpopenh264.enabled",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "media.gmp-gmpopenh264.enabled",
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:media_gmp-widevinecdm_enabled",
+  "name": "media_gmp-widevinecdm_enabled",
+  "display": "media.gmp-widevinecdm.enabled",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "media.gmp-widevinecdm.enabled",
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:media_peerconnection_enabled",
+  "name": "media_peerconnection_enabled",
+  "display": "media.peerconnection.enabled",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "media.peerconnection.enabled",
+  "supported": "Firefox 72 or later, Firefox 68.4 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:media_peerconnection_ice_obfuscate_host_addresses_blocklist",
+  "name": "media_peerconnection_ice_obfuscate_host_addresses_blocklist",
+  "display": "media.peerconnection.ice.obfuscate_host_addresses.blocklist",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": null,
+  "supported": "Firefox 79 or later, Firefox 78.1 ESR or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:media_peerconnection_ice_obfuscate_host_addresses_whitelist",
+  "name": "media_peerconnection_ice_obfuscate_host_addresses_whitelist",
+  "display": "media.peerconnection.ice.obfuscate_host_addresses.whitelist (Deprecated)",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": null,
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:network_IDN_show_punycode",
+  "name": "network_IDN_show_punycode",
+  "display": "network.IDN_show_punycode",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "network.IDN_show_punycode",
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:network_dns_disableIPv6",
+  "name": "network_dns_disableIPv6",
+  "display": "network.dns.disableIPv6",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "network.dns.disableIPv6",
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:places_history_enabled",
+  "name": "places_history_enabled",
+  "display": "places.history.enabled",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "places.history.enabled",
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:print_save_print_settings",
+  "name": "print_save_print_settings",
+  "display": "print.save_print_settings",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "print.save_print_settings",
+  "supported": "Firefox 70 or later, Firefox 68.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:security_default_personal_cert",
+  "name": "security_default_personal_cert",
+  "display": "security.default_personal_cert",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": null,
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:security_mixed_content_block_active_content",
+  "name": "security_mixed_content_block_active_content",
+  "display": "security.mixed_content.block_active_content",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "security.mixed_content.block_active_content",
+  "supported": "Firefox 70 or later, Firefox 68.2 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:security_osclientcerts_autoload",
+  "name": "security_osclientcerts_autoload",
+  "display": "security.osclientcerts.autoload",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "security.osclientcerts.autoload",
+  "supported": "Firefox 72 or later, Firefox 68.4 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:security_ssl_errorReporting_enabled",
+  "name": "security_ssl_errorReporting_enabled",
+  "display": "security.ssl.errorReporting.enabled",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "security.ssl.errorReporting.enabled",
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:security_tls_hello_downgrade_check",
+  "name": "security_tls_hello_downgrade_check",
+  "display": "security.tls.hello_downgrade_check",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "security.tls.hello_downgrade_check",
+  "supported": "Firefox 72 or later, Firefox 68.4 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:ui_key_menuAccessKeyFocuses",
+  "name": "ui_key_menuAccessKeyFocuses",
+  "display": "ui.key.menuAccessKeyFocuses",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": "ui.key.menuAccessKeyFocuses",
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": []
+ },
+ {
+  "id": "Mozilla.Policies.Firefox:widget_content_gtk-theme-override",
+  "name": "widget_content_gtk-theme-override",
+  "display": "widget.content.gtk-theme-override",
+  "class": "Both",
+  "file": "firefox.admx",
+  "category": [
+   "Mozilla",
+   "Firefox",
+   "Preferences (Deprecated)"
+  ],
+  "key": "Software\\Policies\\Mozilla\\Firefox\\Preferences",
+  "valueName": null,
+  "supported": "Firefox 68 or later, Firefox 68 ESR or later",
+  "elements": [
+   "text"
+  ]
+ }
+]

@@ -1,0 +1,1101 @@
+[
+ {
+  "id": "Microsoft.Policies.PowerToys:AllowAdvancedPasteAnthropic",
+  "name": "AllowAdvancedPasteAnthropic",
+  "display": "Advanced Paste: Allow Anthropic endpoint",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "Advanced Paste"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "AllowAdvancedPasteAnthropic",
+  "supported": "PowerToys version 0.96.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:AllowAdvancedPasteAzureAIInference",
+  "name": "AllowAdvancedPasteAzureAIInference",
+  "display": "Advanced Paste: Allow Azure AI Inference endpoint",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "Advanced Paste"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "AllowAdvancedPasteAzureAIInference",
+  "supported": "PowerToys version 0.96.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:AllowAdvancedPasteAzureOpenAI",
+  "name": "AllowAdvancedPasteAzureOpenAI",
+  "display": "Advanced Paste: Allow Azure OpenAI endpoint",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "Advanced Paste"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "AllowAdvancedPasteAzureOpenAI",
+  "supported": "PowerToys version 0.96.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:AllowAdvancedPasteFoundryLocal",
+  "name": "AllowAdvancedPasteFoundryLocal",
+  "display": "Advanced Paste: Allow Foundry Local endpoint",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "Advanced Paste"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "AllowAdvancedPasteFoundryLocal",
+  "supported": "PowerToys version 0.96.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:AllowAdvancedPasteGoogle",
+  "name": "AllowAdvancedPasteGoogle",
+  "display": "Advanced Paste: Allow Google endpoint",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "Advanced Paste"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "AllowAdvancedPasteGoogle",
+  "supported": "PowerToys version 0.96.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:AllowAdvancedPasteMistral",
+  "name": "AllowAdvancedPasteMistral",
+  "display": "Advanced Paste: Allow Mistral endpoint",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "Advanced Paste"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "AllowAdvancedPasteMistral",
+  "supported": "PowerToys version 0.96.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:AllowAdvancedPasteOllama",
+  "name": "AllowAdvancedPasteOllama",
+  "display": "Advanced Paste: Allow Ollama endpoint",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "Advanced Paste"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "AllowAdvancedPasteOllama",
+  "supported": "PowerToys version 0.96.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:AllowAdvancedPasteOpenAI",
+  "name": "AllowAdvancedPasteOpenAI",
+  "display": "Advanced Paste: Allow OpenAI endpoint",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "Advanced Paste"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "AllowAdvancedPasteOpenAI",
+  "supported": "PowerToys version 0.96.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:AllowDiagnosticData",
+  "name": "AllowDiagnosticData",
+  "display": "Allow sending diagnostic data",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "General settings"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "AllowDataDiagnostics",
+  "supported": "PowerToys version 0.86.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:AllowExperimentation",
+  "name": "AllowExperimentation",
+  "display": "Allow Experimentation",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "General settings"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "AllowExperimentation",
+  "supported": "PowerToys version 0.68.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:AllowPowerToysAdvancedPasteOnlineAIModels",
+  "name": "AllowPowerToysAdvancedPasteOnlineAIModels",
+  "display": "Allow using online AI models",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "Advanced Paste"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "AllowPowerToysAdvancedPasteOnlineAIModels",
+  "supported": "PowerToys version 0.81.1 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureAllUtilityGlobalEnabledState",
+  "name": "ConfigureAllUtilityGlobalEnabledState",
+  "display": "Configure global utility enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureGlobalUtilityEnabledState",
+  "supported": "PowerToys version 0.75.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityAdvancedPaste",
+  "name": "ConfigureEnabledUtilityAdvancedPaste",
+  "display": "Advanced Paste: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityAdvancedPaste",
+  "supported": "PowerToys version 0.81.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityAlwaysOnTop",
+  "name": "ConfigureEnabledUtilityAlwaysOnTop",
+  "display": "Always On Top: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityAlwaysOnTop",
+  "supported": "PowerToys version 0.64.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityAwake",
+  "name": "ConfigureEnabledUtilityAwake",
+  "display": "Awake: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityAwake",
+  "supported": "PowerToys version 0.64.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityCmdNotFound",
+  "name": "ConfigureEnabledUtilityCmdNotFound",
+  "display": "Command Not Found: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityCmdNotFound",
+  "supported": "PowerToys version 0.77.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityCmdPal",
+  "name": "ConfigureEnabledUtilityCmdPal",
+  "display": "CmdPal: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityCmdPal",
+  "supported": "PowerToys version 0.90.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityColorPicker",
+  "name": "ConfigureEnabledUtilityColorPicker",
+  "display": "Color Picker: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityColorPicker",
+  "supported": "PowerToys version 0.64.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityCropAndLock",
+  "name": "ConfigureEnabledUtilityCropAndLock",
+  "display": "Crop And Lock: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityCropAndLock",
+  "supported": "PowerToys version 0.73.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityCursorWrap",
+  "name": "ConfigureEnabledUtilityCursorWrap",
+  "display": "CursorWrap: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityCursorWrap",
+  "supported": "PowerToys version 0.97.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityEnvironmentVariables",
+  "name": "ConfigureEnabledUtilityEnvironmentVariables",
+  "display": "Environment Variables: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityEnvironmentVariables",
+  "supported": "PowerToys version 0.75.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityFancyZones",
+  "name": "ConfigureEnabledUtilityFancyZones",
+  "display": "FancyZones: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityFancyZones",
+  "supported": "PowerToys version 0.64.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityFileExplorerBgcodePreview",
+  "name": "ConfigureEnabledUtilityFileExplorerBgcodePreview",
+  "display": "BGcode file preview: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityFileExplorerBgcodePreview",
+  "supported": "SUPPORTED_POWERTOYS_0_93_0",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityFileExplorerBgcodeThumbnails",
+  "name": "ConfigureEnabledUtilityFileExplorerBgcodeThumbnails",
+  "display": "BGcode file thumbnail: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityFileExplorerBgcodeThumbnails",
+  "supported": "SUPPORTED_POWERTOYS_0_93_0",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityFileExplorerGcodePreview",
+  "name": "ConfigureEnabledUtilityFileExplorerGcodePreview",
+  "display": "Gcode file preview: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityFileExplorerGcodePreview",
+  "supported": "PowerToys version 0.64.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityFileExplorerGcodeThumbnails",
+  "name": "ConfigureEnabledUtilityFileExplorerGcodeThumbnails",
+  "display": "Gcode file thumbnail: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityFileExplorerGcodeThumbnails",
+  "supported": "PowerToys version 0.64.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityFileExplorerMarkdownPreview",
+  "name": "ConfigureEnabledUtilityFileExplorerMarkdownPreview",
+  "display": "Markdown file preview: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityFileExplorerMarkdownPreview",
+  "supported": "PowerToys version 0.64.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityFileExplorerMonacoPreview",
+  "name": "ConfigureEnabledUtilityFileExplorerMonacoPreview",
+  "display": "Source code file preview: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityFileExplorerMonacoPreview",
+  "supported": "PowerToys version 0.64.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityFileExplorerPDFPreview",
+  "name": "ConfigureEnabledUtilityFileExplorerPDFPreview",
+  "display": "PDF file preview: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityFileExplorerPDFPreview",
+  "supported": "PowerToys version 0.64.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityFileExplorerPDFThumbnails",
+  "name": "ConfigureEnabledUtilityFileExplorerPDFThumbnails",
+  "display": "PDF file thumbnail: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityFileExplorerPDFThumbnails",
+  "supported": "PowerToys version 0.64.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityFileExplorerQOIPreview",
+  "name": "ConfigureEnabledUtilityFileExplorerQOIPreview",
+  "display": "QOI file preview: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityFileExplorerQOIPreview",
+  "supported": "PowerToys version 0.76.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityFileExplorerQOIThumbnails",
+  "name": "ConfigureEnabledUtilityFileExplorerQOIThumbnails",
+  "display": "QOI file thumbnail: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityFileExplorerQOIThumbnails",
+  "supported": "PowerToys version 0.76.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityFileExplorerSTLThumbnails",
+  "name": "ConfigureEnabledUtilityFileExplorerSTLThumbnails",
+  "display": "STL file thumbnail: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityFileExplorerSTLThumbnails",
+  "supported": "PowerToys version 0.64.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityFileExplorerSVGPreview",
+  "name": "ConfigureEnabledUtilityFileExplorerSVGPreview",
+  "display": "SVG file preview: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityFileExplorerSVGPreview",
+  "supported": "PowerToys version 0.64.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityFileExplorerSVGThumbnails",
+  "name": "ConfigureEnabledUtilityFileExplorerSVGThumbnails",
+  "display": "SVG file thumbnail: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityFileExplorerSVGThumbnails",
+  "supported": "PowerToys version 0.64.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityFileLocksmith",
+  "name": "ConfigureEnabledUtilityFileLocksmith",
+  "display": "File Locksmith: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityFileLocksmith",
+  "supported": "PowerToys version 0.64.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityFindMyMouse",
+  "name": "ConfigureEnabledUtilityFindMyMouse",
+  "display": "Find My Mouse: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityFindMyMouse",
+  "supported": "PowerToys version 0.64.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityHostsFileEditor",
+  "name": "ConfigureEnabledUtilityHostsFileEditor",
+  "display": "Hosts file editor: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityHostsFileEditor",
+  "supported": "PowerToys version 0.64.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityImageResizer",
+  "name": "ConfigureEnabledUtilityImageResizer",
+  "display": "Image Resizer: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityImageResizer",
+  "supported": "PowerToys version 0.64.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityKeyboardManager",
+  "name": "ConfigureEnabledUtilityKeyboardManager",
+  "display": "Keyboard Manager: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityKeyboardManager",
+  "supported": "PowerToys version 0.64.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityLightSwitch",
+  "name": "ConfigureEnabledUtilityLightSwitch",
+  "display": "Light Switch: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityLightSwitch",
+  "supported": "SUPPORTED_POWERTOYS_0_95_0",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityMouseHighlighter",
+  "name": "ConfigureEnabledUtilityMouseHighlighter",
+  "display": "Mouse Highlighter: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityMouseHighlighter",
+  "supported": "PowerToys version 0.64.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityMouseJump",
+  "name": "ConfigureEnabledUtilityMouseJump",
+  "display": "Mouse Jump: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityMouseJump",
+  "supported": "PowerToys version 0.68.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityMousePointerCrosshairs",
+  "name": "ConfigureEnabledUtilityMousePointerCrosshairs",
+  "display": "Mouse Pointer Crosshairs: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityMousePointerCrosshairs",
+  "supported": "PowerToys version 0.64.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityMouseWithoutBorders",
+  "name": "ConfigureEnabledUtilityMouseWithoutBorders",
+  "display": "Mouse Without Borders: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityMouseWithoutBorders",
+  "supported": "PowerToys version 0.70.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityNewPlus",
+  "name": "ConfigureEnabledUtilityNewPlus",
+  "display": "New+: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityNewPlus",
+  "supported": "PowerToys version 0.85.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityPeek",
+  "name": "ConfigureEnabledUtilityPeek",
+  "display": "Peek: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityPeek",
+  "supported": "PowerToys version 0.70.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityPowerLauncher",
+  "name": "ConfigureEnabledUtilityPowerLauncher",
+  "display": "PowerToys Run: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityPowerLauncher",
+  "supported": "PowerToys version 0.64.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityPowerRename",
+  "name": "ConfigureEnabledUtilityPowerRename",
+  "display": "Power Rename: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityPowerRename",
+  "supported": "PowerToys version 0.64.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityQuickAccent",
+  "name": "ConfigureEnabledUtilityQuickAccent",
+  "display": "Quick Accent: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityQuickAccent",
+  "supported": "PowerToys version 0.64.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityRegistryPreview",
+  "name": "ConfigureEnabledUtilityRegistryPreview",
+  "display": "Registry Preview: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityRegistryPreview",
+  "supported": "PowerToys version 0.69.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityScreenRuler",
+  "name": "ConfigureEnabledUtilityScreenRuler",
+  "display": "Screen Ruler: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityScreenRuler",
+  "supported": "PowerToys version 0.64.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityShortcutGuide",
+  "name": "ConfigureEnabledUtilityShortcutGuide",
+  "display": "Shortcut Guide: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityShortcutGuide",
+  "supported": "PowerToys version 0.64.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityTextExtractor",
+  "name": "ConfigureEnabledUtilityTextExtractor",
+  "display": "Text Extractor: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityTextExtractor",
+  "supported": "PowerToys version 0.64.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityVideoConferenceMute",
+  "name": "ConfigureEnabledUtilityVideoConferenceMute",
+  "display": "Video Conference Mute: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "Deprecated policies"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityVideoConferenceMute",
+  "supported": "From PowerToys version 0.64.0 until PowerToys version 0.87.1",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityWorkspaces",
+  "name": "ConfigureEnabledUtilityWorkspaces",
+  "display": "PowerToys Workspaces: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityWorkspaces",
+  "supported": "PowerToys version 0.84.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureEnabledUtilityZoomIt",
+  "name": "ConfigureEnabledUtilityZoomIt",
+  "display": "Zoom It: Configure enabled state",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureEnabledUtilityZoomIt",
+  "supported": "PowerToys version 0.88.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:ConfigureRunAtStartup",
+  "name": "ConfigureRunAtStartup",
+  "display": "Configure the run at startup setting",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "General settings"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "ConfigureRunAtStartup",
+  "supported": "PowerToys version 0.89.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:DisableAutomaticUpdateDownload",
+  "name": "DisableAutomaticUpdateDownload",
+  "display": "Disable automatic downloads",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "Installer and Updates"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "AutomaticUpdateDownloadDisabled",
+  "supported": "PowerToys version 0.68.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:DisableNewUpdateToast",
+  "name": "DisableNewUpdateToast",
+  "display": "Disable Action Center notification for new updates",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "Installer and Updates"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "DisableNewUpdateAvailableToast",
+  "supported": "PowerToys version 0.78.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:DisablePerUserInstallation",
+  "name": "DisablePerUserInstallation",
+  "display": "Disable per-user installation",
+  "class": "Machine",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "Installer and Updates"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "PerUserInstallationDisabled",
+  "supported": "PowerToys version 0.69.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:DoNotShowWhatsNewAfterUpdates",
+  "name": "DoNotShowWhatsNewAfterUpdates",
+  "display": "Do not show the release notes after updates",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "Installer and Updates"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "DoNotShowWhatsNewAfterUpdates",
+  "supported": "PowerToys version 0.78.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:MwbAllowServiceMode",
+  "name": "MwbAllowServiceMode",
+  "display": "Allow Service Mode",
+  "class": "Machine",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "Mouse Without Borders"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "MwbAllowServiceMode",
+  "supported": "PowerToys version 0.89.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:MwbClipboardSharingEnabled",
+  "name": "MwbClipboardSharingEnabled",
+  "display": "Clipboard sharing enabled",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "Mouse Without Borders"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "MwbClipboardSharingEnabled",
+  "supported": "PowerToys version 0.83.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:MwbDisableUserDefinedIpMappingRules",
+  "name": "MwbDisableUserDefinedIpMappingRules",
+  "display": "Disable user defined IP Address mapping rules",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "Mouse Without Borders"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "MwbDisableUserDefinedIpMappingRules",
+  "supported": "PowerToys version 0.83.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:MwbDisallowBlockingScreensaver",
+  "name": "MwbDisallowBlockingScreensaver",
+  "display": "Disallow blocking screensaver on other machines",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "Mouse Without Borders"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "MwbDisallowBlockingScreensaver",
+  "supported": "PowerToys version 0.83.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:MwbFileTransferEnabled",
+  "name": "MwbFileTransferEnabled",
+  "display": "File transfer enabled",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "Mouse Without Borders"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "MwbFileTransferEnabled",
+  "supported": "PowerToys version 0.83.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:MwbPolicyDefinedIpMappingRules",
+  "name": "MwbPolicyDefinedIpMappingRules",
+  "display": "Predefined IP Address mapping rules",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "Mouse Without Borders"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": null,
+  "supported": "PowerToys version 0.83.0 or later",
+  "elements": [
+   "multiText"
+  ]
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:MwbSameSubnetOnly",
+  "name": "MwbSameSubnetOnly",
+  "display": "Connect only in same subnet",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "Mouse Without Borders"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "MwbSameSubnetOnly",
+  "supported": "PowerToys version 0.83.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:MwbUseOriginalUserInterface",
+  "name": "MwbUseOriginalUserInterface",
+  "display": "Original user interface is available",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "Mouse Without Borders"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "MwbUseOriginalUserInterface",
+  "supported": "PowerToys version 0.83.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:MwbValidateRemoteIp",
+  "name": "MwbValidateRemoteIp",
+  "display": "Validate remote machine IP Address",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "Mouse Without Borders"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "MwbValidateRemoteIp",
+  "supported": "PowerToys version 0.83.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:NewPlusHideTemplateFilenameExtension",
+  "name": "NewPlusHideTemplateFilenameExtension",
+  "display": "Hide template filename extension",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "New+"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "NewPlusHideTemplateFilenameExtension",
+  "supported": "PowerToys version 0.85.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:NewPlusReplaceVariablesInTemplateFilenames",
+  "name": "NewPlusReplaceVariablesInTemplateFilenames",
+  "display": "Replace variables in template filenames",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "New+"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "NewPlusReplaceVariablesInTemplateFilenames",
+  "supported": "PowerToys version 0.90.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:PowerToysRunAllPluginsEnabledState",
+  "name": "PowerToysRunAllPluginsEnabledState",
+  "display": "Configure enabled state for all plugins",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "PowerToys Run"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "PowerLauncherAllPluginsEnabledState",
+  "supported": "PowerToys version 0.75.0 or later",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:PowerToysRunIndividualPluginEnabledState",
+  "name": "PowerToysRunIndividualPluginEnabledState",
+  "display": "Configure enabled state for individual plugins",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "PowerToys Run"
+  ],
+  "key": "Software\\Policies\\PowerToys\\PowerLauncherIndividualPluginEnabledList",
+  "valueName": null,
+  "supported": "PowerToys version 0.75.0 or later",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Microsoft.Policies.PowerToys:SuspendNewUpdateToast",
+  "name": "SuspendNewUpdateToast",
+  "display": "Suspend Action Center notification for new updates",
+  "class": "Both",
+  "file": "PowerToys.admx",
+  "category": [
+   "Microsoft PowerToys",
+   "Installer and Updates"
+  ],
+  "key": "Software\\Policies\\PowerToys",
+  "valueName": "SuspendNewUpdateAvailableToast",
+  "supported": "PowerToys version 0.68.0 or later",
+  "elements": []
+ }
+]

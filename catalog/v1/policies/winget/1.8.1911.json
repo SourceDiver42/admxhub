@@ -1,0 +1,248 @@
+[
+ {
+  "id": "Microsoft.Policies.AppInstaller:EnableAdditionalSources",
+  "name": "EnableAdditionalSources",
+  "display": "Enable App Installer Additional Sources",
+  "class": "Machine",
+  "file": "DesktopAppInstaller.admx",
+  "category": [
+   "Desktop App Installer"
+  ],
+  "key": "Software\\Policies\\Microsoft\\Windows\\AppInstaller",
+  "valueName": "EnableAdditionalSources",
+  "supported": "SUPPORTED_Windows_10_0_RS5",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Microsoft.Policies.AppInstaller:EnableAllowedSources",
+  "name": "EnableAllowedSources",
+  "display": "Enable App Installer Allowed Sources",
+  "class": "Machine",
+  "file": "DesktopAppInstaller.admx",
+  "category": [
+   "Desktop App Installer"
+  ],
+  "key": "Software\\Policies\\Microsoft\\Windows\\AppInstaller",
+  "valueName": "EnableAllowedSources",
+  "supported": "SUPPORTED_Windows_10_0_RS5",
+  "elements": [
+   "list"
+  ]
+ },
+ {
+  "id": "Microsoft.Policies.AppInstaller:EnableAppInstaller",
+  "name": "EnableAppInstaller",
+  "display": "Enable App Installer",
+  "class": "Machine",
+  "file": "DesktopAppInstaller.admx",
+  "category": [
+   "Desktop App Installer"
+  ],
+  "key": "Software\\Policies\\Microsoft\\Windows\\AppInstaller",
+  "valueName": "EnableAppInstaller",
+  "supported": "SUPPORTED_Windows_10_0_RS5",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.AppInstaller:EnableBypassCertificatePinningForMicrosoftStore",
+  "name": "EnableBypassCertificatePinningForMicrosoftStore",
+  "display": "Enable App Installer Microsoft Store Source Certificate Validation Bypass",
+  "class": "Machine",
+  "file": "DesktopAppInstaller.admx",
+  "category": [
+   "Desktop App Installer"
+  ],
+  "key": "Software\\Policies\\Microsoft\\Windows\\AppInstaller",
+  "valueName": "EnableBypassCertificatePinningForMicrosoftStore",
+  "supported": "SUPPORTED_Windows_10_0_RS5",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.AppInstaller:EnableDefaultSource",
+  "name": "EnableDefaultSource",
+  "display": "Enable App Installer Default Source",
+  "class": "Machine",
+  "file": "DesktopAppInstaller.admx",
+  "category": [
+   "Desktop App Installer"
+  ],
+  "key": "Software\\Policies\\Microsoft\\Windows\\AppInstaller",
+  "valueName": "EnableDefaultSource",
+  "supported": "SUPPORTED_Windows_10_0_RS5",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.AppInstaller:EnableExperimentalFeatures",
+  "name": "EnableExperimentalFeatures",
+  "display": "Enable App Installer Experimental Features",
+  "class": "Machine",
+  "file": "DesktopAppInstaller.admx",
+  "category": [
+   "Desktop App Installer"
+  ],
+  "key": "Software\\Policies\\Microsoft\\Windows\\AppInstaller",
+  "valueName": "EnableExperimentalFeatures",
+  "supported": "SUPPORTED_Windows_10_0_RS5",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.AppInstaller:EnableHashOverride",
+  "name": "EnableHashOverride",
+  "display": "Enable App Installer Hash Override",
+  "class": "Machine",
+  "file": "DesktopAppInstaller.admx",
+  "category": [
+   "Desktop App Installer"
+  ],
+  "key": "Software\\Policies\\Microsoft\\Windows\\AppInstaller",
+  "valueName": "EnableHashOverride",
+  "supported": "SUPPORTED_Windows_10_0_RS5",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.AppInstaller:EnableLocalArchiveMalwareScanOverride",
+  "name": "EnableLocalArchiveMalwareScanOverride",
+  "display": "Enable App Installer Local Archive Malware Scan Override",
+  "class": "Machine",
+  "file": "DesktopAppInstaller.admx",
+  "category": [
+   "Desktop App Installer"
+  ],
+  "key": "Software\\Policies\\Microsoft\\Windows\\AppInstaller",
+  "valueName": "EnableLocalArchiveMalwareScanOverride",
+  "supported": "SUPPORTED_Windows_10_0_RS5",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.AppInstaller:EnableLocalManifestFiles",
+  "name": "EnableLocalManifestFiles",
+  "display": "Enable App Installer Local Manifest Files",
+  "class": "Machine",
+  "file": "DesktopAppInstaller.admx",
+  "category": [
+   "Desktop App Installer"
+  ],
+  "key": "Software\\Policies\\Microsoft\\Windows\\AppInstaller",
+  "valueName": "EnableLocalManifestFiles",
+  "supported": "SUPPORTED_Windows_10_0_RS5",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.AppInstaller:EnableMSAppInstallerProtocol",
+  "name": "EnableMSAppInstallerProtocol",
+  "display": "Enable App Installer ms-appinstaller protocol",
+  "class": "Machine",
+  "file": "DesktopAppInstaller.admx",
+  "category": [
+   "Desktop App Installer"
+  ],
+  "key": "Software\\Policies\\Microsoft\\Windows\\AppInstaller",
+  "valueName": "EnableMSAppInstallerProtocol",
+  "supported": "SUPPORTED_Windows_10_0_RS5",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.AppInstaller:EnableMicrosoftStoreSource",
+  "name": "EnableMicrosoftStoreSource",
+  "display": "Enable App Installer Microsoft Store Source",
+  "class": "Machine",
+  "file": "DesktopAppInstaller.admx",
+  "category": [
+   "Desktop App Installer"
+  ],
+  "key": "Software\\Policies\\Microsoft\\Windows\\AppInstaller",
+  "valueName": "EnableMicrosoftStoreSource",
+  "supported": "SUPPORTED_Windows_10_0_RS5",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.AppInstaller:EnableSettings",
+  "name": "EnableSettings",
+  "display": "Enable App Installer Settings",
+  "class": "Machine",
+  "file": "DesktopAppInstaller.admx",
+  "category": [
+   "Desktop App Installer"
+  ],
+  "key": "Software\\Policies\\Microsoft\\Windows\\AppInstaller",
+  "valueName": "EnableSettings",
+  "supported": "SUPPORTED_Windows_10_0_RS5",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.AppInstaller:EnableWindowsPackageManagerCommandLineInterfaces",
+  "name": "EnableWindowsPackageManagerCommandLineInterfaces",
+  "display": "Enable Windows Package Manager command line interfaces",
+  "class": "Machine",
+  "file": "DesktopAppInstaller.admx",
+  "category": [
+   "Desktop App Installer"
+  ],
+  "key": "Software\\Policies\\Microsoft\\Windows\\AppInstaller",
+  "valueName": "EnableWindowsPackageManagerCommandLineInterfaces",
+  "supported": "SUPPORTED_Windows_10_0_RS5",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.AppInstaller:EnableWindowsPackageManagerConfiguration",
+  "name": "EnableWindowsPackageManagerConfiguration",
+  "display": "Enable Windows Package Manager Configuration",
+  "class": "Machine",
+  "file": "DesktopAppInstaller.admx",
+  "category": [
+   "Desktop App Installer"
+  ],
+  "key": "Software\\Policies\\Microsoft\\Windows\\AppInstaller",
+  "valueName": "EnableWindowsPackageManagerConfiguration",
+  "supported": "SUPPORTED_Windows_10_0_RS5",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.AppInstaller:EnableWindowsPackageManagerProxyCommandLineOptions",
+  "name": "EnableWindowsPackageManagerProxyCommandLineOptions",
+  "display": "Enable Windows Package Manager Proxy command line options",
+  "class": "Machine",
+  "file": "DesktopAppInstaller.admx",
+  "category": [
+   "Desktop App Installer"
+  ],
+  "key": "Software\\Policies\\Microsoft\\Windows\\AppInstaller",
+  "valueName": "EnableWindowsPackageManagerProxyCommandLineOptions",
+  "supported": "SUPPORTED_Windows_10_0_RS5",
+  "elements": []
+ },
+ {
+  "id": "Microsoft.Policies.AppInstaller:SourceAutoUpdateInterval",
+  "name": "SourceAutoUpdateInterval",
+  "display": "Set App Installer Source Auto Update Interval In Minutes",
+  "class": "Machine",
+  "file": "DesktopAppInstaller.admx",
+  "category": [
+   "Desktop App Installer"
+  ],
+  "key": "Software\\Policies\\Microsoft\\Windows\\AppInstaller",
+  "valueName": null,
+  "supported": "SUPPORTED_Windows_10_0_RS5",
+  "elements": [
+   "decimal"
+  ]
+ },
+ {
+  "id": "Microsoft.Policies.AppInstaller:WindowsPackageManagerDefaultProxy",
+  "name": "WindowsPackageManagerDefaultProxy",
+  "display": "Set Windows Package Manager Default Proxy",
+  "class": "Machine",
+  "file": "DesktopAppInstaller.admx",
+  "category": [
+   "Desktop App Installer"
+  ],
+  "key": "Software\\Policies\\Microsoft\\Windows\\AppInstaller",
+  "valueName": null,
+  "supported": "SUPPORTED_Windows_10_0_RS5",
+  "elements": [
+   "text"
+  ]
+ }
+]
