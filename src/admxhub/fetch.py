@@ -98,8 +98,10 @@ def _run(cmd: list[str], timeout=600) -> str:
         raise FetchError(f"{cmd[0]} failed ({e.returncode}): {out}")
 
 
-def _has_files(d: Path) -> bool:
-    return d.is_dir() and any(p.is_file() for p in d.rglob("*"))
+def _extracted_something(d: Path, archive: Path) -> bool:
+    """True if d contains files other than a mere copy of the archive itself
+    (expand.exe "extracts" some cabinets by writing the cabinet out again)."""
+    return d.is_dir() and any(p.is_file() and p.name.lower() != archive.name.lower() for p in d.rglob("*"))
 
 
 def _first_that_works(path: Path, dest: Path, commands: list[list[str]]) -> None:
@@ -115,10 +117,25 @@ def _first_that_works(path: Path, dest: Path, commands: list[list[str]]) -> None
         except FetchError as e:
             notes.append(str(e))
             continue
-        if _has_files(dest):
+        if _extracted_something(dest, path):
             return
+        for p in dest.rglob("*"):  # clean up a useless copy before the next tool runs
+            if p.is_file():
+                p.unlink()
         notes.append(f"{cmd[0]}: produced no files ({out[:200]!r})")
     raise FetchError(f"could not extract {path.name}: " + "; ".join(notes))
+
+
+def _msi_log_excerpt(log: Path) -> str:
+    """The interesting lines of a verbose msiexec log (errors and the failing action)."""
+    try:
+        text = log.read_bytes().decode("utf-16", errors="replace") if log.read_bytes()[:2] in (b"\xff\xfe", b"\xfe\xff") \
+            else log.read_text(errors="replace")
+    except OSError:
+        return ""
+    keep = [ln.strip() for ln in text.splitlines()
+            if re.search(r"(Error \d{4}|Note: 1: \d{4}|Return value 3|error code)", ln)]
+    return ("msiexec log: " + " | ".join(keep[-8:])) if keep else ""
 
 
 def _extract_zip(path: Path, dest: Path) -> None:
@@ -144,11 +161,19 @@ def extract(path: Path, dest: Path, archive: dict | None = None) -> None:
     dest.mkdir(parents=True, exist_ok=True)
     low = path.name.lower()
     win = sys.platform == "win32"
+    if win:
+        # long path names: msiexec /a rejects 8.3 components like C:\Users\RUNNER~1 in TARGETDIR
+        dest = Path(os.path.realpath(dest))
+        path = Path(os.path.realpath(path))
     if low.endswith(".zip"):
         _extract_zip(path, dest)
     elif low.endswith(".msi"):
         if win:  # administrative install = plain extraction, no elevation needed
-            _run(["msiexec", "/a", str(path), "/qn", f"TARGETDIR={dest}"])
+            log = dest.parent / (path.name + ".log")
+            try:
+                _run(["msiexec", "/a", str(path), "/qn", f"TARGETDIR={dest}", "/l*v", str(log)])
+            except FetchError as e:
+                raise FetchError(f"{e} {_msi_log_excerpt(log)}") from None
         else:  # (7z is no alternative here: it yields internal MSI file ids instead of file names)
             if not shutil.which("msiextract"):
                 raise FetchError("msiextract (package 'msitools') is required to unpack .msi files on this OS")
@@ -156,7 +181,7 @@ def extract(path: Path, dest: Path, archive: dict | None = None) -> None:
     elif low.endswith(".cab"):
         # tar = libarchive's bsdtar (built into Windows 10+ and macOS), which reads cabinets too
         if win:
-            _first_that_works(path, dest, [["expand.exe", str(path), "-F:*", str(dest)], ["tar", "-xf", str(path), "-C", str(dest)]])
+            _first_that_works(path, dest, [["tar", "-xf", str(path), "-C", str(dest)], ["expand.exe", str(path), "-F:*", str(dest)]])
         else:
             _first_that_works(path, dest, [["cabextract", "-q", "-d", str(dest), str(path)], ["7z", "x", "-y", f"-o{dest}", str(path)],
                                            ["tar", "-xf", str(path), "-C", str(dest)]])
@@ -213,7 +238,7 @@ def collect(root: Path, include: list[str] | None = None) -> list[TemplateFile]:
 def fetch(release: Release, archive: dict | None = None, workdir: Path | None = None, progress=None) -> Bundle:
     """Download and extract; archive = the source's archive settings (include, exe_args)."""
     archive = archive or {}
-    work = Path(workdir or tempfile.mkdtemp(prefix="admxhub-"))
+    work = Path(os.path.realpath(workdir or tempfile.mkdtemp(prefix="admxhub-")))
     dl = work / "download"
     dl.mkdir(parents=True, exist_ok=True)
     path, digest, size = download(release, dl, progress)

@@ -55,3 +55,18 @@ def test_all_extractors_fail_with_details(tmp_path, monkeypatch):
     monkeypatch.setattr(f.shutil, "which", lambda c: c if c != "missing" else None)
     with pytest.raises(f.FetchError, match="expand.exe: produced no files.*missing: not available"):
         f._first_that_works(tmp_path / "x.cab", tmp_path / "out", [["expand.exe"], ["missing"]])
+
+
+def test_copy_of_the_archive_does_not_count(tmp_path, monkeypatch):
+    import pytest
+    import admxhub.fetch as f
+
+    def copy_run(cmd, timeout=600):  # behaves like expand.exe on some cabinets
+        (tmp_path / "out").mkdir(exist_ok=True)
+        (tmp_path / "out" / "X.CAB").write_text("same thing")
+        return "Expanding x.cab to x.cab"
+    monkeypatch.setattr(f, "_run", copy_run)
+    monkeypatch.setattr(f.shutil, "which", lambda c: c)
+    with pytest.raises(f.FetchError, match="produced no files"):
+        f._first_that_works(tmp_path / "x.cab", tmp_path / "out", [["expand.exe"]])
+    assert not (tmp_path / "out" / "X.CAB").exists()
