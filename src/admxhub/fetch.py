@@ -127,15 +127,20 @@ def _first_that_works(path: Path, dest: Path, commands: list[list[str]]) -> None
 
 
 def _msi_log_excerpt(log: Path) -> str:
-    """The interesting lines of a verbose msiexec log (errors and the failing action)."""
+    """Context of a failed msiexec run: the lines leading up to the first failing action
+    (Return value 3) plus any explicit error lines, without the noisy table-lookup notes."""
     try:
-        text = log.read_bytes().decode("utf-16", errors="replace") if log.read_bytes()[:2] in (b"\xff\xfe", b"\xfe\xff") \
-            else log.read_text(errors="replace")
+        raw = log.read_bytes()
     except OSError:
         return ""
-    keep = [ln.strip() for ln in text.splitlines()
-            if re.search(r"(Error \d{4}|Note: 1: \d{4}|Return value 3|error code)", ln)]
-    return ("msiexec log: " + " | ".join(keep[-8:])) if keep else ""
+    text = raw.decode("utf-16", errors="replace") if raw[:2] in (b"\xff\xfe", b"\xfe\xff") else raw.decode("utf-8", errors="replace")
+    lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
+    noise = re.compile(r"Note: 1: (2205|2228|1402)\b|PROPERTY CHANGE|^Property\(")
+    errors = [ln for ln in lines if re.search(r"(Error \d{4}|DEBUG: Error|error \d{4}|Info 1603)", ln) and not noise.search(ln)]
+    fail = next((i for i, ln in enumerate(lines) if "Return value 3" in ln), None)
+    context = [ln for ln in lines[max(0, fail - 25):fail + 1] if not noise.search(ln)][-15:] if fail is not None else []
+    picked = list(dict.fromkeys(errors[:6] + context))
+    return ("msiexec log: " + " | ".join(picked)) if picked else ""
 
 
 def _extract_zip(path: Path, dest: Path) -> None:
