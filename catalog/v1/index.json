@@ -1,6 +1,6 @@
 {
  "schema": "admxhub/catalog/v1",
- "generated": "2026-10-25T16:56:43Z",
+ "generated": "2026-10-26T10:11:11Z",
  "generator": "admxhub 0.1.0",
  "products": [
   {
@@ -18,8 +18,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-25T16:52:30Z",
-    "lastSuccess": "2026-10-25T16:52:30Z",
+    "lastChecked": "2026-10-26T10:10:44Z",
+    "lastSuccess": "2026-10-26T10:10:45Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -86,8 +86,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-10-25T16:52:30Z",
-    "lastSuccess": "2026-10-25T16:52:31Z",
+    "lastChecked": "2026-10-26T10:10:45Z",
+    "lastSuccess": "2026-10-26T10:10:45Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -294,8 +294,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-25T16:53:06Z",
-    "lastSuccess": "2026-10-25T16:53:06Z",
+    "lastChecked": "2026-10-26T10:10:46Z",
+    "lastSuccess": "2026-10-26T10:10:46Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -633,8 +633,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-10-25T16:53:06Z",
-    "lastSuccess": "2026-10-25T16:53:06Z",
+    "lastChecked": "2026-10-26T10:10:46Z",
+    "lastSuccess": "2026-10-26T10:10:46Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1197,8 +1197,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-10-25T16:55:47Z",
-    "lastSuccess": "2026-10-25T16:55:47Z",
+    "lastChecked": "2026-10-26T10:10:46Z",
+    "lastSuccess": "2026-10-26T10:10:46Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1338,8 +1338,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-25T16:56:09Z",
-    "lastSuccess": "2026-10-25T16:56:09Z",
+    "lastChecked": "2026-10-26T10:10:47Z",
+    "lastSuccess": "2026-10-26T10:10:47Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1406,8 +1406,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-25T16:56:09Z",
-    "lastSuccess": "2026-10-25T16:56:10Z",
+    "lastChecked": "2026-10-26T10:10:47Z",
+    "lastSuccess": "2026-10-26T10:10:48Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1491,8 +1491,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-25T16:56:10Z",
-    "lastSuccess": "2026-10-25T16:56:19Z",
+    "lastChecked": "2026-10-26T10:10:48Z",
+    "lastSuccess": "2026-10-26T10:10:58Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1735,8 +1735,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-10-25T16:56:19Z",
-    "lastSuccess": "2026-10-25T16:56:19Z",
+    "lastChecked": "2026-10-26T10:10:58Z",
+    "lastSuccess": "2026-10-26T10:10:58Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1808,8 +1808,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-25T16:56:25Z",
-    "lastSuccess": "2026-10-25T16:56:25Z",
+    "lastChecked": "2026-10-26T10:10:59Z",
+    "lastSuccess": "2026-10-26T10:11:00Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1876,8 +1876,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-25T16:56:25Z",
-    "lastSuccess": "2026-10-25T16:56:34Z",
+    "lastChecked": "2026-10-26T10:11:00Z",
+    "lastSuccess": "2026-10-26T10:11:10Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -40039,8 +40039,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-10-25T16:56:34Z",
-    "lastSuccess": "2026-10-25T16:56:34Z",
+    "lastChecked": "2026-10-26T10:11:10Z",
+    "lastSuccess": "2026-10-26T10:11:10Z",
     "error": null,
     "consecutiveFailures": 0
    },
