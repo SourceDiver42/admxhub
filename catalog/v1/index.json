@@ -1,6 +1,6 @@
 {
  "schema": "admxhub/catalog/v1",
- "generated": "2026-10-26T10:11:11Z",
+ "generated": "2026-10-27T09:51:17Z",
  "generator": "admxhub 0.1.0",
  "products": [
   {
@@ -18,8 +18,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-26T10:10:44Z",
-    "lastSuccess": "2026-10-26T10:10:45Z",
+    "lastChecked": "2026-10-27T09:50:53Z",
+    "lastSuccess": "2026-10-27T09:50:53Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -86,8 +86,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-10-26T10:10:45Z",
-    "lastSuccess": "2026-10-26T10:10:45Z",
+    "lastChecked": "2026-10-27T09:50:53Z",
+    "lastSuccess": "2026-10-27T09:50:53Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -294,8 +294,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-26T10:10:46Z",
-    "lastSuccess": "2026-10-26T10:10:46Z",
+    "lastChecked": "2026-10-27T09:50:54Z",
+    "lastSuccess": "2026-10-27T09:50:54Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -633,8 +633,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-10-26T10:10:46Z",
-    "lastSuccess": "2026-10-26T10:10:46Z",
+    "lastChecked": "2026-10-27T09:50:54Z",
+    "lastSuccess": "2026-10-27T09:50:54Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1181,7 +1181,7 @@
      }
     }
    },
-   "versionCount": 39
+   "versionCount": 40
   },
   {
    "id": "firefox",
@@ -1197,8 +1197,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-10-26T10:10:46Z",
-    "lastSuccess": "2026-10-26T10:10:46Z",
+    "lastChecked": "2026-10-27T09:50:55Z",
+    "lastSuccess": "2026-10-27T09:50:55Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1338,8 +1338,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-26T10:10:47Z",
-    "lastSuccess": "2026-10-26T10:10:47Z",
+    "lastChecked": "2026-10-27T09:50:56Z",
+    "lastSuccess": "2026-10-27T09:50:57Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1406,8 +1406,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-26T10:10:47Z",
-    "lastSuccess": "2026-10-26T10:10:48Z",
+    "lastChecked": "2026-10-27T09:50:57Z",
+    "lastSuccess": "2026-10-27T09:50:57Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1491,8 +1491,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-26T10:10:48Z",
-    "lastSuccess": "2026-10-26T10:10:58Z",
+    "lastChecked": "2026-10-27T09:50:57Z",
+    "lastSuccess": "2026-10-27T09:51:07Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1735,8 +1735,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-10-26T10:10:58Z",
-    "lastSuccess": "2026-10-26T10:10:58Z",
+    "lastChecked": "2026-10-27T09:51:07Z",
+    "lastSuccess": "2026-10-27T09:51:07Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1808,8 +1808,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-26T10:10:59Z",
-    "lastSuccess": "2026-10-26T10:11:00Z",
+    "lastChecked": "2026-10-27T09:51:08Z",
+    "lastSuccess": "2026-10-27T09:51:08Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1876,8 +1876,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-26T10:11:00Z",
-    "lastSuccess": "2026-10-26T10:11:10Z",
+    "lastChecked": "2026-10-27T09:51:08Z",
+    "lastSuccess": "2026-10-27T09:51:16Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -40039,8 +40039,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-10-26T10:11:10Z",
-    "lastSuccess": "2026-10-26T10:11:10Z",
+    "lastChecked": "2026-10-27T09:51:16Z",
+    "lastSuccess": "2026-10-27T09:51:17Z",
     "error": null,
     "consecutiveFailures": 0
    },
