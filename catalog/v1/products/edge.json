@@ -12,12 +12,554 @@
  "mirror": false,
  "history": true,
  "status": {
-  "lastChecked": "2026-10-27T09:50:54Z",
-  "lastSuccess": "2026-10-27T09:50:54Z",
+  "lastChecked": "2026-10-28T10:37:16Z",
+  "lastSuccess": "2026-10-28T10:37:17Z",
   "error": null,
   "consecutiveFailures": 0
  },
  "versions": [
+  {
+   "version": "158.0.4357.0",
+   "date": "2026-10-27",
+   "discovered": "2026-10-28T10:37:17Z",
+   "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/534d809c-39e6-4d07-b6ad-cede74b4891f/MicrosoftEdgePolicyTemplates.cab",
+   "sha256": "aff53732bd9ce8ac4895f057e1bde0e32ef399d55391318540cd251ab5175b11",
+   "size": 19092547,
+   "fingerprint": "aff53732bd9ce8ac4895f057e1bde0e32ef399d55391318540cd251ab5175b11",
+   "languages": [
+    "cs-CZ",
+    "da-DK",
+    "de-DE",
+    "el-GR",
+    "en-US",
+    "es-ES",
+    "fi-FI",
+    "fr-FR",
+    "hu-HU",
+    "it-IT",
+    "ja-JP",
+    "ko-KR",
+    "nb-NO",
+    "nl-NL",
+    "pl-PL",
+    "pt-BR",
+    "pt-PT",
+    "ru-RU",
+    "sv-SE",
+    "tr-TR",
+    "zh-CN",
+    "zh-TW"
+   ],
+   "files": [
+    {
+     "name": "msedge.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "6bff93f53e522fa26400c3373a2d601d4feb8b9a10fdf48e209b82f6a61d73d9",
+     "size": 1117538
+    },
+    {
+     "name": "msedgeupdate.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "e0ce554c1c524048d8324687d9c3559ab3e6a59bb21b8194334e9c998b66509a",
+     "size": 96152
+    },
+    {
+     "name": "msedgewebview2.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "799ce9996cad2a093f402b6751b458a9d2bc018579de0b6f359e89176eb430bd",
+     "size": 23168
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "cs-CZ",
+     "sha256": "cde64180d24c60794fe148bd781b77ed834e9c97035f8a9e13ed4f14fe3a6fca",
+     "size": 1909884
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "cs-CZ",
+     "sha256": "288b497547efc0f65124217a600c76b211bc9c9a33ba66bf6e307087276ebdff",
+     "size": 164904
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "cs-CZ",
+     "sha256": "877d80c12027a5fda39d22c7b7373ad09bd1e27710dfe7556f8a10542491c834",
+     "size": 48226
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "da-DK",
+     "sha256": "3c10f64fb4bddd3a8df8e11512692878ab5610f5408b6b83d5cbeebd33928a95",
+     "size": 1972432
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "da-DK",
+     "sha256": "cb4a526038c1c6d3db3ef8d635e61afbea75e788fc7c7c2babb3634785f3247e",
+     "size": 169546
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "da-DK",
+     "sha256": "802576f7e1b295216cab0c6fca10bd3520e0fedc602cbdf0a5e5e40c2b09151b",
+     "size": 50216
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "de-DE",
+     "sha256": "66920987a03bf0f5888222b45dd7614af2c7b0cb8fb916f906cf1580ffda6fe2",
+     "size": 2122934
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "de-DE",
+     "sha256": "327765b4ac9537703ca55dd972231d1dfe0364c7826ab295c334485000999887",
+     "size": 180646
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "de-DE",
+     "sha256": "61b1f8ff45d0c9b486faeb9e2cfab82c0bf58947cfcfea7014e903d7b75bedb3",
+     "size": 54258
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "el-GR",
+     "sha256": "8802d15bfa1fe28cf9884da657bbbc936e0f5223c92c0e750865706c839e589c",
+     "size": 2270424
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "el-GR",
+     "sha256": "a7c426a21180f90b488c212ad431a0e2b62ca2f77096d6d6c927bd049ad801e5",
+     "size": 191770
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "el-GR",
+     "sha256": "a408dd461baf83d9dfbc000e61234c9f0cbc6fdf57a9fc5a84a487344ecae159",
+     "size": 57554
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "4021c0bce7233dd4e15dffc8f0e13a1dd6ae3a9e7b307844ab35d9e8b0100f87",
+     "size": 1807068
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "537fde93d1c3aaa4082d91eb04c8d9453b91feff31b05b2c4e30b0059fed7242",
+     "size": 154902
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "cdcb1ca586b7252ee74d0c11b43ac43579ff0c2e65b5c0b78af6891233a0bff1",
+     "size": 47280
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "es-ES",
+     "sha256": "c382f1f3d2d91f91f46638ab7512b7b970c62a40fd20e83de50f34b6805b3289",
+     "size": 2123766
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "es-ES",
+     "sha256": "fcaef07c0dde4805d90116c1d1696b4acc9ed8b44fd7b6299e59f60951554ca9",
+     "size": 182224
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "es-ES",
+     "sha256": "ba83b0e9f555f26f3b4b9b0c8498ae23bb8a88c4811897e5789bd1c8d4f71c72",
+     "size": 55212
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "fi-FI",
+     "sha256": "142dbee98bc752ce0333913e638f88b6c93e248f803e8959d60e8d3be301b374",
+     "size": 1982086
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "fi-FI",
+     "sha256": "71e4afc44ee0e16717ee76297f0cb4dcdf2df6c325358225a722a2c90b98bb3c",
+     "size": 170812
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "fi-FI",
+     "sha256": "e5a31afadfff26773c7c19331203e369c75db567b81fc853c82fffcb04c1e52a",
+     "size": 49868
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "fr-FR",
+     "sha256": "60b205ea3346e391caa7aaedd9e208d4b0feac5b7c95242eda44d1aeb9a3d8d0",
+     "size": 2164350
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "fr-FR",
+     "sha256": "dbdfa0544a3913bb03908c89bfceb5c6ded8f81bb610c33dbf5a4e7abc8e1abc",
+     "size": 187688
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "fr-FR",
+     "sha256": "6293bf1d58325f8ee8c2968caa2706f939ce806ac8e7949ce15ac60fb68ce8a5",
+     "size": 55518
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "hu-HU",
+     "sha256": "37b6412d30783d7a99820804ea300a315a375b9191aa2d08c51f02208becd39d",
+     "size": 2093862
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "hu-HU",
+     "sha256": "0e0fe479978b5785e174da510a10807113f3cad6b8c3b6a041823ffb4f7cb5bb",
+     "size": 181062
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "hu-HU",
+     "sha256": "deec08d4151ed661e31a3af8620a38d1ccf74797480b26cf365ea6e375c59c98",
+     "size": 52648
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "it-IT",
+     "sha256": "15521488f208ac2780fe6ab3da9989f16747e12509bc3e633a87bb693aed4d24",
+     "size": 2089414
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "it-IT",
+     "sha256": "41e5d640acec28541a05a7950f4f24a91cd09520cf4c571865436e277ab61fc4",
+     "size": 181698
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "it-IT",
+     "sha256": "dd4017c7dff2737173374197e5033422ed52f5f0057831a0a5c3ab845b22c3a0",
+     "size": 53920
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "ja-JP",
+     "sha256": "c6bd01480cd4c02aefd25a2ea5e5c6158d47d85fa8423d43fbb65ea27e9e1421",
+     "size": 1301206
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "ja-JP",
+     "sha256": "2609dd34bcf6eb1450c79300665522ae340a35318a4e2da768adc1ebe3155efe",
+     "size": 109610
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "ja-JP",
+     "sha256": "8f37d686f7c7f2c4d865f77900991f793b2abd8ef66cf7d979f9c52d5cfb195a",
+     "size": 32564
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "ko-KR",
+     "sha256": "bcc6d59659b4ea541279d1e0fe91171fa99471dba7f3609b71b9fe46774db5e7",
+     "size": 1268140
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "ko-KR",
+     "sha256": "33a87aac35c123c2255753d7915ff8a2707d4a2f1504024029c0ed30757dc0e8",
+     "size": 103380
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "ko-KR",
+     "sha256": "aac7398e1a07c5c496d2b466d519cac435d6a1303dadb9414bb81d70e4fa5a7c",
+     "size": 32126
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "nb-NO",
+     "sha256": "f0fe681c8d0431cb302a51ebec717c233328609c52cbd5ebe98c81a394f99c9e",
+     "size": 1929102
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "nb-NO",
+     "sha256": "a82b0263ebf3325ee8eb477ef57d39c0051a78df5b6780dc186cb76c4fc72b62",
+     "size": 165612
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "nb-NO",
+     "sha256": "a4b4044dc3fd8a99e59fcf27b3c916bee6a111124cd7f0c60e591a1cee2266ad",
+     "size": 49124
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "nl-NL",
+     "sha256": "8fc8ba9eacaaea5580671710d08b67ae54170fee98e85e39c2ea620fd710dc94",
+     "size": 2043868
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "nl-NL",
+     "sha256": "2c16fb22fae5d90a91c5c0f1ba0bddb399155fcf4f5636a6bd211d88c4f52978",
+     "size": 172652
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "nl-NL",
+     "sha256": "095ec4a9f82276f753b68312071be981f7abd202c89c6201d3491583dcc9cc83",
+     "size": 51822
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "pl-PL",
+     "sha256": "b116621c206b7d5a2350bbb2b0765c6c74404039f2520662e70d5b2287130e63",
+     "size": 2103570
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "pl-PL",
+     "sha256": "dd2711c766a1a61aa9b5d444d2f2cfbf2177bd890243b6b2e712b9bd0636e1eb",
+     "size": 188410
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "pl-PL",
+     "sha256": "b802d48411e689e4683212e18a3d5844dddb098b447dc35b3f5505bb0290556b",
+     "size": 53236
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "pt-BR",
+     "sha256": "38c79ca71a609266ef313f8e7e81ea643bc5d4fcb6437045e9023fdf5ded9e41",
+     "size": 2033614
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "pt-BR",
+     "sha256": "e18662b022ed5ea5456f71f889ce5dc0c00fbb4ac9674c9acf9371ac90e09e11",
+     "size": 177076
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "pt-BR",
+     "sha256": "94440c383447e37f210213e40dd6da93089f9e22abb67ca3c73adbd25bb2751d",
+     "size": 52040
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "pt-PT",
+     "sha256": "7baff8436efa669483a7a96d28b31368d4c08c3046c6664000922a64bd341bb4",
+     "size": 2052374
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "pt-PT",
+     "sha256": "6f1dc3e6fa24e2c6d6036fe663c0e590c5f129044227db5ddc9bb351d29c1e0c",
+     "size": 179642
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "pt-PT",
+     "sha256": "f2325604cdd7ea2465590e83dff7c1e5e72a37d596088312f36ef3413b42bf7d",
+     "size": 52786
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "ru-RU",
+     "sha256": "84246ad0ae2212f527b237565096fe30c66b69de75227d8d4b09181954b1ee87",
+     "size": 2038426
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "ru-RU",
+     "sha256": "28216d500b9e46d4d31c5c1876fb171327fbe910c8ea5cab475e4fcf3dd3ad8e",
+     "size": 177926
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "ru-RU",
+     "sha256": "edbf4177495d3d03364bb9cf821547039ebfdcd400a1cac428d75454b912a768",
+     "size": 53594
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "sv-SE",
+     "sha256": "9c43d744a0045a181059600f1fa8a639716b1611fddc9e4f9502bf2f7addcfe3",
+     "size": 1936290
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "sv-SE",
+     "sha256": "74bd206f57234240855759f4cf52cab9afc591233e7e9d3624d2d13511934380",
+     "size": 168318
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "sv-SE",
+     "sha256": "157be9aacbc838d5e3270474c9665da816bba1c1d52aea81563c384be18e18aa",
+     "size": 49254
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "tr-TR",
+     "sha256": "171a41749945b417d8ac5a30f99013c54cb5001916caff759d9017ab6a00ce42",
+     "size": 1960264
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "tr-TR",
+     "sha256": "4de3d7a69c077e12571bea9b5c3a4d59027a91d821cec2d53bbd70e523763b55",
+     "size": 168406
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "tr-TR",
+     "sha256": "2b4086e203ef4f7e717a13b22c631eb7ca87546968ec9bb790ef5cab46f96a1e",
+     "size": 50010
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "zh-CN",
+     "sha256": "2f8ff7719726dac8c90a0820bdfd2bc3cf4ba9a568f6ac0b34f9246c272031ea",
+     "size": 1031540
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "zh-CN",
+     "sha256": "1dfe1f9f43fe0c3348e55bd3fc81eaadce9d4a47ca4fab9142c90479589df42f",
+     "size": 82840
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "zh-CN",
+     "sha256": "2f2a4c509e657880d5ad4f0d5a805703a189641f4bb5937df913d47f364af7ad",
+     "size": 26072
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "zh-TW",
+     "sha256": "047ecdb2c27d230d077ecfa02227d29eb1eb1f15c42e64ceb18989078e1eb122",
+     "size": 1044912
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "zh-TW",
+     "sha256": "4368bb7ea7ef552357924c3b7ed8a93e82aeaac514833fee056cb83cee35c041",
+     "size": 86132
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "zh-TW",
+     "sha256": "e42f7e481fa1d55b38e15d2280cf0315472a4134eb2cf07877e7cb50742d6440",
+     "size": 26416
+    }
+   ],
+   "admxCount": 3,
+   "policyCount": 913,
+   "namespaces": [
+    "Microsoft.Policies.Edge",
+    "Microsoft.Policies.Update",
+    "Microsoft.Policies.WebView2"
+   ],
+   "namespaceFiles": {
+    "Microsoft.Policies.Edge": "msedge.admx",
+    "Microsoft.Policies.Update": "msedgeupdate.admx",
+    "Microsoft.Policies.WebView2": "msedgewebview2.admx"
+   },
+   "parseErrors": [],
+   "diff": {
+    "previous": "158.0.4344.0",
+    "added": 0,
+    "removed": 0,
+    "changed": 0,
+    "details": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   }
+  },
   {
    "version": "158.0.4344.0",
    "date": "2026-10-20",
@@ -549,13 +1091,560 @@
    },
    "parseErrors": [],
    "diff": {
+    "previous": "157.0.4341.24",
+    "added": 1,
+    "removed": 1,
+    "changed": 0,
+    "details": {
+     "added": [
+      "Microsoft.Policies.Edge:BlueprintGWAAvailability"
+     ],
+     "removed": [
+      "Microsoft.Policies.Edge:AllHttpAuthSchemesAllowedForProxies"
+     ],
+     "changed": []
+    }
+   }
+  },
+  {
+   "version": "157.0.4341.24",
+   "date": "2026-10-27",
+   "discovered": "2026-10-27T00:00:00Z",
+   "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/64610c99-d4df-4fa1-af5d-ed591e6a48d2/MicrosoftEdgePolicyTemplates.cab",
+   "sha256": "9e297e372c6588113ba7744d2208285b9d2bd4ef9c46e94af6b8aa3e07f6e595",
+   "size": 19067443,
+   "fingerprint": "9e297e372c6588113ba7744d2208285b9d2bd4ef9c46e94af6b8aa3e07f6e595",
+   "languages": [
+    "cs-CZ",
+    "da-DK",
+    "de-DE",
+    "el-GR",
+    "en-US",
+    "es-ES",
+    "fi-FI",
+    "fr-FR",
+    "hu-HU",
+    "it-IT",
+    "ja-JP",
+    "ko-KR",
+    "nb-NO",
+    "nl-NL",
+    "pl-PL",
+    "pt-BR",
+    "pt-PT",
+    "ru-RU",
+    "sv-SE",
+    "tr-TR",
+    "zh-CN",
+    "zh-TW"
+   ],
+   "files": [
+    {
+     "name": "msedge.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "0bcaceeb55b4473680580effd51ed577a064f448366b7f9fa054f0d0af0a8645",
+     "size": 1116988
+    },
+    {
+     "name": "msedgeupdate.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "e0ce554c1c524048d8324687d9c3559ab3e6a59bb21b8194334e9c998b66509a",
+     "size": 96152
+    },
+    {
+     "name": "msedgewebview2.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "f562f016c67012faf11b57886bfcc210d0470d2ae75e73cb73ee3bb3799590bb",
+     "size": 23170
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "cs-CZ",
+     "sha256": "e13e72b9d3a77f2143159c0d6fe3315272347631ae436371dde2257ae68e2f90",
+     "size": 1909572
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "cs-CZ",
+     "sha256": "288b497547efc0f65124217a600c76b211bc9c9a33ba66bf6e307087276ebdff",
+     "size": 164904
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "cs-CZ",
+     "sha256": "fc4c78a534b0e0b44c13f1cb3073bef4aca1e4796a67b6445e83bf064f702017",
+     "size": 48228
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "da-DK",
+     "sha256": "4f1dabf45d6f96e98c1cad969aa78d75d8a4bdfd8a4e11da5ff3a8efe56f8895",
+     "size": 1971692
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "da-DK",
+     "sha256": "cb4a526038c1c6d3db3ef8d635e61afbea75e788fc7c7c2babb3634785f3247e",
+     "size": 169546
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "da-DK",
+     "sha256": "f7dbce37304f32b0f44b35b1585ee8448bf31b3777f1dc1eec6a8e24d612f808",
+     "size": 50218
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "de-DE",
+     "sha256": "6e66a52c4cf84efba301d5856dfc1f7644c30913f8e2a428fbb37563c8ef6ad6",
+     "size": 2122024
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "de-DE",
+     "sha256": "327765b4ac9537703ca55dd972231d1dfe0364c7826ab295c334485000999887",
+     "size": 180646
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "de-DE",
+     "sha256": "fa2c450c35929028423627134cc5be75d85f15be30d75e693c8f738be79250c5",
+     "size": 54260
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "el-GR",
+     "sha256": "6e210226919f41c8957607ff262dda365487ea2cfe09ad8c8e90700f3f3d7e31",
+     "size": 2270020
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "el-GR",
+     "sha256": "a7c426a21180f90b488c212ad431a0e2b62ca2f77096d6d6c927bd049ad801e5",
+     "size": 191770
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "el-GR",
+     "sha256": "fab450d272172d35a670e6952935cb5a2eab6c32afe5b6a9f745bc7425da674d",
+     "size": 57556
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "3896d5242233006127d3dd218a16acf76b1b2dd0345b9e4a6efb1fe9dc4be0bd",
+     "size": 1806690
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "537fde93d1c3aaa4082d91eb04c8d9453b91feff31b05b2c4e30b0059fed7242",
+     "size": 154902
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "1551a691c0f014f7985b883cffa36b49ce2a31270981ca601e49dd0b66ca85d8",
+     "size": 47282
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "es-ES",
+     "sha256": "1451b65794a583ef0aff94adff6429f499f4650977d584467cd2f8f3c6978b64",
+     "size": 2122872
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "es-ES",
+     "sha256": "fcaef07c0dde4805d90116c1d1696b4acc9ed8b44fd7b6299e59f60951554ca9",
+     "size": 182224
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "es-ES",
+     "sha256": "a47b14c950b63bf60eb5e5dc8bd410d73f5d1a98ba20b3c7e7d2e6f11e61b434",
+     "size": 55214
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "fi-FI",
+     "sha256": "6da06a68e0ce4cc6c68aba41565483e683f12a8ec998af534f355f6d556c7e43",
+     "size": 1981302
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "fi-FI",
+     "sha256": "71e4afc44ee0e16717ee76297f0cb4dcdf2df6c325358225a722a2c90b98bb3c",
+     "size": 170812
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "fi-FI",
+     "sha256": "994f2ce7f54b5b4d1d59273e02ad412b218398220fab44cfab8ec2037336500d",
+     "size": 49870
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "fr-FR",
+     "sha256": "955f5a1934a8bb28df13ec1c968155ffbefc19378909d4b56f6988815caca26f",
+     "size": 2163198
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "fr-FR",
+     "sha256": "dbdfa0544a3913bb03908c89bfceb5c6ded8f81bb610c33dbf5a4e7abc8e1abc",
+     "size": 187688
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "fr-FR",
+     "sha256": "fed9411b147acf797c75d2f8026ff86419132bd5596cd92011f0d04950eb7862",
+     "size": 55520
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "hu-HU",
+     "sha256": "d64ff29a9a83488da44efef0f58e195fc7ce7514a63464658880ba9d259a2621",
+     "size": 2093070
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "hu-HU",
+     "sha256": "0e0fe479978b5785e174da510a10807113f3cad6b8c3b6a041823ffb4f7cb5bb",
+     "size": 181062
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "hu-HU",
+     "sha256": "78f1c51aba1d419de457aac66dcf3bc5c35cef3eae64e46e33a4df1b0a710b8b",
+     "size": 52650
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "it-IT",
+     "sha256": "18b80ade2b19152ef3830e456985b9f0a7adaeb0f2629e25f20347b09b85dd95",
+     "size": 2088620
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "it-IT",
+     "sha256": "41e5d640acec28541a05a7950f4f24a91cd09520cf4c571865436e277ab61fc4",
+     "size": 181698
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "it-IT",
+     "sha256": "7e1e0304bc7ab064c1cacfb970661208fe7d22bf24c04fb21bbc90fa5684e06a",
+     "size": 53922
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "ja-JP",
+     "sha256": "9e4f6042bbcb34bdaa622f100db4787529adcdb11678e0f6147a59446796a1a0",
+     "size": 1301710
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "ja-JP",
+     "sha256": "2609dd34bcf6eb1450c79300665522ae340a35318a4e2da768adc1ebe3155efe",
+     "size": 109610
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "ja-JP",
+     "sha256": "c1b88814dca87d68c3dd6faec81339d5b3ce6a30949b0bb70344bfcf27f6ad49",
+     "size": 32566
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "ko-KR",
+     "sha256": "d4a03d7d7b32205e56a56487c45059f572323fc4bcb088756b5a46122a50396a",
+     "size": 1268556
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "ko-KR",
+     "sha256": "33a87aac35c123c2255753d7915ff8a2707d4a2f1504024029c0ed30757dc0e8",
+     "size": 103380
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "ko-KR",
+     "sha256": "2f398eddfd1087745c5061d7b6432db271483e998bed4db3fd93ba7c55990456",
+     "size": 32128
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "nb-NO",
+     "sha256": "64dc801af11ff28e6eaee4862431a03668ac7d506dca16d7aa428d1ac792b4a0",
+     "size": 1928480
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "nb-NO",
+     "sha256": "a82b0263ebf3325ee8eb477ef57d39c0051a78df5b6780dc186cb76c4fc72b62",
+     "size": 165612
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "nb-NO",
+     "sha256": "89cac920a86a4394cf158590d4b0c033f1b4121741a082faeb1b7933fada67cd",
+     "size": 49126
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "nl-NL",
+     "sha256": "42812f26f349f4ae1574b6a48b2e486745c43f1f7f9f712a964018225f05a6c7",
+     "size": 2042870
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "nl-NL",
+     "sha256": "2c16fb22fae5d90a91c5c0f1ba0bddb399155fcf4f5636a6bd211d88c4f52978",
+     "size": 172652
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "nl-NL",
+     "sha256": "7f5cb6336cab8e6adfc751d95d0e3e154c3d884093d5b63ceaa9887fe29f9884",
+     "size": 51824
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "pl-PL",
+     "sha256": "b8fbccede27122ab55b8734f3889e903f2ebd05ab7c33268d52bcbb8d761ff3d",
+     "size": 2102692
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "pl-PL",
+     "sha256": "dd2711c766a1a61aa9b5d444d2f2cfbf2177bd890243b6b2e712b9bd0636e1eb",
+     "size": 188410
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "pl-PL",
+     "sha256": "f28dd352abcfd180a049411d221434d84fba7c4e4c0ca106ad3906053e1ad159",
+     "size": 53238
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "pt-BR",
+     "sha256": "5be5f41034d88e8e15055375b4e31410fc47af41fa8c0a0cf252b56e17e71652",
+     "size": 2032782
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "pt-BR",
+     "sha256": "e18662b022ed5ea5456f71f889ce5dc0c00fbb4ac9674c9acf9371ac90e09e11",
+     "size": 177076
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "pt-BR",
+     "sha256": "b735fc97030965c5f102e0b46e63a2d330054d3315cf2ba0ce692501a8eb0a4b",
+     "size": 52042
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "pt-PT",
+     "sha256": "ded1777244e169f6229515a4008661674757df1a1086a18be7688d9e16bea1e8",
+     "size": 2051322
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "pt-PT",
+     "sha256": "6f1dc3e6fa24e2c6d6036fe663c0e590c5f129044227db5ddc9bb351d29c1e0c",
+     "size": 179642
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "pt-PT",
+     "sha256": "b564375d1ccb3f4b98972525d07528ec7f254736c5f2b9a3f130d491950ba116",
+     "size": 52788
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "ru-RU",
+     "sha256": "ebd1b8bbaa4ec0f48453164d6e3e8ce3f6647100987fdabd3d9127c7e293cd53",
+     "size": 2037972
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "ru-RU",
+     "sha256": "28216d500b9e46d4d31c5c1876fb171327fbe910c8ea5cab475e4fcf3dd3ad8e",
+     "size": 177926
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "ru-RU",
+     "sha256": "c785ce42fdb9a4411f0ee9cfbcc7b57665ea1c25c7a178d4d9628eefda61fca1",
+     "size": 53596
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "sv-SE",
+     "sha256": "6f6a5752be08fd29e6c82fd5e43921e6014dd405c24f05946e4a69d1d7c9a8c7",
+     "size": 1935432
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "sv-SE",
+     "sha256": "74bd206f57234240855759f4cf52cab9afc591233e7e9d3624d2d13511934380",
+     "size": 168318
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "sv-SE",
+     "sha256": "b224228f8090decef88b06786ecfe2dd442302a6daa36a142efd28f3385fb538",
+     "size": 49256
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "tr-TR",
+     "sha256": "5867e0f0d2299123393e087247e4c211ec394cc1fafd587233af10aa460ec5e1",
+     "size": 1959486
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "tr-TR",
+     "sha256": "4de3d7a69c077e12571bea9b5c3a4d59027a91d821cec2d53bbd70e523763b55",
+     "size": 168406
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "tr-TR",
+     "sha256": "a42da26cfdeba57b9287a401f9cb1d853f9cad8f15fbf99c45267b8ec3d764b0",
+     "size": 50012
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "zh-CN",
+     "sha256": "fc5f38da584400947bb59d6c23a489895b8c9eaf8d13dc81657582642a1c427f",
+     "size": 1032578
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "zh-CN",
+     "sha256": "1dfe1f9f43fe0c3348e55bd3fc81eaadce9d4a47ca4fab9142c90479589df42f",
+     "size": 82840
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "zh-CN",
+     "sha256": "46665f7894b6c19ddc2a8e83d2f9fe2285901556b5413fd443888e7c94f54307",
+     "size": 26074
+    },
+    {
+     "name": "msedge.adml",
+     "kind": "adml",
+     "lang": "zh-TW",
+     "sha256": "46907e3766c34370669afbbf8863e34d9627e914125ea548cc9c88a842ebc8c0",
+     "size": 1045890
+    },
+    {
+     "name": "msedgeupdate.adml",
+     "kind": "adml",
+     "lang": "zh-TW",
+     "sha256": "4368bb7ea7ef552357924c3b7ed8a93e82aeaac514833fee056cb83cee35c041",
+     "size": 86132
+    },
+    {
+     "name": "msedgewebview2.adml",
+     "kind": "adml",
+     "lang": "zh-TW",
+     "sha256": "8ac010b124bae4d7df1c1c486cc0cb608682289bfe588640c1a2408aed954951",
+     "size": 26418
+    }
+   ],
+   "admxCount": 3,
+   "policyCount": 913,
+   "namespaces": [
+    "Microsoft.Policies.Edge",
+    "Microsoft.Policies.Update",
+    "Microsoft.Policies.WebView2"
+   ],
+   "namespaceFiles": {
+    "Microsoft.Policies.Edge": "msedge.admx",
+    "Microsoft.Policies.Update": "msedgeupdate.admx",
+    "Microsoft.Policies.WebView2": "msedgewebview2.admx"
+   },
+   "parseErrors": [],
+   "backfilled": true,
+   "diff": {
     "previous": "157.0.4341.16",
     "added": 1,
     "removed": 0,
     "changed": 0,
     "details": {
      "added": [
-      "Microsoft.Policies.Edge:BlueprintGWAAvailability"
+      "Microsoft.Policies.Edge:AllHttpAuthSchemesAllowedForProxies"
      ],
      "removed": [],
      "changed": []

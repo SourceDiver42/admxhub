@@ -12,12 +12,60 @@
  "mirror": false,
  "history": true,
  "status": {
-  "lastChecked": "2026-10-27T09:51:07Z",
-  "lastSuccess": "2026-10-27T09:51:07Z",
+  "lastChecked": "2026-10-28T10:37:29Z",
+  "lastSuccess": "2026-10-28T10:37:29Z",
   "error": null,
   "consecutiveFailures": 0
  },
  "versions": [
+  {
+   "version": "0.102.3001",
+   "date": "2026-10-27",
+   "discovered": "2026-10-28T10:37:29Z",
+   "url": "https://github.com/microsoft/PowerToys/releases/download/v0.102.3001/GroupPolicyObjectFiles-0.102.3001.0.zip",
+   "sha256": "e9588b9d05f397612aacce7bd7eacf63925410899546b46053165bf8673d31bc",
+   "size": 9137,
+   "fingerprint": "e9588b9d05f397612aacce7bd7eacf63925410899546b46053165bf8673d31bc",
+   "languages": [
+    "en-US"
+   ],
+   "files": [
+    {
+     "name": "PowerToys.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "73f4f5b65b61adf37b8db0b7bbb371ad54b02ca75e5ee92467bee4be443deab4",
+     "size": 49910
+    },
+    {
+     "name": "PowerToys.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "f245dd53329a3537ac87fe899f03323c3559233c9b3417884e9a840fa7219835",
+     "size": 29866
+    }
+   ],
+   "admxCount": 1,
+   "policyCount": 83,
+   "namespaces": [
+    "Microsoft.Policies.PowerToys"
+   ],
+   "namespaceFiles": {
+    "Microsoft.Policies.PowerToys": "PowerToys.admx"
+   },
+   "parseErrors": [],
+   "diff": {
+    "previous": "0.102.2933.0",
+    "added": 0,
+    "removed": 0,
+    "changed": 0,
+    "details": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   }
+  },
   {
    "version": "0.102.2933.0",
    "date": "2026-10-21",
