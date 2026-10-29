@@ -1,6 +1,6 @@
 {
  "schema": "admxhub/catalog/v1",
- "generated": "2026-10-28T10:37:42Z",
+ "generated": "2026-10-29T10:56:19Z",
  "generator": "admxhub 0.1.0",
  "products": [
   {
@@ -18,8 +18,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-28T10:37:14Z",
-    "lastSuccess": "2026-10-28T10:37:14Z",
+    "lastChecked": "2026-10-29T10:55:55Z",
+    "lastSuccess": "2026-10-29T10:55:55Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -86,18 +86,18 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-10-28T10:37:14Z",
-    "lastSuccess": "2026-10-28T10:37:14Z",
+    "lastChecked": "2026-10-29T10:55:55Z",
+    "lastSuccess": "2026-10-29T10:55:56Z",
     "error": null,
     "consecutiveFailures": 0
    },
    "latest": {
-    "version": "1.98.60",
-    "date": "2026-10-21",
-    "discovered": "2026-10-25T13:30:54Z",
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.98.60/policy_templates.zip",
-    "sha256": "dd70b4d757de63b0aa282a84a10911f3d572936b7f729c0763798d6785760e01",
-    "size": 6493483,
+    "version": "1.98.62",
+    "date": "2026-10-28",
+    "discovered": "2026-10-29T10:55:56Z",
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.98.62/policy_templates.zip",
+    "sha256": "b1f3354fc7aa96747b22536689df37328b74313ecae7b9b73b23b895f557bf7c",
+    "size": 6493533,
     "languages": [
      "de-DE",
      "en-US",
@@ -123,133 +123,133 @@
       "name": "brave.admx",
       "kind": "admx",
       "lang": null,
-      "sha256": "657eab4d0742b87278b3cf0f53890e626a741c36ce3c9f4db9a0e1cc77e30657",
+      "sha256": "cb2d462661ca20deae6872c55d92e310a8a4f799e164213f08804f26fde47d9a",
       "size": 970692
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "de-DE",
-      "sha256": "d0c9e7758113f234d39420ec34bb0ddf52952944cb4b83e372cd750ca74a88c6",
+      "sha256": "cfc44eeddc4f84158c641e3b79a672541460d1f889f2267d1c563bc72bd2792c",
       "size": 1464422
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "en-US",
-      "sha256": "bbbb8afb9871536e1ac0577173bc8e5c2d5a7d87eca93514136573aa583a4d93",
+      "sha256": "b3201fc5760999d55c52bc47c2e56e0e3487b2e40bd19e93725f42d0f26554ab",
       "size": 1256222
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "es-419",
-      "sha256": "1180f8718b3a6dde3e17580c26b48c67366990ece70cb0682f6b941c7e282312",
+      "sha256": "b44b6f4134ce69ed19166ff2a5edc1fe5da793e88d012ba0460bbd88abb16558",
       "size": 1439862
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "es-ES",
-      "sha256": "1e7059e26b2e65d2279fbdcd81d955b74ea92deec3336da3eab7cb91f5531b4e",
+      "sha256": "9175e9771ae1f00f66427f2393480526777783d3d2146552b64e7f430d74a3d6",
       "size": 1438374
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "fr-FR",
-      "sha256": "29a802261ec10d85c6422b7fa3c2f5b81c4c3f5c7caea3f8dca7f52293dd2286",
+      "sha256": "0deb452c768abb06f4b921b66e324adc6aa6a6d811d12fcc56ced621034d73ab",
       "size": 1468934
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "id-ID",
-      "sha256": "9c296e733f8b94edbad0b98062760e55c250cb0c2ecae0569d6eda9352c22668",
+      "sha256": "4e8bf79c1da08c5894f3c720efa21eba7483151163edb4c152443053ec9c0cf4",
       "size": 1359664
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "it-IT",
-      "sha256": "dade39e87c7a0a31690190a23fdaeb3eeab0a87395464aaf87f7e51505e3aedd",
+      "sha256": "213d7cc21cb69f06ef28472ca4a4685c6f66efb28533950c1929af17780f9cd2",
       "size": 1453000
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "ja-JP",
-      "sha256": "cf1485ceadc0cee17a5d6e5ada256548a21d2a6a9896c12b6d1e3286e67a47db",
+      "sha256": "4a00168e55083c11a00b02f3548c59cf41dcf53c6f3e7c45b4bab43afe9ad4ae",
       "size": 939594
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "ko-KR",
-      "sha256": "ecf726a270876752f05837e7ceefa197e4332a3b6f90ee90ed526f82e18ad8cb",
+      "sha256": "30ee20414422cef65c6c133599426f381c8bbe6d2509c2e7a7843031d51acf0f",
       "size": 920902
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "nl-NL",
-      "sha256": "816e24416e5693f0708606cd5601e7406cd5980f053909b8edecbde068075008",
+      "sha256": "36957d36d842db8138a504b53461f08f285deaf396eaa01ec434b0c052eb0357",
       "size": 1395596
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "pt-BR",
-      "sha256": "c12d6d4d5d4e37a9b13e26e87bde611e8ad52d30d9c699e2cecc71b9e44d9e80",
+      "sha256": "5ea0956ee88039dc4f562280784c717c814fd8a7c922db417c1040d2fa02ff69",
       "size": 1386250
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "ru-RU",
-      "sha256": "695cbbe1ce4488d34016ef7d3b2800a59e982fff5c241b57f40adbe19690068d",
+      "sha256": "03b5b59ede006b1bb6664566de6efec91c090044569380d6f928c09abdeae4d3",
       "size": 1357076
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "th-TH",
-      "sha256": "dcece0af47bb344f7d403264a26211c026ee82cd85b64324b5bb8e6c3b4fa445",
+      "sha256": "325d6d6154372adc3371466f42e3a1b608033c2b7e24532c88e8921f308fa33b",
       "size": 1228924
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "tr-TR",
-      "sha256": "4671b9061812b94fc8543acb6d819ca6684539a33eca7e4452359fa396a1a9c4",
+      "sha256": "032fa8abbb2c7415a17443514ea81082f29068692deb288f2ab74cad07f51f84",
       "size": 1395318
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "uk-UA",
-      "sha256": "78ca3ad738fc67cd2db9cd7840e25085ff16ccf10b59c4803a4cc9a1553dec49",
+      "sha256": "d9af548d1f0a324ffd8ba4ea4bb13a41a86d43ab4fe1b1ca16e5bc7cd9b9f490",
       "size": 1373408
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "vi-VN",
-      "sha256": "b18b8943942fb8c8b96ff672694a233f0c59c38a10952ac0a918d1b4770290d1",
-      "size": 1383088
+      "sha256": "02eed5f2dab8c52cf7d513a68b7802a9382c1a79beee2d2c1a45a9daf5bee6fe",
+      "size": 1382958
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "zh-CN",
-      "sha256": "40698b2747abfa1d30122eb84a67184d0a6b833aacd6dca4169e34c9dde0d6c1",
+      "sha256": "6b67745e945ce010914e3200a22a39cd62078b8b78176531e2955a11d5ad34f8",
       "size": 796622
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "zh-TW",
-      "sha256": "9fad79911d1267f663ec4dd0e65442b26a36113991e7d04cca98ae54ea469254",
+      "sha256": "87268dcaabb9a7d93cbd785e73db1b48e7f39abb0ca99146f1332dc4b03e4a37",
       "size": 796618
      }
     ],
@@ -263,22 +263,18 @@
     },
     "parseErrors": [],
     "diff": {
-     "previous": "1.97.59",
-     "added": 3,
+     "previous": "1.98.60",
+     "added": 0,
      "removed": 0,
      "changed": 0,
      "details": {
-      "added": [
-       "BraveSoftware.Policies.Brave:AutofillGenAiSettings",
-       "BraveSoftware.Policies.Brave:LaunchOnStartupEnabled",
-       "BraveSoftware.Policies.Brave:LaunchOnStartupEnabled_recommended"
-      ],
+      "added": [],
       "removed": [],
       "changed": []
      }
     }
    },
-   "versionCount": 44
+   "versionCount": 45
   },
   {
    "id": "chrome",
@@ -294,8 +290,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-28T10:37:15Z",
-    "lastSuccess": "2026-10-28T10:37:16Z",
+    "lastChecked": "2026-10-29T10:55:57Z",
+    "lastSuccess": "2026-10-29T10:55:57Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -633,8 +629,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-10-28T10:37:16Z",
-    "lastSuccess": "2026-10-28T10:37:17Z",
+    "lastChecked": "2026-10-29T10:55:57Z",
+    "lastSuccess": "2026-10-29T10:55:57Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1195,8 +1191,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-10-28T10:37:19Z",
-    "lastSuccess": "2026-10-28T10:37:19Z",
+    "lastChecked": "2026-10-29T10:55:57Z",
+    "lastSuccess": "2026-10-29T10:55:57Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1336,8 +1332,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-28T10:37:20Z",
-    "lastSuccess": "2026-10-28T10:37:20Z",
+    "lastChecked": "2026-10-29T10:55:58Z",
+    "lastSuccess": "2026-10-29T10:55:59Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1404,8 +1400,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-28T10:37:20Z",
-    "lastSuccess": "2026-10-28T10:37:20Z",
+    "lastChecked": "2026-10-29T10:55:59Z",
+    "lastSuccess": "2026-10-29T10:55:59Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1489,8 +1485,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-28T10:37:20Z",
-    "lastSuccess": "2026-10-28T10:37:29Z",
+    "lastChecked": "2026-10-29T10:55:59Z",
+    "lastSuccess": "2026-10-29T10:56:08Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1733,8 +1729,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-10-28T10:37:29Z",
-    "lastSuccess": "2026-10-28T10:37:29Z",
+    "lastChecked": "2026-10-29T10:56:08Z",
+    "lastSuccess": "2026-10-29T10:56:08Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1803,8 +1799,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-28T10:37:30Z",
-    "lastSuccess": "2026-10-28T10:37:30Z",
+    "lastChecked": "2026-10-29T10:56:10Z",
+    "lastSuccess": "2026-10-29T10:56:10Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1871,8 +1867,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-10-28T10:37:30Z",
-    "lastSuccess": "2026-10-28T10:37:41Z",
+    "lastChecked": "2026-10-29T10:56:10Z",
+    "lastSuccess": "2026-10-29T10:56:18Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -40034,8 +40030,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-10-28T10:37:41Z",
-    "lastSuccess": "2026-10-28T10:37:41Z",
+    "lastChecked": "2026-10-29T10:56:18Z",
+    "lastSuccess": "2026-10-29T10:56:18Z",
     "error": null,
     "consecutiveFailures": 0
    },

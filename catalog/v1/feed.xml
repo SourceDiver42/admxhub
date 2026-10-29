@@ -2,8 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:admxhub:feed</id>
   <title>ADMX Hub: new Group Policy templates</title>
-  <updated>2026-10-28T10:37:42Z</updated>
+  <updated>2026-10-29T10:56:19Z</updated>
   <generator>admxhub 0.1.0</generator>
+  <entry>
+    <id>urn:admxhub:brave:1.98.62</id>
+    <title>Brave Browser 1.98.62</title>
+    <updated>2026-10-29T10:55:56Z</updated>
+    <link href="https://github.com/brave/brave-browser/releases/download/v1.98.62/policy_templates.zip"/>
+    <summary>Brave Browser 1.98.62: 772 policies (+0 / -0 / ~0 since 1.98.60)</summary>
+  </entry>
   <entry>
     <id>urn:admxhub:powertoys:0.102.3001</id>
     <title>PowerToys 0.102.3001</title>
