@@ -12,12 +12,331 @@
  "mirror": false,
  "history": false,
  "status": {
-  "lastChecked": "2026-10-29T10:55:57Z",
-  "lastSuccess": "2026-10-29T10:55:57Z",
+  "lastChecked": "2026-10-30T10:53:28Z",
+  "lastSuccess": "2026-10-30T10:53:29Z",
   "error": null,
   "consecutiveFailures": 0
  },
  "versions": [
+  {
+   "version": "156.0.8078.80",
+   "date": "2026-10-29",
+   "discovered": "2026-10-30T10:53:29Z",
+   "url": "https://dl.google.com/dl/edgedl/chrome/policy/policy_templates.zip",
+   "sha256": "05aafe40d0d56abbcc513bf1ea3d82e0c65df99fc52bbceb965acc4364387375",
+   "size": 123187433,
+   "fingerprint": "7092d88-6aa1e4d0",
+   "languages": [
+    "de-DE",
+    "en-US",
+    "es-419",
+    "es-ES",
+    "fr-FR",
+    "id-ID",
+    "it-IT",
+    "ja-JP",
+    "ko-KR",
+    "nl-NL",
+    "pt-BR",
+    "ru-RU",
+    "th-TH",
+    "tr-TR",
+    "uk-UA",
+    "vi-VN",
+    "zh-CN",
+    "zh-TW"
+   ],
+   "files": [
+    {
+     "name": "chrome.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "0ed23ca0afcda6182a26c980e8f875069ce62c1580e05b5243c310375055e1b2",
+     "size": 927362
+    },
+    {
+     "name": "google.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "539928ad612beda392074652158c20428e238896360711c932cd461d1673f347",
+     "size": 348
+    },
+    {
+     "name": "chrome.adml",
+     "kind": "adml",
+     "lang": "de-DE",
+     "sha256": "1369474d3f22a8516eb643dfd1d8b7f6ad453cdff3b719c6a517a172f32bad22",
+     "size": 1431172
+    },
+    {
+     "name": "google.adml",
+     "kind": "adml",
+     "lang": "de-DE",
+     "sha256": "4cfe0f3717c5ece8a10f8f974b1b9610ffea610b8a2cdf3fcf62a337d78088ed",
+     "size": 267
+    },
+    {
+     "name": "chrome.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "f4fe4f169919f4a1c1375a16a68abb22572c62dfb70cd61f74be8b5f2972d4c8",
+     "size": 1222368
+    },
+    {
+     "name": "google.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "4cfe0f3717c5ece8a10f8f974b1b9610ffea610b8a2cdf3fcf62a337d78088ed",
+     "size": 267
+    },
+    {
+     "name": "chrome.adml",
+     "kind": "adml",
+     "lang": "es-419",
+     "sha256": "68b535f38827d3fb09d3f3794fda2ba9add45f7cb21f24fefb919917da35efdd",
+     "size": 1406610
+    },
+    {
+     "name": "google.adml",
+     "kind": "adml",
+     "lang": "es-419",
+     "sha256": "4cfe0f3717c5ece8a10f8f974b1b9610ffea610b8a2cdf3fcf62a337d78088ed",
+     "size": 267
+    },
+    {
+     "name": "chrome.adml",
+     "kind": "adml",
+     "lang": "es-ES",
+     "sha256": "01a15235ce1023becaa43bcbfab99298e555dd26a05470774e95a852db026573",
+     "size": 1405172
+    },
+    {
+     "name": "google.adml",
+     "kind": "adml",
+     "lang": "es-ES",
+     "sha256": "4cfe0f3717c5ece8a10f8f974b1b9610ffea610b8a2cdf3fcf62a337d78088ed",
+     "size": 267
+    },
+    {
+     "name": "chrome.adml",
+     "kind": "adml",
+     "lang": "fr-FR",
+     "sha256": "16d3f5f4a4e0dfb5aa1cb2261f56e546f8de20408430c30cfdb49aaa8599c221",
+     "size": 1435572
+    },
+    {
+     "name": "google.adml",
+     "kind": "adml",
+     "lang": "fr-FR",
+     "sha256": "4cfe0f3717c5ece8a10f8f974b1b9610ffea610b8a2cdf3fcf62a337d78088ed",
+     "size": 267
+    },
+    {
+     "name": "chrome.adml",
+     "kind": "adml",
+     "lang": "id-ID",
+     "sha256": "428e7bb07f458218c10d94fc711bdc3255281dd137a9947a449cd84bb26d8ed4",
+     "size": 1326168
+    },
+    {
+     "name": "google.adml",
+     "kind": "adml",
+     "lang": "id-ID",
+     "sha256": "4cfe0f3717c5ece8a10f8f974b1b9610ffea610b8a2cdf3fcf62a337d78088ed",
+     "size": 267
+    },
+    {
+     "name": "chrome.adml",
+     "kind": "adml",
+     "lang": "it-IT",
+     "sha256": "ab774015e25974f4101e9197aedd8cfaf890467451b7df8dcda653367337362a",
+     "size": 1419816
+    },
+    {
+     "name": "google.adml",
+     "kind": "adml",
+     "lang": "it-IT",
+     "sha256": "4cfe0f3717c5ece8a10f8f974b1b9610ffea610b8a2cdf3fcf62a337d78088ed",
+     "size": 267
+    },
+    {
+     "name": "chrome.adml",
+     "kind": "adml",
+     "lang": "ja-JP",
+     "sha256": "52b4d00f3ce29105b1075908c51caa21ed85ee23cf084f7a73fad0cace1d8db0",
+     "size": 904670
+    },
+    {
+     "name": "google.adml",
+     "kind": "adml",
+     "lang": "ja-JP",
+     "sha256": "4cfe0f3717c5ece8a10f8f974b1b9610ffea610b8a2cdf3fcf62a337d78088ed",
+     "size": 267
+    },
+    {
+     "name": "chrome.adml",
+     "kind": "adml",
+     "lang": "ko-KR",
+     "sha256": "6faf4cc5843f8353f2b3c7fbc28d7aef43088be6a483905ea7b24933ed591b36",
+     "size": 885854
+    },
+    {
+     "name": "google.adml",
+     "kind": "adml",
+     "lang": "ko-KR",
+     "sha256": "4cfe0f3717c5ece8a10f8f974b1b9610ffea610b8a2cdf3fcf62a337d78088ed",
+     "size": 267
+    },
+    {
+     "name": "chrome.adml",
+     "kind": "adml",
+     "lang": "nl-NL",
+     "sha256": "87e422d70ca5d9d24bbba7590e4a9ef41bdfa78d9b48c2a36d9db2576a36ac68",
+     "size": 1362256
+    },
+    {
+     "name": "google.adml",
+     "kind": "adml",
+     "lang": "nl-NL",
+     "sha256": "4cfe0f3717c5ece8a10f8f974b1b9610ffea610b8a2cdf3fcf62a337d78088ed",
+     "size": 267
+    },
+    {
+     "name": "chrome.adml",
+     "kind": "adml",
+     "lang": "pt-BR",
+     "sha256": "bcd41e078d448bc86f54850b2c3b599b7348637943fcd6687376d7c27ece08c8",
+     "size": 1352834
+    },
+    {
+     "name": "google.adml",
+     "kind": "adml",
+     "lang": "pt-BR",
+     "sha256": "4cfe0f3717c5ece8a10f8f974b1b9610ffea610b8a2cdf3fcf62a337d78088ed",
+     "size": 267
+    },
+    {
+     "name": "chrome.adml",
+     "kind": "adml",
+     "lang": "ru-RU",
+     "sha256": "530df28f0d34c9a3fdc1f80338615eddf6bc607ad0738cca573503a05c3f1eae",
+     "size": 1324040
+    },
+    {
+     "name": "google.adml",
+     "kind": "adml",
+     "lang": "ru-RU",
+     "sha256": "4cfe0f3717c5ece8a10f8f974b1b9610ffea610b8a2cdf3fcf62a337d78088ed",
+     "size": 267
+    },
+    {
+     "name": "chrome.adml",
+     "kind": "adml",
+     "lang": "th-TH",
+     "sha256": "c88fbee909b801d3db1557f4a6c2a0684138ef2a7c9caba85c2fc5618a1c2ddd",
+     "size": 1194916
+    },
+    {
+     "name": "google.adml",
+     "kind": "adml",
+     "lang": "th-TH",
+     "sha256": "4cfe0f3717c5ece8a10f8f974b1b9610ffea610b8a2cdf3fcf62a337d78088ed",
+     "size": 267
+    },
+    {
+     "name": "chrome.adml",
+     "kind": "adml",
+     "lang": "tr-TR",
+     "sha256": "c4538c28cb58988f6c4c537cdcd6b78d3ec8f4fdb3308a3eef314b56d0707937",
+     "size": 1361862
+    },
+    {
+     "name": "google.adml",
+     "kind": "adml",
+     "lang": "tr-TR",
+     "sha256": "4cfe0f3717c5ece8a10f8f974b1b9610ffea610b8a2cdf3fcf62a337d78088ed",
+     "size": 267
+    },
+    {
+     "name": "chrome.adml",
+     "kind": "adml",
+     "lang": "uk-UA",
+     "sha256": "c9e64a1c3e9bb161c721b65797ba609f8015b4c27c4b461edc9866bcee67fcb4",
+     "size": 1339932
+    },
+    {
+     "name": "google.adml",
+     "kind": "adml",
+     "lang": "uk-UA",
+     "sha256": "4cfe0f3717c5ece8a10f8f974b1b9610ffea610b8a2cdf3fcf62a337d78088ed",
+     "size": 267
+    },
+    {
+     "name": "chrome.adml",
+     "kind": "adml",
+     "lang": "vi-VN",
+     "sha256": "3f3e48c3c702bcc6b786d0fc22744e1943414bb489a802bdbc2330b5304aedb9",
+     "size": 1349458
+    },
+    {
+     "name": "google.adml",
+     "kind": "adml",
+     "lang": "vi-VN",
+     "sha256": "4cfe0f3717c5ece8a10f8f974b1b9610ffea610b8a2cdf3fcf62a337d78088ed",
+     "size": 267
+    },
+    {
+     "name": "chrome.adml",
+     "kind": "adml",
+     "lang": "zh-CN",
+     "sha256": "4289ccd9068d77063a0bd2a3215f1714ea5304495880e205b51e4a712ff3820c",
+     "size": 761158
+    },
+    {
+     "name": "google.adml",
+     "kind": "adml",
+     "lang": "zh-CN",
+     "sha256": "4cfe0f3717c5ece8a10f8f974b1b9610ffea610b8a2cdf3fcf62a337d78088ed",
+     "size": 267
+    },
+    {
+     "name": "chrome.adml",
+     "kind": "adml",
+     "lang": "zh-TW",
+     "sha256": "30fec3f3be3846f08b2d76415c6f11fb6cd63ad0141b6373dce7808509082b26",
+     "size": 761154
+    },
+    {
+     "name": "google.adml",
+     "kind": "adml",
+     "lang": "zh-TW",
+     "sha256": "4cfe0f3717c5ece8a10f8f974b1b9610ffea610b8a2cdf3fcf62a337d78088ed",
+     "size": 267
+    }
+   ],
+   "admxCount": 2,
+   "policyCount": 742,
+   "namespaces": [
+    "Google.Policies",
+    "Google.Policies.Chrome"
+   ],
+   "namespaceFiles": {
+    "Google.Policies.Chrome": "chrome.admx",
+    "Google.Policies": "google.admx"
+   },
+   "parseErrors": [],
+   "diff": {
+    "previous": "156.0.8078.74",
+    "added": 0,
+    "removed": 0,
+    "changed": 0,
+    "details": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   }
+  },
   {
    "version": "156.0.8078.74",
    "date": "2026-10-27",
