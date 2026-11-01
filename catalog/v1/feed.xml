@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:admxhub:feed</id>
   <title>ADMX Hub: new Group Policy templates</title>
-  <updated>2026-10-31T10:25:32Z</updated>
+  <updated>2026-11-01T11:18:59Z</updated>
   <generator>admxhub 0.1.0</generator>
   <entry>
     <id>urn:admxhub:brave:1.98.63</id>
