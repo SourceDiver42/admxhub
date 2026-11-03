@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:admxhub:feed</id>
   <title>ADMX Hub: new Group Policy templates</title>
-  <updated>2026-11-02T12:29:20Z</updated>
+  <updated>2026-11-03T11:58:10Z</updated>
   <generator>admxhub 0.1.0</generator>
   <entry>
     <id>urn:admxhub:brave:1.98.63</id>
@@ -107,7 +107,7 @@
     <title>Microsoft Edge 158.0.4344.0</title>
     <updated>2026-10-25T13:30:56Z</updated>
     <link href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/e6a43319-7f4b-4ae3-89f3-684a99cef473/MicrosoftEdgePolicyTemplates.cab"/>
-    <summary>Microsoft Edge 158.0.4344.0: 913 policies (+0 / -1 / ~0 since 157.0.4341.30)</summary>
+    <summary>Microsoft Edge 158.0.4344.0: 913 policies (+0 / -1 / ~0 since 157.0.4341.36)</summary>
   </entry>
   <entry>
     <id>urn:admxhub:chrome:156.0.8078.48</id>
