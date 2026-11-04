@@ -1,6 +1,6 @@
 {
  "schema": "admxhub/catalog/v1",
- "generated": "2026-11-03T11:58:10Z",
+ "generated": "2026-11-04T12:12:14Z",
  "generator": "admxhub 0.1.0",
  "products": [
   {
@@ -18,8 +18,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-03T11:57:44Z",
-    "lastSuccess": "2026-11-03T11:57:44Z",
+    "lastChecked": "2026-11-04T12:11:49Z",
+    "lastSuccess": "2026-11-04T12:11:49Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -86,8 +86,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-11-03T11:57:44Z",
-    "lastSuccess": "2026-11-03T11:57:45Z",
+    "lastChecked": "2026-11-04T12:11:49Z",
+    "lastSuccess": "2026-11-04T12:11:49Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -290,18 +290,18 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-03T11:57:45Z",
-    "lastSuccess": "2026-11-03T11:57:45Z",
+    "lastChecked": "2026-11-04T12:11:50Z",
+    "lastSuccess": "2026-11-04T12:11:51Z",
     "error": null,
     "consecutiveFailures": 0
    },
    "latest": {
-    "version": "156.0.8078.80",
-    "date": "2026-10-29",
-    "discovered": "2026-10-30T10:53:29Z",
+    "version": "157.0.8103.39",
+    "date": "2026-11-03",
+    "discovered": "2026-11-04T12:11:51Z",
     "url": "https://dl.google.com/dl/edgedl/chrome/policy/policy_templates.zip",
-    "sha256": "05aafe40d0d56abbcc513bf1ea3d82e0c65df99fc52bbceb965acc4364387375",
-    "size": 123187433,
+    "sha256": "729b2ca07d00f7ea9b6e64dd0200026a22c71e4804ba2b9492cb374cfeecbd97",
+    "size": 123580185,
     "languages": [
      "de-DE",
      "en-US",
@@ -327,8 +327,8 @@
       "name": "chrome.admx",
       "kind": "admx",
       "lang": null,
-      "sha256": "0ed23ca0afcda6182a26c980e8f875069ce62c1580e05b5243c310375055e1b2",
-      "size": 927362
+      "sha256": "b9a9cd070d5e423741d118ec1973aefab7a6c78585f9628f863d059ad5b0e33d",
+      "size": 929996
      },
      {
       "name": "google.admx",
@@ -341,8 +341,8 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "de-DE",
-      "sha256": "1369474d3f22a8516eb643dfd1d8b7f6ad453cdff3b719c6a517a172f32bad22",
-      "size": 1431172
+      "sha256": "eeb3659f3d3488e63def81c9d0d7432d144180c0f63797465d0598ea0359faa5",
+      "size": 1435392
      },
      {
       "name": "google.adml",
@@ -355,8 +355,8 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "en-US",
-      "sha256": "f4fe4f169919f4a1c1375a16a68abb22572c62dfb70cd61f74be8b5f2972d4c8",
-      "size": 1222368
+      "sha256": "b95e4a806b288e5ebde107197431b7ac383654eae9ed5e33d42f138adfb7d65f",
+      "size": 1225518
      },
      {
       "name": "google.adml",
@@ -369,8 +369,8 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "es-419",
-      "sha256": "68b535f38827d3fb09d3f3794fda2ba9add45f7cb21f24fefb919917da35efdd",
-      "size": 1406610
+      "sha256": "f88a0fc505335181d2d5b14eb9edd6a8ea0498f25f5050dea85cc2495766af41",
+      "size": 1410392
      },
      {
       "name": "google.adml",
@@ -383,8 +383,8 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "es-ES",
-      "sha256": "01a15235ce1023becaa43bcbfab99298e555dd26a05470774e95a852db026573",
-      "size": 1405172
+      "sha256": "d531694f387b4a23975e7c31dbc53d777fe62dbb09255e7d4f056b1f06168532",
+      "size": 1408770
      },
      {
       "name": "google.adml",
@@ -397,8 +397,8 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "fr-FR",
-      "sha256": "16d3f5f4a4e0dfb5aa1cb2261f56e546f8de20408430c30cfdb49aaa8599c221",
-      "size": 1435572
+      "sha256": "5df60b3a284cc986e503853e840a2d9b85f573a667a92f7c0682ede0e44ea479",
+      "size": 1439492
      },
      {
       "name": "google.adml",
@@ -411,8 +411,8 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "id-ID",
-      "sha256": "428e7bb07f458218c10d94fc711bdc3255281dd137a9947a449cd84bb26d8ed4",
-      "size": 1326168
+      "sha256": "82ad61fd0daadc71dbcfbc5eb40875ce30d4e1740704ea5a20b33c6c52341fb6",
+      "size": 1329626
      },
      {
       "name": "google.adml",
@@ -425,8 +425,8 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "it-IT",
-      "sha256": "ab774015e25974f4101e9197aedd8cfaf890467451b7df8dcda653367337362a",
-      "size": 1419816
+      "sha256": "e8835b30b96ee9aeba50a1880c21ad982f29f80d89e369d206ab33332779d355",
+      "size": 1423570
      },
      {
       "name": "google.adml",
@@ -439,8 +439,8 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "ja-JP",
-      "sha256": "52b4d00f3ce29105b1075908c51caa21ed85ee23cf084f7a73fad0cace1d8db0",
-      "size": 904670
+      "sha256": "75d59914115bcf6fa2b4d356848878b5d925768f931396d8429ab2d5f1e3e979",
+      "size": 907178
      },
      {
       "name": "google.adml",
@@ -453,8 +453,8 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "ko-KR",
-      "sha256": "6faf4cc5843f8353f2b3c7fbc28d7aef43088be6a483905ea7b24933ed591b36",
-      "size": 885854
+      "sha256": "4487f8d45fb90b25c7f8a4e879a40681ed0d8760f78a7bc2a27f3929e40f7c7b",
+      "size": 888240
      },
      {
       "name": "google.adml",
@@ -467,8 +467,8 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "nl-NL",
-      "sha256": "87e422d70ca5d9d24bbba7590e4a9ef41bdfa78d9b48c2a36d9db2576a36ac68",
-      "size": 1362256
+      "sha256": "5fc987534cb5546c2cb85957b36cf3c55db5212bfb73a38219a02a1d5e429b4e",
+      "size": 1366288
      },
      {
       "name": "google.adml",
@@ -481,8 +481,8 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "pt-BR",
-      "sha256": "bcd41e078d448bc86f54850b2c3b599b7348637943fcd6687376d7c27ece08c8",
-      "size": 1352834
+      "sha256": "a4392fb1189899973b3d563f06807bb4ffb0c81abf0785114a927e2a00fa2c47",
+      "size": 1356662
      },
      {
       "name": "google.adml",
@@ -495,8 +495,8 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "ru-RU",
-      "sha256": "530df28f0d34c9a3fdc1f80338615eddf6bc607ad0738cca573503a05c3f1eae",
-      "size": 1324040
+      "sha256": "8023b538071efc397f01d1b54ec369bc18354054aa6a2fffa1fad209edb49223",
+      "size": 1328192
      },
      {
       "name": "google.adml",
@@ -509,8 +509,8 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "th-TH",
-      "sha256": "c88fbee909b801d3db1557f4a6c2a0684138ef2a7c9caba85c2fc5618a1c2ddd",
-      "size": 1194916
+      "sha256": "da456cb99c8c1bcfa5e763720871d3eec02be8df0e25481427385e980d6f7b9c",
+      "size": 1198026
      },
      {
       "name": "google.adml",
@@ -523,8 +523,8 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "tr-TR",
-      "sha256": "c4538c28cb58988f6c4c537cdcd6b78d3ec8f4fdb3308a3eef314b56d0707937",
-      "size": 1361862
+      "sha256": "8c6ffa39dd8d1907227a6260fff70f8184cb779bbf49c9f6635bc2390ffd955f",
+      "size": 1365488
      },
      {
       "name": "google.adml",
@@ -537,8 +537,8 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "uk-UA",
-      "sha256": "c9e64a1c3e9bb161c721b65797ba609f8015b4c27c4b461edc9866bcee67fcb4",
-      "size": 1339932
+      "sha256": "bc3216527f878d719eb118edd1b5f8ddf0a16359a6786032aabcb6ea15b99e2f",
+      "size": 1343658
      },
      {
       "name": "google.adml",
@@ -551,8 +551,8 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "vi-VN",
-      "sha256": "3f3e48c3c702bcc6b786d0fc22744e1943414bb489a802bdbc2330b5304aedb9",
-      "size": 1349458
+      "sha256": "c36b8b0a02d844cf63377dd1336ded37e0e077b050ed4d4ef79966c4af49d9a4",
+      "size": 1353040
      },
      {
       "name": "google.adml",
@@ -565,8 +565,8 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "zh-CN",
-      "sha256": "4289ccd9068d77063a0bd2a3215f1714ea5304495880e205b51e4a712ff3820c",
-      "size": 761158
+      "sha256": "8d5941ba4ac7864af4b2bcf0ca3fba248d3dde521e7206f745ecbc5a52d5e0f6",
+      "size": 763442
      },
      {
       "name": "google.adml",
@@ -579,8 +579,8 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "zh-TW",
-      "sha256": "30fec3f3be3846f08b2d76415c6f11fb6cd63ad0141b6373dce7808509082b26",
-      "size": 761154
+      "sha256": "5171aeb062ec7cc5d59f7955c36c8c6d10f211fd83abb3c153122a94047227e2",
+      "size": 763454
      },
      {
       "name": "google.adml",
@@ -591,7 +591,7 @@
      }
     ],
     "admxCount": 2,
-    "policyCount": 742,
+    "policyCount": 744,
     "namespaces": [
      "Google.Policies",
      "Google.Policies.Chrome"
@@ -602,18 +602,21 @@
     },
     "parseErrors": [],
     "diff": {
-     "previous": "156.0.8078.74",
-     "added": 0,
+     "previous": "156.0.8078.80",
+     "added": 2,
      "removed": 0,
      "changed": 0,
      "details": {
-      "added": [],
+      "added": [
+       "Google.Policies.Chrome:AllHttpAuthSchemesAllowedForProxies",
+       "Google.Policies.Chrome:ExtensionForceInstallWithSearchOrNewTabOverridesEnabled"
+      ],
       "removed": [],
       "changed": []
      }
     }
    },
-   "versionCount": 3
+   "versionCount": 4
   },
   {
    "id": "edge",
@@ -629,18 +632,18 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-11-03T11:57:45Z",
-    "lastSuccess": "2026-11-03T11:57:45Z",
+    "lastChecked": "2026-11-04T12:11:51Z",
+    "lastSuccess": "2026-11-04T12:11:52Z",
     "error": null,
     "consecutiveFailures": 0
    },
    "latest": {
-    "version": "158.0.4357.0",
-    "date": "2026-10-27",
-    "discovered": "2026-10-28T10:37:17Z",
-    "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/534d809c-39e6-4d07-b6ad-cede74b4891f/MicrosoftEdgePolicyTemplates.cab",
-    "sha256": "aff53732bd9ce8ac4895f057e1bde0e32ef399d55391318540cd251ab5175b11",
-    "size": 19092547,
+    "version": "159.0.4378.0",
+    "date": "2026-11-04",
+    "discovered": "2026-11-04T12:11:52Z",
+    "url": "https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/757ff82b-a08c-4e74-bbfc-8227796f6972/MicrosoftEdgePolicyTemplates.cab",
+    "sha256": "8f5fc554d26163ecb0e327d860d49f9b8f1f849f39fe86486057c1245feb8f89",
+    "size": 19306700,
     "languages": [
      "cs-CZ",
      "da-DK",
@@ -670,8 +673,8 @@
       "name": "msedge.admx",
       "kind": "admx",
       "lang": null,
-      "sha256": "6bff93f53e522fa26400c3373a2d601d4feb8b9a10fdf48e209b82f6a61d73d9",
-      "size": 1117538
+      "sha256": "f371a8fd9928f9c507b5aedf819e55f5fe8d4cc9366c5909b4c0b6a2cbb6bbc6",
+      "size": 1125718
      },
      {
       "name": "msedgeupdate.admx",
@@ -684,15 +687,15 @@
       "name": "msedgewebview2.admx",
       "kind": "admx",
       "lang": null,
-      "sha256": "799ce9996cad2a093f402b6751b458a9d2bc018579de0b6f359e89176eb430bd",
+      "sha256": "1e73dc672305de377ee01270dd7a37c025a32c3424d2638f82a11ffb71ca6eb5",
       "size": 23168
      },
      {
       "name": "msedge.adml",
       "kind": "adml",
       "lang": "cs-CZ",
-      "sha256": "cde64180d24c60794fe148bd781b77ed834e9c97035f8a9e13ed4f14fe3a6fca",
-      "size": 1909884
+      "sha256": "1470e5647e78d5e95f96d3cee0899712eb8643d061383f9e84650e4d7aa43033",
+      "size": 1935374
      },
      {
       "name": "msedgeupdate.adml",
@@ -705,15 +708,15 @@
       "name": "msedgewebview2.adml",
       "kind": "adml",
       "lang": "cs-CZ",
-      "sha256": "877d80c12027a5fda39d22c7b7373ad09bd1e27710dfe7556f8a10542491c834",
+      "sha256": "3ffa8d597a3bfc9c36ff166413e791ca892ffcf7f000aa5974d86ad34c09d59c",
       "size": 48226
      },
      {
       "name": "msedge.adml",
       "kind": "adml",
       "lang": "da-DK",
-      "sha256": "3c10f64fb4bddd3a8df8e11512692878ab5610f5408b6b83d5cbeebd33928a95",
-      "size": 1972432
+      "sha256": "da5c9f1d618b690c83eadd93b74e88bb32b73dd0a6dba53b195aba7877737a9a",
+      "size": 1998090
      },
      {
       "name": "msedgeupdate.adml",
@@ -726,15 +729,15 @@
       "name": "msedgewebview2.adml",
       "kind": "adml",
       "lang": "da-DK",
-      "sha256": "802576f7e1b295216cab0c6fca10bd3520e0fedc602cbdf0a5e5e40c2b09151b",
+      "sha256": "43b4eee2eb02cd841bc6d6373b46c390e8312dac5084c598a960993952fe3d09",
       "size": 50216
      },
      {
       "name": "msedge.adml",
       "kind": "adml",
       "lang": "de-DE",
-      "sha256": "66920987a03bf0f5888222b45dd7614af2c7b0cb8fb916f906cf1580ffda6fe2",
-      "size": 2122934
+      "sha256": "ec9c0de6f7c88d11e00e6d7e4202421e861a01e36de3294ad9278c79c8c744d4",
+      "size": 2150684
      },
      {
       "name": "msedgeupdate.adml",
@@ -747,15 +750,15 @@
       "name": "msedgewebview2.adml",
       "kind": "adml",
       "lang": "de-DE",
-      "sha256": "61b1f8ff45d0c9b486faeb9e2cfab82c0bf58947cfcfea7014e903d7b75bedb3",
+      "sha256": "bb48310183b7db32db8a25e96066a64d223ab900cfa6dd4ed4b7ae35cbe62aad",
       "size": 54258
      },
      {
       "name": "msedge.adml",
       "kind": "adml",
       "lang": "el-GR",
-      "sha256": "8802d15bfa1fe28cf9884da657bbbc936e0f5223c92c0e750865706c839e589c",
-      "size": 2270424
+      "sha256": "8fe5ed8eb3b791893a26085259f816340b99735574d855702735f27515fa9524",
+      "size": 2301318
      },
      {
       "name": "msedgeupdate.adml",
@@ -768,15 +771,15 @@
       "name": "msedgewebview2.adml",
       "kind": "adml",
       "lang": "el-GR",
-      "sha256": "a408dd461baf83d9dfbc000e61234c9f0cbc6fdf57a9fc5a84a487344ecae159",
+      "sha256": "452c8f2784a3c25f93af43e031902e426e418d7b447225a242a4591ac286d949",
       "size": 57554
      },
      {
       "name": "msedge.adml",
       "kind": "adml",
       "lang": "en-US",
-      "sha256": "4021c0bce7233dd4e15dffc8f0e13a1dd6ae3a9e7b307844ab35d9e8b0100f87",
-      "size": 1807068
+      "sha256": "8a9d84e51aadba76c10596433654b07f5657c79c9640c4e252995ad26ed4cb9b",
+      "size": 1830476
      },
      {
       "name": "msedgeupdate.adml",
@@ -789,15 +792,15 @@
       "name": "msedgewebview2.adml",
       "kind": "adml",
       "lang": "en-US",
-      "sha256": "cdcb1ca586b7252ee74d0c11b43ac43579ff0c2e65b5c0b78af6891233a0bff1",
+      "sha256": "6372925182504e985cd6f102f2454a5c2a8ff7ea471f289183c1b8453762cf85",
       "size": 47280
      },
      {
       "name": "msedge.adml",
       "kind": "adml",
       "lang": "es-ES",
-      "sha256": "c382f1f3d2d91f91f46638ab7512b7b970c62a40fd20e83de50f34b6805b3289",
-      "size": 2123766
+      "sha256": "fab57d3917b4f9f2aec19f528db3b5fe32989cd77b97bc8ee51967b758a1c7a0",
+      "size": 2152128
      },
      {
       "name": "msedgeupdate.adml",
@@ -810,15 +813,15 @@
       "name": "msedgewebview2.adml",
       "kind": "adml",
       "lang": "es-ES",
-      "sha256": "ba83b0e9f555f26f3b4b9b0c8498ae23bb8a88c4811897e5789bd1c8d4f71c72",
+      "sha256": "bbfc095add5f15649d167315168492877560c97d39d0d90090888da24989509a",
       "size": 55212
      },
      {
       "name": "msedge.adml",
       "kind": "adml",
       "lang": "fi-FI",
-      "sha256": "142dbee98bc752ce0333913e638f88b6c93e248f803e8959d60e8d3be301b374",
-      "size": 1982086
+      "sha256": "75d5126c2832fd120e45c0d92d847a27ad5db5ea741e21a695a8935ae4e1b0fa",
+      "size": 2008958
      },
      {
       "name": "msedgeupdate.adml",
@@ -831,15 +834,15 @@
       "name": "msedgewebview2.adml",
       "kind": "adml",
       "lang": "fi-FI",
-      "sha256": "e5a31afadfff26773c7c19331203e369c75db567b81fc853c82fffcb04c1e52a",
+      "sha256": "5b1b9e6f6d95dc743fa2bd5538804bf5ba0c8bc054035a7d662eecb05b6c2014",
       "size": 49868
      },
      {
       "name": "msedge.adml",
       "kind": "adml",
       "lang": "fr-FR",
-      "sha256": "60b205ea3346e391caa7aaedd9e208d4b0feac5b7c95242eda44d1aeb9a3d8d0",
-      "size": 2164350
+      "sha256": "83d95db09ef27d9e1a59cf0186d6f2bb78ea55126e362d185268821eab7371c7",
+      "size": 2193540
      },
      {
       "name": "msedgeupdate.adml",
@@ -852,15 +855,15 @@
       "name": "msedgewebview2.adml",
       "kind": "adml",
       "lang": "fr-FR",
-      "sha256": "6293bf1d58325f8ee8c2968caa2706f939ce806ac8e7949ce15ac60fb68ce8a5",
+      "sha256": "5ccba9599fac72a0943c8706a243380e12916aa6e50b1be93132555c59cd65d7",
       "size": 55518
      },
      {
       "name": "msedge.adml",
       "kind": "adml",
       "lang": "hu-HU",
-      "sha256": "37b6412d30783d7a99820804ea300a315a375b9191aa2d08c51f02208becd39d",
-      "size": 2093862
+      "sha256": "81c8d512295ff34c9c557ff72364274a59876875a6a473ef2ba69bb6bd72ea3d",
+      "size": 2122248
      },
      {
       "name": "msedgeupdate.adml",
@@ -873,15 +876,15 @@
       "name": "msedgewebview2.adml",
       "kind": "adml",
       "lang": "hu-HU",
-      "sha256": "deec08d4151ed661e31a3af8620a38d1ccf74797480b26cf365ea6e375c59c98",
+      "sha256": "beefa0ef68ac483f4f1a1fe97f27ac5f0d982c72733961382cab542fca389d21",
       "size": 52648
      },
      {
       "name": "msedge.adml",
       "kind": "adml",
       "lang": "it-IT",
-      "sha256": "15521488f208ac2780fe6ab3da9989f16747e12509bc3e633a87bb693aed4d24",
-      "size": 2089414
+      "sha256": "7e0f30118fdc6f2b52ab3cbc96f30ae3350f89c6934e18669409f1da3ef50496",
+      "size": 2116666
      },
      {
       "name": "msedgeupdate.adml",
@@ -894,15 +897,15 @@
       "name": "msedgewebview2.adml",
       "kind": "adml",
       "lang": "it-IT",
-      "sha256": "dd4017c7dff2737173374197e5033422ed52f5f0057831a0a5c3ab845b22c3a0",
+      "sha256": "8f6f6a24e6f300d8c1a1758c10131c9643c27b1804e44d7ff0f5c802a2588e56",
       "size": 53920
      },
      {
       "name": "msedge.adml",
       "kind": "adml",
       "lang": "ja-JP",
-      "sha256": "c6bd01480cd4c02aefd25a2ea5e5c6158d47d85fa8423d43fbb65ea27e9e1421",
-      "size": 1301206
+      "sha256": "67a8dd3e203066f87bfd7b84862e1813cc51aa8a276fe1aecd067309d1ae8659",
+      "size": 1318808
      },
      {
       "name": "msedgeupdate.adml",
@@ -915,15 +918,15 @@
       "name": "msedgewebview2.adml",
       "kind": "adml",
       "lang": "ja-JP",
-      "sha256": "8f37d686f7c7f2c4d865f77900991f793b2abd8ef66cf7d979f9c52d5cfb195a",
+      "sha256": "e3ce0aa3cb5b0d5ee68873d8bf960ee5194271d02e6d4d9463b5edbf7c6028f1",
       "size": 32564
      },
      {
       "name": "msedge.adml",
       "kind": "adml",
       "lang": "ko-KR",
-      "sha256": "bcc6d59659b4ea541279d1e0fe91171fa99471dba7f3609b71b9fe46774db5e7",
-      "size": 1268140
+      "sha256": "a85a987f2d2a2951b680b1d43ee52102220f3d755dc2763ef209aca032f13907",
+      "size": 1285112
      },
      {
       "name": "msedgeupdate.adml",
@@ -936,15 +939,15 @@
       "name": "msedgewebview2.adml",
       "kind": "adml",
       "lang": "ko-KR",
-      "sha256": "aac7398e1a07c5c496d2b466d519cac435d6a1303dadb9414bb81d70e4fa5a7c",
+      "sha256": "1d28ced499ab90107d7aedc026ef3aef92d37a8e32710fcd498b1ff9bbb464d0",
       "size": 32126
      },
      {
       "name": "msedge.adml",
       "kind": "adml",
       "lang": "nb-NO",
-      "sha256": "f0fe681c8d0431cb302a51ebec717c233328609c52cbd5ebe98c81a394f99c9e",
-      "size": 1929102
+      "sha256": "5c6f50c0e9ad35e815cc45537cd2a9f296b500dd16f7e2ded733dcd6409b7492",
+      "size": 1954698
      },
      {
       "name": "msedgeupdate.adml",
@@ -957,15 +960,15 @@
       "name": "msedgewebview2.adml",
       "kind": "adml",
       "lang": "nb-NO",
-      "sha256": "a4b4044dc3fd8a99e59fcf27b3c916bee6a111124cd7f0c60e591a1cee2266ad",
+      "sha256": "699b1b236d5c3658795b0e464b376907cbbf6497b41f61708848dcd6cb76fe3a",
       "size": 49124
      },
      {
       "name": "msedge.adml",
       "kind": "adml",
       "lang": "nl-NL",
-      "sha256": "8fc8ba9eacaaea5580671710d08b67ae54170fee98e85e39c2ea620fd710dc94",
-      "size": 2043868
+      "sha256": "3eccd513f3b9357ab6ea2cc5766496408e65e94987327b66785a3cd65f3b329d",
+      "size": 2070978
      },
      {
       "name": "msedgeupdate.adml",
@@ -978,15 +981,15 @@
       "name": "msedgewebview2.adml",
       "kind": "adml",
       "lang": "nl-NL",
-      "sha256": "095ec4a9f82276f753b68312071be981f7abd202c89c6201d3491583dcc9cc83",
+      "sha256": "3ab2f4bfc3ec361fc46cef88e625008099eaa409a28aaaf6824eecef2879b1c1",
       "size": 51822
      },
      {
       "name": "msedge.adml",
       "kind": "adml",
       "lang": "pl-PL",
-      "sha256": "b116621c206b7d5a2350bbb2b0765c6c74404039f2520662e70d5b2287130e63",
-      "size": 2103570
+      "sha256": "6eedd7eff87e18af9fc9020128382e4c88c4fd98405829b599fc4b5570872dcd",
+      "size": 2130830
      },
      {
       "name": "msedgeupdate.adml",
@@ -999,15 +1002,15 @@
       "name": "msedgewebview2.adml",
       "kind": "adml",
       "lang": "pl-PL",
-      "sha256": "b802d48411e689e4683212e18a3d5844dddb098b447dc35b3f5505bb0290556b",
+      "sha256": "9f7a0f80db1f13dabc3626423c4a6e78532695fb09f5d9cca01476034733d59f",
       "size": 53236
      },
      {
       "name": "msedge.adml",
       "kind": "adml",
       "lang": "pt-BR",
-      "sha256": "38c79ca71a609266ef313f8e7e81ea643bc5d4fcb6437045e9023fdf5ded9e41",
-      "size": 2033614
+      "sha256": "2b2da3699cb814cfab0a8f489323ca87ccd105717950f4184ef2d07174cfa3d0",
+      "size": 2060960
      },
      {
       "name": "msedgeupdate.adml",
@@ -1020,15 +1023,15 @@
       "name": "msedgewebview2.adml",
       "kind": "adml",
       "lang": "pt-BR",
-      "sha256": "94440c383447e37f210213e40dd6da93089f9e22abb67ca3c73adbd25bb2751d",
+      "sha256": "a4f52990ef7adbcec0e7456823d728069e4ca972db9c876a9c1fe82286eb721c",
       "size": 52040
      },
      {
       "name": "msedge.adml",
       "kind": "adml",
       "lang": "pt-PT",
-      "sha256": "7baff8436efa669483a7a96d28b31368d4c08c3046c6664000922a64bd341bb4",
-      "size": 2052374
+      "sha256": "41f7e5d80ecf73cc96b8c027c6fe4b2391dbc32dded5fd5ff7620ccf88c65768",
+      "size": 2080512
      },
      {
       "name": "msedgeupdate.adml",
@@ -1041,15 +1044,15 @@
       "name": "msedgewebview2.adml",
       "kind": "adml",
       "lang": "pt-PT",
-      "sha256": "f2325604cdd7ea2465590e83dff7c1e5e72a37d596088312f36ef3413b42bf7d",
+      "sha256": "81773753951f5a925c40e392e1b960d99ac17e9eff16e5b8dbd759565f9eb3da",
       "size": 52786
      },
      {
       "name": "msedge.adml",
       "kind": "adml",
       "lang": "ru-RU",
-      "sha256": "84246ad0ae2212f527b237565096fe30c66b69de75227d8d4b09181954b1ee87",
-      "size": 2038426
+      "sha256": "ea87429921785cb0daa8cfd0cb8edaa9949528279969dc565695ebd040952d9c",
+      "size": 2065466
      },
      {
       "name": "msedgeupdate.adml",
@@ -1062,15 +1065,15 @@
       "name": "msedgewebview2.adml",
       "kind": "adml",
       "lang": "ru-RU",
-      "sha256": "edbf4177495d3d03364bb9cf821547039ebfdcd400a1cac428d75454b912a768",
+      "sha256": "fa47074114be1e625189df4391e3bf1181dad335672a9ff323389bf4628c4d97",
       "size": 53594
      },
      {
       "name": "msedge.adml",
       "kind": "adml",
       "lang": "sv-SE",
-      "sha256": "9c43d744a0045a181059600f1fa8a639716b1611fddc9e4f9502bf2f7addcfe3",
-      "size": 1936290
+      "sha256": "9313f14fca4c8e26af1ab5f52c78d6cd1d854b785ccaa44dc9319ab6f8aa3a20",
+      "size": 1962142
      },
      {
       "name": "msedgeupdate.adml",
@@ -1083,15 +1086,15 @@
       "name": "msedgewebview2.adml",
       "kind": "adml",
       "lang": "sv-SE",
-      "sha256": "157be9aacbc838d5e3270474c9665da816bba1c1d52aea81563c384be18e18aa",
+      "sha256": "5e0fd672d7b08fbc32b5669ea032989ead8433f0d8d35dabf0e37c2e84da9909",
       "size": 49254
      },
      {
       "name": "msedge.adml",
       "kind": "adml",
       "lang": "tr-TR",
-      "sha256": "171a41749945b417d8ac5a30f99013c54cb5001916caff759d9017ab6a00ce42",
-      "size": 1960264
+      "sha256": "d84c282ecd4685f8f7fbae54a1ff6686a805039ec19e5f217f0644a7e132067f",
+      "size": 1986974
      },
      {
       "name": "msedgeupdate.adml",
@@ -1104,15 +1107,15 @@
       "name": "msedgewebview2.adml",
       "kind": "adml",
       "lang": "tr-TR",
-      "sha256": "2b4086e203ef4f7e717a13b22c631eb7ca87546968ec9bb790ef5cab46f96a1e",
+      "sha256": "a7a4cbfc5e6690bb7007d60d4131525b6be30ba3bde2255e4a585479d9902b8e",
       "size": 50010
      },
      {
       "name": "msedge.adml",
       "kind": "adml",
       "lang": "zh-CN",
-      "sha256": "2f8ff7719726dac8c90a0820bdfd2bc3cf4ba9a568f6ac0b34f9246c272031ea",
-      "size": 1031540
+      "sha256": "cbda584df36da05ddc8e4818dbdfa8ccc910a13bbfc8bfa2c171dd4d0ab4568e",
+      "size": 1045728
      },
      {
       "name": "msedgeupdate.adml",
@@ -1125,15 +1128,15 @@
       "name": "msedgewebview2.adml",
       "kind": "adml",
       "lang": "zh-CN",
-      "sha256": "2f2a4c509e657880d5ad4f0d5a805703a189641f4bb5937df913d47f364af7ad",
+      "sha256": "d361ff3cf9b54344561b46fad5d10f51d5ba02306d89a8cf26a25307e0e2076d",
       "size": 26072
      },
      {
       "name": "msedge.adml",
       "kind": "adml",
       "lang": "zh-TW",
-      "sha256": "047ecdb2c27d230d077ecfa02227d29eb1eb1f15c42e64ceb18989078e1eb122",
-      "size": 1044912
+      "sha256": "e94f5ad4a04ea7079721056b30e131257fed3a2bffb81e5ad173a0ef2267f558",
+      "size": 1058838
      },
      {
       "name": "msedgeupdate.adml",
@@ -1146,12 +1149,12 @@
       "name": "msedgewebview2.adml",
       "kind": "adml",
       "lang": "zh-TW",
-      "sha256": "e42f7e481fa1d55b38e15d2280cf0315472a4134eb2cf07877e7cb50742d6440",
+      "sha256": "92bb23ac362b07e9dfa7469b8b1e173a9e3b9143832dda27fb776924f9196fb0",
       "size": 26416
      }
     ],
     "admxCount": 3,
-    "policyCount": 913,
+    "policyCount": 919,
     "namespaces": [
      "Microsoft.Policies.Edge",
      "Microsoft.Policies.Update",
@@ -1164,18 +1167,25 @@
     },
     "parseErrors": [],
     "diff": {
-     "previous": "158.0.4344.0",
-     "added": 0,
+     "previous": "158.0.4357.0",
+     "added": 6,
      "removed": 0,
      "changed": 0,
      "details": {
-      "added": [],
+      "added": [
+       "Microsoft.Policies.Edge:AgentProfileEnabled",
+       "Microsoft.Policies.Edge:AllHttpAuthSchemesAllowedForProxies",
+       "Microsoft.Policies.Edge:CommercialJourneysGetThingsDoneEnabled",
+       "Microsoft.Policies.Edge:ComponentUpdatesMode",
+       "Microsoft.Policies.Edge:CopilotBrowserUseAllowList",
+       "Microsoft.Policies.Edge:CopilotBrowserUseBlockList"
+      ],
       "removed": [],
       "changed": []
      }
     }
    },
-   "versionCount": 46
+   "versionCount": 47
   },
   {
    "id": "firefox",
@@ -1191,8 +1201,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-11-03T11:57:47Z",
-    "lastSuccess": "2026-11-03T11:57:48Z",
+    "lastChecked": "2026-11-04T12:11:52Z",
+    "lastSuccess": "2026-11-04T12:11:52Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1332,8 +1342,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-03T11:57:48Z",
-    "lastSuccess": "2026-11-03T11:57:49Z",
+    "lastChecked": "2026-11-04T12:11:53Z",
+    "lastSuccess": "2026-11-04T12:11:53Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1400,8 +1410,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-03T11:57:49Z",
-    "lastSuccess": "2026-11-03T11:57:49Z",
+    "lastChecked": "2026-11-04T12:11:53Z",
+    "lastSuccess": "2026-11-04T12:11:54Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1485,8 +1495,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-03T11:57:49Z",
-    "lastSuccess": "2026-11-03T11:57:58Z",
+    "lastChecked": "2026-11-04T12:11:54Z",
+    "lastSuccess": "2026-11-04T12:12:04Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1729,8 +1739,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-11-03T11:57:58Z",
-    "lastSuccess": "2026-11-03T11:57:58Z",
+    "lastChecked": "2026-11-04T12:12:04Z",
+    "lastSuccess": "2026-11-04T12:12:04Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1799,8 +1809,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-03T11:57:59Z",
-    "lastSuccess": "2026-11-03T11:57:59Z",
+    "lastChecked": "2026-11-04T12:12:05Z",
+    "lastSuccess": "2026-11-04T12:12:05Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1867,8 +1877,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-03T11:57:59Z",
-    "lastSuccess": "2026-11-03T11:58:09Z",
+    "lastChecked": "2026-11-04T12:12:05Z",
+    "lastSuccess": "2026-11-04T12:12:13Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -40030,8 +40040,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-11-03T11:58:09Z",
-    "lastSuccess": "2026-11-03T11:58:09Z",
+    "lastChecked": "2026-11-04T12:12:13Z",
+    "lastSuccess": "2026-11-04T12:12:13Z",
     "error": null,
     "consecutiveFailures": 0
    },
