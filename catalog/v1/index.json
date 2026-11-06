@@ -1,6 +1,6 @@
 {
  "schema": "admxhub/catalog/v1",
- "generated": "2026-11-05T12:25:34Z",
+ "generated": "2026-11-06T12:10:00Z",
  "generator": "admxhub 0.1.0",
  "products": [
   {
@@ -18,8 +18,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-05T12:25:06Z",
-    "lastSuccess": "2026-11-05T12:25:07Z",
+    "lastChecked": "2026-11-06T12:09:33Z",
+    "lastSuccess": "2026-11-06T12:09:33Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -86,18 +86,18 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-11-05T12:25:07Z",
-    "lastSuccess": "2026-11-05T12:25:08Z",
+    "lastChecked": "2026-11-06T12:09:33Z",
+    "lastSuccess": "2026-11-06T12:09:34Z",
     "error": null,
     "consecutiveFailures": 0
    },
    "latest": {
-    "version": "1.98.63",
-    "date": "2026-10-30",
-    "discovered": "2026-10-31T10:25:05Z",
-    "url": "https://github.com/brave/brave-browser/releases/download/v1.98.63/policy_templates.zip",
-    "sha256": "72fb8d23457d4c6012bcb70f2c3a7dd1405e20395ad55841807d1db70ac4b037",
-    "size": 6493535,
+    "version": "1.99.55",
+    "date": "2026-11-04",
+    "discovered": "2026-11-06T12:09:34Z",
+    "url": "https://github.com/brave/brave-browser/releases/download/v1.99.55/policy_templates.zip",
+    "sha256": "37a5103ecb6f1f616607ae61c2d051d54212f339e4238810ce79bf55695f08fa",
+    "size": 6503631,
     "languages": [
      "de-DE",
      "en-US",
@@ -123,138 +123,138 @@
       "name": "brave.admx",
       "kind": "admx",
       "lang": null,
-      "sha256": "125869f63e794ecd408c1edf1e147f07280efd3f15f79f87620d26e6dde53fc2",
-      "size": 970692
+      "sha256": "17b6cabfde4c3d34e5d80a4cf4816adff5cf40f39f9785248b197d1cf98a9b6d",
+      "size": 973390
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "de-DE",
-      "sha256": "1b3ed74315ca2981260002fd808c7375cc0d2c53aff1d57777c10b15176fceeb",
-      "size": 1464422
+      "sha256": "a23a8e2819bbde4d02db79bbd1195a6f01bd16a3a94a29f1d7b56dd053b45d1b",
+      "size": 1468578
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "en-US",
-      "sha256": "0e773acdca28edbf69b6280cd818994ee9b6600fbd33f0f4c739ed323cb0a05f",
-      "size": 1256222
+      "sha256": "58e3faab5c93af63563dcd2114bc926fa37a9255199b0395b5f9ba404898fd3d",
+      "size": 1259308
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "es-419",
-      "sha256": "4c33b4f023bc6c9681972a8395800b47f209c4b8bdad42fa92f3f85a7072ca1e",
-      "size": 1439862
+      "sha256": "30a4ab95d64f4fab42312726f441c99da19c8c6bdfa9b4c68d7051a0968efb21",
+      "size": 1443580
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "es-ES",
-      "sha256": "542af606def71431fc9fcdf709efbec8691432f97b07792bba5e07f925fb2aad",
-      "size": 1438374
+      "sha256": "f0128a7997e3062da59e943eba537ac546bf22997c4f2d85748622b53f5ce506",
+      "size": 1441908
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "fr-FR",
-      "sha256": "07cff4cdb2715e36c6439b56012597994da368e95389692500fabb137d0aeb65",
-      "size": 1468934
+      "sha256": "2b9d7bdf8819f4cb431b87bf04bf11a78d22f751fa0c9fdc6b69bcf64223343c",
+      "size": 1472790
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "id-ID",
-      "sha256": "2c7bbc28f96aaee1b5ec7c5861378af311d8fa578680fe2e988f7113728a2e10",
-      "size": 1359664
+      "sha256": "779a563e40af301d9e3e9f863fc19ffb92d94892bd455dc3f4c8a7d7f0aaba7f",
+      "size": 1363058
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "it-IT",
-      "sha256": "818e5f416b8295e6a153013332b6d020fd3f70fefe54db2b3f451b8ce70e9c15",
-      "size": 1453000
+      "sha256": "b9725a2ead398a05697fd7a81611b5017412b2dc878fe5c7d55560a059601083",
+      "size": 1456690
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "ja-JP",
-      "sha256": "54a471c7cffdc964f422406dc996573882bc48d188447ee382ce963b03dc95fb",
-      "size": 939594
+      "sha256": "305a51b023cc39e6e64f3344906746a02a456ce1d9ca71eab56b605f1f47434a",
+      "size": 942038
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "ko-KR",
-      "sha256": "0c227f0749f0f884113a3fb9c2867d93b3df66d0b45cf4bb9ef2d2ca1184cb25",
-      "size": 920902
+      "sha256": "5f61d2f7e07e800d355abdc25843e0b45515c1ddf7bc965e05d31020ead98d73",
+      "size": 923224
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "nl-NL",
-      "sha256": "99033faa5bd53de984f467f531183ad15c47173b7d3f04f3fb0b4bb8ec336bef",
-      "size": 1395596
+      "sha256": "3b7a1964c1fe3cd09a4da9c4b3476987f58a590d206ed898321c52ec316cb6a7",
+      "size": 1399564
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "pt-BR",
-      "sha256": "17a51d237ad1ecfc529adbd3ead943b4db97c8d3d88217afd189efc816e0afb2",
-      "size": 1386250
+      "sha256": "86199caf90fce65449a78c848dec92697398575c5cd91ce20e33c495dc221750",
+      "size": 1390014
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "ru-RU",
-      "sha256": "69f9e88534b273a35bcf75075ca9b599f2f1838865e52a86ae1b710cc25d84da",
-      "size": 1357076
+      "sha256": "7bd0ce66f2c4d9f23d3abc0edf7d2e47f5e25903d094c4b362b6d703753e314d",
+      "size": 1361164
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "th-TH",
-      "sha256": "564f0a4021390a8d1ed1b3bc221baf4e347e848742bbd09b9a8c8cd471b32c28",
-      "size": 1228924
+      "sha256": "5075dce4018483d0acaa16da7d042fd8c585135f9fe12c673308418a9524bc73",
+      "size": 1231970
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "tr-TR",
-      "sha256": "c96f420fd5f1e012a275bace47759944da0e33a125f618b73ef7b50f49546849",
-      "size": 1395318
+      "sha256": "c829dfa7e2eca0266941fddb6b4191bd8b48bd373b002aab93e37b0360cc05aa",
+      "size": 1398880
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "uk-UA",
-      "sha256": "fa20562a9120cfc724bf6a30ff78c12bd710a0454510e4d309a87b3742159c54",
-      "size": 1373408
+      "sha256": "50011bdddcfcbeed8e50b98e60bd3718a03c9e750e6b0afaaae3628054315241",
+      "size": 1377070
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "vi-VN",
-      "sha256": "6016815f799f47df4a6920150725fdb85cfc89b13cb7347807b32214b7ff68a0",
-      "size": 1382958
+      "sha256": "55410bb09e1d23104a4fbd22f4ce0e28efc14109a5ad2727424d6a30d0ded142",
+      "size": 1386476
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "zh-CN",
-      "sha256": "6e35fa608c1e7a375c7288274714e425e22a76a2de1ea74bd0b1c155e126e666",
-      "size": 796622
+      "sha256": "a2b9cdf85173be08dc4c107c7fbdbbb5140abf3613d75a22fa42b3083bdd63dc",
+      "size": 798842
      },
      {
       "name": "brave.adml",
       "kind": "adml",
       "lang": "zh-TW",
-      "sha256": "0622edc7cdd380b53cf7c675fad9273f05010ea5fff4c1edfd805085f0578ed5",
-      "size": 796618
+      "sha256": "ebdeadfcc39dfa3be340e89642cc7afbc5ea540735ed9ef2d4cdeb6101f4fb71",
+      "size": 798854
      }
     ],
     "admxCount": 1,
-    "policyCount": 772,
+    "policyCount": 774,
     "namespaces": [
      "BraveSoftware.Policies.Brave"
     ],
@@ -263,18 +263,21 @@
     },
     "parseErrors": [],
     "diff": {
-     "previous": "1.98.62",
-     "added": 0,
+     "previous": "1.98.63",
+     "added": 2,
      "removed": 0,
      "changed": 0,
      "details": {
-      "added": [],
+      "added": [
+       "BraveSoftware.Policies.Brave:AllHttpAuthSchemesAllowedForProxies",
+       "BraveSoftware.Policies.Brave:ExtensionForceInstallWithSearchOrNewTabOverridesEnabled"
+      ],
       "removed": [],
       "changed": []
      }
     }
    },
-   "versionCount": 46
+   "versionCount": 47
   },
   {
    "id": "chrome",
@@ -290,8 +293,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-05T12:25:09Z",
-    "lastSuccess": "2026-11-05T12:25:09Z",
+    "lastChecked": "2026-11-06T12:09:35Z",
+    "lastSuccess": "2026-11-06T12:09:35Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -632,8 +635,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-11-05T12:25:09Z",
-    "lastSuccess": "2026-11-05T12:25:09Z",
+    "lastChecked": "2026-11-06T12:09:35Z",
+    "lastSuccess": "2026-11-06T12:09:35Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1181,7 +1184,7 @@
      }
     }
    },
-   "versionCount": 48
+   "versionCount": 50
   },
   {
    "id": "firefox",
@@ -1197,8 +1200,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-11-05T12:25:11Z",
-    "lastSuccess": "2026-11-05T12:25:12Z",
+    "lastChecked": "2026-11-06T12:09:38Z",
+    "lastSuccess": "2026-11-06T12:09:38Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1338,8 +1341,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-05T12:25:12Z",
-    "lastSuccess": "2026-11-05T12:25:13Z",
+    "lastChecked": "2026-11-06T12:09:39Z",
+    "lastSuccess": "2026-11-06T12:09:39Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1406,8 +1409,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-05T12:25:13Z",
-    "lastSuccess": "2026-11-05T12:25:13Z",
+    "lastChecked": "2026-11-06T12:09:39Z",
+    "lastSuccess": "2026-11-06T12:09:40Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1491,8 +1494,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-05T12:25:13Z",
-    "lastSuccess": "2026-11-05T12:25:21Z",
+    "lastChecked": "2026-11-06T12:09:40Z",
+    "lastSuccess": "2026-11-06T12:09:49Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1735,17 +1738,17 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-11-05T12:25:21Z",
-    "lastSuccess": "2026-11-05T12:25:22Z",
+    "lastChecked": "2026-11-06T12:09:49Z",
+    "lastSuccess": "2026-11-06T12:09:49Z",
     "error": null,
     "consecutiveFailures": 0
    },
    "latest": {
-    "version": "0.102.3001",
-    "date": "2026-10-27",
-    "discovered": "2026-10-28T10:37:29Z",
-    "url": "https://github.com/microsoft/PowerToys/releases/download/v0.102.3001/GroupPolicyObjectFiles-0.102.3001.0.zip",
-    "sha256": "e9588b9d05f397612aacce7bd7eacf63925410899546b46053165bf8673d31bc",
+    "version": "0.102.3101",
+    "date": "2026-11-06",
+    "discovered": "2026-11-06T12:09:49Z",
+    "url": "https://github.com/microsoft/PowerToys/releases/download/v0.102.3101/GroupPolicyObjectFiles-0.102.3101.0.zip",
+    "sha256": "c3618e35a13fc1f8992258d022bddd738fd345db2227ab1580ca315ef34da4da",
     "size": 9137,
     "languages": [
      "en-US"
@@ -1776,7 +1779,7 @@
     },
     "parseErrors": [],
     "diff": {
-     "previous": "0.102.2933.0",
+     "previous": "0.102.3001",
      "added": 0,
      "removed": 0,
      "changed": 0,
@@ -1787,7 +1790,7 @@
      }
     }
    },
-   "versionCount": 16
+   "versionCount": 17
   },
   {
    "id": "reader",
@@ -1805,8 +1808,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-05T12:25:23Z",
-    "lastSuccess": "2026-11-05T12:25:23Z",
+    "lastChecked": "2026-11-06T12:09:50Z",
+    "lastSuccess": "2026-11-06T12:09:51Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1873,8 +1876,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-05T12:25:23Z",
-    "lastSuccess": "2026-11-05T12:25:32Z",
+    "lastChecked": "2026-11-06T12:09:51Z",
+    "lastSuccess": "2026-11-06T12:09:59Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -40036,8 +40039,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-11-05T12:25:32Z",
-    "lastSuccess": "2026-11-05T12:25:33Z",
+    "lastChecked": "2026-11-06T12:09:59Z",
+    "lastSuccess": "2026-11-06T12:10:00Z",
     "error": null,
     "consecutiveFailures": 0
    },

@@ -2,8 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:admxhub:feed</id>
   <title>ADMX Hub: new Group Policy templates</title>
-  <updated>2026-11-05T12:25:34Z</updated>
+  <updated>2026-11-06T12:10:00Z</updated>
   <generator>admxhub 0.1.0</generator>
+  <entry>
+    <id>urn:admxhub:powertoys:0.102.3101</id>
+    <title>PowerToys 0.102.3101</title>
+    <updated>2026-11-06T12:09:49Z</updated>
+    <link href="https://github.com/microsoft/PowerToys/releases/download/v0.102.3101/GroupPolicyObjectFiles-0.102.3101.0.zip"/>
+    <summary>PowerToys 0.102.3101: 83 policies (+0 / -0 / ~0 since 0.102.3001)</summary>
+  </entry>
+  <entry>
+    <id>urn:admxhub:brave:1.99.55</id>
+    <title>Brave Browser 1.99.55</title>
+    <updated>2026-11-06T12:09:34Z</updated>
+    <link href="https://github.com/brave/brave-browser/releases/download/v1.99.55/policy_templates.zip"/>
+    <summary>Brave Browser 1.99.55: 774 policies (+2 / -0 / ~0 since 1.98.63)</summary>
+  </entry>
   <entry>
     <id>urn:admxhub:edge:159.0.4378.0</id>
     <title>Microsoft Edge 159.0.4378.0</title>
@@ -121,7 +135,7 @@
     <title>Microsoft Edge 158.0.4344.0</title>
     <updated>2026-10-25T13:30:56Z</updated>
     <link href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/e6a43319-7f4b-4ae3-89f3-684a99cef473/MicrosoftEdgePolicyTemplates.cab"/>
-    <summary>Microsoft Edge 158.0.4344.0: 913 policies (+0 / -1 / ~0 since 157.0.4341.36)</summary>
+    <summary>Microsoft Edge 158.0.4344.0: 913 policies (+0 / -1 / ~0 since 157.0.4341.42)</summary>
   </entry>
   <entry>
     <id>urn:admxhub:chrome:156.0.8078.48</id>
