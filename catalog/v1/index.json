@@ -1,6 +1,6 @@
 {
  "schema": "admxhub/catalog/v1",
- "generated": "2026-11-06T12:10:00Z",
+ "generated": "2026-11-07T11:06:54Z",
  "generator": "admxhub 0.1.0",
  "products": [
   {
@@ -18,8 +18,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-06T12:09:33Z",
-    "lastSuccess": "2026-11-06T12:09:33Z",
+    "lastChecked": "2026-11-07T11:06:30Z",
+    "lastSuccess": "2026-11-07T11:06:30Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -86,8 +86,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-11-06T12:09:33Z",
-    "lastSuccess": "2026-11-06T12:09:34Z",
+    "lastChecked": "2026-11-07T11:06:30Z",
+    "lastSuccess": "2026-11-07T11:06:30Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -293,8 +293,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-06T12:09:35Z",
-    "lastSuccess": "2026-11-06T12:09:35Z",
+    "lastChecked": "2026-11-07T11:06:31Z",
+    "lastSuccess": "2026-11-07T11:06:31Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -635,8 +635,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-11-06T12:09:35Z",
-    "lastSuccess": "2026-11-06T12:09:35Z",
+    "lastChecked": "2026-11-07T11:06:31Z",
+    "lastSuccess": "2026-11-07T11:06:31Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1170,14 +1170,14 @@
     },
     "parseErrors": [],
     "diff": {
-     "previous": "158.0.4370.1",
+     "previous": "158.0.4370.7",
      "added": 2,
      "removed": 0,
      "changed": 0,
      "details": {
       "added": [
-       "Microsoft.Policies.Edge:CopilotBrowserUseAllowList",
-       "Microsoft.Policies.Edge:CopilotBrowserUseBlockList"
+       "Microsoft.Policies.Edge:AgentProfileEnabled",
+       "Microsoft.Policies.Edge:CommercialJourneysGetThingsDoneEnabled"
       ],
       "removed": [],
       "changed": []
@@ -1200,8 +1200,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-11-06T12:09:38Z",
-    "lastSuccess": "2026-11-06T12:09:38Z",
+    "lastChecked": "2026-11-07T11:06:33Z",
+    "lastSuccess": "2026-11-07T11:06:33Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1341,8 +1341,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-06T12:09:39Z",
-    "lastSuccess": "2026-11-06T12:09:39Z",
+    "lastChecked": "2026-11-07T11:06:34Z",
+    "lastSuccess": "2026-11-07T11:06:34Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1409,8 +1409,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-06T12:09:39Z",
-    "lastSuccess": "2026-11-06T12:09:40Z",
+    "lastChecked": "2026-11-07T11:06:34Z",
+    "lastSuccess": "2026-11-07T11:06:34Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1494,8 +1494,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-06T12:09:40Z",
-    "lastSuccess": "2026-11-06T12:09:49Z",
+    "lastChecked": "2026-11-07T11:06:34Z",
+    "lastSuccess": "2026-11-07T11:06:43Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1738,8 +1738,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-11-06T12:09:49Z",
-    "lastSuccess": "2026-11-06T12:09:49Z",
+    "lastChecked": "2026-11-07T11:06:43Z",
+    "lastSuccess": "2026-11-07T11:06:43Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1808,8 +1808,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-06T12:09:50Z",
-    "lastSuccess": "2026-11-06T12:09:51Z",
+    "lastChecked": "2026-11-07T11:06:43Z",
+    "lastSuccess": "2026-11-07T11:06:45Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1876,8 +1876,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-06T12:09:51Z",
-    "lastSuccess": "2026-11-06T12:09:59Z",
+    "lastChecked": "2026-11-07T11:06:45Z",
+    "lastSuccess": "2026-11-07T11:06:53Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -40039,8 +40039,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-11-06T12:09:59Z",
-    "lastSuccess": "2026-11-06T12:10:00Z",
+    "lastChecked": "2026-11-07T11:06:53Z",
+    "lastSuccess": "2026-11-07T11:06:53Z",
     "error": null,
     "consecutiveFailures": 0
    },
