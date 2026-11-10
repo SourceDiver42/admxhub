@@ -1,6 +1,6 @@
 {
  "schema": "admxhub/catalog/v1",
- "generated": "2026-11-09T12:56:30Z",
+ "generated": "2026-11-10T12:42:32Z",
  "generator": "admxhub 0.1.0",
  "products": [
   {
@@ -18,8 +18,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-09T12:56:03Z",
-    "lastSuccess": "2026-11-09T12:56:03Z",
+    "lastChecked": "2026-11-10T12:41:57Z",
+    "lastSuccess": "2026-11-10T12:41:57Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -86,8 +86,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-11-09T12:56:03Z",
-    "lastSuccess": "2026-11-09T12:56:03Z",
+    "lastChecked": "2026-11-10T12:41:57Z",
+    "lastSuccess": "2026-11-10T12:41:58Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -293,17 +293,17 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-09T12:56:04Z",
-    "lastSuccess": "2026-11-09T12:56:04Z",
+    "lastChecked": "2026-11-10T12:41:58Z",
+    "lastSuccess": "2026-11-10T12:41:59Z",
     "error": null,
     "consecutiveFailures": 0
    },
    "latest": {
-    "version": "157.0.8103.39",
-    "date": "2026-11-03",
-    "discovered": "2026-11-04T12:11:51Z",
+    "version": "157.0.8103.51",
+    "date": "2026-11-09",
+    "discovered": "2026-11-10T12:41:59Z",
     "url": "https://dl.google.com/dl/edgedl/chrome/policy/policy_templates.zip",
-    "sha256": "729b2ca07d00f7ea9b6e64dd0200026a22c71e4804ba2b9492cb374cfeecbd97",
+    "sha256": "05500cf4a79af97436eccc673d5bf967bd80e75c4395d4da32c1d8d6404ea961",
     "size": 123580185,
     "languages": [
      "de-DE",
@@ -330,7 +330,7 @@
       "name": "chrome.admx",
       "kind": "admx",
       "lang": null,
-      "sha256": "b9a9cd070d5e423741d118ec1973aefab7a6c78585f9628f863d059ad5b0e33d",
+      "sha256": "edc2ed4dd3e8450bf61ac2b4307c7e3451626774d6791b1b1694584af9d5cc90",
       "size": 929996
      },
      {
@@ -344,7 +344,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "de-DE",
-      "sha256": "eeb3659f3d3488e63def81c9d0d7432d144180c0f63797465d0598ea0359faa5",
+      "sha256": "7969024bc1cfc9e3ca591a2d00b62347fe839acaca6a9bd361a3ec1027e9859f",
       "size": 1435392
      },
      {
@@ -358,7 +358,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "en-US",
-      "sha256": "b95e4a806b288e5ebde107197431b7ac383654eae9ed5e33d42f138adfb7d65f",
+      "sha256": "09b215535c6dd6baf326b4d80e5295f0012cf10e051415165633f71fc9441e7e",
       "size": 1225518
      },
      {
@@ -372,7 +372,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "es-419",
-      "sha256": "f88a0fc505335181d2d5b14eb9edd6a8ea0498f25f5050dea85cc2495766af41",
+      "sha256": "962cda1ec772b8bd1ae469b58991a2a84408f9f46b96006677650803399c3188",
       "size": 1410392
      },
      {
@@ -386,7 +386,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "es-ES",
-      "sha256": "d531694f387b4a23975e7c31dbc53d777fe62dbb09255e7d4f056b1f06168532",
+      "sha256": "789ee257b1a2e561e0c04addaf55cb5aac454230152320f317883952a9aaa1ea",
       "size": 1408770
      },
      {
@@ -400,7 +400,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "fr-FR",
-      "sha256": "5df60b3a284cc986e503853e840a2d9b85f573a667a92f7c0682ede0e44ea479",
+      "sha256": "cd93bf2539a3480c0c38f5e24e10278addcdd02b265f880357ac7c8229e41d4c",
       "size": 1439492
      },
      {
@@ -414,7 +414,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "id-ID",
-      "sha256": "82ad61fd0daadc71dbcfbc5eb40875ce30d4e1740704ea5a20b33c6c52341fb6",
+      "sha256": "a81a683b320e65dc37fa89d7e449aa6d5598395b1cd7a602c32dd57ce4a1231a",
       "size": 1329626
      },
      {
@@ -428,7 +428,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "it-IT",
-      "sha256": "e8835b30b96ee9aeba50a1880c21ad982f29f80d89e369d206ab33332779d355",
+      "sha256": "3b2dfc1a6a214c5fb8e53614b66eeb0b4760f15b9ca920bed63317ce1053cbdd",
       "size": 1423570
      },
      {
@@ -442,7 +442,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "ja-JP",
-      "sha256": "75d59914115bcf6fa2b4d356848878b5d925768f931396d8429ab2d5f1e3e979",
+      "sha256": "c9075dda9f3e7948fde838f05312b4d8d01fab5536d80749988f756aed0b7060",
       "size": 907178
      },
      {
@@ -456,7 +456,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "ko-KR",
-      "sha256": "4487f8d45fb90b25c7f8a4e879a40681ed0d8760f78a7bc2a27f3929e40f7c7b",
+      "sha256": "258612474060fe1d8bb0550352bd3aa7e3560bda8c99aa3e71940630dd615ec5",
       "size": 888240
      },
      {
@@ -470,7 +470,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "nl-NL",
-      "sha256": "5fc987534cb5546c2cb85957b36cf3c55db5212bfb73a38219a02a1d5e429b4e",
+      "sha256": "b9dcc8e2b12a809de277ea0d76b40a8534beb44810cb2904f48ed05f8d035d46",
       "size": 1366288
      },
      {
@@ -484,7 +484,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "pt-BR",
-      "sha256": "a4392fb1189899973b3d563f06807bb4ffb0c81abf0785114a927e2a00fa2c47",
+      "sha256": "c10bccd5bc6d5c6fbd89e2147664b6d885dba257cbd636e61e293ffc20747311",
       "size": 1356662
      },
      {
@@ -498,7 +498,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "ru-RU",
-      "sha256": "8023b538071efc397f01d1b54ec369bc18354054aa6a2fffa1fad209edb49223",
+      "sha256": "79a319f0993135cf2248c77cbfe4c103eb3bbc80e85a18bec003aead3c556b51",
       "size": 1328192
      },
      {
@@ -512,7 +512,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "th-TH",
-      "sha256": "da456cb99c8c1bcfa5e763720871d3eec02be8df0e25481427385e980d6f7b9c",
+      "sha256": "033373ed1cceaf34976c292bda90a59b74dd8dd9186e2a7fe67835f20194a004",
       "size": 1198026
      },
      {
@@ -526,7 +526,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "tr-TR",
-      "sha256": "8c6ffa39dd8d1907227a6260fff70f8184cb779bbf49c9f6635bc2390ffd955f",
+      "sha256": "cae76769b39375fe8c32d86f2de524be58a4f02b8795a83d3ea10bdfb4b43d6a",
       "size": 1365488
      },
      {
@@ -540,7 +540,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "uk-UA",
-      "sha256": "bc3216527f878d719eb118edd1b5f8ddf0a16359a6786032aabcb6ea15b99e2f",
+      "sha256": "32822883305d38ff25644f2349d64feb3d6235e2f28e8582094064a27aaa17ab",
       "size": 1343658
      },
      {
@@ -554,7 +554,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "vi-VN",
-      "sha256": "c36b8b0a02d844cf63377dd1336ded37e0e077b050ed4d4ef79966c4af49d9a4",
+      "sha256": "b8fdd1505113fdabfbfcf493f7592877006c6a030c54378a8b764a7f86cece99",
       "size": 1353040
      },
      {
@@ -568,7 +568,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "zh-CN",
-      "sha256": "8d5941ba4ac7864af4b2bcf0ca3fba248d3dde521e7206f745ecbc5a52d5e0f6",
+      "sha256": "11c90db39b9f8433230ee7788ccc8301db34826c0d2dd0779bac7b573f0150f2",
       "size": 763442
      },
      {
@@ -582,7 +582,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "zh-TW",
-      "sha256": "5171aeb062ec7cc5d59f7955c36c8c6d10f211fd83abb3c153122a94047227e2",
+      "sha256": "8066af6dfac574a5e0437f57e84a8ee0aa52f1cbd05569d120f792dceaa224ac",
       "size": 763454
      },
      {
@@ -605,21 +605,18 @@
     },
     "parseErrors": [],
     "diff": {
-     "previous": "156.0.8078.80",
-     "added": 2,
+     "previous": "157.0.8103.39",
+     "added": 0,
      "removed": 0,
      "changed": 0,
      "details": {
-      "added": [
-       "Google.Policies.Chrome:AllHttpAuthSchemesAllowedForProxies",
-       "Google.Policies.Chrome:ExtensionForceInstallWithSearchOrNewTabOverridesEnabled"
-      ],
+      "added": [],
       "removed": [],
       "changed": []
      }
     }
    },
-   "versionCount": 4
+   "versionCount": 5
   },
   {
    "id": "edge",
@@ -635,8 +632,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-11-09T12:56:04Z",
-    "lastSuccess": "2026-11-09T12:56:04Z",
+    "lastChecked": "2026-11-10T12:41:59Z",
+    "lastSuccess": "2026-11-10T12:41:59Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1170,7 +1167,7 @@
     },
     "parseErrors": [],
     "diff": {
-     "previous": "158.0.4370.7",
+     "previous": "158.0.4370.12",
      "added": 2,
      "removed": 0,
      "changed": 0,
@@ -1200,8 +1197,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-11-09T12:56:05Z",
-    "lastSuccess": "2026-11-09T12:56:05Z",
+    "lastChecked": "2026-11-10T12:42:09Z",
+    "lastSuccess": "2026-11-10T12:42:09Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1341,8 +1338,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-09T12:56:06Z",
-    "lastSuccess": "2026-11-09T12:56:06Z",
+    "lastChecked": "2026-11-10T12:42:10Z",
+    "lastSuccess": "2026-11-10T12:42:10Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1409,8 +1406,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-09T12:56:06Z",
-    "lastSuccess": "2026-11-09T12:56:06Z",
+    "lastChecked": "2026-11-10T12:42:10Z",
+    "lastSuccess": "2026-11-10T12:42:10Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1494,8 +1491,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-09T12:56:06Z",
-    "lastSuccess": "2026-11-09T12:56:17Z",
+    "lastChecked": "2026-11-10T12:42:10Z",
+    "lastSuccess": "2026-11-10T12:42:21Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1738,8 +1735,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-11-09T12:56:17Z",
-    "lastSuccess": "2026-11-09T12:56:17Z",
+    "lastChecked": "2026-11-10T12:42:21Z",
+    "lastSuccess": "2026-11-10T12:42:21Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1808,8 +1805,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-09T12:56:18Z",
-    "lastSuccess": "2026-11-09T12:56:18Z",
+    "lastChecked": "2026-11-10T12:42:22Z",
+    "lastSuccess": "2026-11-10T12:42:22Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1876,8 +1873,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-09T12:56:18Z",
-    "lastSuccess": "2026-11-09T12:56:29Z",
+    "lastChecked": "2026-11-10T12:42:22Z",
+    "lastSuccess": "2026-11-10T12:42:31Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -40039,8 +40036,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-11-09T12:56:29Z",
-    "lastSuccess": "2026-11-09T12:56:29Z",
+    "lastChecked": "2026-11-10T12:42:31Z",
+    "lastSuccess": "2026-11-10T12:42:32Z",
     "error": null,
     "consecutiveFailures": 0
    },
