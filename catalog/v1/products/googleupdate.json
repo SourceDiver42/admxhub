@@ -12,12 +12,76 @@
  "mirror": false,
  "history": false,
  "status": {
-  "lastChecked": "2026-11-12T12:46:21Z",
-  "lastSuccess": "2026-11-12T12:46:21Z",
+  "lastChecked": "2026-11-13T12:16:35Z",
+  "lastSuccess": "2026-11-13T12:16:36Z",
   "error": null,
   "consecutiveFailures": 0
  },
  "versions": [
+  {
+   "version": "2026-11-12",
+   "date": "2026-11-12",
+   "discovered": "2026-11-13T12:16:36Z",
+   "url": "https://dl.google.com/dl/update2/enterprise/googleupdateadmx.zip",
+   "sha256": "bf6ba4bdcfc6108b76d72367dd398c2b28c8d486b04876deac3063becb34e88b",
+   "size": 2057055,
+   "fingerprint": "71ef2e5-6aa1e4d0",
+   "languages": [
+    "en-US"
+   ],
+   "files": [
+    {
+     "name": "google.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "3ac714ed9549b7b42a4fe2d7127304ab757762ae71015f8f8892287fdeb0b0b8",
+     "size": 338
+    },
+    {
+     "name": "GoogleUpdate.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "255cd35b2def542591e620fc3701a419e393c29c8568c5fcd83ea238de32280f",
+     "size": 707268
+    },
+    {
+     "name": "google.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "5d53a7b191ca8d342eb68122fdc6d858f6eadd22a199973f4f1ca272a8b83db7",
+     "size": 257
+    },
+    {
+     "name": "GoogleUpdate.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "692317fd8ea5be1784b8384007040a87fa7be3725a6d0d63f78e0027a57dab84",
+     "size": 563676
+    }
+   ],
+   "admxCount": 2,
+   "policyCount": 373,
+   "namespaces": [
+    "Google.Policies",
+    "Google.Policies.Update"
+   ],
+   "namespaceFiles": {
+    "Google.Policies": "google.admx",
+    "Google.Policies.Update": "GoogleUpdate.admx"
+   },
+   "parseErrors": [],
+   "diff": {
+    "previous": "2025-08-10",
+    "added": 0,
+    "removed": 0,
+    "changed": 0,
+    "details": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   }
+  },
   {
    "version": "2025-08-10",
    "date": "2025-08-10",

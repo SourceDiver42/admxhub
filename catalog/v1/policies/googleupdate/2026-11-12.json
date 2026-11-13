@@ -1,0 +1,6976 @@
+[
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGWTDeveloperPluginForInternetExplorer",
+  "name": "Pol_AllowInstallationGWTDeveloperPluginForInternetExplorer",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "GWT Developer Plugin For Internet Explorer"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGears",
+  "name": "Pol_AllowInstallationGears",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Gears"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleAdsEditor",
+  "name": "Pol_AllowInstallationGoogleAdsEditor",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Ads Editor"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleAdvertisingCookieOptoutPlugin",
+  "name": "Pol_AllowInstallationGoogleAdvertisingCookieOptoutPlugin",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Advertising Cookie Opt-out Plugin"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleAmharicInput",
+  "name": "Pol_AllowInstallationGoogleAmharicInput",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Amharic Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleAnalyticsOptoutBrowserAddonforInternetExplorer",
+  "name": "Pol_AllowInstallationGoogleAnalyticsOptoutBrowserAddonforInternetExplorer",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Analytics Opt-out Browser Add-on (for Internet Explorer)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleArabicInput",
+  "name": "Pol_AllowInstallationGoogleArabicInput",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Arabic Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleBengaliInput",
+  "name": "Pol_AllowInstallationGoogleBengaliInput",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Bengali Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleChrome",
+  "name": "Pol_AllowInstallationGoogleChrome",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleChromeBeta",
+  "name": "Pol_AllowInstallationGoogleChromeBeta",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Beta"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleChromeBinaries",
+  "name": "Pol_AllowInstallationGoogleChromeBinaries",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Binaries"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleChromeCanaryBuild",
+  "name": "Pol_AllowInstallationGoogleChromeCanaryBuild",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Canary Build"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleChromeDev",
+  "name": "Pol_AllowInstallationGoogleChromeDev",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Dev"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleChromeFrame",
+  "name": "Pol_AllowInstallationGoogleChromeFrame",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Frame"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleCloudCertificateConnector",
+  "name": "Pol_AllowInstallationGoogleCloudCertificateConnector",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Cloud Certificate Connector"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleCredentialProviderforWindowsGCPW",
+  "name": "Pol_AllowInstallationGoogleCredentialProviderforWindowsGCPW",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Credential Provider for Windows (GCPW)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleDriveFileStream",
+  "name": "Pol_AllowInstallationGoogleDriveFileStream",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Drive File Stream"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleDrivepluginforMicrosoftOffice",
+  "name": "Pol_AllowInstallationGoogleDrivepluginforMicrosoftOffice",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Drive plug-in for Microsoft Office"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleDrivepluginforMicrosoftOfficePerMachine",
+  "name": "Pol_AllowInstallationGoogleDrivepluginforMicrosoftOfficePerMachine",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Drive plug-in for Microsoft Office Per Machine"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleEarth",
+  "name": "Pol_AllowInstallationGoogleEarth",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleEarthPlugin",
+  "name": "Pol_AllowInstallationGoogleEarthPlugin",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth Plugin"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleEarthPro",
+  "name": "Pol_AllowInstallationGoogleEarthPro",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth Pro"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleEarthperuserinstall",
+  "name": "Pol_AllowInstallationGoogleEarthperuserinstall",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth (per-user install)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleEmailUploader",
+  "name": "Pol_AllowInstallationGoogleEmailUploader",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Email Uploader"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleFarsiInput",
+  "name": "Pol_AllowInstallationGoogleFarsiInput",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Farsi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleGreekInput",
+  "name": "Pol_AllowInstallationGoogleGreekInput",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Greek Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleGujaratiInput",
+  "name": "Pol_AllowInstallationGoogleGujaratiInput",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Gujarati Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleHangoutsPluginforMicrosoftOutlook",
+  "name": "Pol_AllowInstallationGoogleHangoutsPluginforMicrosoftOutlook",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Hangouts Plugin for Microsoft Outlook®"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleHebrewInput",
+  "name": "Pol_AllowInstallationGoogleHebrewInput",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Hebrew Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleHindiInput",
+  "name": "Pol_AllowInstallationGoogleHindiInput",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Hindi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleJapaneseInput",
+  "name": "Pol_AllowInstallationGoogleJapaneseInput",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Japanese Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleKannadaInput",
+  "name": "Pol_AllowInstallationGoogleKannadaInput",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Kannada Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleMalayalamInput",
+  "name": "Pol_AllowInstallationGoogleMalayalamInput",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Malayalam Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleMarathiInput",
+  "name": "Pol_AllowInstallationGoogleMarathiInput",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Marathi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleNepaliInput",
+  "name": "Pol_AllowInstallationGoogleNepaliInput",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Nepali Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleOriyaInput",
+  "name": "Pol_AllowInstallationGoogleOriyaInput",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Oriya Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGooglePunjabiInput",
+  "name": "Pol_AllowInstallationGooglePunjabiInput",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Punjabi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleRussianInput",
+  "name": "Pol_AllowInstallationGoogleRussianInput",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Russian Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleSanskritInput",
+  "name": "Pol_AllowInstallationGoogleSanskritInput",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Sanskrit Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleSerbianInput",
+  "name": "Pol_AllowInstallationGoogleSerbianInput",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Serbian Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleSinhaleseInput",
+  "name": "Pol_AllowInstallationGoogleSinhaleseInput",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Sinhalese Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleTalkLabsEdition",
+  "name": "Pol_AllowInstallationGoogleTalkLabsEdition",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Talk Labs Edition"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleTalkPluginVoiceandVideoChat",
+  "name": "Pol_AllowInstallationGoogleTalkPluginVoiceandVideoChat",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Talk Plugin (Voice and Video Chat)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleTamilInput",
+  "name": "Pol_AllowInstallationGoogleTamilInput",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Tamil Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleTeluguInput",
+  "name": "Pol_AllowInstallationGoogleTeluguInput",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Telugu Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleTigrinyaInput",
+  "name": "Pol_AllowInstallationGoogleTigrinyaInput",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Tigrinya Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleToolbarforFirefox",
+  "name": "Pol_AllowInstallationGoogleToolbarforFirefox",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Toolbar (for Firefox)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleToolbarforInternetExplorer",
+  "name": "Pol_AllowInstallationGoogleToolbarforInternetExplorer",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Toolbar (for Internet Explorer)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationGoogleUrduInput",
+  "name": "Pol_AllowInstallationGoogleUrduInput",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Urdu Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationLegacyBrowserSupport",
+  "name": "Pol_AllowInstallationLegacyBrowserSupport",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Legacy Browser Support"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationO3D",
+  "name": "Pol_AllowInstallationO3D",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "O3D"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AllowInstallationO3DExtras",
+  "name": "Pol_AllowInstallationO3DExtras",
+  "display": "Allow installation",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "O3D Extras"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_AutoUpdateCheckPeriod",
+  "name": "Pol_AutoUpdateCheckPeriod",
+  "display": "Auto-update check period override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Preferences"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "decimal"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_CloudPolicyOverridesPlatformPolicy",
+  "name": "Pol_CloudPolicyOverridesPlatformPolicy",
+  "display": "Cloud Policy takes precedence over Group Policy",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Preferences"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "CloudPolicyOverridesPlatformPolicy",
+  "supported": "At least Google Update 1.3.35.441",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_DefaultAllowInstallation",
+  "name": "Pol_DefaultAllowInstallation",
+  "display": "Allow installation default",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_DefaultUpdatePolicy",
+  "name": "Pol_DefaultUpdatePolicy",
+  "display": "Update policy override default",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_DownloadPreference",
+  "name": "Pol_DownloadPreference",
+  "display": "Download URL class override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Preferences"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.26.0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGWTDeveloperPluginForInternetExplorer",
+  "name": "Pol_MajorVersionRolloutGWTDeveloperPluginForInternetExplorer",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "GWT Developer Plugin For Internet Explorer"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGears",
+  "name": "Pol_MajorVersionRolloutGears",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Gears"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleAdsEditor",
+  "name": "Pol_MajorVersionRolloutGoogleAdsEditor",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Ads Editor"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleAdvertisingCookieOptoutPlugin",
+  "name": "Pol_MajorVersionRolloutGoogleAdvertisingCookieOptoutPlugin",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Advertising Cookie Opt-out Plugin"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleAmharicInput",
+  "name": "Pol_MajorVersionRolloutGoogleAmharicInput",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Amharic Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleAnalyticsOptoutBrowserAddonforInternetExplorer",
+  "name": "Pol_MajorVersionRolloutGoogleAnalyticsOptoutBrowserAddonforInternetExplorer",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Analytics Opt-out Browser Add-on (for Internet Explorer)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleArabicInput",
+  "name": "Pol_MajorVersionRolloutGoogleArabicInput",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Arabic Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleBengaliInput",
+  "name": "Pol_MajorVersionRolloutGoogleBengaliInput",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Bengali Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleChrome",
+  "name": "Pol_MajorVersionRolloutGoogleChrome",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleChromeBeta",
+  "name": "Pol_MajorVersionRolloutGoogleChromeBeta",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Beta"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleChromeBinaries",
+  "name": "Pol_MajorVersionRolloutGoogleChromeBinaries",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Binaries"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleChromeCanaryBuild",
+  "name": "Pol_MajorVersionRolloutGoogleChromeCanaryBuild",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Canary Build"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleChromeDev",
+  "name": "Pol_MajorVersionRolloutGoogleChromeDev",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Dev"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleChromeFrame",
+  "name": "Pol_MajorVersionRolloutGoogleChromeFrame",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Frame"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleCloudCertificateConnector",
+  "name": "Pol_MajorVersionRolloutGoogleCloudCertificateConnector",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Cloud Certificate Connector"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleCredentialProviderforWindowsGCPW",
+  "name": "Pol_MajorVersionRolloutGoogleCredentialProviderforWindowsGCPW",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Credential Provider for Windows (GCPW)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleDriveFileStream",
+  "name": "Pol_MajorVersionRolloutGoogleDriveFileStream",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Drive File Stream"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleDrivepluginforMicrosoftOffice",
+  "name": "Pol_MajorVersionRolloutGoogleDrivepluginforMicrosoftOffice",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Drive plug-in for Microsoft Office"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleDrivepluginforMicrosoftOfficePerMachine",
+  "name": "Pol_MajorVersionRolloutGoogleDrivepluginforMicrosoftOfficePerMachine",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Drive plug-in for Microsoft Office Per Machine"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleEarth",
+  "name": "Pol_MajorVersionRolloutGoogleEarth",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleEarthPlugin",
+  "name": "Pol_MajorVersionRolloutGoogleEarthPlugin",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth Plugin"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleEarthPro",
+  "name": "Pol_MajorVersionRolloutGoogleEarthPro",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth Pro"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleEarthperuserinstall",
+  "name": "Pol_MajorVersionRolloutGoogleEarthperuserinstall",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth (per-user install)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleEmailUploader",
+  "name": "Pol_MajorVersionRolloutGoogleEmailUploader",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Email Uploader"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleFarsiInput",
+  "name": "Pol_MajorVersionRolloutGoogleFarsiInput",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Farsi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleGreekInput",
+  "name": "Pol_MajorVersionRolloutGoogleGreekInput",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Greek Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleGujaratiInput",
+  "name": "Pol_MajorVersionRolloutGoogleGujaratiInput",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Gujarati Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleHangoutsPluginforMicrosoftOutlook",
+  "name": "Pol_MajorVersionRolloutGoogleHangoutsPluginforMicrosoftOutlook",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Hangouts Plugin for Microsoft Outlook®"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleHebrewInput",
+  "name": "Pol_MajorVersionRolloutGoogleHebrewInput",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Hebrew Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleHindiInput",
+  "name": "Pol_MajorVersionRolloutGoogleHindiInput",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Hindi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleJapaneseInput",
+  "name": "Pol_MajorVersionRolloutGoogleJapaneseInput",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Japanese Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleKannadaInput",
+  "name": "Pol_MajorVersionRolloutGoogleKannadaInput",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Kannada Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleMalayalamInput",
+  "name": "Pol_MajorVersionRolloutGoogleMalayalamInput",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Malayalam Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleMarathiInput",
+  "name": "Pol_MajorVersionRolloutGoogleMarathiInput",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Marathi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleNepaliInput",
+  "name": "Pol_MajorVersionRolloutGoogleNepaliInput",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Nepali Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleOriyaInput",
+  "name": "Pol_MajorVersionRolloutGoogleOriyaInput",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Oriya Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGooglePunjabiInput",
+  "name": "Pol_MajorVersionRolloutGooglePunjabiInput",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Punjabi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleRussianInput",
+  "name": "Pol_MajorVersionRolloutGoogleRussianInput",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Russian Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleSanskritInput",
+  "name": "Pol_MajorVersionRolloutGoogleSanskritInput",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Sanskrit Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleSerbianInput",
+  "name": "Pol_MajorVersionRolloutGoogleSerbianInput",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Serbian Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleSinhaleseInput",
+  "name": "Pol_MajorVersionRolloutGoogleSinhaleseInput",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Sinhalese Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleTalkLabsEdition",
+  "name": "Pol_MajorVersionRolloutGoogleTalkLabsEdition",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Talk Labs Edition"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleTalkPluginVoiceandVideoChat",
+  "name": "Pol_MajorVersionRolloutGoogleTalkPluginVoiceandVideoChat",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Talk Plugin (Voice and Video Chat)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleTamilInput",
+  "name": "Pol_MajorVersionRolloutGoogleTamilInput",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Tamil Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleTeluguInput",
+  "name": "Pol_MajorVersionRolloutGoogleTeluguInput",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Telugu Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleTigrinyaInput",
+  "name": "Pol_MajorVersionRolloutGoogleTigrinyaInput",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Tigrinya Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleToolbarforFirefox",
+  "name": "Pol_MajorVersionRolloutGoogleToolbarforFirefox",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Toolbar (for Firefox)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleToolbarforInternetExplorer",
+  "name": "Pol_MajorVersionRolloutGoogleToolbarforInternetExplorer",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Toolbar (for Internet Explorer)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutGoogleUrduInput",
+  "name": "Pol_MajorVersionRolloutGoogleUrduInput",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Urdu Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutLegacyBrowserSupport",
+  "name": "Pol_MajorVersionRolloutLegacyBrowserSupport",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Legacy Browser Support"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutO3D",
+  "name": "Pol_MajorVersionRolloutO3D",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "O3D"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MajorVersionRolloutO3DExtras",
+  "name": "Pol_MajorVersionRolloutO3DExtras",
+  "display": "Major version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "O3D Extras"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGWTDeveloperPluginForInternetExplorer",
+  "name": "Pol_MinorVersionRolloutGWTDeveloperPluginForInternetExplorer",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "GWT Developer Plugin For Internet Explorer"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGears",
+  "name": "Pol_MinorVersionRolloutGears",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Gears"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleAdsEditor",
+  "name": "Pol_MinorVersionRolloutGoogleAdsEditor",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Ads Editor"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleAdvertisingCookieOptoutPlugin",
+  "name": "Pol_MinorVersionRolloutGoogleAdvertisingCookieOptoutPlugin",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Advertising Cookie Opt-out Plugin"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleAmharicInput",
+  "name": "Pol_MinorVersionRolloutGoogleAmharicInput",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Amharic Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleAnalyticsOptoutBrowserAddonforInternetExplorer",
+  "name": "Pol_MinorVersionRolloutGoogleAnalyticsOptoutBrowserAddonforInternetExplorer",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Analytics Opt-out Browser Add-on (for Internet Explorer)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleArabicInput",
+  "name": "Pol_MinorVersionRolloutGoogleArabicInput",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Arabic Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleBengaliInput",
+  "name": "Pol_MinorVersionRolloutGoogleBengaliInput",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Bengali Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleChrome",
+  "name": "Pol_MinorVersionRolloutGoogleChrome",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleChromeBeta",
+  "name": "Pol_MinorVersionRolloutGoogleChromeBeta",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Beta"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleChromeBinaries",
+  "name": "Pol_MinorVersionRolloutGoogleChromeBinaries",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Binaries"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleChromeCanaryBuild",
+  "name": "Pol_MinorVersionRolloutGoogleChromeCanaryBuild",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Canary Build"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleChromeDev",
+  "name": "Pol_MinorVersionRolloutGoogleChromeDev",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Dev"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleChromeFrame",
+  "name": "Pol_MinorVersionRolloutGoogleChromeFrame",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Frame"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleCloudCertificateConnector",
+  "name": "Pol_MinorVersionRolloutGoogleCloudCertificateConnector",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Cloud Certificate Connector"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleCredentialProviderforWindowsGCPW",
+  "name": "Pol_MinorVersionRolloutGoogleCredentialProviderforWindowsGCPW",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Credential Provider for Windows (GCPW)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleDriveFileStream",
+  "name": "Pol_MinorVersionRolloutGoogleDriveFileStream",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Drive File Stream"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleDrivepluginforMicrosoftOffice",
+  "name": "Pol_MinorVersionRolloutGoogleDrivepluginforMicrosoftOffice",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Drive plug-in for Microsoft Office"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleDrivepluginforMicrosoftOfficePerMachine",
+  "name": "Pol_MinorVersionRolloutGoogleDrivepluginforMicrosoftOfficePerMachine",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Drive plug-in for Microsoft Office Per Machine"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleEarth",
+  "name": "Pol_MinorVersionRolloutGoogleEarth",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleEarthPlugin",
+  "name": "Pol_MinorVersionRolloutGoogleEarthPlugin",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth Plugin"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleEarthPro",
+  "name": "Pol_MinorVersionRolloutGoogleEarthPro",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth Pro"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleEarthperuserinstall",
+  "name": "Pol_MinorVersionRolloutGoogleEarthperuserinstall",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth (per-user install)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleEmailUploader",
+  "name": "Pol_MinorVersionRolloutGoogleEmailUploader",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Email Uploader"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleFarsiInput",
+  "name": "Pol_MinorVersionRolloutGoogleFarsiInput",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Farsi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleGreekInput",
+  "name": "Pol_MinorVersionRolloutGoogleGreekInput",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Greek Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleGujaratiInput",
+  "name": "Pol_MinorVersionRolloutGoogleGujaratiInput",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Gujarati Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleHangoutsPluginforMicrosoftOutlook",
+  "name": "Pol_MinorVersionRolloutGoogleHangoutsPluginforMicrosoftOutlook",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Hangouts Plugin for Microsoft Outlook®"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleHebrewInput",
+  "name": "Pol_MinorVersionRolloutGoogleHebrewInput",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Hebrew Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleHindiInput",
+  "name": "Pol_MinorVersionRolloutGoogleHindiInput",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Hindi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleJapaneseInput",
+  "name": "Pol_MinorVersionRolloutGoogleJapaneseInput",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Japanese Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleKannadaInput",
+  "name": "Pol_MinorVersionRolloutGoogleKannadaInput",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Kannada Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleMalayalamInput",
+  "name": "Pol_MinorVersionRolloutGoogleMalayalamInput",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Malayalam Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleMarathiInput",
+  "name": "Pol_MinorVersionRolloutGoogleMarathiInput",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Marathi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleNepaliInput",
+  "name": "Pol_MinorVersionRolloutGoogleNepaliInput",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Nepali Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleOriyaInput",
+  "name": "Pol_MinorVersionRolloutGoogleOriyaInput",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Oriya Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGooglePunjabiInput",
+  "name": "Pol_MinorVersionRolloutGooglePunjabiInput",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Punjabi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleRussianInput",
+  "name": "Pol_MinorVersionRolloutGoogleRussianInput",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Russian Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleSanskritInput",
+  "name": "Pol_MinorVersionRolloutGoogleSanskritInput",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Sanskrit Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleSerbianInput",
+  "name": "Pol_MinorVersionRolloutGoogleSerbianInput",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Serbian Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleSinhaleseInput",
+  "name": "Pol_MinorVersionRolloutGoogleSinhaleseInput",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Sinhalese Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleTalkLabsEdition",
+  "name": "Pol_MinorVersionRolloutGoogleTalkLabsEdition",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Talk Labs Edition"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleTalkPluginVoiceandVideoChat",
+  "name": "Pol_MinorVersionRolloutGoogleTalkPluginVoiceandVideoChat",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Talk Plugin (Voice and Video Chat)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleTamilInput",
+  "name": "Pol_MinorVersionRolloutGoogleTamilInput",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Tamil Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleTeluguInput",
+  "name": "Pol_MinorVersionRolloutGoogleTeluguInput",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Telugu Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleTigrinyaInput",
+  "name": "Pol_MinorVersionRolloutGoogleTigrinyaInput",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Tigrinya Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleToolbarforFirefox",
+  "name": "Pol_MinorVersionRolloutGoogleToolbarforFirefox",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Toolbar (for Firefox)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleToolbarforInternetExplorer",
+  "name": "Pol_MinorVersionRolloutGoogleToolbarforInternetExplorer",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Toolbar (for Internet Explorer)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutGoogleUrduInput",
+  "name": "Pol_MinorVersionRolloutGoogleUrduInput",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Urdu Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutLegacyBrowserSupport",
+  "name": "Pol_MinorVersionRolloutLegacyBrowserSupport",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Legacy Browser Support"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutO3D",
+  "name": "Pol_MinorVersionRolloutO3D",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "O3D"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_MinorVersionRolloutO3DExtras",
+  "name": "Pol_MinorVersionRolloutO3DExtras",
+  "display": "Minor version rollout",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "O3D Extras"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "Sup_GoogleUpdate138_0_7200_0",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_ProxyMode",
+  "name": "Pol_ProxyMode",
+  "display": "Choose how to specify proxy server settings",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Proxy Server"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.21.81",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_ProxyPacUrl",
+  "name": "Pol_ProxyPacUrl",
+  "display": "URL to a proxy .pac file",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Proxy Server"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.21.81",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_ProxyServer",
+  "name": "Pol_ProxyServer",
+  "display": "Address or URL of proxy server",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Proxy Server"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.21.81",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGWTDeveloperPluginForInternetExplorer",
+  "name": "Pol_RollbackToTargetVersionGWTDeveloperPluginForInternetExplorer",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "GWT Developer Plugin For Internet Explorer"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{9A5E649A-EC63-4C7D-99BF-75ADB345E7E5}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGears",
+  "name": "Pol_RollbackToTargetVersionGears",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Gears"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{283EAF47-8817-4C2B-A801-AD1FADFB7BAA}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleAdsEditor",
+  "name": "Pol_RollbackToTargetVersionGoogleAdsEditor",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Ads Editor"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{F7A0263C-9459-4A49-BDD5-AA35E1C35151}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleAdvertisingCookieOptoutPlugin",
+  "name": "Pol_RollbackToTargetVersionGoogleAdvertisingCookieOptoutPlugin",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Advertising Cookie Opt-out Plugin"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{ADDE8406-A0F3-4AC2-8878-ADC0BD37BD86}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleAmharicInput",
+  "name": "Pol_RollbackToTargetVersionGoogleAmharicInput",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Amharic Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{12C37803-FC8D-48C1-A759-7C88C36BCAA4}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleAnalyticsOptoutBrowserAddonforInternetExplorer",
+  "name": "Pol_RollbackToTargetVersionGoogleAnalyticsOptoutBrowserAddonforInternetExplorer",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Analytics Opt-out Browser Add-on (for Internet Explorer)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{4CCED17F-7852-4AFC-9E9E-C89D8795BDD2}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleArabicInput",
+  "name": "Pol_RollbackToTargetVersionGoogleArabicInput",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Arabic Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{49B24240-CC72-48D7-9A01-6285118C9CA9}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleBengaliInput",
+  "name": "Pol_RollbackToTargetVersionGoogleBengaliInput",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Bengali Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{446C4D62-5D85-4E6A-845E-FB19AC8C84F8}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleChrome",
+  "name": "Pol_RollbackToTargetVersionGoogleChrome",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{8A69D345-D564-463C-AFF1-A69D9E530F96}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleChromeBeta",
+  "name": "Pol_RollbackToTargetVersionGoogleChromeBeta",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Beta"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{8237E44A-0054-442C-B6B6-EA0509993955}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleChromeBinaries",
+  "name": "Pol_RollbackToTargetVersionGoogleChromeBinaries",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Binaries"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{4DC8B4CA-1BDA-483E-B5FA-D3C12E15B62D}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleChromeCanaryBuild",
+  "name": "Pol_RollbackToTargetVersionGoogleChromeCanaryBuild",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Canary Build"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{4EA16AC7-FD5A-47C3-875B-DBF4A2008C20}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleChromeDev",
+  "name": "Pol_RollbackToTargetVersionGoogleChromeDev",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Dev"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{401C381F-E0DE-4B85-8BD8-3F3F14FBDA57}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleChromeFrame",
+  "name": "Pol_RollbackToTargetVersionGoogleChromeFrame",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Frame"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{8BA986DA-5100-405E-AA35-86F34A02ACBF}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleCloudCertificateConnector",
+  "name": "Pol_RollbackToTargetVersionGoogleCloudCertificateConnector",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Cloud Certificate Connector"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{79CA0169-DEE3-4588-AB99-0FFBD277EEE0}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleCredentialProviderforWindowsGCPW",
+  "name": "Pol_RollbackToTargetVersionGoogleCredentialProviderforWindowsGCPW",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Credential Provider for Windows (GCPW)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{32987697-A14E-4B89-84D6-630D5431E831}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleDriveFileStream",
+  "name": "Pol_RollbackToTargetVersionGoogleDriveFileStream",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Drive File Stream"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{6BBAE539-2232-434A-A4E5-9A33560C6283}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleDrivepluginforMicrosoftOffice",
+  "name": "Pol_RollbackToTargetVersionGoogleDrivepluginforMicrosoftOffice",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Drive plug-in for Microsoft Office"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{87CD15E4-0C94-47DB-B96A-BBE485C1E31C}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleDrivepluginforMicrosoftOfficePerMachine",
+  "name": "Pol_RollbackToTargetVersionGoogleDrivepluginforMicrosoftOfficePerMachine",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Drive plug-in for Microsoft Office Per Machine"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{D936DAAE-38D4-4F72-82DD-F3824534C273}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleEarth",
+  "name": "Pol_RollbackToTargetVersionGoogleEarth",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{74AF07D8-FB8F-4D51-8AC7-927721D56EBB}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleEarthPlugin",
+  "name": "Pol_RollbackToTargetVersionGoogleEarthPlugin",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth Plugin"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{2BF2CA35-CCAF-4E58-BAB7-4163BFA03B88}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleEarthPro",
+  "name": "Pol_RollbackToTargetVersionGoogleEarthPro",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth Pro"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{65E60E95-0DE9-43FF-9F3F-4F7D2DFF04B5}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleEarthperuserinstall",
+  "name": "Pol_RollbackToTargetVersionGoogleEarthperuserinstall",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth (per-user install)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{0A52903D-0FBF-439A-93E4-CB609A2F63DB}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleEmailUploader",
+  "name": "Pol_RollbackToTargetVersionGoogleEmailUploader",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Email Uploader"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{84F41014-78F2-4EBF-AF9B-8D7D12FCC37B}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleFarsiInput",
+  "name": "Pol_RollbackToTargetVersionGoogleFarsiInput",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Farsi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{E0642E36-9D8E-441E-A527-683F77A50FDF}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleGreekInput",
+  "name": "Pol_RollbackToTargetVersionGoogleGreekInput",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Greek Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{45186F45-0E1D-49F3-A534-A52B81F60897}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleGujaratiInput",
+  "name": "Pol_RollbackToTargetVersionGoogleGujaratiInput",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Gujarati Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{0693199F-9DF6-4020-B760-CA993177C362}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleHangoutsPluginforMicrosoftOutlook",
+  "name": "Pol_RollbackToTargetVersionGoogleHangoutsPluginforMicrosoftOutlook",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Hangouts Plugin for Microsoft Outlook®"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{6CA106C0-DD7B-4583-8800-2F9FC892CAE7}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleHebrewInput",
+  "name": "Pol_RollbackToTargetVersionGoogleHebrewInput",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Hebrew Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{49742F12-1EC3-4CBF-B942-3BDCF9875C3E}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleHindiInput",
+  "name": "Pol_RollbackToTargetVersionGoogleHindiInput",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Hindi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{06A2F917-C899-44EE-8F47-5B9128D96B0A}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleJapaneseInput",
+  "name": "Pol_RollbackToTargetVersionGoogleJapaneseInput",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Japanese Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{DDCCD2A9-025E-4142-BCEB-F467B88CF830}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleKannadaInput",
+  "name": "Pol_RollbackToTargetVersionGoogleKannadaInput",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Kannada Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{689F4361-5837-4A9C-8BF8-078D04406EC3}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleMalayalamInput",
+  "name": "Pol_RollbackToTargetVersionGoogleMalayalamInput",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Malayalam Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{DA2110CA-14F7-4560-A76E-D47345024C49}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleMarathiInput",
+  "name": "Pol_RollbackToTargetVersionGoogleMarathiInput",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Marathi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{79D2E710-121A-4892-9541-66740728CEBB}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleNepaliInput",
+  "name": "Pol_RollbackToTargetVersionGoogleNepaliInput",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Nepali Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{0657DE2E-EC18-4C72-8D58-7D864EA210DE}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleOriyaInput",
+  "name": "Pol_RollbackToTargetVersionGoogleOriyaInput",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Oriya Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{EE98FBB5-62FD-4601-9CFE-0A3EB03C34FC}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGooglePunjabiInput",
+  "name": "Pol_RollbackToTargetVersionGooglePunjabiInput",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Punjabi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{A8DE44D0-9B9D-4EAF-BD5B-6411CE79A39E}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleRussianInput",
+  "name": "Pol_RollbackToTargetVersionGoogleRussianInput",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Russian Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{BBE57E48-4B5B-4346-BD7C-FF75A3AADD55}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleSanskritInput",
+  "name": "Pol_RollbackToTargetVersionGoogleSanskritInput",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Sanskrit Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{0D85AB45-243B-4C69-9F5E-7D309CF4CE33}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleSerbianInput",
+  "name": "Pol_RollbackToTargetVersionGoogleSerbianInput",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Serbian Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{3A76050C-F9E7-44AF-B463-408CEBC0A896}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleSinhaleseInput",
+  "name": "Pol_RollbackToTargetVersionGoogleSinhaleseInput",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Sinhalese Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{16BA6E00-5606-49AB-8657-A4B9809F77E7}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleTalkLabsEdition",
+  "name": "Pol_RollbackToTargetVersionGoogleTalkLabsEdition",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Talk Labs Edition"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{7C9D2019-25AD-4F9B-B4C4-F0F537A9626E}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleTalkPluginVoiceandVideoChat",
+  "name": "Pol_RollbackToTargetVersionGoogleTalkPluginVoiceandVideoChat",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Talk Plugin (Voice and Video Chat)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{D0AB2EBC-931B-4013-9FEB-C9C4C2225C8C}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleTamilInput",
+  "name": "Pol_RollbackToTargetVersionGoogleTamilInput",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Tamil Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{7498340C-3670-47E3-82AE-1BF2B1D3FCD6}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleTeluguInput",
+  "name": "Pol_RollbackToTargetVersionGoogleTeluguInput",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Telugu Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{9FF9FAC2-A7E1-4A34-AB91-77AD18CED53F}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleTigrinyaInput",
+  "name": "Pol_RollbackToTargetVersionGoogleTigrinyaInput",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Tigrinya Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{ADC6C65A-FF16-40D4-B7F1-19E403583515}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleToolbarforFirefox",
+  "name": "Pol_RollbackToTargetVersionGoogleToolbarforFirefox",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Toolbar (for Firefox)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{2CCBABCB-6427-4A55-B091-49864623C43F}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleToolbarforInternetExplorer",
+  "name": "Pol_RollbackToTargetVersionGoogleToolbarforInternetExplorer",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Toolbar (for Internet Explorer)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{F69EABDD-A4BB-4555-BE7E-1EA5F59BBA24}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionGoogleUrduInput",
+  "name": "Pol_RollbackToTargetVersionGoogleUrduInput",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Urdu Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{311963FF-A0E6-4D8E-BFC7-1C90B261180C}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionLegacyBrowserSupport",
+  "name": "Pol_RollbackToTargetVersionLegacyBrowserSupport",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Legacy Browser Support"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{00EBA25B-97AB-475A-BD68-C3B6C9E94260}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionO3D",
+  "name": "Pol_RollbackToTargetVersionO3D",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "O3D"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{70308795-045C-42DA-8F4E-D452381A7459}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_RollbackToTargetVersionO3DExtras",
+  "name": "Pol_RollbackToTargetVersionO3DExtras",
+  "display": "Rollback to Target version",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "O3D Extras"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": "RollbackToTargetVersion{34B2805D-C72C-4F81-AED5-5A22D1E092F1}",
+  "supported": "At least Google Update 1.3.34.3",
+  "elements": []
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGWTDeveloperPluginForInternetExplorer",
+  "name": "Pol_TargetChannelGWTDeveloperPluginForInternetExplorer",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "GWT Developer Plugin For Internet Explorer"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGears",
+  "name": "Pol_TargetChannelGears",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Gears"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleAdsEditor",
+  "name": "Pol_TargetChannelGoogleAdsEditor",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Ads Editor"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleAdvertisingCookieOptoutPlugin",
+  "name": "Pol_TargetChannelGoogleAdvertisingCookieOptoutPlugin",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Advertising Cookie Opt-out Plugin"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleAmharicInput",
+  "name": "Pol_TargetChannelGoogleAmharicInput",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Amharic Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleAnalyticsOptoutBrowserAddonforInternetExplorer",
+  "name": "Pol_TargetChannelGoogleAnalyticsOptoutBrowserAddonforInternetExplorer",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Analytics Opt-out Browser Add-on (for Internet Explorer)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleArabicInput",
+  "name": "Pol_TargetChannelGoogleArabicInput",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Arabic Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleBengaliInput",
+  "name": "Pol_TargetChannelGoogleBengaliInput",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Bengali Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleChrome",
+  "name": "Pol_TargetChannelGoogleChrome",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleChromeBeta",
+  "name": "Pol_TargetChannelGoogleChromeBeta",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Beta"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleChromeBinaries",
+  "name": "Pol_TargetChannelGoogleChromeBinaries",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Binaries"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleChromeCanaryBuild",
+  "name": "Pol_TargetChannelGoogleChromeCanaryBuild",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Canary Build"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleChromeDev",
+  "name": "Pol_TargetChannelGoogleChromeDev",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Dev"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleChromeFrame",
+  "name": "Pol_TargetChannelGoogleChromeFrame",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Frame"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleCloudCertificateConnector",
+  "name": "Pol_TargetChannelGoogleCloudCertificateConnector",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Cloud Certificate Connector"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleCredentialProviderforWindowsGCPW",
+  "name": "Pol_TargetChannelGoogleCredentialProviderforWindowsGCPW",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Credential Provider for Windows (GCPW)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleDriveFileStream",
+  "name": "Pol_TargetChannelGoogleDriveFileStream",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Drive File Stream"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleDrivepluginforMicrosoftOffice",
+  "name": "Pol_TargetChannelGoogleDrivepluginforMicrosoftOffice",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Drive plug-in for Microsoft Office"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleDrivepluginforMicrosoftOfficePerMachine",
+  "name": "Pol_TargetChannelGoogleDrivepluginforMicrosoftOfficePerMachine",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Drive plug-in for Microsoft Office Per Machine"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleEarth",
+  "name": "Pol_TargetChannelGoogleEarth",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleEarthPlugin",
+  "name": "Pol_TargetChannelGoogleEarthPlugin",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth Plugin"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleEarthPro",
+  "name": "Pol_TargetChannelGoogleEarthPro",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth Pro"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleEarthperuserinstall",
+  "name": "Pol_TargetChannelGoogleEarthperuserinstall",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth (per-user install)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleEmailUploader",
+  "name": "Pol_TargetChannelGoogleEmailUploader",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Email Uploader"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleFarsiInput",
+  "name": "Pol_TargetChannelGoogleFarsiInput",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Farsi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleGreekInput",
+  "name": "Pol_TargetChannelGoogleGreekInput",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Greek Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleGujaratiInput",
+  "name": "Pol_TargetChannelGoogleGujaratiInput",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Gujarati Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleHangoutsPluginforMicrosoftOutlook",
+  "name": "Pol_TargetChannelGoogleHangoutsPluginforMicrosoftOutlook",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Hangouts Plugin for Microsoft Outlook®"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleHebrewInput",
+  "name": "Pol_TargetChannelGoogleHebrewInput",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Hebrew Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleHindiInput",
+  "name": "Pol_TargetChannelGoogleHindiInput",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Hindi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleJapaneseInput",
+  "name": "Pol_TargetChannelGoogleJapaneseInput",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Japanese Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleKannadaInput",
+  "name": "Pol_TargetChannelGoogleKannadaInput",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Kannada Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleMalayalamInput",
+  "name": "Pol_TargetChannelGoogleMalayalamInput",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Malayalam Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleMarathiInput",
+  "name": "Pol_TargetChannelGoogleMarathiInput",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Marathi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleNepaliInput",
+  "name": "Pol_TargetChannelGoogleNepaliInput",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Nepali Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleOriyaInput",
+  "name": "Pol_TargetChannelGoogleOriyaInput",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Oriya Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGooglePunjabiInput",
+  "name": "Pol_TargetChannelGooglePunjabiInput",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Punjabi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleRussianInput",
+  "name": "Pol_TargetChannelGoogleRussianInput",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Russian Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleSanskritInput",
+  "name": "Pol_TargetChannelGoogleSanskritInput",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Sanskrit Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleSerbianInput",
+  "name": "Pol_TargetChannelGoogleSerbianInput",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Serbian Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleSinhaleseInput",
+  "name": "Pol_TargetChannelGoogleSinhaleseInput",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Sinhalese Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleTalkLabsEdition",
+  "name": "Pol_TargetChannelGoogleTalkLabsEdition",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Talk Labs Edition"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleTalkPluginVoiceandVideoChat",
+  "name": "Pol_TargetChannelGoogleTalkPluginVoiceandVideoChat",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Talk Plugin (Voice and Video Chat)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleTamilInput",
+  "name": "Pol_TargetChannelGoogleTamilInput",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Tamil Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleTeluguInput",
+  "name": "Pol_TargetChannelGoogleTeluguInput",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Telugu Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleTigrinyaInput",
+  "name": "Pol_TargetChannelGoogleTigrinyaInput",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Tigrinya Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleToolbarforFirefox",
+  "name": "Pol_TargetChannelGoogleToolbarforFirefox",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Toolbar (for Firefox)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleToolbarforInternetExplorer",
+  "name": "Pol_TargetChannelGoogleToolbarforInternetExplorer",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Toolbar (for Internet Explorer)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelGoogleUrduInput",
+  "name": "Pol_TargetChannelGoogleUrduInput",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Urdu Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelLegacyBrowserSupport",
+  "name": "Pol_TargetChannelLegacyBrowserSupport",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Legacy Browser Support"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelO3D",
+  "name": "Pol_TargetChannelO3D",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "O3D"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetChannelO3DExtras",
+  "name": "Pol_TargetChannelO3DExtras",
+  "display": "Target Channel override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "O3D Extras"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.35.453",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGWTDeveloperPluginForInternetExplorer",
+  "name": "Pol_TargetVersionPrefixGWTDeveloperPluginForInternetExplorer",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "GWT Developer Plugin For Internet Explorer"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGears",
+  "name": "Pol_TargetVersionPrefixGears",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Gears"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleAdsEditor",
+  "name": "Pol_TargetVersionPrefixGoogleAdsEditor",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Ads Editor"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleAdvertisingCookieOptoutPlugin",
+  "name": "Pol_TargetVersionPrefixGoogleAdvertisingCookieOptoutPlugin",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Advertising Cookie Opt-out Plugin"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleAmharicInput",
+  "name": "Pol_TargetVersionPrefixGoogleAmharicInput",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Amharic Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleAnalyticsOptoutBrowserAddonforInternetExplorer",
+  "name": "Pol_TargetVersionPrefixGoogleAnalyticsOptoutBrowserAddonforInternetExplorer",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Analytics Opt-out Browser Add-on (for Internet Explorer)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleArabicInput",
+  "name": "Pol_TargetVersionPrefixGoogleArabicInput",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Arabic Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleBengaliInput",
+  "name": "Pol_TargetVersionPrefixGoogleBengaliInput",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Bengali Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleChrome",
+  "name": "Pol_TargetVersionPrefixGoogleChrome",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleChromeBeta",
+  "name": "Pol_TargetVersionPrefixGoogleChromeBeta",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Beta"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleChromeBinaries",
+  "name": "Pol_TargetVersionPrefixGoogleChromeBinaries",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Binaries"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleChromeCanaryBuild",
+  "name": "Pol_TargetVersionPrefixGoogleChromeCanaryBuild",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Canary Build"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleChromeDev",
+  "name": "Pol_TargetVersionPrefixGoogleChromeDev",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Dev"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleChromeFrame",
+  "name": "Pol_TargetVersionPrefixGoogleChromeFrame",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Frame"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleCloudCertificateConnector",
+  "name": "Pol_TargetVersionPrefixGoogleCloudCertificateConnector",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Cloud Certificate Connector"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleCredentialProviderforWindowsGCPW",
+  "name": "Pol_TargetVersionPrefixGoogleCredentialProviderforWindowsGCPW",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Credential Provider for Windows (GCPW)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleDriveFileStream",
+  "name": "Pol_TargetVersionPrefixGoogleDriveFileStream",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Drive File Stream"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleDrivepluginforMicrosoftOffice",
+  "name": "Pol_TargetVersionPrefixGoogleDrivepluginforMicrosoftOffice",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Drive plug-in for Microsoft Office"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleDrivepluginforMicrosoftOfficePerMachine",
+  "name": "Pol_TargetVersionPrefixGoogleDrivepluginforMicrosoftOfficePerMachine",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Drive plug-in for Microsoft Office Per Machine"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleEarth",
+  "name": "Pol_TargetVersionPrefixGoogleEarth",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleEarthPlugin",
+  "name": "Pol_TargetVersionPrefixGoogleEarthPlugin",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth Plugin"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleEarthPro",
+  "name": "Pol_TargetVersionPrefixGoogleEarthPro",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth Pro"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleEarthperuserinstall",
+  "name": "Pol_TargetVersionPrefixGoogleEarthperuserinstall",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth (per-user install)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleEmailUploader",
+  "name": "Pol_TargetVersionPrefixGoogleEmailUploader",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Email Uploader"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleFarsiInput",
+  "name": "Pol_TargetVersionPrefixGoogleFarsiInput",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Farsi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleGreekInput",
+  "name": "Pol_TargetVersionPrefixGoogleGreekInput",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Greek Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleGujaratiInput",
+  "name": "Pol_TargetVersionPrefixGoogleGujaratiInput",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Gujarati Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleHangoutsPluginforMicrosoftOutlook",
+  "name": "Pol_TargetVersionPrefixGoogleHangoutsPluginforMicrosoftOutlook",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Hangouts Plugin for Microsoft Outlook®"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleHebrewInput",
+  "name": "Pol_TargetVersionPrefixGoogleHebrewInput",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Hebrew Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleHindiInput",
+  "name": "Pol_TargetVersionPrefixGoogleHindiInput",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Hindi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleJapaneseInput",
+  "name": "Pol_TargetVersionPrefixGoogleJapaneseInput",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Japanese Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleKannadaInput",
+  "name": "Pol_TargetVersionPrefixGoogleKannadaInput",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Kannada Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleMalayalamInput",
+  "name": "Pol_TargetVersionPrefixGoogleMalayalamInput",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Malayalam Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleMarathiInput",
+  "name": "Pol_TargetVersionPrefixGoogleMarathiInput",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Marathi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleNepaliInput",
+  "name": "Pol_TargetVersionPrefixGoogleNepaliInput",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Nepali Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleOriyaInput",
+  "name": "Pol_TargetVersionPrefixGoogleOriyaInput",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Oriya Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGooglePunjabiInput",
+  "name": "Pol_TargetVersionPrefixGooglePunjabiInput",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Punjabi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleRussianInput",
+  "name": "Pol_TargetVersionPrefixGoogleRussianInput",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Russian Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleSanskritInput",
+  "name": "Pol_TargetVersionPrefixGoogleSanskritInput",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Sanskrit Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleSerbianInput",
+  "name": "Pol_TargetVersionPrefixGoogleSerbianInput",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Serbian Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleSinhaleseInput",
+  "name": "Pol_TargetVersionPrefixGoogleSinhaleseInput",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Sinhalese Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleTalkLabsEdition",
+  "name": "Pol_TargetVersionPrefixGoogleTalkLabsEdition",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Talk Labs Edition"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleTalkPluginVoiceandVideoChat",
+  "name": "Pol_TargetVersionPrefixGoogleTalkPluginVoiceandVideoChat",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Talk Plugin (Voice and Video Chat)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleTamilInput",
+  "name": "Pol_TargetVersionPrefixGoogleTamilInput",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Tamil Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleTeluguInput",
+  "name": "Pol_TargetVersionPrefixGoogleTeluguInput",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Telugu Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleTigrinyaInput",
+  "name": "Pol_TargetVersionPrefixGoogleTigrinyaInput",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Tigrinya Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleToolbarforFirefox",
+  "name": "Pol_TargetVersionPrefixGoogleToolbarforFirefox",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Toolbar (for Firefox)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleToolbarforInternetExplorer",
+  "name": "Pol_TargetVersionPrefixGoogleToolbarforInternetExplorer",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Toolbar (for Internet Explorer)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixGoogleUrduInput",
+  "name": "Pol_TargetVersionPrefixGoogleUrduInput",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Urdu Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixLegacyBrowserSupport",
+  "name": "Pol_TargetVersionPrefixLegacyBrowserSupport",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Legacy Browser Support"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixO3D",
+  "name": "Pol_TargetVersionPrefixO3D",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "O3D"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_TargetVersionPrefixO3DExtras",
+  "name": "Pol_TargetVersionPrefixO3DExtras",
+  "display": "Target version prefix override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "O3D Extras"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "text"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdateCheckSuppressedPeriod",
+  "name": "Pol_UpdateCheckSuppressedPeriod",
+  "display": "Time period in each day to suppress auto-update check",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Preferences"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.3.33.5",
+  "elements": [
+   "decimal",
+   "decimal",
+   "decimal"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGWTDeveloperPluginForInternetExplorer",
+  "name": "Pol_UpdatePolicyGWTDeveloperPluginForInternetExplorer",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "GWT Developer Plugin For Internet Explorer"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGears",
+  "name": "Pol_UpdatePolicyGears",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Gears"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleAdsEditor",
+  "name": "Pol_UpdatePolicyGoogleAdsEditor",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Ads Editor"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleAdvertisingCookieOptoutPlugin",
+  "name": "Pol_UpdatePolicyGoogleAdvertisingCookieOptoutPlugin",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Advertising Cookie Opt-out Plugin"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleAmharicInput",
+  "name": "Pol_UpdatePolicyGoogleAmharicInput",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Amharic Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleAnalyticsOptoutBrowserAddonforInternetExplorer",
+  "name": "Pol_UpdatePolicyGoogleAnalyticsOptoutBrowserAddonforInternetExplorer",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Analytics Opt-out Browser Add-on (for Internet Explorer)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleArabicInput",
+  "name": "Pol_UpdatePolicyGoogleArabicInput",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Arabic Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleBengaliInput",
+  "name": "Pol_UpdatePolicyGoogleBengaliInput",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Bengali Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleChrome",
+  "name": "Pol_UpdatePolicyGoogleChrome",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleChromeBeta",
+  "name": "Pol_UpdatePolicyGoogleChromeBeta",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Beta"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleChromeBinaries",
+  "name": "Pol_UpdatePolicyGoogleChromeBinaries",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Binaries"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleChromeCanaryBuild",
+  "name": "Pol_UpdatePolicyGoogleChromeCanaryBuild",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Canary Build"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleChromeDev",
+  "name": "Pol_UpdatePolicyGoogleChromeDev",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Dev"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleChromeFrame",
+  "name": "Pol_UpdatePolicyGoogleChromeFrame",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Chrome Frame"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleCloudCertificateConnector",
+  "name": "Pol_UpdatePolicyGoogleCloudCertificateConnector",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Cloud Certificate Connector"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleCredentialProviderforWindowsGCPW",
+  "name": "Pol_UpdatePolicyGoogleCredentialProviderforWindowsGCPW",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Credential Provider for Windows (GCPW)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleDriveFileStream",
+  "name": "Pol_UpdatePolicyGoogleDriveFileStream",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Drive File Stream"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleDrivepluginforMicrosoftOffice",
+  "name": "Pol_UpdatePolicyGoogleDrivepluginforMicrosoftOffice",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Drive plug-in for Microsoft Office"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleDrivepluginforMicrosoftOfficePerMachine",
+  "name": "Pol_UpdatePolicyGoogleDrivepluginforMicrosoftOfficePerMachine",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Drive plug-in for Microsoft Office Per Machine"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleEarth",
+  "name": "Pol_UpdatePolicyGoogleEarth",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleEarthPlugin",
+  "name": "Pol_UpdatePolicyGoogleEarthPlugin",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth Plugin"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleEarthPro",
+  "name": "Pol_UpdatePolicyGoogleEarthPro",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth Pro"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleEarthperuserinstall",
+  "name": "Pol_UpdatePolicyGoogleEarthperuserinstall",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Earth (per-user install)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleEmailUploader",
+  "name": "Pol_UpdatePolicyGoogleEmailUploader",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Email Uploader"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleFarsiInput",
+  "name": "Pol_UpdatePolicyGoogleFarsiInput",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Farsi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleGreekInput",
+  "name": "Pol_UpdatePolicyGoogleGreekInput",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Greek Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleGujaratiInput",
+  "name": "Pol_UpdatePolicyGoogleGujaratiInput",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Gujarati Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleHangoutsPluginforMicrosoftOutlook",
+  "name": "Pol_UpdatePolicyGoogleHangoutsPluginforMicrosoftOutlook",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Hangouts Plugin for Microsoft Outlook®"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleHebrewInput",
+  "name": "Pol_UpdatePolicyGoogleHebrewInput",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Hebrew Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleHindiInput",
+  "name": "Pol_UpdatePolicyGoogleHindiInput",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Hindi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleJapaneseInput",
+  "name": "Pol_UpdatePolicyGoogleJapaneseInput",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Japanese Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleKannadaInput",
+  "name": "Pol_UpdatePolicyGoogleKannadaInput",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Kannada Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleMalayalamInput",
+  "name": "Pol_UpdatePolicyGoogleMalayalamInput",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Malayalam Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleMarathiInput",
+  "name": "Pol_UpdatePolicyGoogleMarathiInput",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Marathi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleNepaliInput",
+  "name": "Pol_UpdatePolicyGoogleNepaliInput",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Nepali Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleOriyaInput",
+  "name": "Pol_UpdatePolicyGoogleOriyaInput",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Oriya Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGooglePunjabiInput",
+  "name": "Pol_UpdatePolicyGooglePunjabiInput",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Punjabi Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleRussianInput",
+  "name": "Pol_UpdatePolicyGoogleRussianInput",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Russian Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleSanskritInput",
+  "name": "Pol_UpdatePolicyGoogleSanskritInput",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Sanskrit Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleSerbianInput",
+  "name": "Pol_UpdatePolicyGoogleSerbianInput",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Serbian Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleSinhaleseInput",
+  "name": "Pol_UpdatePolicyGoogleSinhaleseInput",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Sinhalese Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleTalkLabsEdition",
+  "name": "Pol_UpdatePolicyGoogleTalkLabsEdition",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Talk Labs Edition"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleTalkPluginVoiceandVideoChat",
+  "name": "Pol_UpdatePolicyGoogleTalkPluginVoiceandVideoChat",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Talk Plugin (Voice and Video Chat)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleTamilInput",
+  "name": "Pol_UpdatePolicyGoogleTamilInput",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Tamil Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleTeluguInput",
+  "name": "Pol_UpdatePolicyGoogleTeluguInput",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Telugu Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleTigrinyaInput",
+  "name": "Pol_UpdatePolicyGoogleTigrinyaInput",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Tigrinya Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleToolbarforFirefox",
+  "name": "Pol_UpdatePolicyGoogleToolbarforFirefox",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Toolbar (for Firefox)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleToolbarforInternetExplorer",
+  "name": "Pol_UpdatePolicyGoogleToolbarforInternetExplorer",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Toolbar (for Internet Explorer)"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyGoogleUrduInput",
+  "name": "Pol_UpdatePolicyGoogleUrduInput",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Google Urdu Input"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyLegacyBrowserSupport",
+  "name": "Pol_UpdatePolicyLegacyBrowserSupport",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "Legacy Browser Support"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyO3D",
+  "name": "Pol_UpdatePolicyO3D",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "O3D"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ },
+ {
+  "id": "Google.Policies.Update:Pol_UpdatePolicyO3DExtras",
+  "name": "Pol_UpdatePolicyO3DExtras",
+  "display": "Update policy override",
+  "class": "Machine",
+  "file": "GoogleUpdate.admx",
+  "category": [
+   "Google",
+   "Google Update",
+   "Applications",
+   "O3D Extras"
+  ],
+  "key": "Software\\Policies\\Google\\Update",
+  "valueName": null,
+  "supported": "At least Google Update 1.2.145.5",
+  "elements": [
+   "enum"
+  ]
+ }
+]
