@@ -12,8 +12,8 @@
  "mirror": false,
  "history": true,
  "status": {
-  "lastChecked": "2026-11-14T11:31:40Z",
-  "lastSuccess": "2026-11-14T11:31:40Z",
+  "lastChecked": "2026-11-15T11:58:43Z",
+  "lastSuccess": "2026-11-15T11:58:43Z",
   "error": null,
   "consecutiveFailures": 0
  },
@@ -27363,9 +27363,9 @@
    "parseErrors": [],
    "backfilled": true,
    "diff": {
-    "previous": "151.0.4129.78",
-    "added": 5,
-    "removed": 1,
+    "previous": "150.0.4078.144",
+    "added": 10,
+    "removed": 0,
     "changed": 0,
     "details": {
      "added": [
@@ -27373,11 +27373,14 @@
       "Microsoft.Policies.CopilotUpdate:Pol_CopilotUnificationAllowedMicrosoftCopilot",
       "Microsoft.Policies.CopilotUpdate:Pol_TargetChannelMicrosoftCopilot",
       "Microsoft.Policies.CopilotUpdate:Pol_UninstallMicrosoftCopilot",
-      "Microsoft.Policies.CopilotUpdate:Pol_UpdatePolicyMicrosoftCopilot"
+      "Microsoft.Policies.CopilotUpdate:Pol_UpdatePolicyMicrosoftCopilot",
+      "Microsoft.Policies.Edge:AddressBarClipboardSuggestEnabled",
+      "Microsoft.Policies.Edge:AddressBarClipboardSuggestEnabled_recommended",
+      "Microsoft.Policies.Edge:EdgeReadingModeServiceBasedExtractionEnabled",
+      "Microsoft.Policies.Edge:ProcessIsolationEnabled",
+      "Microsoft.Policies.WebView2:DowngradeVersion"
      ],
-     "removed": [
-      "Microsoft.Policies.Update:Pol_TargetChannelMicrosoftCopilot"
-     ],
+     "removed": [],
      "changed": []
     }
    }
