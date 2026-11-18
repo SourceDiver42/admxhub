@@ -2,8 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:admxhub:feed</id>
   <title>ADMX Hub: new Group Policy templates</title>
-  <updated>2026-11-17T13:30:28Z</updated>
+  <updated>2026-11-18T13:06:47Z</updated>
   <generator>admxhub 0.1.0</generator>
+  <entry>
+    <id>urn:admxhub:chrome:158.0.8127.37</id>
+    <title>Google Chrome 158.0.8127.37</title>
+    <updated>2026-11-18T13:06:17Z</updated>
+    <link href="https://dl.google.com/dl/edgedl/chrome/policy/policy_templates.zip"/>
+    <summary>Google Chrome 158.0.8127.37: 744 policies (+0 / -0 / ~0 since 157.0.8103.79)</summary>
+  </entry>
   <entry>
     <id>urn:admxhub:googleupdate:2026-11-12</id>
     <title>Google Update 2026-11-12</title>
