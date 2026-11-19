@@ -12,12 +12,196 @@
  "mirror": false,
  "history": true,
  "status": {
-  "lastChecked": "2026-11-18T13:06:15Z",
-  "lastSuccess": "2026-11-18T13:06:15Z",
+  "lastChecked": "2026-11-19T13:14:29Z",
+  "lastSuccess": "2026-11-19T13:14:30Z",
   "error": null,
   "consecutiveFailures": 0
  },
  "versions": [
+  {
+   "version": "1.100.58",
+   "date": "2026-11-18",
+   "discovered": "2026-11-19T13:14:30Z",
+   "url": "https://github.com/brave/brave-browser/releases/download/v1.100.58/policy_templates.zip",
+   "sha256": "db96297614fde91a2833997c4814274e845522810d009de4e981c70c343b3122",
+   "size": 6510912,
+   "fingerprint": "db96297614fde91a2833997c4814274e845522810d009de4e981c70c343b3122",
+   "languages": [
+    "de-DE",
+    "en-US",
+    "es-419",
+    "es-ES",
+    "fr-FR",
+    "id-ID",
+    "it-IT",
+    "ja-JP",
+    "ko-KR",
+    "nl-NL",
+    "pt-BR",
+    "ru-RU",
+    "th-TH",
+    "tr-TR",
+    "uk-UA",
+    "vi-VN",
+    "zh-CN",
+    "zh-TW"
+   ],
+   "files": [
+    {
+     "name": "brave.admx",
+     "kind": "admx",
+     "lang": null,
+     "sha256": "1478bb79b4a58c78e1120e2a75cbfc4f2b72ed4e112eadfbd4ff8eed8cdf37ec",
+     "size": 973392
+    },
+    {
+     "name": "brave.adml",
+     "kind": "adml",
+     "lang": "de-DE",
+     "sha256": "d9c009b26b435fe17745da723fd29395467ec73459f876db54512372ae05bb62",
+     "size": 1469730
+    },
+    {
+     "name": "brave.adml",
+     "kind": "adml",
+     "lang": "en-US",
+     "sha256": "7b47019baf0df54fd954756184cde5439221195804f8231ec90a14d7c2ac3a64",
+     "size": 1260328
+    },
+    {
+     "name": "brave.adml",
+     "kind": "adml",
+     "lang": "es-419",
+     "sha256": "eb35f4dac6f6805f49897421e734dcd162063b1030dd80aa6a96cce6729cb2c8",
+     "size": 1444728
+    },
+    {
+     "name": "brave.adml",
+     "kind": "adml",
+     "lang": "es-ES",
+     "sha256": "0017a88341a066675f1902bd93f7d3e3f5ae272614769d7e186b27bcb24c90e2",
+     "size": 1443038
+    },
+    {
+     "name": "brave.adml",
+     "kind": "adml",
+     "lang": "fr-FR",
+     "sha256": "59e6c1de57d85759e625dbbbc5a14506f2d92f8e3faa9226c04736378e141f75",
+     "size": 1473964
+    },
+    {
+     "name": "brave.adml",
+     "kind": "adml",
+     "lang": "id-ID",
+     "sha256": "337ebff33988e383955a767cf6dc8bac0e3d0ccca06a609f2d9be4320ebfdc7f",
+     "size": 1364168
+    },
+    {
+     "name": "brave.adml",
+     "kind": "adml",
+     "lang": "it-IT",
+     "sha256": "b3f6914bc338468b4a6c4757dc33d88e14d2500e56b13b606eb08743853432b3",
+     "size": 1457690
+    },
+    {
+     "name": "brave.adml",
+     "kind": "adml",
+     "lang": "ja-JP",
+     "sha256": "d54752bcdbf97dbed0beb71d2ca1512efc8f7263ab0fd96807ad7f3bb918dea7",
+     "size": 942776
+    },
+    {
+     "name": "brave.adml",
+     "kind": "adml",
+     "lang": "ko-KR",
+     "sha256": "0152a403dceeed22f622f7f4dd1d670917553f41d96dacdaa1dbbf5c870ca295",
+     "size": 923872
+    },
+    {
+     "name": "brave.adml",
+     "kind": "adml",
+     "lang": "nl-NL",
+     "sha256": "6df14bb8c6679e9175edd6495723385172373d2edb9453f002e243626e59320d",
+     "size": 1400714
+    },
+    {
+     "name": "brave.adml",
+     "kind": "adml",
+     "lang": "pt-BR",
+     "sha256": "92ca9c2c63ddf047c6d630883c4c8cd3cb45464a7e775a39a250316331345f6d",
+     "size": 1391174
+    },
+    {
+     "name": "brave.adml",
+     "kind": "adml",
+     "lang": "ru-RU",
+     "sha256": "b3461a7ca467234145f843d778206d3a4423ec5558b9bfd71899ee74d8fefa7c",
+     "size": 1362220
+    },
+    {
+     "name": "brave.adml",
+     "kind": "adml",
+     "lang": "th-TH",
+     "sha256": "27e5e74cae98606fbd24e43bc64dfae0788abea89f9239869223f3a74c4449bb",
+     "size": 1232986
+    },
+    {
+     "name": "brave.adml",
+     "kind": "adml",
+     "lang": "tr-TR",
+     "sha256": "0ab4f4e0e1afcd6fb0d281fb7103b37b51059e639049c28ec063afe3cacb9866",
+     "size": 1399960
+    },
+    {
+     "name": "brave.adml",
+     "kind": "adml",
+     "lang": "uk-UA",
+     "sha256": "a78b4cb776f171e3283ca1c594d52f2a5e2d8e5713bb2244d4421a91ea5c583c",
+     "size": 1378138
+    },
+    {
+     "name": "brave.adml",
+     "kind": "adml",
+     "lang": "vi-VN",
+     "sha256": "b7bb5e5b2cce0acfda56d9bb490503065bd595e34171563d5360f0c5e12480a7",
+     "size": 1387722
+    },
+    {
+     "name": "brave.adml",
+     "kind": "adml",
+     "lang": "zh-CN",
+     "sha256": "0f8edea0383e49aaa1ecc5e63832bc24cbf90dd3727ea0d0decea9933ac5a6e7",
+     "size": 799368
+    },
+    {
+     "name": "brave.adml",
+     "kind": "adml",
+     "lang": "zh-TW",
+     "sha256": "6ce3ee85db608c887df36dbae9dcf3d583ec3ca6ab8e9864996ae7e66376423d",
+     "size": 799394
+    }
+   ],
+   "admxCount": 1,
+   "policyCount": 774,
+   "namespaces": [
+    "BraveSoftware.Policies.Brave"
+   ],
+   "namespaceFiles": {
+    "BraveSoftware.Policies.Brave": "brave.admx"
+   },
+   "parseErrors": [],
+   "diff": {
+    "previous": "1.99.57",
+    "added": 0,
+    "removed": 0,
+    "changed": 0,
+    "details": {
+     "added": [],
+     "removed": [],
+     "changed": []
+    }
+   }
+  },
   {
    "version": "1.99.57",
    "date": "2026-11-12",
