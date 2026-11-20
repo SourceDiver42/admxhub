@@ -2,8 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:admxhub:feed</id>
   <title>ADMX Hub: new Group Policy templates</title>
-  <updated>2026-11-19T13:14:58Z</updated>
+  <updated>2026-11-20T12:57:37Z</updated>
   <generator>admxhub 0.1.0</generator>
+  <entry>
+    <id>urn:admxhub:edge:160.0.4408.0</id>
+    <title>Microsoft Edge 160.0.4408.0</title>
+    <updated>2026-11-20T12:57:02Z</updated>
+    <link href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/031828f8-dfa6-4227-9625-0b00fa255066/MicrosoftEdgePolicyTemplates.cab"/>
+    <summary>Microsoft Edge 160.0.4408.0: 924 policies (+0 / -0 / ~0 since 159.0.4402.7)</summary>
+  </entry>
   <entry>
     <id>urn:admxhub:brave:1.100.58</id>
     <title>Brave Browser 1.100.58</title>
@@ -79,7 +86,7 @@
     <title>Microsoft Edge 159.0.4378.0</title>
     <updated>2026-11-04T12:11:52Z</updated>
     <link href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/757ff82b-a08c-4e74-bbfc-8227796f6972/MicrosoftEdgePolicyTemplates.cab"/>
-    <summary>Microsoft Edge 159.0.4378.0: 919 policies (+2 / -0 / ~0 since 158.0.4370.26)</summary>
+    <summary>Microsoft Edge 159.0.4378.0: 919 policies (+2 / -0 / ~0 since 158.0.4370.33)</summary>
   </entry>
   <entry>
     <id>urn:admxhub:chrome:157.0.8103.39</id>
@@ -115,13 +122,6 @@
     <updated>2026-10-28T10:37:29Z</updated>
     <link href="https://github.com/microsoft/PowerToys/releases/download/v0.102.3001/GroupPolicyObjectFiles-0.102.3001.0.zip"/>
     <summary>PowerToys 0.102.3001: 83 policies (+0 / -0 / ~0 since 0.102.2933.0)</summary>
-  </entry>
-  <entry>
-    <id>urn:admxhub:edge:158.0.4357.0</id>
-    <title>Microsoft Edge 158.0.4357.0</title>
-    <updated>2026-10-28T10:37:17Z</updated>
-    <link href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/534d809c-39e6-4d07-b6ad-cede74b4891f/MicrosoftEdgePolicyTemplates.cab"/>
-    <summary>Microsoft Edge 158.0.4357.0: 913 policies (+0 / -0 / ~0 since 158.0.4344.0)</summary>
   </entry>
   <entry>
     <id>urn:admxhub:chrome:156.0.8078.74</id>
@@ -185,13 +185,6 @@
     <updated>2026-10-25T13:30:57Z</updated>
     <link href="https://github.com/mozilla/policy-templates/releases/download/v8.4/policy_templates_v8.4.zip"/>
     <summary>Mozilla Firefox 8.4: 424 policies (+9 / -0 / ~1 since 8.3)</summary>
-  </entry>
-  <entry>
-    <id>urn:admxhub:edge:158.0.4344.0</id>
-    <title>Microsoft Edge 158.0.4344.0</title>
-    <updated>2026-10-25T13:30:56Z</updated>
-    <link href="https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/e6a43319-7f4b-4ae3-89f3-684a99cef473/MicrosoftEdgePolicyTemplates.cab"/>
-    <summary>Microsoft Edge 158.0.4344.0: 913 policies (+0 / -1 / ~0 since 157.0.4341.60)</summary>
   </entry>
   <entry>
     <id>urn:admxhub:chrome:156.0.8078.48</id>
