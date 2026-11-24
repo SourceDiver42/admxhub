@@ -1,6 +1,6 @@
 {
  "schema": "admxhub/catalog/v1",
- "generated": "2026-11-23T14:45:02Z",
+ "generated": "2026-11-24T14:55:36Z",
  "generator": "admxhub 0.1.0",
  "products": [
   {
@@ -18,8 +18,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-23T14:44:05Z",
-    "lastSuccess": "2026-11-23T14:44:05Z",
+    "lastChecked": "2026-11-24T14:54:48Z",
+    "lastSuccess": "2026-11-24T14:54:48Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -86,8 +86,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-11-23T14:44:05Z",
-    "lastSuccess": "2026-11-23T14:44:06Z",
+    "lastChecked": "2026-11-24T14:54:48Z",
+    "lastSuccess": "2026-11-24T14:54:49Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -290,17 +290,17 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-23T14:44:07Z",
-    "lastSuccess": "2026-11-23T14:44:07Z",
+    "lastChecked": "2026-11-24T14:54:50Z",
+    "lastSuccess": "2026-11-24T14:54:51Z",
     "error": null,
     "consecutiveFailures": 0
    },
    "latest": {
-    "version": "158.0.8127.37",
-    "date": "2026-11-17",
-    "discovered": "2026-11-18T13:06:17Z",
+    "version": "158.0.8127.89",
+    "date": "2026-11-23",
+    "discovered": "2026-11-24T14:54:51Z",
     "url": "https://dl.google.com/dl/edgedl/chrome/policy/policy_templates.zip",
-    "sha256": "45701bedc4cec7461ad1902e7aee5d0441a072895f2fbcbb567e9eb34821b960",
+    "sha256": "a9e3a1a3aebd1ebd4eb4204c1eddd85670be552319f446464e7917fe6b5d2322",
     "size": 123650642,
     "languages": [
      "de-DE",
@@ -327,7 +327,7 @@
       "name": "chrome.admx",
       "kind": "admx",
       "lang": null,
-      "sha256": "da4181bcda18d009611339fde77780a4be80a1d7811187d4c8645f5576ad4315",
+      "sha256": "c0ed9b0762bb3d21ebdc24a61df839f43d135526c150ab337f7f7e2e74e0c210",
       "size": 929996
      },
      {
@@ -341,7 +341,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "de-DE",
-      "sha256": "ea8cc0b19115b65bd22e6a674c1eb114d4f17651781354c375831a25d91ee01a",
+      "sha256": "dd3aa16595297a1ef1dda12244e0f9bc77bbcc6e2d7ce087605a6a161adbe0e0",
       "size": 1436542
      },
      {
@@ -355,7 +355,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "en-US",
-      "sha256": "a22dd24428acba4d9e14ed51da524206a41b4967ae5887084df6c4c855f214d1",
+      "sha256": "e8252c4721fe5dbd808c9e8e3c525069e7e080a37b4344e08afc6501fd7b8827",
       "size": 1226536
      },
      {
@@ -369,7 +369,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "es-419",
-      "sha256": "1522460d26a38ce9f11331b5cfb4b39d856f4c99b62e08136dca76cc9939085e",
+      "sha256": "45d8647115159155e0621fdfd1456ea53d7167429fae501660b97f32238d22fb",
       "size": 1411538
      },
      {
@@ -383,7 +383,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "es-ES",
-      "sha256": "5cc9d06f66152448148b16e8ec4a6001e4193ec1784613ce1bed0cf53e65db02",
+      "sha256": "c46712a7319228cc3b59309e0ad32e8906f8e27a40ac4e860f05e68b1e3b956e",
       "size": 1409898
      },
      {
@@ -397,7 +397,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "fr-FR",
-      "sha256": "b5cf4d26ec9bd978571e05e06a03b5cc285ccae7a4e3c988b88428b4b3d3631c",
+      "sha256": "b6f76020d737302aeb6472d6ad7534dc981afe525d595b634d0e2c97eca80e1a",
       "size": 1440664
      },
      {
@@ -411,7 +411,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "id-ID",
-      "sha256": "8e6c14ab0542afe9300ac93c077244b0d1c466eeb498d9044a4f5fa30c854724",
+      "sha256": "38e8cc68583a4588cc39c3b0095d8d0c43dd338ec2f659124c84879ae83ebfb6",
       "size": 1330734
      },
      {
@@ -425,7 +425,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "it-IT",
-      "sha256": "090fa0eceb450b2ade7aca577f98011be190e73f69572e4ea98e31998c5e945c",
+      "sha256": "be225ec4a35b94aa6e059b9b1ea3e9daf3e2b7c36c0f75263783957c161b9dbd",
       "size": 1424568
      },
      {
@@ -439,7 +439,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "ja-JP",
-      "sha256": "54e8256c47d2063b4ab280e1d52863b277a3b0a1efbf817dcba2cb1c750e3d7f",
+      "sha256": "cb66b3d9a28b1f87a905ba9033f088d963930ea6d316a0db5c1f76e4f3117669",
       "size": 907914
      },
      {
@@ -453,7 +453,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "ko-KR",
-      "sha256": "dcb5c96ce19c3f580344496f6fe116bb0bae506cf8b98488a2ee9ba96ab65119",
+      "sha256": "fc988b80295a3701243bb84a31bf10fff738b6e130530922516b7ab6cc8360b0",
       "size": 888886
      },
      {
@@ -467,7 +467,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "nl-NL",
-      "sha256": "a8f0cff26c500c731425c23a6aeede4d688a95541322b34611c987c253bedced",
+      "sha256": "c8911727c9a6c44134c937b4bfcd2aefadc6284116ed3965a8ace01885cee425",
       "size": 1367436
      },
      {
@@ -481,7 +481,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "pt-BR",
-      "sha256": "716d6bf7540e1c28c3df0a41e53e42933c06a4f1687e78d41e1b2a2c44e327da",
+      "sha256": "bb1b3747c2295ff559e191bf4ab2ff4c1cccfd7dd172559aa03e8b2b4e674452",
       "size": 1357820
      },
      {
@@ -495,7 +495,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "ru-RU",
-      "sha256": "5c6934c65277e5f5c5a5bb8e3897b40bdd62910f4abdc563cb2fe5155e1cee17",
+      "sha256": "ae856458c0cfd43c2bd0c24b4c734314c2e53d5d7d026e416fbb86bf437775a7",
       "size": 1329246
      },
      {
@@ -509,7 +509,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "th-TH",
-      "sha256": "9f095692a5d96db5200e61ec24ed27b8852b97e09bc556fff5383fcba3fc7133",
+      "sha256": "a8378241e5c9191857a9f4dac29249c031b5be475a8f7f3a2ac7e3760341e099",
       "size": 1199040
      },
      {
@@ -523,7 +523,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "tr-TR",
-      "sha256": "a01c43621d086103a4ee945654cc2a3d840609f26c06ee58b11858918009422f",
+      "sha256": "eb2600d138a09899195814b8fb5be6e51fc628f6ebdfc6b785867e02953fa7b0",
       "size": 1366566
      },
      {
@@ -537,7 +537,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "uk-UA",
-      "sha256": "0d08eac59ff383418377d2d39acdc1f44c73735f5cfe78ee0ac1b680991734ca",
+      "sha256": "cc468bad85582533474123ab5d46288fc3a32a6168462f7c0a5d569325e1c6bb",
       "size": 1344724
      },
      {
@@ -551,7 +551,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "vi-VN",
-      "sha256": "2fb98d02013a62086b9dc35f9d3ea1c864eb676a273d3f7ce806379ad65ff7bb",
+      "sha256": "56bd7a03b76963c01470e42aed49dc708947ed0aeabaff2ec90cb73f8983d4b4",
       "size": 1354284
      },
      {
@@ -565,7 +565,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "zh-CN",
-      "sha256": "4a5d0d7851744f466cf653d4f42a3a759037290c3a871a4ccdfe6ef39b249461",
+      "sha256": "62ec107a7dd3c04459eb448b5ee42b1dbbf9ca6d3f0b16753f5f171add30a5cf",
       "size": 763966
      },
      {
@@ -579,7 +579,7 @@
       "name": "chrome.adml",
       "kind": "adml",
       "lang": "zh-TW",
-      "sha256": "a2c58b1dd55090e1f0f0288e438d8fc64b7d7cb4d984ea196fec2e06b1377093",
+      "sha256": "2bb1b35b8a33f3a95d66670e51b0f84068da454db3cc968816c1b1652aee775e",
       "size": 763992
      },
      {
@@ -602,7 +602,7 @@
     },
     "parseErrors": [],
     "diff": {
-     "previous": "157.0.8103.79",
+     "previous": "158.0.8127.37",
      "added": 0,
      "removed": 0,
      "changed": 0,
@@ -613,7 +613,7 @@
      }
     }
    },
-   "versionCount": 7
+   "versionCount": 8
   },
   {
    "id": "edge",
@@ -629,8 +629,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-11-23T14:44:07Z",
-    "lastSuccess": "2026-11-23T14:44:07Z",
+    "lastChecked": "2026-11-24T14:54:51Z",
+    "lastSuccess": "2026-11-24T14:54:51Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1191,8 +1191,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-11-23T14:44:37Z",
-    "lastSuccess": "2026-11-23T14:44:37Z",
+    "lastChecked": "2026-11-24T14:55:10Z",
+    "lastSuccess": "2026-11-24T14:55:10Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1332,8 +1332,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-23T14:44:38Z",
-    "lastSuccess": "2026-11-23T14:44:39Z",
+    "lastChecked": "2026-11-24T14:55:11Z",
+    "lastSuccess": "2026-11-24T14:55:12Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1400,8 +1400,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-23T14:44:39Z",
-    "lastSuccess": "2026-11-23T14:44:39Z",
+    "lastChecked": "2026-11-24T14:55:12Z",
+    "lastSuccess": "2026-11-24T14:55:12Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1485,8 +1485,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-23T14:44:39Z",
-    "lastSuccess": "2026-11-23T14:44:49Z",
+    "lastChecked": "2026-11-24T14:55:12Z",
+    "lastSuccess": "2026-11-24T14:55:22Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1729,8 +1729,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-11-23T14:44:49Z",
-    "lastSuccess": "2026-11-23T14:44:49Z",
+    "lastChecked": "2026-11-24T14:55:22Z",
+    "lastSuccess": "2026-11-24T14:55:22Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1799,8 +1799,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-23T14:44:50Z",
-    "lastSuccess": "2026-11-23T14:44:50Z",
+    "lastChecked": "2026-11-24T14:55:24Z",
+    "lastSuccess": "2026-11-24T14:55:24Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -1867,8 +1867,8 @@
    "mirror": false,
    "history": false,
    "status": {
-    "lastChecked": "2026-11-23T14:44:50Z",
-    "lastSuccess": "2026-11-23T14:45:01Z",
+    "lastChecked": "2026-11-24T14:55:24Z",
+    "lastSuccess": "2026-11-24T14:55:34Z",
     "error": null,
     "consecutiveFailures": 0
    },
@@ -40030,8 +40030,8 @@
    "mirror": false,
    "history": true,
    "status": {
-    "lastChecked": "2026-11-23T14:45:01Z",
-    "lastSuccess": "2026-11-23T14:45:01Z",
+    "lastChecked": "2026-11-24T14:55:34Z",
+    "lastSuccess": "2026-11-24T14:55:35Z",
     "error": null,
     "consecutiveFailures": 0
    },
